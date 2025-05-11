@@ -10,6 +10,8 @@ import {
   Container,
   Grid,
   Card,
+  CardHeader,
+  CardContent,
   CircularProgress,
   Box,
   Alert,
@@ -19,55 +21,93 @@ import {
   TableContainer,
   TableHead,
   TableRow,
-  Paper
+  Paper,
+  Collapse,
+  Checkbox,
+  FormControlLabel,
 } from '@mui/material';
-import { ArrowBack as ArrowBackIcon } from '@mui/icons-material';
+import { ArrowBack as ArrowBackIcon, ExpandMore as ExpandMoreIcon, ExpandLess as ExpandLessIcon } from '@mui/icons-material';
 import CssBaseline from '@mui/material/CssBaseline';
 import { useTranslation } from 'react-i18next';
 import UseInflation from './UseInflation';
-import OutputTable from './OutputTable';
 import LanguageSwitch from './LanguageSwitch';
 import MultiSelectDropdown from './MultiSelectDropdown';
+import EmailSetting from './EmailSetting';
 
 const theme = createTheme({
   palette: { primary: { main: '#1976d2' }, secondary: { main: '#dc004e' } },
   typography: { fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif' },
 });
 
-const FundTable = ({ fund }) => {
+
+
+const FundTable = ({ fund, isChecked, onCheckboxChange }) => {
   const { t } = useTranslation();
-  return (
-    <Box sx={{ mb: 4 }}>
-      <Typography variant="h6" gutterBottom>
-        {fund.name}
-      </Typography>
-      <TableContainer component={Paper}>
-        <Table>
-          <TableHead>
-            <TableRow>
-              <TableCell>{t('Issue Date')}</TableCell>
-              <TableCell>{t('Deadline Date')}</TableCell>
-            </TableRow>
-          </TableHead>
-          <TableBody>
-            {fund.issues.map((issue) => (
-              <TableRow key={issue.issue_date}>
-                <TableCell>{issue.issue_date}</TableCell>
-                <TableCell>{issue.deadline_date}</TableCell>
-              </TableRow>
-            ))}
-          </TableBody>
-        </Table>
-      </TableContainer>
+  const [isExpanded, setIsExpanded] = useState(false);
+
+  const toggleExpand = () => {
+    setIsExpanded(!isExpanded);
+  };
+
+  const title = (
+    <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+      <Typography variant="h6">{fund.name}</Typography>
+      <FormControlLabel
+        control={
+          <Checkbox
+            checked={isChecked}
+            onChange={(e) => onCheckboxChange(fund.name, e.target.checked)}
+            name="sendMail"
+          />
+        }
+        label="Send Mail"
+      />
     </Box>
+  );
+
+  return (
+    <Card sx={{ mb: 4 }}>
+      <CardHeader
+        title={title}
+        action={
+          <IconButton onClick={toggleExpand} aria-label={isExpanded ? 'Collapse' : 'Expand'}>
+            {isExpanded ? <ExpandLessIcon /> : <ExpandMoreIcon />}
+          </IconButton>
+        }
+      />
+      <Collapse in={isExpanded}>
+        <CardContent>
+          <TableContainer component={Paper}>
+            <Table>
+              <TableHead>
+                <TableRow>
+                  <TableCell>{t('Issue Date')}</TableCell>
+                  <TableCell>{t('Deadline Date')}</TableCell>
+                </TableRow>
+              </TableHead>
+              <TableBody>
+                {fund.issues.map((issue) => (
+                  <TableRow key={issue.issue_date}>
+                    <TableCell>{issue.issue_date}</TableCell>
+                    <TableCell>{issue.deadline_date}</TableCell>
+                  </TableRow>
+                ))}
+              </TableBody>
+            </Table>
+          </TableContainer>
+        </CardContent>
+      </Collapse>
+    </Card>
   );
 };
 
 const App = () => {
   const IsProduction = false;
   const { t } = useTranslation();
+  const [email, setEmail] = useState('thompsonkylaw@gmail.com');
+  const [numberOfDayAhead, setNumberOfDayAhead] = useState(2);
 
-  // State declarations
+
   const [appBarColor, setAppBarColor] = useState(localStorage.getItem('appBarColor') || 'green');
   const [useInflation, setUseInflation] = useState(false);
   const [plan1Inputs, setPlan1Inputs] = useState(() => {
@@ -111,17 +151,26 @@ const App = () => {
     basicPlanCurrency: '美元'
   });
   const [selectedFunds, setSelectedFunds] = useState([]);
+  const [selectedFundsForMail, setSelectedFundsForMail] = useState([]);
 
   const handleChange = (event) => {
     setSelectedFunds(event.target.value);
   };
 
-  // Save appBarColor to localStorage
+  const handleCheckboxChange = (fundName, checked) => {
+    setSelectedFundsForMail(prev => {
+      if (checked) {
+        return prev.includes(fundName) ? prev : [...prev, fundName];
+      } else {
+        return prev.filter(name => name !== fundName);
+      }
+    });
+  };
+
   useEffect(() => {
     localStorage.setItem('appBarColor', appBarColor);
   }, [appBarColor]);
 
-  // Fetch data for Plan 1
   useEffect(() => {
     const timer = setTimeout(() => {
       const fetchData = async () => {
@@ -148,7 +197,6 @@ const App = () => {
     return () => clearTimeout(timer);
   }, [selectedFunds]);
 
-  // Process data for Plan 1 and calculate cashValueInfo
   useEffect(() => {
     if (outputData1.length === 0 || !outputData1[0].hasOwnProperty('medicalPremium')) {
       setProcessedData([]);
@@ -197,12 +245,10 @@ const App = () => {
     });
   }, [outputData1, useInflation, plan1Inputs.inflationRate, plan1Inputs.numberOfYears, plan1Inputs.age]);
 
-  // Save plan1Inputs to localStorage
   useEffect(() => {
     localStorage.setItem('plan1Inputs', JSON.stringify(plan1Inputs));
   }, [plan1Inputs]);
 
-  // Handlers
   const handleInflationRateChange = (value) => {
     setPlan1Inputs(prev => ({ ...prev, inflationRate: value }));
   };
@@ -250,7 +296,12 @@ const App = () => {
             ) : outputData1.length > 0 ? (
               <Box sx={{ mt: 4 }}>
                 {outputData1.map((fund, index) => (
-                  <FundTable key={index} fund={fund} />
+                  <FundTable
+                    key={index}
+                    fund={fund}
+                    isChecked={selectedFundsForMail.includes(fund.name)}
+                    onCheckboxChange={handleCheckboxChange}
+                  />
                 ))}
               </Box>
             ) : (
@@ -262,22 +313,11 @@ const App = () => {
 
           <Grid item xs={12} md={4}>
             <Card elevation={3} sx={{ p: 2 }}>
-              <UseInflation
-                inflationRate={plan1Inputs.inflationRate}
-                currencyRate={plan1Inputs.currencyRate}
-                useInflation={useInflation}
-                setUseInflation={setUseInflation}
-                onInflationRateChange={handleInflationRateChange}
-                onCurrencyRateChange={handleCurrencyRateChange}
-                processedData={processedData}
-                inputs={plan1Inputs}
-                numberOfYearAccMP={numberOfYearAccMP}
-                setFinalNotionalAmount={setFinalNotionalAmount}
-                disabled={finalNotionalAmount !== null}
-                cashValueInfo={cashValueInfo}
-                setCashValueInfo={setCashValueInfo}
-                clientInfo={clientInfo}
-                setClientInfo={setClientInfo}
+              <EmailSetting
+                email = {email}
+                numberOfDayAhead = {numberOfDayAhead}
+                setEmail = {setEmail}
+                setNumberOfDayAhead = {setNumberOfDayAhead}
               />
             </Card>
             <Box sx={{ mt: 2 }}>
