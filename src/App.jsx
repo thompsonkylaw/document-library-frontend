@@ -12,27 +12,59 @@ import {
   Card,
   CircularProgress,
   Box,
-  Alert
+  Alert,
+  Table,
+  TableBody,
+  TableCell,
+  TableContainer,
+  TableHead,
+  TableRow,
+  Paper
 } from '@mui/material';
 import { ArrowBack as ArrowBackIcon } from '@mui/icons-material';
 import CssBaseline from '@mui/material/CssBaseline';
 import { useTranslation } from 'react-i18next';
-import Input from './Input';
-import Input_2 from './Input_2';
 import UseInflation from './UseInflation';
 import OutputTable from './OutputTable';
-import OutputForm_1 from './OutputForm_1';
-import OutputForm_2 from './OutputForm_2';
-import OutputForm_3 from './OutputForm_3';
 import LanguageSwitch from './LanguageSwitch';
+import MultiSelectDropdown from './MultiSelectDropdown';
 
 const theme = createTheme({
   palette: { primary: { main: '#1976d2' }, secondary: { main: '#dc004e' } },
   typography: { fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif' },
 });
 
+const FundTable = ({ fund }) => {
+  const { t } = useTranslation();
+  return (
+    <Box sx={{ mb: 4 }}>
+      <Typography variant="h6" gutterBottom>
+        {fund.name}
+      </Typography>
+      <TableContainer component={Paper}>
+        <Table>
+          <TableHead>
+            <TableRow>
+              <TableCell>{t('Issue Date')}</TableCell>
+              <TableCell>{t('Deadline Date')}</TableCell>
+            </TableRow>
+          </TableHead>
+          <TableBody>
+            {fund.issues.map((issue) => (
+              <TableRow key={issue.issue_date}>
+                <TableCell>{issue.issue_date}</TableCell>
+                <TableCell>{issue.deadline_date}</TableCell>
+              </TableRow>
+            ))}
+          </TableBody>
+        </Table>
+      </TableContainer>
+    </Box>
+  );
+};
+
 const App = () => {
-  const IsProduction = true;
+  const IsProduction = false;
   const { t } = useTranslation();
 
   // State declarations
@@ -57,13 +89,9 @@ const App = () => {
     };
     return savedInputs ? { ...defaultInputs, ...JSON.parse(savedInputs) } : defaultInputs;
   });
-  const [plan2Inputs, setPlan2Inputs] = useState(null);
-  const [showSecondPlan, setShowSecondPlan] = useState(false);
   const [outputData1, setOutputData1] = useState([]);
-  const [outputData2, setOutputData2] = useState([]);
   const [processedData, setProcessedData] = useState([]);
   const [numberOfYearAccMP, setNumberOfYearAccMP] = useState(0);
-  const [numOfRowInOutputForm_1, setNumOfRowInOutputForm_1] = useState(0);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
   const [finalNotionalAmount, setFinalNotionalAmount] = useState(null);
@@ -79,43 +107,19 @@ const App = () => {
     givenName: "VIP",
     chineseName: "",
     basicPlan: '宏摯傳承保障計劃(GS)',
-    // basicPlan: '赤霞珠終身壽險計劃2 基本(LV2)',
     premiumPaymentPeriod: '15',
     basicPlanCurrency: '美元'
   });
+  const [selectedFunds, setSelectedFunds] = useState([]);
+
+  const handleChange = (event) => {
+    setSelectedFunds(event.target.value);
+  };
 
   // Save appBarColor to localStorage
   useEffect(() => {
     localStorage.setItem('appBarColor', appBarColor);
   }, [appBarColor]);
-
-  // Initialize or sync plan2Inputs
-  useEffect(() => {
-    if (showSecondPlan) {
-      if (!plan2Inputs) {
-        setPlan2Inputs({
-          company: "manulife",
-          plan: "晉悅自願醫保靈活計劃",
-          planCategory: "智選",
-          effectiveDate: "2024-12-29",
-          currency: "HKD",
-          sexuality: "na",
-          ward: "na",
-          planOption: "22,800港元",
-          age: plan1Inputs.age,
-          numberOfYears: plan1Inputs.numberOfYears,
-          inflationRate: plan1Inputs.inflationRate,
-          currencyRate: plan1Inputs.currencyRate,
-          planFileName: "晉悅自願醫保靈活計劃_智選_2024-12-29_HKD_na_na"
-        });
-      } else {
-        setPlan2Inputs(prev => ({ ...prev, age: plan1Inputs.age, numberOfYears: plan1Inputs.numberOfYears }));
-      }
-    } else {
-      setPlan2Inputs(null);
-      setOutputData2([]);
-    }
-  }, [showSecondPlan, plan1Inputs.age, plan1Inputs.numberOfYears]);
 
   // Fetch data for Plan 1
   useEffect(() => {
@@ -126,15 +130,12 @@ const App = () => {
           setError(null);
           const serverURL = IsProduction
             ? 'https://fastapi-production-a20ab.up.railway.app'
-            : 'http://localhost:9003';
+            : 'http://localhost:7003';
           const response = await axios.post(serverURL + '/getData', {
-            company: plan1Inputs.company,
-            planFileName: plan1Inputs.planFileName,
-            age: plan1Inputs.age,
-            planOption: plan1Inputs.planOption,
-            numberOfYears: plan1Inputs.numberOfYears
+            selectedFunds: selectedFunds,
           });
           setOutputData1(response.data);
+          console.log(response.data);
         } catch (err) {
           setError(err.response?.data?.detail || 'Failed to fetch data for Plan 1');
         } finally {
@@ -145,46 +146,13 @@ const App = () => {
     }, 300);
 
     return () => clearTimeout(timer);
-  }, [plan1Inputs.company, plan1Inputs.planFileName, plan1Inputs.age, plan1Inputs.planOption, plan1Inputs.numberOfYears]);
+  }, [selectedFunds]);
 
-  // Fetch data for Plan 2
+  // Process data for Plan 1 and calculate cashValueInfo
   useEffect(() => {
-    if (showSecondPlan && plan2Inputs) {
-      const timer = setTimeout(() => {
-        const fetchData = async () => {
-          try {
-            setLoading(true);
-            setError(null);
-            const serverURL = IsProduction
-              ? 'https://fastapi-production-a20ab.up.railway.app'
-              : 'http://localhost:9003';
-            const response = await axios.post(serverURL + '/getData', {
-              company: plan2Inputs.company,
-              planFileName: plan2Inputs.planFileName,
-              age: plan2Inputs.age,
-              planOption: plan2Inputs.planOption,
-              numberOfYears: plan2Inputs.numberOfYears
-            });
-            setOutputData2(response.data);
-          } catch (err) {
-            setError(err.response?.data?.detail || 'Failed to fetch data for Plan 2');
-          } finally {
-            setLoading(false);
-          }
-        };
-        fetchData();
-      }, 300);
-
-      return () => clearTimeout(timer);
-    }
-  }, [showSecondPlan, plan2Inputs]);
-
-  // Process data for both plans and calculate cashValueInfo
-  useEffect(() => {
-    if (outputData1.length === 0) {
+    if (outputData1.length === 0 || !outputData1[0].hasOwnProperty('medicalPremium')) {
       setProcessedData([]);
       setNumberOfYearAccMP(0);
-      setNumOfRowInOutputForm_1(0);
       setCashValueInfo({
         age_1: 65,
         age_2: 85,
@@ -213,53 +181,21 @@ const App = () => {
       return processed;
     };
 
-    const processed1 = processData(outputData1, plan1Inputs.inflationRate);
-    let combinedData;
+    const processedData = processData(outputData1, plan1Inputs.inflationRate);
+    setProcessedData(processedData);
 
-    if (showSecondPlan && outputData2.length > 0 && outputData2.length === outputData1.length) {
-      const processed2 = processData(outputData2, plan1Inputs.inflationRate);
-      combinedData = processed1.map((row1, index) => {
-        const row2 = processed2[index];
-        return {
-          yearNumber: row1.yearNumber,
-          age: row1.age,
-          medicalPremium1: row1.medicalPremium,
-          medicalPremium2: row2.medicalPremium,
-          medicalPremium: row1.medicalPremium + row2.medicalPremium,
-          accumulatedMP: row1.accumulatedMP + row2.accumulatedMP
-        };
-      });
-    } else {
-      combinedData = processed1;
-    }
-
-    // Calculate number of rows for OutputForm_1
-    let lastEndAge = plan1Inputs.age - 1;
-    let rowCount = 0;
-    while (lastEndAge < 100) {
-      const rowStart = lastEndAge + 1;
-      if (rowStart > 100) break;
-      const rowEnd = Math.min(rowStart + 9, 100);
-      if (!combinedData.some(item => item.age === rowEnd)) break;
-      rowCount++;
-      lastEndAge = rowEnd;
-    }
-    setNumOfRowInOutputForm_1(rowCount);
-
-    setProcessedData(combinedData);
-    const finalYearData = combinedData.find(item => item.yearNumber === plan1Inputs.numberOfYears);
+    const finalYearData = processedData.find(item => item.yearNumber === plan1Inputs.numberOfYears);
     setNumberOfYearAccMP(finalYearData?.accumulatedMP || 0);
 
-    // Update cashValueInfo based on processed data
-    const age1Data = combinedData.find(item => item.age === 65);
-    const age2Data = combinedData.find(item => item.age === 85);
+    const age1Data = processedData.find(item => item.age === 65);
+    const age2Data = processedData.find(item => item.age === 85);
     setCashValueInfo({
       age_1: 65,
       age_2: 85,
       age_1_cash_value: age1Data ? age1Data.accumulatedMP : 0,
       age_2_cash_value: age2Data ? age2Data.accumulatedMP : 0
     });
-  }, [outputData1, outputData2, useInflation, plan1Inputs.inflationRate, showSecondPlan, plan1Inputs.numberOfYears, plan1Inputs.age]);
+  }, [outputData1, useInflation, plan1Inputs.inflationRate, plan1Inputs.numberOfYears, plan1Inputs.age]);
 
   // Save plan1Inputs to localStorage
   useEffect(() => {
@@ -273,10 +209,6 @@ const App = () => {
 
   const handleCurrencyRateChange = (value) => {
     setPlan1Inputs(prev => ({ ...prev, currencyRate: value }));
-  };
-
-  const onToggleSecondPlan = () => {
-    setShowSecondPlan(prev => !prev);
   };
 
   return (
@@ -306,40 +238,25 @@ const App = () => {
       <Container sx={{ mt: 10, mb: 4 }}>
         <Grid container spacing={3}>
           <Grid item xs={12} md={8}>
-            <Input
-              inputs={plan1Inputs}
-              setInputs={setPlan1Inputs}
-              appBarColor={appBarColor}
-              disabled={finalNotionalAmount !== null}
-              showSecondPlan={showSecondPlan}
-              onToggleSecondPlan={onToggleSecondPlan}
-            />
-            {showSecondPlan && plan2Inputs && (
-              <Box sx={{ mt: 2 }}>
-                <Input_2
-                  inputs={plan2Inputs}
-                  setInputs={setPlan2Inputs}
-                  appBarColor={appBarColor}
-                  disabled={finalNotionalAmount !== null}
-                />
-              </Box>
-            )}
-            {loading && (
+            <MultiSelectDropdown selectedItems={selectedFunds} onChange={handleChange} />
+            {loading ? (
               <Box sx={{ display: 'flex', justifyContent: 'center', mt: 4 }}>
                 <CircularProgress />
               </Box>
-            )}
-            {error && (
+            ) : error ? (
               <Alert severity="error" sx={{ mt: 2 }}>
                 {error}
               </Alert>
-            )}
-            {!loading && !error && processedData.length > 0 && (
-              <OutputTable
-                outputData={processedData}
-                currencyRate={plan1Inputs.currencyRate}
-                numberOfYears={plan1Inputs.numberOfYears}
-              />
+            ) : outputData1.length > 0 ? (
+              <Box sx={{ mt: 4 }}>
+                {outputData1.map((fund, index) => (
+                  <FundTable key={index} fund={fund} />
+                ))}
+              </Box>
+            ) : (
+              <Typography variant="body1" sx={{ mt: 2 }}>
+                Please select at least one fund.
+              </Typography>
             )}
           </Grid>
 
@@ -363,43 +280,6 @@ const App = () => {
                 setClientInfo={setClientInfo}
               />
             </Card>
-            <Card elevation={3} sx={{ mt: 2, p: 2 }}>
-              <OutputForm_1
-                processedData={processedData}
-                age={plan1Inputs.age}
-                currencyRate={plan1Inputs.currencyRate}
-                numOfRowInOutputForm_1={numOfRowInOutputForm_1}
-              />
-            </Card>
-            <Card elevation={3} sx={{ mt: 2, p: 2 }}>
-              <OutputForm_2
-                numberOfYears={clientInfo.premiumPaymentPeriod}
-                numberOfYearAccMP={numberOfYearAccMP}
-                finalNotionalAmount={finalNotionalAmount}
-                age={plan1Inputs.age}
-                currencyRate={plan1Inputs.currencyRate}
-                numOfRowInOutputForm_1={numOfRowInOutputForm_1}
-                cashValueInfo={cashValueInfo}
-              />
-            </Card>
-            {finalNotionalAmount && (
-                <Card elevation={3} sx={{ mt: 2, p: 2 }}>
-                <OutputForm_3
-                  processedData={processedData}
-                  numberOfYears={plan1Inputs.numberOfYears}
-                  numberOfYearAccMP={numberOfYearAccMP}
-                  finalNotionalAmount={finalNotionalAmount}
-                  age={plan1Inputs.age}
-                  currencyRate={plan1Inputs.currencyRate}
-                  setFinalNotionalAmount={setFinalNotionalAmount}
-                  numOfRowInOutputForm_1={numOfRowInOutputForm_1}
-                  cashValueInfo={cashValueInfo}
-                  plan1Inputs={plan1Inputs}
-                  plan2Inputs={plan2Inputs}
-                  clientInfo={clientInfo}
-                />
-              </Card>
-            )}
             <Box sx={{ mt: 2 }}>
               <LanguageSwitch setAppBarColor={setAppBarColor} appBarColor={appBarColor} />
             </Box>

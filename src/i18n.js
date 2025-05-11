@@ -194,7 +194,7 @@ i18next
           welcome: '歡迎',
           greeting: '你好, {{name}}!',
           Yearth: '第{{year}}年',
-          "Medical Financial Calculator": "醫療融資計算機",
+          "Medical Financial Calculator": "派息基金提示日曆",
           medicalTotal: '第{{years}}年醫療保險總額（港元）：{{total}}',
           Plan: '計劃',
           'Plan Category': '計劃類別',
