@@ -1,17 +1,19 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { DialogTitle, DialogContent, DialogActions, Button, Box } from '@mui/material';
 
-const Setting = ({ setAppBarColor, onClose }) => {
+const Setting = ({ setAppBarColor, onClose, onTestEmail }) => {
+  const { t } = useTranslation();
   const colors = ['#009739', '#E4002B', '#FFCD00', '#00008F', '#004A9F', '#ed1b2e'];
 
   const handleColorSelect = (color) => {
     setAppBarColor(color);
-    onClose(); // Close the dialog after selection
+    onClose();
   };
 
   return (
     <>
-      <DialogTitle>Settings</DialogTitle>
+      <DialogTitle>{t('settings')}</DialogTitle>
       <DialogContent>
         <Box>
           {colors.map((color) => (
@@ -20,7 +22,7 @@ const Setting = ({ setAppBarColor, onClose }) => {
               onClick={() => handleColorSelect(color)}
               style={{
                 backgroundColor: color,
-                color: color === '#FFCD00' ? 'black' : 'white', // Improve readability on yellow
+                color: color === '#FFCD00' ? 'black' : 'white',
                 margin: '5px',
                 minWidth: '80px',
               }}
@@ -29,9 +31,14 @@ const Setting = ({ setAppBarColor, onClose }) => {
             </Button>
           ))}
         </Box>
+        <Box sx={{ display: 'flex', justifyContent: 'center' }}>
+          <Button variant="outlined" color="secondary" onClick={onTestEmail}>
+            {t('testEmailButton')}
+          </Button>
+        </Box>
       </DialogContent>
       <DialogActions>
-        <Button onClick={onClose}>Close</Button>
+        <Button onClick={onClose}>{t('close')}</Button>
       </DialogActions>
     </>
   );

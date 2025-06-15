@@ -10,161 +10,52 @@ import {
   Container,
   Grid,
   Card,
-  CardHeader,
-  CardContent,
   CircularProgress,
   Box,
   Alert,
-  Table,
-  TableBody,
-  TableCell,
-  TableContainer,
-  TableHead,
-  TableRow,
-  Paper,
-  Collapse,
-  Checkbox,
-  FormControlLabel,
 } from '@mui/material';
-import { ArrowBack as ArrowBackIcon, ExpandMore as ExpandMoreIcon, ExpandLess as ExpandLessIcon } from '@mui/icons-material';
+import { ArrowBack as ArrowBackIcon } from '@mui/icons-material';
 import CssBaseline from '@mui/material/CssBaseline';
 import { useTranslation } from 'react-i18next';
-import UseInflation from './UseInflation';
 import LanguageSwitch from './LanguageSwitch';
 import MultiSelectDropdown from './MultiSelectDropdown';
 import EmailSetting from './EmailSetting';
+import FundTable from './FundTable';
 
 const theme = createTheme({
   palette: { primary: { main: '#1976d2' }, secondary: { main: '#dc004e' } },
   typography: { fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif' },
 });
 
-
-
-const FundTable = ({ fund, isChecked, onCheckboxChange }) => {
-  const { t } = useTranslation();
-  const [isExpanded, setIsExpanded] = useState(false);
-
-  const toggleExpand = () => {
-    setIsExpanded(!isExpanded);
-  };
-
-  const title = (
-    <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-      <Typography variant="h6">{fund.name}</Typography>
-      <FormControlLabel
-        control={
-          <Checkbox
-            checked={isChecked}
-            onChange={(e) => onCheckboxChange(fund.name, e.target.checked)}
-            name="sendMail"
-          />
-        }
-        label="Send Mail"
-      />
-    </Box>
-  );
-
-  return (
-    <Card sx={{ mb: 4 }}>
-      <CardHeader
-        title={title}
-        action={
-          <IconButton onClick={toggleExpand} aria-label={isExpanded ? 'Collapse' : 'Expand'}>
-            {isExpanded ? <ExpandLessIcon /> : <ExpandMoreIcon />}
-          </IconButton>
-        }
-      />
-      <Collapse in={isExpanded}>
-        <CardContent>
-          <TableContainer component={Paper}>
-            <Table>
-              <TableHead>
-                <TableRow>
-                  <TableCell>{t('Issue Date')}</TableCell>
-                  <TableCell>{t('Deadline Date')}</TableCell>
-                </TableRow>
-              </TableHead>
-              <TableBody>
-                {fund.issues.map((issue) => (
-                  <TableRow key={issue.issue_date}>
-                    <TableCell>{issue.issue_date}</TableCell>
-                    <TableCell>{issue.deadline_date}</TableCell>
-                  </TableRow>
-                ))}
-              </TableBody>
-            </Table>
-          </TableContainer>
-        </CardContent>
-      </Collapse>
-    </Card>
-  );
-};
-
 const App = () => {
-  const IsProduction = false;
+  const IsProduction = true;
+  const IsWp = true;
+  const [wpUserEmail, setWpUserEmail] = useState('');
   const { t } = useTranslation();
-  const [email, setEmail] = useState('thompsonkylaw@gmail.com');
+  const [email, setEmail] = useState('');
   const [numberOfDayAhead, setNumberOfDayAhead] = useState(2);
-
-
   const [appBarColor, setAppBarColor] = useState(localStorage.getItem('appBarColor') || 'green');
-  const [useInflation, setUseInflation] = useState(false);
-  const [plan1Inputs, setPlan1Inputs] = useState(() => {
-    const savedInputs = localStorage.getItem('plan1Inputs');
-    const defaultInputs = {
-      company: "manulife",
-      plan: "晉悅自願醫保靈活計劃",
-      planCategory: "智選",
-      effectiveDate: "2024-12-29",
-      currency: "HKD",
-      sexuality: "na",
-      ward: "na",
-      planOption: "22,800港元",
-      age: 40,
-      numberOfYears: 15,
-      inflationRate: 6,
-      currencyRate: 7.85,
-      planFileName: "晉悅自願醫保靈活計劃_智選_2024-12-29_HKD_na_na"
-    };
-    return savedInputs ? { ...defaultInputs, ...JSON.parse(savedInputs) } : defaultInputs;
-  });
   const [outputData1, setOutputData1] = useState([]);
-  const [processedData, setProcessedData] = useState([]);
-  const [numberOfYearAccMP, setNumberOfYearAccMP] = useState(0);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
-  const [finalNotionalAmount, setFinalNotionalAmount] = useState(null);
-  const [cashValueInfo, setCashValueInfo] = useState({
-    age_1: 65,
-    age_2: 85,
-    age_1_cash_value: 0,
-    age_2_cash_value: 0,
-    annual_premium: 0
-  });
-  const [clientInfo, setClientInfo] = useState({
-    surname: "VIP",
-    givenName: "VIP",
-    chineseName: "",
-    basicPlan: '宏摯傳承保障計劃(GS)',
-    premiumPaymentPeriod: '15',
-    basicPlanCurrency: '美元'
-  });
   const [selectedFunds, setSelectedFunds] = useState([]);
   const [selectedFundsForMail, setSelectedFundsForMail] = useState([]);
+  const [userData, setUserData] = useState(null);
+  const [hasUnsavedChanges, setHasUnsavedChanges] = useState(false);
+  const [savedWpUserEmail, setSavedWpUserEmail] = useState('');
+  const [savedNumberOfDayAhead, setSavedNumberOfDayAhead] = useState(null);
+  const [savedSelectedFunds, setSavedSelectedFunds] = useState([]);
+  const [savedSelectedFundsForMail, setSavedSelectedFundsForMail] = useState([]);
+  const [expandedFunds, setExpandedFunds] = useState({});
 
   const handleChange = (event) => {
     setSelectedFunds(event.target.value);
   };
 
   const handleCheckboxChange = (fundName, checked) => {
-    setSelectedFundsForMail(prev => {
-      if (checked) {
-        return prev.includes(fundName) ? prev : [...prev, fundName];
-      } else {
-        return prev.filter(name => name !== fundName);
-      }
-    });
+    setSelectedFundsForMail((prev) =>
+      checked ? (prev.includes(fundName) ? prev : [...prev, fundName]) : prev.filter((name) => name !== fundName)
+    );
   };
 
   useEffect(() => {
@@ -172,19 +63,18 @@ const App = () => {
   }, [appBarColor]);
 
   useEffect(() => {
+    localStorage.setItem('email', email);
+  }, [email]);
+
+  useEffect(() => {
     const timer = setTimeout(() => {
       const fetchData = async () => {
         try {
           setLoading(true);
           setError(null);
-          const serverURL = IsProduction
-            ? 'https://fastapi-production-a20ab.up.railway.app'
-            : 'http://localhost:7003';
-          const response = await axios.post(serverURL + '/getData', {
-            selectedFunds: selectedFunds,
-          });
+          const serverURL = IsProduction ? 'https://fundcalendarbackend-production-0aeb.up.railway.app' : 'http://localhost:7003';
+          const response = await axios.post(`${serverURL}/getData`, { selectedFunds });
           setOutputData1(response.data);
-          console.log(response.data);
         } catch (err) {
           setError(err.response?.data?.detail || 'Failed to fetch data for Plan 1');
         } finally {
@@ -198,80 +88,120 @@ const App = () => {
   }, [selectedFunds]);
 
   useEffect(() => {
-    if (outputData1.length === 0 || !outputData1[0].hasOwnProperty('medicalPremium')) {
-      setProcessedData([]);
-      setNumberOfYearAccMP(0);
-      setCashValueInfo({
-        age_1: 65,
-        age_2: 85,
-        age_1_cash_value: 0,
-        age_2_cash_value: 0
-      });
-      return;
-    }
-
-    const processData = (data, inflationRate) => {
-      let accumulatedMP = 0;
-      const processed = [];
-      for (let i = 0; i < data.length; i++) {
-        const item = data[i];
-        let medicalPremium = item.medicalPremium;
-        if (i > 0 && useInflation) {
-          medicalPremium = processed[i - 1].medicalPremium * (1 + inflationRate / 100);
+    if (IsWp) {
+      const fetchUserEmail = async () => {
+        try {
+          const apiUrl = window.wpApiSettings.root + 'myplugin/v1/system-login-name';
+          const response = await axios.get(apiUrl, {
+            headers: { 'X-WP-Nonce': window.wpApiSettings.nonce },
+            withCredentials: true,
+          });
+          if (response.data.user_email) {
+            setWpUserEmail(response.data.user_email);
+            setEmail(response.data.user_email);
+          } else {
+            console.error('User email not found in API response');
+          }
+        } catch (error) {
+          console.error('Failed to fetch user email:', error);
         }
-        accumulatedMP += medicalPremium;
-        processed.push({
-          ...item,
-          medicalPremium,
-          accumulatedMP
-        });
-      }
-      return processed;
-    };
+      };
+      fetchUserEmail();
+    } else {
+      setEmail('thompsonkylaw@gmail.com');
+      setWpUserEmail('thompsonkylaw@gmail.com');
+      console.log('Running in non-production mode, using default email');
+    }
+  }, []);
 
-    const processedData = processData(outputData1, plan1Inputs.inflationRate);
-    setProcessedData(processedData);
+  const fetchUserData = async () => {
+    try {
+      const serverURL = IsProduction ? 'https://fundcalendarbackend-production-0aeb.up.railway.app' : 'http://localhost:7003';
+      const response = await axios.post(`${serverURL}/getUserData`, { wpUserEmail, numberOfDayAhead });
+      const userData = response.data;
+      setUserData(userData);
+      console.log('User data:', userData);
+      const funds = userData.funds || [];
+      setSelectedFunds(funds.map((fund) => fund.name));
+      setSelectedFundsForMail(funds.filter((fund) => fund.email_date.some((ed) => ed.isEnabled)).map((fund) => fund.name));
+      setNumberOfDayAhead(userData.numberOfDayAhead);
 
-    const finalYearData = processedData.find(item => item.yearNumber === plan1Inputs.numberOfYears);
-    setNumberOfYearAccMP(finalYearData?.accumulatedMP || 0);
-
-    const age1Data = processedData.find(item => item.age === 65);
-    const age2Data = processedData.find(item => item.age === 85);
-    setCashValueInfo({
-      age_1: 65,
-      age_2: 85,
-      age_1_cash_value: age1Data ? age1Data.accumulatedMP : 0,
-      age_2_cash_value: age2Data ? age2Data.accumulatedMP : 0
-    });
-  }, [outputData1, useInflation, plan1Inputs.inflationRate, plan1Inputs.numberOfYears, plan1Inputs.age]);
+      setSavedWpUserEmail(wpUserEmail);
+      setSavedNumberOfDayAhead(userData.numberOfDayAhead);
+      setSavedSelectedFunds(funds.map((fund) => fund.name));
+      setSavedSelectedFundsForMail(funds.filter((fund) => fund.email_date.some((ed) => ed.isEnabled)).map((fund) => fund.name));
+      setHasUnsavedChanges(false);
+    } catch (error) {
+      console.error('Failed to fetch user data:', error);
+    }
+  };
 
   useEffect(() => {
-    localStorage.setItem('plan1Inputs', JSON.stringify(plan1Inputs));
-  }, [plan1Inputs]);
+    if (wpUserEmail) fetchUserData();
+  }, [wpUserEmail]);
 
-  const handleInflationRateChange = (value) => {
-    setPlan1Inputs(prev => ({ ...prev, inflationRate: value }));
+  useEffect(() => {
+    const isChanged =
+      wpUserEmail !== savedWpUserEmail ||
+      numberOfDayAhead !== savedNumberOfDayAhead ||
+      JSON.stringify(selectedFunds) !== JSON.stringify(savedSelectedFunds) ||
+      JSON.stringify(selectedFundsForMail) !== JSON.stringify(savedSelectedFundsForMail);
+    setHasUnsavedChanges(isChanged);
+  }, [wpUserEmail, numberOfDayAhead, selectedFunds, selectedFundsForMail, savedWpUserEmail, savedNumberOfDayAhead, savedSelectedFunds, savedSelectedFundsForMail]);
+
+  const handleSave = async () => {
+    try {
+      const serverURL = IsProduction ? 'https://fundcalendarbackend-production-0aeb.up.railway.app' : 'http://localhost:7003';
+      await axios.post(`${serverURL}/saveUserData`, {
+        wpUserEmail,
+        numberOfDayAhead,
+        selectedFunds,
+        selectedFundsForMail,
+      });
+      console.log('Settings saved successfully');
+      await fetchUserData();
+    } catch (error) {
+      console.error('Failed to save settings:', error);
+      alert('Failed to save settings');
+    }
   };
 
-  const handleCurrencyRateChange = (value) => {
-    setPlan1Inputs(prev => ({ ...prev, currencyRate: value }));
+  const handleTestEmail = async () => {
+    try {
+      const serverURL = IsProduction ? 'https://fundcalendarbackend-production-0aeb.up.railway.app' : 'http://localhost:7003';
+      const response = await axios.post(`${serverURL}/sendTestEmail`, { wpUserEmail });
+      if (response.status === 200) {
+        alert('Test email sent successfully');
+      } else {
+        alert('Failed to send test email');
+      }
+    } catch (error) {
+      console.error('Error sending test email:', error);
+      alert('Error sending test email');
+    }
   };
+
+  useEffect(() => {
+    const handleBeforeUnload = (event) => {
+      if (hasUnsavedChanges) {
+        event.preventDefault();
+        event.returnValue = 'Are you sure you want to leave before saving your changes?';
+      }
+    };
+    window.addEventListener('beforeunload', handleBeforeUnload);
+    return () => window.removeEventListener('beforeunload', handleBeforeUnload);
+  }, [hasUnsavedChanges]);
 
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <AppBar
-        position="fixed"
-        sx={{ width: '100%', backgroundColor: appBarColor }}
-      >
+      <AppBar position="static" sx={{ width: '100%', backgroundColor: appBarColor }}>
         <Toolbar>
           <IconButton
             edge="start"
             color="inherit"
             aria-label="back"
-            onClick={() => {
-              window.location.href = "https://portal.aimarketings.io/tool-list/";
-            }}
+            onClick={() => (window.location.href = 'https://portal.aimarketings.io/tool-list/')}
           >
             <ArrowBackIcon />
           </IconButton>
@@ -281,7 +211,7 @@ const App = () => {
         </Toolbar>
       </AppBar>
 
-      <Container sx={{ mt: 10, mb: 4 }}>
+      <Container sx={{ mt: 2, mb: 4 }}>
         <Grid container spacing={3}>
           <Grid item xs={12} md={8}>
             <MultiSelectDropdown selectedItems={selectedFunds} onChange={handleChange} />
@@ -290,23 +220,34 @@ const App = () => {
                 <CircularProgress />
               </Box>
             ) : error ? (
-              <Alert severity="error" sx={{ mt: 2 }}>
-                {error}
-              </Alert>
+              <Alert severity="error" sx={{ mt: 2 }}>{error}</Alert>
             ) : outputData1.length > 0 ? (
               <Box sx={{ mt: 4 }}>
-                {outputData1.map((fund, index) => (
-                  <FundTable
-                    key={index}
-                    fund={fund}
-                    isChecked={selectedFundsForMail.includes(fund.name)}
-                    onCheckboxChange={handleCheckboxChange}
-                  />
-                ))}
+                {outputData1.map((fund) => {
+                  const userFund = userData?.funds.find((f) => f.name === fund.name);
+                  const emailDates = userFund ? userFund.email_date : [];
+                  console.log('emailDates', emailDates);
+                  return (
+                    <FundTable
+                      key={fund.name}
+                      fund={fund}
+                      emailDates={emailDates}
+                      isChecked={selectedFundsForMail.includes(fund.name)}
+                      onCheckboxChange={handleCheckboxChange}
+                      isExpanded={expandedFunds[fund.name] || false}
+                      onToggleExpand={() =>
+                        setExpandedFunds((prev) => ({
+                          ...prev,
+                          [fund.name]: !prev[fund.name],
+                        }))
+                      }
+                    />
+                  );
+                })}
               </Box>
             ) : (
               <Typography variant="body1" sx={{ mt: 2 }}>
-                Please select at least one fund.
+                {t('pleaseSelectFund')}
               </Typography>
             )}
           </Grid>
@@ -314,14 +255,18 @@ const App = () => {
           <Grid item xs={12} md={4}>
             <Card elevation={3} sx={{ p: 2 }}>
               <EmailSetting
-                email = {email}
-                numberOfDayAhead = {numberOfDayAhead}
-                setEmail = {setEmail}
-                setNumberOfDayAhead = {setNumberOfDayAhead}
+                email={email}
+                setEmail={setEmail}
+                numberOfDayAhead={numberOfDayAhead}
+                setNumberOfDayAhead={setNumberOfDayAhead}
+                disabled={false}
+                hasUnsavedChanges={hasUnsavedChanges}
+                onSave={handleSave}
+                onTestEmail={handleTestEmail}
               />
             </Card>
             <Box sx={{ mt: 2 }}>
-              <LanguageSwitch setAppBarColor={setAppBarColor} appBarColor={appBarColor} />
+              <LanguageSwitch setAppBarColor={setAppBarColor} appBarColor={appBarColor} onTestEmail={handleTestEmail} />
             </Box>
           </Grid>
         </Grid>

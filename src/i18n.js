@@ -58,6 +58,21 @@ i18next
           'Medical Premium USD': 'Medical Premium(USD)',
           'Acc MP USD': 'Acc MP(USD)',
           'Acc MP': 'Acc MP(HKD)',
+          selectFunds: 'Select Funds',
+          issueDate: 'Issue Date',
+          deadlineDate: 'Deadline Date',
+          emailDate: 'Email Date',
+          dayLeft: 'Day Left',
+          isSent: 'Is Sent',
+          sendMail: 'Send Mail',
+          settings: 'Settings',
+          close: 'Close',
+          pleaseSelectFund: 'Please select at least one fund.',
+          noEmailDateSet: 'No email date set',
+          na: 'N/A',
+          yes: 'Yes',
+          no: 'No',
+          testEmailButton: 'Test Email',
           login: {
             premiumPeriodError: 'Does not match the premium payment period of the medical plan',
             age1: 'First Surrender Value Age',
@@ -175,7 +190,13 @@ i18next
               3: ""
             },
             disclaimer:"This document is for reference only and is not intended as any investment advice or consultation."
-          }
+          },
+          emailSetting: {
+            title: 'Email Settings',
+            email: 'Email',
+            numberOfDaysAhead: 'Number of Days Ahead',
+            updateButton: 'Update',
+          },
         }
       },
       "zh-HK": {
@@ -194,7 +215,7 @@ i18next
           welcome: '歡迎',
           greeting: '你好, {{name}}!',
           Yearth: '第{{year}}年',
-          "Medical Financial Calculator": "派息基金提示日曆xxx",
+          "Medical Financial Calculator": "派息基金提示系統",
           medicalTotal: '第{{years}}年醫療保險總額（港元）：{{total}}',
           Plan: '計劃',
           'Plan Category': '計劃類別',
@@ -213,6 +234,21 @@ i18next
           'Medical Premium USD': '醫療保費(美元)',
           'Acc MP USD': '累積醫療保費(美元)',
           'Acc MP': '累積醫療保費(港元)',
+          selectFunds: '選擇基金',
+          issueDate: '發行日期',
+          deadlineDate: '截止日期',
+          emailDate: '電郵日期',
+          dayLeft: '剩餘天數',
+          isSent: '是否已發送',
+          sendMail: '發送郵件',
+          settings: '設置',
+          close: '關閉',
+          pleaseSelectFund: '請至少選擇一個基金。',
+          noEmailDateSet: '未設置電郵日期',
+          na: '不適用',
+          yes: '是',
+          no: '否',
+          testEmailButton: '測試電郵',
           login: {
             premiumPeriodError: '與醫療計劃保費繳付期不符',
             age1: '第一退保報價值歲數',
@@ -330,7 +366,13 @@ i18next
               3: ""
             },
             disclaimer:"以上內容只供參考，並不作為任何投資買賣的意見或諮詢。"
-          }
+          },
+          emailSetting: {
+            title: '電郵設置',
+            email: '電郵',
+            numberOfDaysAhead: '提前天數',
+            updateButton: '更新',
+          },
         }
       },
       "zh-CN": {
@@ -368,6 +410,21 @@ i18next
           'Medical Premium USD': '医疗保费(美元)',
           'Acc MP USD': '累积医疗保费(美元)',
           'Acc MP': '累积医疗保费(港元)',
+          selectFunds: '选择基金',
+          issueDate: '发行日期',
+          deadlineDate: '截止日期',
+          emailDate: '电邮日期',
+          dayLeft: '剩余天数',
+          isSent: '是否已发送',
+          sendMail: '发送邮件',
+          settings: '设置',
+          close: '关闭',
+          pleaseSelectFund: '请至少选择一个基金。',
+          noEmailDateSet: '未设置电邮日期',
+          na: '不适用',
+          yes: '是',
+          no: '否',
+          testEmailButton: '测试电邮',
           login: {
             premiumPeriodError: '与医疗计划保费缴付期不符',
             age1: '第一退保报价值岁数',
@@ -485,7 +542,13 @@ i18next
               3: "有事赔钱，无事储钱，户口长期增值"
             },
             disclaimer:"以上內容只供參考，並不作為任何投資買賣的意見或諮詢。"
-          }
+          },
+          emailSetting: {
+            title: '电邮设置',
+            email: '电邮',
+            numberOfDaysAhead: '提前天数',
+            updateButton: '更新',
+          },
         }
       }
     }
