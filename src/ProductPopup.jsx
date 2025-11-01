@@ -236,18 +236,25 @@ const ProductPopup = ({ open, onClose, productCode }) => {
                   {t('productPopup.relatedDocuments')}
                 </Typography>
                 <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1 }}>
-                  {productData.files.map((file, index) => (
-                    <Link
-                      key={index}
-                      href={file.filePath}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      sx={{ display: 'flex', alignItems: 'center', gap: 1, textDecoration: 'none' }}
-                    >
-                      <DownloadIcon fontSize="small" />
-                      <Typography variant="body2">{file.fileName}</Typography>
-                    </Link>
-                  ))}
+                  {productData.files.map((file, index) => {
+                    // Extract company code and product code from productCode (e.g., "AIA:2I1OLP" -> "AIA_2I1OLP")
+                    const filePrefix = productCode.replace(':', '_');
+                    // Construct local PDF path
+                    const localPdfPath = `/PDFs/${filePrefix}_${file.fileName}`;
+                    
+                    return (
+                      <Link
+                        key={index}
+                        href={localPdfPath}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        sx={{ display: 'flex', alignItems: 'center', gap: 1, textDecoration: 'none' }}
+                      >
+                        <DownloadIcon fontSize="small" />
+                        <Typography variant="body2">{file.fileName}</Typography>
+                      </Link>
+                    );
+                  })}
                 </Box>
               </Box>
             )}

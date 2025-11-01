@@ -11,34 +11,23 @@ import {
   Chip,
   Box,
   TablePagination,
-  TextField,
-  InputAdornment,
-  Grid,
-  Select,
-  MenuItem,
-  FormControl,
-  InputLabel,
-  Button,
 } from '@mui/material';
-import SearchIcon from '@mui/icons-material/Search';
-import ClearIcon from '@mui/icons-material/Clear';
 import { useTranslation } from 'react-i18next';
 import ProductPopup from './ProductPopup';
 
-const ProductTable = () => {
+const ProductTable = ({ 
+  searchText = '',
+  filterCompany = '',
+  filterCategory = '',
+  filterType = '',
+  filterStatus = ''
+}) => {
   const { t } = useTranslation();
   const [products, setProducts] = useState([]);
   const [page, setPage] = useState(0);
   const [rowsPerPage, setRowsPerPage] = useState(10);
   const [selectedProduct, setSelectedProduct] = useState(null);
   const [popupOpen, setPopupOpen] = useState(false);
-  
-  // Filter states
-  const [searchText, setSearchText] = useState('');
-  const [filterCompany, setFilterCompany] = useState('');
-  const [filterCategory, setFilterCategory] = useState('');
-  const [filterType, setFilterType] = useState('');
-  const [filterStatus, setFilterStatus] = useState('');
 
   useEffect(() => {
     // Load the product data from the JSON file
@@ -71,27 +60,6 @@ const ProductTable = () => {
     setSelectedProduct(null);
   };
 
-  // Get unique values for filter dropdowns
-  const companies = useMemo(() => {
-    const uniqueCompanies = [...new Set(products.map(p => p.companyName))];
-    return uniqueCompanies.sort();
-  }, [products]);
-
-  const categories = useMemo(() => {
-    const uniqueCategories = [...new Set(products.map(p => p.categoryName))];
-    return uniqueCategories.sort();
-  }, [products]);
-
-  const types = useMemo(() => {
-    const uniqueTypes = [...new Set(products.map(p => p.type))];
-    return uniqueTypes.sort();
-  }, [products]);
-
-  const statuses = useMemo(() => {
-    const uniqueStatuses = [...new Set(products.map(p => p.sellStatus))];
-    return uniqueStatuses.sort();
-  }, [products]);
-
   // Filter products based on search and filters
   const filteredProducts = useMemo(() => {
     return products.filter(product => {
@@ -116,16 +84,6 @@ const ProductTable = () => {
     });
   }, [products, searchText, filterCompany, filterCategory, filterType, filterStatus]);
 
-  // Clear all filters
-  const handleClearFilters = () => {
-    setSearchText('');
-    setFilterCompany('');
-    setFilterCategory('');
-    setFilterType('');
-    setFilterStatus('');
-    setPage(0);
-  };
-
   // Reset page when filters change
   useEffect(() => {
     setPage(0);
@@ -139,133 +97,6 @@ const ProductTable = () => {
 
   return (
     <Box sx={{ mt: 4 }}>
-      <Typography variant="h5" sx={{ mb: 2 }}>
-        {t('productTable.title')}
-      </Typography>
-      
-      {/* Search and Filter Section */}
-      <Paper elevation={2} sx={{ p: 2, mb: 2 }}>
-        <Grid container spacing={2} alignItems="center">
-          {/* Search Bar */}
-          <Grid item xs={12} md={6}>
-            <TextField
-              fullWidth
-              size="small"
-              placeholder={t('productTable.searchPlaceholder') || 'Search products...'}
-              value={searchText}
-              onChange={(e) => setSearchText(e.target.value)}
-              InputProps={{
-                startAdornment: (
-                  <InputAdornment position="start">
-                    <SearchIcon />
-                  </InputAdornment>
-                ),
-              }}
-            />
-          </Grid>
-
-          {/* Company Filter */}
-          <Grid item xs={6} sm={3} md={1.5}>
-            <FormControl fullWidth size="small">
-              <InputLabel>{t('productTable.company') || 'Company'}</InputLabel>
-              <Select
-                value={filterCompany}
-                label={t('productTable.company') || 'Company'}
-                onChange={(e) => setFilterCompany(e.target.value)}
-              >
-                <MenuItem value="">
-                  <em>{t('productTable.all') || 'All'}</em>
-                </MenuItem>
-                {companies.map(company => (
-                  <MenuItem key={company} value={company}>{company}</MenuItem>
-                ))}
-              </Select>
-            </FormControl>
-          </Grid>
-
-          {/* Category Filter */}
-          <Grid item xs={6} sm={3} md={1.5}>
-            <FormControl fullWidth size="small">
-              <InputLabel>{t('productTable.category') || 'Category'}</InputLabel>
-              <Select
-                value={filterCategory}
-                label={t('productTable.category') || 'Category'}
-                onChange={(e) => setFilterCategory(e.target.value)}
-              >
-                <MenuItem value="">
-                  <em>{t('productTable.all') || 'All'}</em>
-                </MenuItem>
-                {categories.map(category => (
-                  <MenuItem key={category} value={category}>{category}</MenuItem>
-                ))}
-              </Select>
-            </FormControl>
-          </Grid>
-
-          {/* Type Filter */}
-          <Grid item xs={6} sm={3} md={1.5}>
-            <FormControl fullWidth size="small">
-              <InputLabel>{t('productTable.type') || 'Type'}</InputLabel>
-              <Select
-                value={filterType}
-                label={t('productTable.type') || 'Type'}
-                onChange={(e) => setFilterType(e.target.value)}
-              >
-                <MenuItem value="">
-                  <em>{t('productTable.all') || 'All'}</em>
-                </MenuItem>
-                {types.map(type => (
-                  <MenuItem key={type} value={type}>
-                    {t(`productTable.types.${type}`) || type}
-                  </MenuItem>
-                ))}
-              </Select>
-            </FormControl>
-          </Grid>
-
-          {/* Status Filter */}
-          <Grid item xs={6} sm={3} md={1.5}>
-            <FormControl fullWidth size="small">
-              <InputLabel>{t('productTable.status') || 'Status'}</InputLabel>
-              <Select
-                value={filterStatus}
-                label={t('productTable.status') || 'Status'}
-                onChange={(e) => setFilterStatus(e.target.value)}
-              >
-                <MenuItem value="">
-                  <em>{t('productTable.all') || 'All'}</em>
-                </MenuItem>
-                {statuses.map(status => (
-                  <MenuItem key={status} value={status}>
-                    {t(`productTable.statuses.${status}`) || status}
-                  </MenuItem>
-                ))}
-              </Select>
-            </FormControl>
-          </Grid>
-
-          {/* Clear Filters Button */}
-          <Grid item xs={12} md={12} sx={{ display: 'flex', justifyContent: 'flex-end' }}>
-            <Button
-              variant="outlined"
-              size="small"
-              startIcon={<ClearIcon />}
-              onClick={handleClearFilters}
-              disabled={!searchText && !filterCompany && !filterCategory && !filterType && !filterStatus}
-            >
-              {t('productTable.clearFilters') || 'Clear Filters'}
-            </Button>
-          </Grid>
-        </Grid>
-
-        {/* Results Count */}
-        <Box sx={{ mt: 1 }}>
-          <Typography variant="caption" color="textSecondary">
-            {t('productTable.showing') || 'Showing'} {filteredProducts.length} {t('productTable.of') || 'of'} {products.length} {t('productTable.products') || 'products'}
-          </Typography>
-        </Box>
-      </Paper>
-
       <TableContainer component={Paper} elevation={3}>
         <Table sx={{ minWidth: 650 }} aria-label="product table">
           <TableHead sx={{ backgroundColor: '#f5f5f5' }}>

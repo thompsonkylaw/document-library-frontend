@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import axios from 'axios';
 import {
   ThemeProvider,
@@ -18,7 +18,7 @@ import { ArrowBack as ArrowBackIcon } from '@mui/icons-material';
 import CssBaseline from '@mui/material/CssBaseline';
 import { useTranslation } from 'react-i18next';
 import LanguageSwitch from './LanguageSwitch';
-import EmailSetting from './EmailSetting';
+import SearchAndFilter from './SearchAndFilter';
 import FundTable from './FundTable';
 import ProductTable from './ProductTable';
 
@@ -45,6 +45,70 @@ const App = () => {
   const [savedNumberOfDayAhead, setSavedNumberOfDayAhead] = useState(null);
   const [savedSelectedFundsForMail, setSavedSelectedFundsForMail] = useState([]);
   const [expandedFunds, setExpandedFunds] = useState({});
+
+  // Product filter states
+  const [products, setProducts] = useState([]);
+  const [searchText, setSearchText] = useState('');
+  const [filterCompany, setFilterCompany] = useState('');
+  const [filterCategory, setFilterCategory] = useState('');
+  const [filterType, setFilterType] = useState('');
+  const [filterStatus, setFilterStatus] = useState('');
+
+  // Load products
+  useEffect(() => {
+    fetch('/pages/all_product_table_data.json')
+      .then(response => response.json())
+      .then(data => {
+        setProducts(data.list || []);
+      })
+      .catch(error => {
+        console.error('Error loading product data:', error);
+      });
+  }, []);
+
+  // Get unique values for filter dropdowns
+  const companies = useMemo(() => {
+    const uniqueCompanies = [...new Set(products.map(p => p.companyName))];
+    return uniqueCompanies.sort();
+  }, [products]);
+
+  const categories = useMemo(() => {
+    const uniqueCategories = [...new Set(products.map(p => p.categoryName))];
+    return uniqueCategories.sort();
+  }, [products]);
+
+  const types = useMemo(() => {
+    const uniqueTypes = [...new Set(products.map(p => p.type))];
+    return uniqueTypes.sort();
+  }, [products]);
+
+  const statuses = useMemo(() => {
+    const uniqueStatuses = [...new Set(products.map(p => p.sellStatus))];
+    return uniqueStatuses.sort();
+  }, [products]);
+
+  // Filter products
+  const filteredProducts = useMemo(() => {
+    return products.filter(product => {
+      const matchesSearch = searchText === '' || 
+        product.productName?.toLowerCase().includes(searchText.toLowerCase()) ||
+        product.productCode?.toLowerCase().includes(searchText.toLowerCase());
+      const matchesCompany = filterCompany === '' || product.companyName === filterCompany;
+      const matchesCategory = filterCategory === '' || product.categoryName === filterCategory;
+      const matchesType = filterType === '' || product.type === filterType;
+      const matchesStatus = filterStatus === '' || product.sellStatus === filterStatus;
+      return matchesSearch && matchesCompany && matchesCategory && matchesType && matchesStatus;
+    });
+  }, [products, searchText, filterCompany, filterCategory, filterType, filterStatus]);
+
+  // Clear all filters
+  const handleClearFilters = () => {
+    setSearchText('');
+    setFilterCompany('');
+    setFilterCategory('');
+    setFilterType('');
+    setFilterStatus('');
+  };
 
   const handleCheckboxChange = (fundName, checked) => {
     setSelectedFundsForMail((prev) =>
@@ -183,7 +247,13 @@ const App = () => {
       <Container sx={{ mt: 2, mb: 4 }}>
         <Grid container spacing={3}>
           <Grid item xs={12} md={8}>
-            <ProductTable />
+            <ProductTable 
+              searchText={searchText}
+              filterCompany={filterCompany}
+              filterCategory={filterCategory}
+              filterType={filterType}
+              filterStatus={filterStatus}
+            />
             {loading ? (
               <Box sx={{ display: 'flex', justifyContent: 'center', mt: 4 }}>
                 <CircularProgress />
@@ -214,16 +284,12 @@ const App = () => {
                   );
                 })}
               </Box>
-            ) : (
-              <Typography variant="body1" sx={{ mt: 2 }}>
-                {t('pleaseSelectFund')}
-              </Typography>
-            )}
+            ) : null}
           </Grid>
 
           <Grid item xs={12} md={4}>
             <Card elevation={3} sx={{ p: 2 }}>
-              <EmailSetting
+              <SearchAndFilter
                 email={email}
                 setEmail={setEmail}
                 numberOfDayAhead={numberOfDayAhead}
@@ -232,6 +298,23 @@ const App = () => {
                 hasUnsavedChanges={hasUnsavedChanges}
                 onSave={handleSave}
                 onTestEmail={handleTestEmail}
+                searchText={searchText}
+                setSearchText={setSearchText}
+                filterCompany={filterCompany}
+                setFilterCompany={setFilterCompany}
+                filterCategory={filterCategory}
+                setFilterCategory={setFilterCategory}
+                filterType={filterType}
+                setFilterType={setFilterType}
+                filterStatus={filterStatus}
+                setFilterStatus={setFilterStatus}
+                companies={companies}
+                categories={categories}
+                types={types}
+                statuses={statuses}
+                onClearFilters={handleClearFilters}
+                filteredCount={filteredProducts.length}
+                totalCount={products.length}
               />
             </Card>
             <Box sx={{ mt: 2 }}>

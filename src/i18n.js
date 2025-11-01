@@ -67,7 +67,6 @@ i18next
           sendMail: 'Send Mail',
           settings: 'Settings',
           close: 'Close',
-          pleaseSelectFund: 'Please select at least one fund.',
           noEmailDateSet: 'No email date set',
           na: 'N/A',
           yes: 'Yes',
