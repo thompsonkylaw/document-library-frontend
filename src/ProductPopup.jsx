@@ -271,13 +271,13 @@ const ProductPopup = ({ open, onClose, productCode }) => {
                   {productData.files.map((file, index) => {
                     // Extract company code and product code from productCode (e.g., "AIA:2I1OLP" -> "AIA_2I1OLP")
                     const filePrefix = productCode.replace(':', '_');
-                    // Construct local PDF path
-                    const localPdfPath = `/PDFs/${filePrefix}_${file.fileName}`;
+                    // Construct AWS S3 PDF URL
+                    const pdfUrl = `https://my-documents-library.s3.ap-southeast-1.amazonaws.com/PDFs/${filePrefix}_${file.fileName}`;
                     
                     return (
                       <Link
                         key={index}
-                        href={localPdfPath}
+                        href={pdfUrl}
                         target="_blank"
                         rel="noopener noreferrer"
                         sx={{ display: 'flex', alignItems: 'center', gap: 1, textDecoration: 'none' }}
