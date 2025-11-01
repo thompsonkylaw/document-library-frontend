@@ -297,7 +297,9 @@ const ProductPopup = ({ open, onClose, productCode }) => {
                 <Typography variant="subtitle1" sx={{ fontWeight: 600, mb: 1 }}>
                   {t('productPopup.latestNews')}
                 </Typography>
-                {productData.information.map((info, index) => (
+                {[...productData.information]
+                  .sort((a, b) => new Date(b.time) - new Date(a.time))
+                  .map((info, index) => (
                   <Box key={index} sx={{ mb: 2, p: 2, bgcolor: 'grey.50', borderRadius: 1 }}>
                     <Chip 
                       label={t(`productPopup.informationTypes.${info.type}`) || info.type.replace('_', ' ')} 
