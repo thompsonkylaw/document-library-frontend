@@ -116,7 +116,7 @@ const App = () => {
 
       <Container sx={{  mb: 4 }}>
         <Grid container spacing={3}>
-          <Grid item xs={12} md={8}>
+          <Grid item xs={12} md={9}>
             <ProductTable 
               searchText={searchText}
               filterCompany={filterCompany}
@@ -126,7 +126,7 @@ const App = () => {
             />
           </Grid>
 
-          <Grid item xs={12} md={4}>
+          <Grid item xs={12} md={3}>
             <Card elevation={3} sx={{ p: 2 }}>
               <SearchAndFilter
                 searchText={searchText}

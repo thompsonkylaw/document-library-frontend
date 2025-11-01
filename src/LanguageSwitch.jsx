@@ -1,12 +1,20 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Grid, Radio, RadioGroup, FormControlLabel, Button, Card, Box, Dialog } from '@mui/material';
 import Setting from './Setting';
 
 function LanguageSwitch({ setAppBarColor, appBarColor,onTestEmail }) {
   const { t, i18n } = useTranslation();
-  const [selectedLanguage, setSelectedLanguage] = useState(i18n.language || 'en');
+  const [selectedLanguage, setSelectedLanguage] = useState(i18n.language || 'zh-HK');
   const [settingsOpen, setSettingsOpen] = useState(false);
+
+  // Set default language to Traditional Chinese on first load
+  useEffect(() => {
+    if (!localStorage.getItem('i18nextLng')) {
+      i18n.changeLanguage('zh-HK');
+      setSelectedLanguage('zh-HK');
+    }
+  }, [i18n]);
 
   const handleLanguageChange = (event) => {
     const newLanguage = event.target.value;
@@ -30,11 +38,6 @@ function LanguageSwitch({ setAppBarColor, appBarColor,onTestEmail }) {
               onChange={handleLanguageChange}
               sx={{ flex: 1, display: 'flex', justifyContent: 'space-evenly' }}
             >
-              <FormControlLabel
-                value="en"
-                control={<Radio sx={{ color: appBarColor, '&.Mui-checked': { color: appBarColor } }} />}
-                label="English"
-              />
               <FormControlLabel
                 value="zh-HK"
                 control={<Radio sx={{ color: appBarColor, '&.Mui-checked': { color: appBarColor } }} />}

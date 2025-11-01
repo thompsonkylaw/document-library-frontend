@@ -50,7 +50,8 @@ const ProductPopup = ({ open, onClose, productCode }) => {
       }
       
       const data = await response.json();
-      setProductData(data.data || data);
+      const productInfo = data.data || data;
+      setProductData(productInfo);
     } catch (err) {
       console.error('Error loading product details:', err);
       setError(err.message || t('productPopup.failedToLoad'));
@@ -150,6 +151,30 @@ const ProductPopup = ({ open, onClose, productCode }) => {
 
             <Divider sx={{ my: 2 }} />
 
+            {/* Product Highlights */}
+            {productData.highlights && productData.highlights.length > 0 && (
+              <Box sx={{ mb: 3 }}>
+                <Typography variant="subtitle1" sx={{ fontWeight: 600, mb: 1 }}>
+                  {t('productPopup.highlights', 'Product Highlights')}
+                </Typography>
+                <Box component="ul" sx={{ pl: 2, m: 0 }}>
+                  {productData.highlights.map((highlight, index) => (
+                    <Typography 
+                      key={index} 
+                      component="li" 
+                      variant="body2" 
+                      color="textSecondary"
+                      sx={{ mb: 1 }}
+                    >
+                      {highlight}
+                    </Typography>
+                  ))}
+                </Box>
+              </Box>
+            )}
+
+            <Divider sx={{ my: 2 }} />
+
             {/* Payment Information */}
             <Box sx={{ mb: 3 }}>
               <Typography variant="subtitle1" sx={{ fontWeight: 600, mb: 1 }}>
@@ -215,7 +240,14 @@ const ProductPopup = ({ open, onClose, productCode }) => {
                               <Typography variant="body2" color="textSecondary" sx={{ flex: 1 }}>
                                 {attr.name}
                               </Typography>
-                              <Typography variant="body2" sx={{ flex: 1, textAlign: 'right' }}>
+                              <Typography 
+                                variant="body2" 
+                                sx={{ 
+                                  flex: 1, 
+                                  textAlign: 'right',
+                                  whiteSpace: 'pre-line'
+                                }}
+                              >
                                 {attr.value || '-'}
                               </Typography>
                             </Box>

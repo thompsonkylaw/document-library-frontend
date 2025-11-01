@@ -106,6 +106,7 @@ const ProductTable = ({
               <TableCell><strong>{t('productTable.category')}</strong></TableCell>
               <TableCell><strong>{t('productTable.type')}</strong></TableCell>
               <TableCell><strong>{t('productTable.status')}</strong></TableCell>
+              <TableCell><strong>{t('productTable.policyPeriod')}</strong></TableCell>
             </TableRow>
           </TableHead>
           <TableBody>
@@ -159,11 +160,16 @@ const ProductTable = ({
                       color={product.sellStatus === 'SELLING' ? 'success' : 'warning'}
                     />
                   </TableCell>
+                  <TableCell>
+                    <Typography variant="body2">
+                      {product.policyPeriod || '-'}
+                    </Typography>
+                  </TableCell>
                 </TableRow>
               ))
             ) : (
               <TableRow>
-                <TableCell colSpan={5} align="center">
+                <TableCell colSpan={6} align="center">
                   <Typography variant="body2" color="textSecondary">
                     {t('productTable.noProductsAvailable')}
                   </Typography>
@@ -181,6 +187,7 @@ const ProductTable = ({
         page={page}
         onPageChange={handleChangePage}
         onRowsPerPageChange={handleChangeRowsPerPage}
+        labelRowsPerPage={t('productTable.rowsPerPage')}
       />
       
       <ProductPopup 
