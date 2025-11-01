@@ -1,0 +1,6876 @@
+{
+  "list": [
+    {
+      "productCode": "AIA:GPMCP3",
+      "categoryCode": "SAVINGS",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "儲蓄",
+      "productName": "盈御多元貨幣計劃3",
+      "companyName": "友邦保險",
+      "type": "BASIC",
+      "rank": 1,
+      "desc": "「盈御多元貨幣計劃3」更新美元及港元保單之預期總回報，及優化貨幣轉換選項可由第 2 個保單年度終結後起予以行使，加上新產品特點之精神上無行為能力選項，讓客戶面對未知時更添安心。",
+      "currencies": [
+        "USD",
+        "CNY",
+        "HKD",
+        "AUD",
+        "CAD",
+        "EUR",
+        "GBP",
+        "SGD"
+      ],
+      "frequencies": [
+        "SINGLE_PAYMENT",
+        "MONTHLY",
+        "QUARTERLY",
+        "SEMI_ANNUALLY",
+        "ANNUALLY"
+      ],
+      "paymentTerm": [
+        "1",
+        "3",
+        "5",
+        "10"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": null,
+      "medicalOptionsRequiredField": null,
+      "quotationFieldRequirements": [
+        {
+          "field": "Age",
+          "required": true
+        },
+        {
+          "field": "Gender",
+          "required": true
+        },
+        {
+          "field": "SmokeCondition",
+          "required": true
+        },
+        {
+          "field": "Currency",
+          "required": true
+        },
+        {
+          "field": "PremiumTerm",
+          "required": true
+        },
+        {
+          "field": "MedicalLevel",
+          "required": false
+        },
+        {
+          "field": "MedicalRegion",
+          "required": false
+        },
+        {
+          "field": "MedicalDeductible",
+          "required": false
+        }
+      ],
+      "withdrawalable": true,
+      "withdrawalOptions": [
+        {
+          "premiumTerm": "1",
+          "from": 1,
+          "ratio": 4,
+          "ratioIncrement": null,
+          "value": "1/1/4",
+          "description": {
+            "zhHansCN": "1年期，从第1年起，每年提领总保费的4%",
+            "zhHantHK": "1年期，由第1年起，每年提取總保費的4%",
+            "enUS": "1-year term, starting from the year of policy 1, withdraw 4% of the total premium annually",
+            "jaJP": null,
+            "koKR": null
+          }
+        },
+        {
+          "premiumTerm": "1",
+          "from": 3,
+          "ratio": 5,
+          "ratioIncrement": null,
+          "value": "1/3/5",
+          "description": {
+            "zhHansCN": "1年期，从第3年起，每年提领总保费的5%",
+            "zhHantHK": "1年期，由第3年起，每年提取總保費的5%",
+            "enUS": "1-year term, starting from the year of policy 3, withdraw 5% of the total premium annually",
+            "jaJP": null,
+            "koKR": null
+          }
+        },
+        {
+          "premiumTerm": "1",
+          "from": 5,
+          "ratio": 6,
+          "ratioIncrement": null,
+          "value": "1/5/6",
+          "description": {
+            "zhHansCN": "1年期，从第5年起，每年提领总保费的6%",
+            "zhHantHK": "1年期，由第5年起，每年提取總保費的6%",
+            "enUS": "1-year term, starting from the year of policy 5, withdraw 6% of the total premium annually",
+            "jaJP": null,
+            "koKR": null
+          }
+        },
+        {
+          "premiumTerm": "1",
+          "from": 6,
+          "ratio": 7,
+          "ratioIncrement": null,
+          "value": "1/6/7",
+          "description": {
+            "zhHansCN": "1年期，从第6年起，每年提领总保费的7%",
+            "zhHantHK": "1年期，由第6年起，每年提取總保費的7%",
+            "enUS": "1-year term, starting from the year of policy 6, withdraw 7% of the total premium annually",
+            "jaJP": null,
+            "koKR": null
+          }
+        },
+        {
+          "premiumTerm": "1",
+          "from": 8,
+          "ratio": 8,
+          "ratioIncrement": null,
+          "value": "1/8/8",
+          "description": {
+            "zhHansCN": "1年期，从第8年起，每年提领总保费的8%",
+            "zhHantHK": "1年期，由第8年起，每年提取總保費的8%",
+            "enUS": "1-year term, starting from the year of policy 8, withdraw 8% of the total premium annually",
+            "jaJP": null,
+            "koKR": null
+          }
+        },
+        {
+          "premiumTerm": "1",
+          "from": 10,
+          "ratio": 9,
+          "ratioIncrement": null,
+          "value": "1/10/9",
+          "description": {
+            "zhHansCN": "1年期，从第10年起，每年提领总保费的9%",
+            "zhHantHK": "1年期，由第10年起，每年提取總保費的9%",
+            "enUS": "1-year term, starting from the year of policy 10, withdraw 9% of the total premium annually",
+            "jaJP": null,
+            "koKR": null
+          }
+        },
+        {
+          "premiumTerm": "1",
+          "from": 11,
+          "ratio": 10,
+          "ratioIncrement": null,
+          "value": "1/11/10",
+          "description": {
+            "zhHansCN": "1年期，从第11年起，每年提领总保费的10%",
+            "zhHantHK": "1年期，由第11年起，每年提取總保費的10%",
+            "enUS": "1-year term, starting from the year of policy 11, withdraw 10% of the total premium annually",
+            "jaJP": null,
+            "koKR": null
+          }
+        },
+        {
+          "premiumTerm": "3",
+          "from": 3,
+          "ratio": 5,
+          "ratioIncrement": null,
+          "value": "3/3/5",
+          "description": {
+            "zhHansCN": "3年期，从第3年起，每年提领总保费的5%",
+            "zhHantHK": "3年期，由第3年起，每年提取總保費的5%",
+            "enUS": "3-year term, starting from the year of policy 3, withdraw 5% of the total premium annually",
+            "jaJP": null,
+            "koKR": null
+          }
+        },
+        {
+          "premiumTerm": "3",
+          "from": 5,
+          "ratio": 6,
+          "ratioIncrement": null,
+          "value": "3/5/6",
+          "description": {
+            "zhHansCN": "3年期，从第5年起，每年提领总保费的6%",
+            "zhHantHK": "3年期，由第5年起，每年提取總保費的6%",
+            "enUS": "3-year term, starting from the year of policy 5, withdraw 6% of the total premium annually",
+            "jaJP": null,
+            "koKR": null
+          }
+        },
+        {
+          "premiumTerm": "3",
+          "from": 7,
+          "ratio": 7,
+          "ratioIncrement": null,
+          "value": "3/7/7",
+          "description": {
+            "zhHansCN": "3年期，从第7年起，每年提领总保费的7%",
+            "zhHantHK": "3年期，由第7年起，每年提取總保費的7%",
+            "enUS": "3-year term, starting from the year of policy 7, withdraw 7% of the total premium annually",
+            "jaJP": null,
+            "koKR": null
+          }
+        },
+        {
+          "premiumTerm": "3",
+          "from": 9,
+          "ratio": 8,
+          "ratioIncrement": null,
+          "value": "3/9/8",
+          "description": {
+            "zhHansCN": "3年期，从第9年起，每年提领总保费的8%",
+            "zhHantHK": "3年期，由第9年起，每年提取總保費的8%",
+            "enUS": "3-year term, starting from the year of policy 9, withdraw 8% of the total premium annually",
+            "jaJP": null,
+            "koKR": null
+          }
+        },
+        {
+          "premiumTerm": "3",
+          "from": 10,
+          "ratio": 9,
+          "ratioIncrement": null,
+          "value": "3/10/9",
+          "description": {
+            "zhHansCN": "3年期，从第10年起，每年提领总保费的9%",
+            "zhHantHK": "3年期，由第10年起，每年提取總保費的9%",
+            "enUS": "3-year term, starting from the year of policy 10, withdraw 9% of the total premium annually",
+            "jaJP": null,
+            "koKR": null
+          }
+        },
+        {
+          "premiumTerm": "3",
+          "from": 12,
+          "ratio": 10,
+          "ratioIncrement": null,
+          "value": "3/12/10",
+          "description": {
+            "zhHansCN": "3年期，从第12年起，每年提领总保费的10%",
+            "zhHantHK": "3年期，由第12年起，每年提取總保費的10%",
+            "enUS": "3-year term, starting from the year of policy 12, withdraw 10% of the total premium annually",
+            "jaJP": null,
+            "koKR": null
+          }
+        },
+        {
+          "premiumTerm": "3",
+          "from": 13,
+          "ratio": 11,
+          "ratioIncrement": null,
+          "value": "3/13/11",
+          "description": {
+            "zhHansCN": "3年期，从第13年起，每年提领总保费的11%",
+            "zhHantHK": "3年期，由第13年起，每年提取總保費的11%",
+            "enUS": "3-year term, starting from the year of policy 13, withdraw 11% of the total premium annually",
+            "jaJP": null,
+            "koKR": null
+          }
+        },
+        {
+          "premiumTerm": "3",
+          "from": 14,
+          "ratio": 12,
+          "ratioIncrement": null,
+          "value": "3/14/12",
+          "description": {
+            "zhHansCN": "3年期，从第14年起，每年提领总保费的12%",
+            "zhHantHK": "3年期，由第14年起，每年提取總保費的12%",
+            "enUS": "3-year term, starting from the year of policy 14, withdraw 12% of the total premium annually",
+            "jaJP": null,
+            "koKR": null
+          }
+        },
+        {
+          "premiumTerm": "5",
+          "from": 5,
+          "ratio": 5,
+          "ratioIncrement": null,
+          "value": "5/5/5",
+          "description": {
+            "zhHansCN": "5年期，从第5年起，每年提领总保费的5%",
+            "zhHantHK": "5年期，由第5年起，每年提取總保費的5%",
+            "enUS": "5-year term, starting from the year of policy 5, withdraw 5% of the total premium annually",
+            "jaJP": null,
+            "koKR": null
+          }
+        },
+        {
+          "premiumTerm": "5",
+          "from": 6,
+          "ratio": 6,
+          "ratioIncrement": null,
+          "value": "5/6/6",
+          "description": {
+            "zhHansCN": "5年期，从第6年起，每年提领总保费的6%",
+            "zhHantHK": "5年期，由第6年起，每年提取總保費的6%",
+            "enUS": "5-year term, starting from the year of policy 6, withdraw 6% of the total premium annually",
+            "jaJP": null,
+            "koKR": null
+          }
+        },
+        {
+          "premiumTerm": "5",
+          "from": 8,
+          "ratio": 7,
+          "ratioIncrement": null,
+          "value": "5/8/7",
+          "description": {
+            "zhHansCN": "5年期，从第8年起，每年提领总保费的7%",
+            "zhHantHK": "5年期，由第8年起，每年提取總保費的7%",
+            "enUS": "5-year term, starting from the year of policy 8, withdraw 7% of the total premium annually",
+            "jaJP": null,
+            "koKR": null
+          }
+        },
+        {
+          "premiumTerm": "5",
+          "from": 9,
+          "ratio": 8,
+          "ratioIncrement": null,
+          "value": "5/9/8",
+          "description": {
+            "zhHansCN": "5年期，从第9年起，每年提领总保费的8%",
+            "zhHantHK": "5年期，由第9年起，每年提取總保費的8%",
+            "enUS": "5-year term, starting from the year of policy 9, withdraw 8% of the total premium annually",
+            "jaJP": null,
+            "koKR": null
+          }
+        },
+        {
+          "premiumTerm": "5",
+          "from": 11,
+          "ratio": 9,
+          "ratioIncrement": null,
+          "value": "5/11/9",
+          "description": {
+            "zhHansCN": "5年期，从第11年起，每年提领总保费的9%",
+            "zhHantHK": "5年期，由第11年起，每年提取總保費的9%",
+            "enUS": "5-year term, starting from the year of policy 11, withdraw 9% of the total premium annually",
+            "jaJP": null,
+            "koKR": null
+          }
+        },
+        {
+          "premiumTerm": "5",
+          "from": 12,
+          "ratio": 10,
+          "ratioIncrement": null,
+          "value": "5/12/10",
+          "description": {
+            "zhHansCN": "5年期，从第12年起，每年提领总保费的10%",
+            "zhHantHK": "5年期，由第12年起，每年提取總保費的10%",
+            "enUS": "5-year term, starting from the year of policy 12, withdraw 10% of the total premium annually",
+            "jaJP": null,
+            "koKR": null
+          }
+        },
+        {
+          "premiumTerm": "5",
+          "from": 14,
+          "ratio": 11,
+          "ratioIncrement": null,
+          "value": "5/14/11",
+          "description": {
+            "zhHansCN": "5年期，从第14年起，每年提领总保费的11%",
+            "zhHantHK": "5年期，由第14年起，每年提取總保費的11%",
+            "enUS": "5-year term, starting from the year of policy 14, withdraw 11% of the total premium annually",
+            "jaJP": null,
+            "koKR": null
+          }
+        },
+        {
+          "premiumTerm": "5",
+          "from": 15,
+          "ratio": 12,
+          "ratioIncrement": null,
+          "value": "5/15/12",
+          "description": {
+            "zhHansCN": "5年期，从第15年起，每年提领总保费的12%",
+            "zhHantHK": "5年期，由第15年起，每年提取總保費的12%",
+            "enUS": "5-year term, starting from the year of policy 15, withdraw 12% of the total premium annually",
+            "jaJP": null,
+            "koKR": null
+          }
+        },
+        {
+          "premiumTerm": "10",
+          "from": 10,
+          "ratio": 7,
+          "ratioIncrement": null,
+          "value": "10/10/7",
+          "description": {
+            "zhHansCN": "10年期，从第10年起，每年提领总保费的7%",
+            "zhHantHK": "10年期，由第10年起，每年提取總保費的7%",
+            "enUS": "10-year term, starting from the year of policy 10, withdraw 7% of the total premium annually",
+            "jaJP": null,
+            "koKR": null
+          }
+        },
+        {
+          "premiumTerm": "10",
+          "from": 12,
+          "ratio": 8,
+          "ratioIncrement": null,
+          "value": "10/12/8",
+          "description": {
+            "zhHansCN": "10年期，从第12年起，每年提领总保费的8%",
+            "zhHantHK": "10年期，由第12年起，每年提取總保費的8%",
+            "enUS": "10-year term, starting from the year of policy 12, withdraw 8% of the total premium annually",
+            "jaJP": null,
+            "koKR": null
+          }
+        },
+        {
+          "premiumTerm": "10",
+          "from": 13,
+          "ratio": 9,
+          "ratioIncrement": null,
+          "value": "10/13/9",
+          "description": {
+            "zhHansCN": "10年期，从第13年起，每年提领总保费的9%",
+            "zhHantHK": "10年期，由第13年起，每年提取總保費的9%",
+            "enUS": "10-year term, starting from the year of policy 13, withdraw 9% of the total premium annually",
+            "jaJP": null,
+            "koKR": null
+          }
+        },
+        {
+          "premiumTerm": "10",
+          "from": 16,
+          "ratio": 11,
+          "ratioIncrement": null,
+          "value": "10/16/11",
+          "description": {
+            "zhHansCN": "10年期，从第16年起，每年提领总保费的11%",
+            "zhHantHK": "10年期，由第16年起，每年提取總保費的11%",
+            "enUS": "10-year term, starting from the year of policy 16, withdraw 11% of the total premium annually",
+            "jaJP": null,
+            "koKR": null
+          }
+        },
+        {
+          "premiumTerm": "10",
+          "from": 17,
+          "ratio": 12,
+          "ratioIncrement": null,
+          "value": "10/17/12",
+          "description": {
+            "zhHansCN": "10年期，从第17年起，每年提领总保费的12%",
+            "zhHantHK": "10年期，由第17年起，每年提取總保費的12%",
+            "enUS": "10-year term, starting from the year of policy 17, withdraw 12% of the total premium annually",
+            "jaJP": null,
+            "koKR": null
+          }
+        },
+        {
+          "premiumTerm": "10",
+          "from": 19,
+          "ratio": 13,
+          "ratioIncrement": null,
+          "value": "10/19/13",
+          "description": {
+            "zhHansCN": "10年期，从第19年起，每年提领总保费的13%",
+            "zhHantHK": "10年期，由第19年起，每年提取總保費的13%",
+            "enUS": "10-year term, starting from the year of policy 19, withdraw 13% of the total premium annually",
+            "jaJP": null,
+            "koKR": null
+          }
+        }
+      ],
+      "proposalRPASupported": true,
+      "proposalRiders": [
+        "AIA:CEO5R",
+        "AIA:CEOP5R",
+        "AIA:SGHR2",
+        "AIA:HB",
+        "AIA:CG3SP",
+        "AIA:CG3PP",
+        "AIA:CG3MP",
+        "AIA:CGP3SP",
+        "AIA:CGP3PP",
+        "AIA:CGP3MP",
+        "AIA:PUPMPR",
+        "AIA:ACCIDENTR",
+        "AIA:ADADB",
+        "AIA:PS3ADDB",
+        "AIA:AVFR",
+        "AIA:VHIPUSR",
+        "AIA:GBAOP",
+        "AIA:GBAOP2R",
+        "AIA:OPCEOPR",
+        "AIA:OPCEOR"
+      ],
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": [],
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": {
+          "zhHansCN": "",
+          "zhHantHK": "",
+          "enUS": "",
+          "jaJP": null,
+          "koKR": null
+        }
+      },
+      "policyPeriod": "終身",
+      "financialPlanSupported": true,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "PREMIUM",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:SL",
+      "categoryCode": "LIFE",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "人壽",
+      "productName": "樂怡人生保障計劃",
+      "companyName": "友邦保險",
+      "type": "BASIC",
+      "rank": 1,
+      "desc": "為了助您應對無法預料的人生挑戰，「樂怡人生」保障計劃系列提供終身人壽保障，即使遭遇不幸，您的摯愛亦能安然面對。本計劃備有3種保費繳付期，您可根據個人情況選擇所需，讓您安心策劃財務。兩個計劃版本迎合不同需求，您可根據個人需要選擇，享受靈活的財務規劃。",
+      "currencies": [
+        "USD"
+      ],
+      "frequencies": [
+        "MONTHLY",
+        "SEMI_ANNUALLY",
+        "ANNUALLY",
+        "QUARTERLY"
+      ],
+      "paymentTerm": [
+        "5",
+        "10",
+        "25"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": null,
+      "medicalOptionsRequiredField": null,
+      "quotationFieldRequirements": null,
+      "withdrawalable": true,
+      "withdrawalOptions": null,
+      "proposalRPASupported": true,
+      "proposalRiders": [
+        "AIA:ACCIDENTR",
+        "AIA:ADADB",
+        "AIA:PS3ADDB",
+        "AIA:PS3DHIB",
+        "AIA:ECIRP",
+        "AIA:SCER",
+        "AIA:AVFR",
+        "AIA:VHIPUSR",
+        "AIA:CEOP5R",
+        "AIA:CGP3SP",
+        "AIA:CGP3PP",
+        "AIA:CGP3MP",
+        "AIA:CG3SP",
+        "AIA:CG3PP",
+        "AIA:CG3MP",
+        "AIA:GBAOP",
+        "AIA:GBAOP2R",
+        "AIA:HB",
+        "AIA:HJGR",
+        "AIA:OPCEOR",
+        "AIA:OPCEOPR",
+        "AIA:SGHR2",
+        "AIA:AOAFP(R)",
+        "AIA:AOACS(R)",
+        "AIA:WTLPR",
+        "AIA:CEO5R"
+      ],
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": true,
+        "hedgeProducts": [
+          "AIA:AVHIPS",
+          "AIA:AVFR",
+          "AIA:CEOE2",
+          "AIA:SGHP2"
+        ],
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": "終身",
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:105PR_AMR",
+      "categoryCode": "ACCIDENT",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "意外",
+      "productName": "105保費回贈－意外醫療保障",
+      "companyName": "友邦保險",
+      "type": "BASIC",
+      "rank": 99,
+      "desc": "「105保費回贈—意外醫療保障」能助您應付因意外引致的醫療開支。此計劃更提供105%保費退還，保證只需繳付8年定額供款，便可享有長達12年的保障。無論環境順逆，AIA相伴支持。",
+      "currencies": [
+        "USD"
+      ],
+      "frequencies": [
+        "MONTHLY",
+        "ANNUALLY"
+      ],
+      "paymentTerm": [
+        "8"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": null,
+      "medicalOptionsRequiredField": null,
+      "quotationFieldRequirements": null,
+      "withdrawalable": false,
+      "withdrawalOptions": null,
+      "proposalRPASupported": false,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": [],
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": "12",
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:21PLPRP",
+      "categoryCode": "INVESTMENT_LINKED",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "投資相連",
+      "productName": "AIA兩全保保障型投資相連壽險計劃(定期保費)",
+      "companyName": "友邦保險",
+      "type": "BASIC",
+      "rank": 99,
+      "desc": "本計劃是一項10年保費繳付年期的定期保費投資連繫壽險計劃，您並有支付增額額外整付保費的選項，適合年齡介乎18歲至55歲（包括首尾年歲）的申請人及年齡介乎15日至55歲（包括首尾年歲）的受保人。本計劃為受保人提供壽險保障及提供多項投資選擇。如欲申請，您只須填妥申請表格、已簽署的說明文件及所需之保費金額。",
+      "currencies": [
+        "USD",
+        "CNY",
+        "HKD"
+      ],
+      "frequencies": [
+        "MONTHLY",
+        "QUARTERLY",
+        "SEMI_ANNUALLY",
+        "ANNUALLY"
+      ],
+      "paymentTerm": [
+        "10"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": null,
+      "medicalOptionsRequiredField": null,
+      "quotationFieldRequirements": null,
+      "withdrawalable": false,
+      "withdrawalOptions": null,
+      "proposalRPASupported": true,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": [],
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": {
+          "zhHansCN": "",
+          "zhHantHK": "",
+          "enUS": "",
+          "jaJP": null,
+          "koKR": null
+        }
+      },
+      "policyPeriod": "終身",
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": 1701310296359,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "SUM_ASSURED",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [
+        {
+          "field": "prescribedPercentage",
+          "fieldType": "array",
+          "fieldName": "特定百分比",
+          "value": null,
+          "fieldValue": "150%,200%,250%,300%,350%,400%,450%",
+          "remark": null,
+          "required": false
+        }
+      ],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:2I1OLP",
+      "categoryCode": "INVESTMENT_LINKED",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "投資相連",
+      "productName": "AIA兩全保保障型投資相連壽險計劃(整付保費)",
+      "companyName": "友邦保險",
+      "type": "BASIC",
+      "rank": 99,
+      "desc": "AIA兩全保保障型投資相連壽險計劃是一項整付保費投資連繫壽險計劃，您並有支付增額額外整付保費的選項，適合年齡介乎18歲至60歲（包括首尾年歲）的申請人及年齡介乎15日至60歲（包括首尾年歲）的受保人。本計劃為受保人提供壽險保障及提供多項投資選擇。如欲申請，您只須填妥申請表格、已簽署的說明文件及所需之保費金額。",
+      "currencies": [
+        "USD",
+        "CNY",
+        "HKD"
+      ],
+      "frequencies": [
+        "SINGLE_PAYMENT"
+      ],
+      "paymentTerm": [
+        "1"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": null,
+      "medicalOptionsRequiredField": null,
+      "quotationFieldRequirements": null,
+      "withdrawalable": true,
+      "withdrawalOptions": null,
+      "proposalRPASupported": true,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": [],
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": {
+          "zhHansCN": "",
+          "zhHantHK": "",
+          "enUS": "",
+          "jaJP": null,
+          "koKR": null
+        }
+      },
+      "policyPeriod": "終身",
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": 1682904257496,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "SUM_ASSURED",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [
+        {
+          "field": "prescribedPercentage",
+          "fieldType": "array",
+          "fieldName": "特定百分比",
+          "value": null,
+          "fieldValue": "150%,200%,250%,300%,350%,400%,450%,500%,550%,600%,650%,700%,750%",
+          "remark": null,
+          "required": false
+        }
+      ],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:AA",
+      "categoryCode": "CRITICAL_ILLNESS",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "危疾",
+      "productName": "自在自選危疾保",
+      "companyName": "友邦保險",
+      "type": "BASIC",
+      "rank": 99,
+      "desc": "本計劃是一份分紅保險計劃，為市場首創個人化產品，可按需要及預算選擇所想的危疾保障，每個自選保障類別之賠償是獨立計算，其現時保額只會因扣除於各自保障類別下所有已支付的賠償而減少。由於每個保障類別的保費是獨立計算，只需為已選及仍生效的保障類別繳付保費。讓您自組保障，只買所需，滿足個人保障缺口。",
+      "currencies": [
+        "USD"
+      ],
+      "frequencies": [
+        "ANNUALLY",
+        "SEMI_ANNUALLY",
+        "QUARTERLY",
+        "MONTHLY"
+      ],
+      "paymentTerm": [
+        "10",
+        "18",
+        "25",
+        "30"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": null,
+      "medicalOptionsRequiredField": null,
+      "quotationFieldRequirements": null,
+      "withdrawalable": true,
+      "withdrawalOptions": null,
+      "proposalRPASupported": true,
+      "proposalRiders": [
+        "AIA:AAHR",
+        "AIA:AANSR",
+        "AIA:AAOI",
+        "AIA:AAMC"
+      ],
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": [],
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": {
+          "zhHansCN": "",
+          "zhHantHK": "",
+          "enUS": "",
+          "jaJP": null,
+          "koKR": null
+        }
+      },
+      "policyPeriod": "~100",
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": 1684460466396,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "SUM_ASSURED",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:AAHR",
+      "categoryCode": "CRITICAL_ILLNESS",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "危疾",
+      "productName": "自在自選危疾保-與心臟相關",
+      "companyName": "友邦保險",
+      "type": "RIDER",
+      "rank": 99,
+      "desc": null,
+      "currencies": [
+        "USD"
+      ],
+      "frequencies": [
+        "MONTHLY",
+        "QUARTERLY",
+        "SEMI_ANNUALLY",
+        "ANNUALLY"
+      ],
+      "paymentTerm": [
+        "10",
+        "18",
+        "25",
+        "30"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": null,
+      "medicalOptionsRequiredField": null,
+      "quotationFieldRequirements": null,
+      "withdrawalable": false,
+      "withdrawalOptions": null,
+      "proposalRPASupported": false,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": [],
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": "~100",
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:AAMC",
+      "categoryCode": "CRITICAL_ILLNESS",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "危疾",
+      "productName": "自在自選危疾保-多重癌症",
+      "companyName": "友邦保險",
+      "type": "RIDER",
+      "rank": 99,
+      "desc": null,
+      "currencies": [
+        "USD"
+      ],
+      "frequencies": [
+        "MONTHLY",
+        "QUARTERLY",
+        "SEMI_ANNUALLY",
+        "ANNUALLY"
+      ],
+      "paymentTerm": [
+        "10",
+        "18",
+        "25",
+        "30"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": null,
+      "medicalOptionsRequiredField": null,
+      "quotationFieldRequirements": null,
+      "withdrawalable": false,
+      "withdrawalOptions": null,
+      "proposalRPASupported": false,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": [],
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": "~100",
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:AANSR",
+      "categoryCode": "CRITICAL_ILLNESS",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "危疾",
+      "productName": "自在自選危疾保-與神經系統相關",
+      "companyName": "友邦保險",
+      "type": "RIDER",
+      "rank": 99,
+      "desc": "",
+      "currencies": [
+        "USD"
+      ],
+      "frequencies": [
+        "MONTHLY",
+        "QUARTERLY",
+        "SEMI_ANNUALLY",
+        "ANNUALLY"
+      ],
+      "paymentTerm": [
+        "10",
+        "18",
+        "25",
+        "30"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": null,
+      "medicalOptionsRequiredField": null,
+      "quotationFieldRequirements": null,
+      "withdrawalable": false,
+      "withdrawalOptions": null,
+      "proposalRPASupported": false,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": [],
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": "~100",
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:AAOI",
+      "categoryCode": "CRITICAL_ILLNESS",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "危疾",
+      "productName": "自在自選危疾保-其他疾病",
+      "companyName": "友邦保險",
+      "type": "RIDER",
+      "rank": 99,
+      "desc": "",
+      "currencies": [
+        "USD"
+      ],
+      "frequencies": [
+        "MONTHLY",
+        "QUARTERLY",
+        "SEMI_ANNUALLY",
+        "ANNUALLY"
+      ],
+      "paymentTerm": [
+        "10",
+        "18",
+        "25",
+        "30"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": null,
+      "medicalOptionsRequiredField": null,
+      "quotationFieldRequirements": null,
+      "withdrawalable": false,
+      "withdrawalOptions": null,
+      "proposalRPASupported": false,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": [],
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": "~100",
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:AATILIE",
+      "categoryCode": "CRITICAL_ILLNESS",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "危疾",
+      "productName": "自在自選危疾保-末期疾病及不能獨立生活",
+      "companyName": "友邦保險",
+      "type": "RIDER",
+      "rank": 99,
+      "desc": null,
+      "currencies": [
+        "USD"
+      ],
+      "frequencies": [
+        "MONTHLY",
+        "QUARTERLY",
+        "SEMI_ANNUALLY",
+        "ANNUALLY"
+      ],
+      "paymentTerm": [
+        "10",
+        "18",
+        "25",
+        "30"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": null,
+      "medicalOptionsRequiredField": null,
+      "quotationFieldRequirements": null,
+      "withdrawalable": false,
+      "withdrawalOptions": null,
+      "proposalRPASupported": false,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": [],
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": "~100",
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:ACCIDENTR",
+      "categoryCode": "ACCIDENT",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "意外",
+      "productName": "意外死亡賠償(附加計劃)",
+      "companyName": "友邦保險",
+      "type": "RIDER",
+      "rank": 99,
+      "desc": "",
+      "currencies": [
+        "USD",
+        "HKD"
+      ],
+      "frequencies": [
+        "ANNUALLY",
+        "SINGLE_PAYMENT",
+        "MONTHLY"
+      ],
+      "paymentTerm": [
+        "~65",
+        "~100"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": null,
+      "medicalOptionsRequiredField": null,
+      "quotationFieldRequirements": null,
+      "withdrawalable": false,
+      "withdrawalOptions": null,
+      "proposalRPASupported": true,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": [],
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": "緊隨著受保人65歲生日之保單年度終結時",
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:ADADB",
+      "categoryCode": "ACCIDENT",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "意外",
+      "productName": "意外死亡及斷肢附加契約",
+      "companyName": "友邦保險",
+      "type": "RIDER",
+      "rank": 99,
+      "desc": "",
+      "currencies": [
+        "USD"
+      ],
+      "frequencies": [
+        "ANNUALLY"
+      ],
+      "paymentTerm": [
+        "68"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": null,
+      "medicalOptionsRequiredField": null,
+      "quotationFieldRequirements": null,
+      "withdrawalable": false,
+      "withdrawalOptions": null,
+      "proposalRPASupported": true,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": [],
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": "緊隨著受保人65歲生日之保單年度終結時",
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:ADAP2",
+      "categoryCode": "ANNUITY",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "年金",
+      "productName": "AIA延期年金計劃2",
+      "companyName": "友邦保險",
+      "type": "BASIC",
+      "rank": 99,
+      "desc": "永遠不會太遲或太早開始規劃您的退休生活。無論您在人生旅途中處於哪個階段，現在就是最佳時機踏出第一步，邁向安穩美滿的黃金歲月。AIA延期年金計劃2是一份合資格的延期年金保單，為您提供潛在的回報及可靠的年金收入，受保年齡可達70歲。",
+      "currencies": [
+        "USD"
+      ],
+      "frequencies": [
+        "ANNUALLY",
+        "SEMI_ANNUALLY",
+        "MONTHLY"
+      ],
+      "paymentTerm": [
+        "5"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": null,
+      "medicalOptionsRequiredField": null,
+      "quotationFieldRequirements": null,
+      "withdrawalable": false,
+      "withdrawalOptions": null,
+      "proposalRPASupported": true,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": [],
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": {
+          "zhHansCN": "",
+          "zhHantHK": "",
+          "enUS": "",
+          "jaJP": null,
+          "koKR": null
+        }
+      },
+      "policyPeriod": "由保單繕發日起至年金期完結",
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "PREMIUM",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [
+        {
+          "field": "startAnnuity",
+          "fieldType": "array",
+          "fieldName": "年金款項開始年齡",
+          "value": null,
+          "fieldValue": "50,55,60,65,70,75",
+          "remark": null,
+          "required": false
+        }
+      ],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:AIAWOPR",
+      "categoryCode": "LIFE",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "人壽",
+      "productName": "免付保費附加契約",
+      "companyName": "友邦保險",
+      "type": "RIDER",
+      "rank": 99,
+      "desc": "",
+      "currencies": [
+        "USD"
+      ],
+      "frequencies": [
+        "ANNUALLY"
+      ],
+      "paymentTerm": [
+        "18"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": null,
+      "medicalOptionsRequiredField": null,
+      "quotationFieldRequirements": null,
+      "withdrawalable": false,
+      "withdrawalOptions": null,
+      "proposalRPASupported": true,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": [],
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": null,
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:AIR",
+      "categoryCode": "ACCIDENT",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "意外",
+      "productName": "全意保綜合意外保險附加契約",
+      "companyName": "友邦保險",
+      "type": "RIDER",
+      "rank": 99,
+      "desc": "死亡賠償附加契約、意外死亡及斷肢附加契約、簡易意外死亡及斷肢附加契約以及「全意保」綜合意外保險附加契約。",
+      "currencies": [
+        "USD",
+        "HKD",
+        "MOP"
+      ],
+      "frequencies": [
+        "ANNUALLY",
+        "SINGLE_PAYMENT"
+      ],
+      "paymentTerm": [
+        "~65"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": null,
+      "medicalOptionsRequiredField": null,
+      "quotationFieldRequirements": null,
+      "withdrawalable": false,
+      "withdrawalOptions": null,
+      "proposalRPASupported": false,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": [],
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": "~65",
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:AL2",
+      "categoryCode": "LIFE",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "人壽",
+      "productName": "裕滿人生保障計劃2",
+      "companyName": "友邦保險",
+      "type": "BASIC",
+      "rank": 99,
+      "desc": "「裕滿人生」保障計劃2提供終身人壽保障，並享穩健回報。一旦受保人（即保單內受保障的人士）不幸身故，我們將支付身故賠償予您指定的保單受益人。AIA因此特別為您帶來「裕滿人生」保障計劃2，提供終身人壽保障及保證回報，提供終身人壽保障及保證回報，讓您無後顧之憂，與摯愛共享美好人生！",
+      "currencies": [
+        "USD",
+        "HKD"
+      ],
+      "frequencies": [
+        "ANNUALLY",
+        "SINGLE_PAYMENT",
+        "MONTHLY"
+      ],
+      "paymentTerm": [
+        "1",
+        "5",
+        "10",
+        "18",
+        "25"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": null,
+      "medicalOptionsRequiredField": null,
+      "quotationFieldRequirements": [
+        {
+          "field": "Age",
+          "required": true
+        },
+        {
+          "field": "Gender",
+          "required": true
+        },
+        {
+          "field": "SmokeCondition",
+          "required": true
+        },
+        {
+          "field": "Currency",
+          "required": true
+        },
+        {
+          "field": "PremiumTerm",
+          "required": true
+        },
+        {
+          "field": "MedicalLevel",
+          "required": false
+        },
+        {
+          "field": "MedicalRegion",
+          "required": false
+        },
+        {
+          "field": "MedicalDeductible",
+          "required": false
+        }
+      ],
+      "withdrawalable": true,
+      "withdrawalOptions": null,
+      "proposalRPASupported": true,
+      "proposalRiders": [
+        "AIA:WPFREE",
+        "AIA:AIAWOPR",
+        "AIA:CIWOPRP",
+        "AIA:ACCIDENTR",
+        "AIA:ADADB",
+        "AIA:PS3ADDB",
+        "AIA:SADDR",
+        "AIA:ECIRP",
+        "AIA:SCER",
+        "AIA:AVFR",
+        "AIA:VHIPUSR",
+        "AIA:CEO5R",
+        "AIA:CEOP5R"
+      ],
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": [],
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": "終身",
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:AMR",
+      "categoryCode": "MEDICAL",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "醫療",
+      "productName": "嚴重疾病醫療保障附加契約",
+      "companyName": "友邦保險",
+      "type": "RIDER",
+      "rank": 99,
+      "desc": "嚴重疾病醫療保障附加契約配合您的危疾基本計劃，提供額外醫療保障。在您獲得現有危疾基本計劃的一筆過賠償後，此附加契約持續為您賠償醫療費用，全面鞏固您的健康防線。加入「AIA Vitality 健康程式」，即享保費9折及一系列獎賞和優惠，鼓勵您活得更健康。",
+      "currencies": [
+        "USD",
+        "HKD",
+        "MOP"
+      ],
+      "frequencies": [
+        "ANNUALLY",
+        "MONTHLY"
+      ],
+      "paymentTerm": [
+        "~100"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": {
+        "regions": [
+          "ASIA"
+        ],
+        "deductibles": [
+          {
+            "currency": "HKD",
+            "amounts": [
+              0,
+              16000,
+              25000
+            ]
+          },
+          {
+            "currency": "MOP",
+            "amounts": [
+              0,
+              16000,
+              25000
+            ]
+          },
+          {
+            "currency": "USD",
+            "amounts": [
+              0,
+              2000,
+              3125
+            ]
+          }
+        ],
+        "levels": [
+          "PRIVATE",
+          "SEMI_PRIVATE"
+        ],
+        "supplementaryBenefits": []
+      },
+      "medicalOptionsRequiredField": [
+        "regions",
+        "deductibles",
+        "levels"
+      ],
+      "quotationFieldRequirements": null,
+      "withdrawalable": false,
+      "withdrawalOptions": null,
+      "proposalRPASupported": true,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": [],
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": "終身",
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:AOACS",
+      "categoryCode": "CRITICAL_ILLNESS",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "危疾",
+      "productName": "AIA唯一摯保–癌症及嚴重傳染病保障",
+      "companyName": "友邦保險",
+      "type": "BASIC",
+      "rank": 99,
+      "desc": "「AIA唯一摯保 — 癌症及 嚴重傳染病保障」為癌症及原位癌整個醫療程序的嚴重程度作出客觀評估，通過清晰透明的分數錶，讓您充份掌握您的賠償，金額最高可達160%保額。同時，我們增設專為嚴重傳染病而設的保障，助您面對如 2019至2020年的2019冠狀病毒病或將來其他全球性傳染病。",
+      "currencies": [
+        "USD",
+        "HKD",
+        "MOP"
+      ],
+      "frequencies": [
+        "ANNUALLY",
+        "MONTHLY"
+      ],
+      "paymentTerm": [
+        "1",
+        "5"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": null,
+      "medicalOptionsRequiredField": null,
+      "quotationFieldRequirements": null,
+      "withdrawalable": false,
+      "withdrawalOptions": null,
+      "proposalRPASupported": true,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": [],
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": "~85",
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:AOACS(R)",
+      "categoryCode": "CRITICAL_ILLNESS",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "危疾",
+      "productName": "AIA唯一摯保–癌症及嚴重傳染病保障(附加契約)",
+      "companyName": "友邦保險",
+      "type": "RIDER",
+      "rank": 99,
+      "desc": "AIA唯一摯保 — 癌症及嚴重傳染病保障為癌症及原位癌整個醫療程序的嚴重程度作出客觀評估，通過清晰透明的分數表，讓您充份掌握您的賠償，金額最高可達160%保額。",
+      "currencies": [
+        "USD",
+        "HKD",
+        "MOP"
+      ],
+      "frequencies": [
+        "MONTHLY",
+        "QUARTERLY",
+        "SEMI_ANNUALLY",
+        "ANNUALLY"
+      ],
+      "paymentTerm": [
+        "~85"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": null,
+      "medicalOptionsRequiredField": null,
+      "quotationFieldRequirements": null,
+      "withdrawalable": false,
+      "withdrawalOptions": null,
+      "proposalRPASupported": true,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": [],
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": "~85",
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:AOACSIDP",
+      "categoryCode": "CRITICAL_ILLNESS",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "危疾",
+      "productName": "AIA唯一摯保明珠 - 全面保障",
+      "companyName": "友邦保險",
+      "type": "BASIC",
+      "rank": 99,
+      "desc": "為了成就您的無憂未來，AIA推出市場首創的創新保障計劃，保障任何一種疾病及受傷，例如癌症、心臟病、中風、併發症，甚至尚未發現的新型疾病。「AIA唯一摯保明珠 — 全面保障」以一套賠償準則，為您整個醫療過程的嚴重程度作出客觀評估，通過清晰透明的分數表，讓您充份掌握您的賠償，金額最高可達160%保額。",
+      "currencies": [
+        "USD",
+        "HKD",
+        "MOP"
+      ],
+      "frequencies": [
+        "MONTHLY",
+        "ANNUALLY",
+        "SINGLE_PAYMENT"
+      ],
+      "paymentTerm": [
+        "1",
+        "5",
+        "~85"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": null,
+      "medicalOptionsRequiredField": null,
+      "quotationFieldRequirements": null,
+      "withdrawalable": false,
+      "withdrawalOptions": null,
+      "proposalRPASupported": true,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": [],
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": "~85",
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:AOACSIDPR",
+      "categoryCode": "CRITICAL_ILLNESS",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "危疾",
+      "productName": "AIA唯一摯保明珠 - 全面保障(附加計劃)",
+      "companyName": "友邦保險",
+      "type": "RIDER",
+      "rank": 99,
+      "desc": "",
+      "currencies": [
+        "USD",
+        "HKD",
+        "MOP"
+      ],
+      "frequencies": [
+        "ANNUALLY",
+        "MONTHLY",
+        "SINGLE_PAYMENT"
+      ],
+      "paymentTerm": [
+        "1",
+        "5",
+        "~85"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": null,
+      "medicalOptionsRequiredField": null,
+      "quotationFieldRequirements": null,
+      "withdrawalable": false,
+      "withdrawalOptions": null,
+      "proposalRPASupported": true,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": null,
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": "~85",
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:AOAFP",
+      "categoryCode": "CRITICAL_ILLNESS",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "危疾",
+      "productName": "AIA唯一摯保–全面保障",
+      "companyName": "友邦保險",
+      "type": "BASIC",
+      "rank": 99,
+      "desc": "為了成就您的無憂未來，AIA推出市場首創的創新保障計劃，保障任何一種疾病及受傷，例如癌症、心臟病、中風、併發症，甚至尚未發現的新型疾病。「AIA唯一摯保-全面保障」以一套賠償準則，為您整個醫療過程的嚴重程度作出客觀評估，通過清晰透明的分數表，讓您充份掌握您的賠償，金額最高可達160%保額。",
+      "currencies": [
+        "USD",
+        "HKD",
+        "MOP"
+      ],
+      "frequencies": [
+        "MONTHLY",
+        "ANNUALLY",
+        "SINGLE_PAYMENT"
+      ],
+      "paymentTerm": [
+        "1",
+        "5",
+        "~85"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": null,
+      "medicalOptionsRequiredField": null,
+      "quotationFieldRequirements": null,
+      "withdrawalable": false,
+      "withdrawalOptions": null,
+      "proposalRPASupported": true,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": [],
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": "~85",
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:AOAFP(R)",
+      "categoryCode": "LIFE",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "人壽",
+      "productName": "AIA唯一摯保 – 全面保障(附加計劃)",
+      "companyName": "友邦保險",
+      "type": "RIDER",
+      "rank": 99,
+      "desc": "為了成就您的無憂未來，AIA推出市場首創的創新保障計劃，保障任何一種疾病及受傷，例如癌症、心臟病、中風、併發症，甚至尚未發現的新型疾病。「AIA唯一摯保 — 全面保障」以一套賠償準則，為您整個醫療過程的嚴重程度作出客觀評估，通過清晰透明的分數表，讓您充份掌握您的賠償，金額最高可達160%保額。",
+      "currencies": [
+        "USD",
+        "HKD",
+        "MOP"
+      ],
+      "frequencies": [
+        "MONTHLY",
+        "ANNUALLY",
+        "SINGLE_PAYMENT"
+      ],
+      "paymentTerm": [
+        "~85"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": null,
+      "medicalOptionsRequiredField": null,
+      "quotationFieldRequirements": null,
+      "withdrawalable": false,
+      "withdrawalOptions": null,
+      "proposalRPASupported": true,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": [],
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": "~85",
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:AOAPCS",
+      "categoryCode": "CRITICAL_ILLNESS",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "危疾",
+      "productName": "AIA唯一摯保明珠-癌症及嚴重傳染病保障",
+      "companyName": "友邦保險",
+      "type": "BASIC",
+      "rank": 99,
+      "desc": "「AIA唯一摯保明珠 – 癌症及嚴重傳染病保障」是一個嚴重程度健康保障計劃，提供人壽及按照癌症及原位癌造成的嚴重程度的健康保障。同時包括因世界衞生組織視為國際關注的突發公共衞生事件現有及未知的嚴重傳染病提供保障。",
+      "currencies": [
+        "USD",
+        "HKD",
+        "MOP"
+      ],
+      "frequencies": [
+        "ANNUALLY",
+        "MONTHLY"
+      ],
+      "paymentTerm": [
+        "1",
+        "5"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": null,
+      "medicalOptionsRequiredField": null,
+      "quotationFieldRequirements": null,
+      "withdrawalable": false,
+      "withdrawalOptions": null,
+      "proposalRPASupported": true,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": [],
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": "~85",
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:AOAPCSR",
+      "categoryCode": "CRITICAL_ILLNESS",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "危疾",
+      "productName": "AIA唯一摯保明珠-癌症及嚴重傳染病保障(附加契約)",
+      "companyName": "友邦保險",
+      "type": "RIDER",
+      "rank": 99,
+      "desc": "",
+      "currencies": [
+        "USD",
+        "HKD",
+        "MOP"
+      ],
+      "frequencies": [
+        "ANNUALLY",
+        "MONTHLY"
+      ],
+      "paymentTerm": [
+        "1",
+        "5"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": null,
+      "medicalOptionsRequiredField": null,
+      "quotationFieldRequirements": null,
+      "withdrawalable": false,
+      "withdrawalOptions": null,
+      "proposalRPASupported": true,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": null,
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": "~85",
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:APOR",
+      "categoryCode": "LIFE",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "人壽",
+      "productName": "額外購買權附加契約",
+      "companyName": "友邦保險",
+      "type": "RIDER",
+      "rank": 99,
+      "desc": "",
+      "currencies": [
+        "USD",
+        "HKD",
+        "MOP"
+      ],
+      "frequencies": [
+        "ANNUALLY"
+      ],
+      "paymentTerm": [
+        "10"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": null,
+      "medicalOptionsRequiredField": null,
+      "quotationFieldRequirements": null,
+      "withdrawalable": false,
+      "withdrawalOptions": null,
+      "proposalRPASupported": true,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": [],
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": "10",
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:AVF",
+      "categoryCode": "MEDICAL",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "醫療",
+      "productName": "AIA自願醫保靈活計劃",
+      "companyName": "友邦保險",
+      "type": "BASIC",
+      "rank": 99,
+      "desc": "AIA自願醫保靈活計劃除了涵蓋自願醫保計劃要求的重點醫療保障之外，更提供額外醫療保障、個人療程管理服務、專科網絡服務及更多保障。此計劃不設每年保障限額及終身保障限額，同時保證終身續保，並提供三種不同的計劃選項，以配合您的預算及醫療需要。計劃亦設無索償折扣，如您沒有作出索償，將可獲高達25%保費折扣。",
+      "currencies": [
+        "USD",
+        "HKD"
+      ],
+      "frequencies": [
+        "ANNUALLY",
+        "MONTHLY"
+      ],
+      "paymentTerm": [
+        "~100"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": {
+        "regions": [],
+        "deductibles": [],
+        "levels": [
+          "PRIVATE",
+          "SEMI_PRIVATE",
+          "WARD"
+        ],
+        "supplementaryBenefits": []
+      },
+      "medicalOptionsRequiredField": [
+        "levels"
+      ],
+      "quotationFieldRequirements": null,
+      "withdrawalable": false,
+      "withdrawalOptions": null,
+      "proposalRPASupported": true,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": [],
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": "終身",
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:AVFR",
+      "categoryCode": "MEDICAL",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "醫療",
+      "productName": "AIA自願醫保靈活計劃(附加契約)",
+      "companyName": "友邦保險",
+      "type": "RIDER",
+      "rank": 99,
+      "desc": "AIA自願醫保靈活計劃是自願醫保計劃下的認可產品，您可就有關保費申請作年度應課稅收入的稅務扣減。保單持有人作為納稅人，可為其本人或任何一名指明親屬*，即每名認可產品的受保人，申請每個課稅年度最多8,000港元的扣稅額。指明親屬*數目不設上限。您可享有優質的醫療保障之餘，同享稅務扣減優惠。",
+      "currencies": [
+        "USD",
+        "HKD"
+      ],
+      "frequencies": [
+        "ANNUALLY",
+        "MONTHLY",
+        "QUARTERLY",
+        "SEMI_ANNUALLY",
+        "SINGLE_PAYMENT"
+      ],
+      "paymentTerm": [
+        "~100"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": {
+        "regions": [],
+        "deductibles": null,
+        "levels": [
+          "PRIVATE",
+          "WARD",
+          "SEMI_PRIVATE"
+        ],
+        "supplementaryBenefits": []
+      },
+      "medicalOptionsRequiredField": [
+        "levels"
+      ],
+      "quotationFieldRequirements": [
+        {
+          "field": "Age",
+          "required": true
+        },
+        {
+          "field": "Gender",
+          "required": true
+        },
+        {
+          "field": "SmokeCondition",
+          "required": false
+        },
+        {
+          "field": "Currency",
+          "required": true
+        },
+        {
+          "field": "PremiumTerm",
+          "required": false
+        },
+        {
+          "field": "MedicalLevel",
+          "required": true
+        },
+        {
+          "field": "MedicalRegion",
+          "required": false
+        },
+        {
+          "field": "MedicalDeductible",
+          "required": false
+        }
+      ],
+      "withdrawalable": false,
+      "withdrawalOptions": null,
+      "proposalRPASupported": true,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": [],
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": "終身",
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:AVS",
+      "categoryCode": "MEDICAL",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "醫療",
+      "productName": "AIA自願醫保標準計劃",
+      "companyName": "友邦保險",
+      "type": "BASIC",
+      "rank": 99,
+      "desc": "在您建立美好人生的路上,適切的醫療保障能讓您多一份安心。AIA自願醫保標準計劃涵蓋重點醫療保障,保證續保至100歲並不設終身保障限額,未知的已有疾病亦一樣受保。",
+      "currencies": [
+        "HKD"
+      ],
+      "frequencies": [
+        "ANNUALLY",
+        "MONTHLY"
+      ],
+      "paymentTerm": [
+        "~100"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": {
+        "regions": [],
+        "deductibles": [],
+        "levels": [],
+        "supplementaryBenefits": []
+      },
+      "medicalOptionsRequiredField": [],
+      "quotationFieldRequirements": null,
+      "withdrawalable": false,
+      "withdrawalOptions": null,
+      "proposalRPASupported": false,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": [],
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": "~100",
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:AVSR",
+      "categoryCode": "MEDICAL",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "醫療",
+      "productName": "AIA自願醫保標準計劃(附加計劃)",
+      "companyName": "友邦保險",
+      "type": "RIDER",
+      "rank": 99,
+      "desc": "AIA自願醫保標準計劃是自願醫保計劃下的認可產品，您可就有關保費申請作年度應課稅收入的稅務扣減。保單持有人作為納稅人，可為其本人或任何一名指明親屬，即每名認可產品的受保人，申請每個課稅年度最多8,000港元的扣稅額。指明親屬數目不設上限。您可享有適合您的重點醫療保障，同享稅務扣減優惠。",
+      "currencies": [
+        "HKD"
+      ],
+      "frequencies": [
+        "ANNUALLY",
+        "MONTHLY",
+        "QUARTERLY",
+        "SEMI_ANNUALLY",
+        "SINGLE_PAYMENT"
+      ],
+      "paymentTerm": [
+        "~100"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": {
+        "regions": [],
+        "deductibles": null,
+        "levels": [],
+        "supplementaryBenefits": []
+      },
+      "medicalOptionsRequiredField": [],
+      "quotationFieldRequirements": null,
+      "withdrawalable": false,
+      "withdrawalOptions": null,
+      "proposalRPASupported": false,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": [],
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": "~100",
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:AVSW",
+      "categoryCode": "MEDICAL",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "醫療",
+      "productName": "AIA自願醫保睿選計劃",
+      "companyName": "友邦保險",
+      "type": "BASIC",
+      "rank": 99,
+      "desc": "隨著健康威脅日增及醫療通脹持續上升，且更要面對不熟悉或複雜的醫療流程，長遠獲得可負擔的優質私營醫療服務比以往更加重要。AIA自願醫保睿選計劃讓您以可持續及相宜保費享有醫療保障，若您在香港、澳門或中國內地選擇於「睿選指定醫院」住院並符合指定資格要求，此計劃更可為您提供舒適病房級別。計劃提供廣泛的醫療保障，主要醫療費用不設分項賠償限額。同時提供多項醫護服務，讓您未來安心無憂。",
+      "currencies": [
+        "USD",
+        "HKD"
+      ],
+      "frequencies": [
+        "ANNUALLY",
+        "SEMI_ANNUALLY",
+        "QUARTERLY",
+        "MONTHLY"
+      ],
+      "paymentTerm": [
+        "~100"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": {
+        "regions": [
+          "ASIA",
+          "WORLDWIDE"
+        ],
+        "deductibles": [
+          {
+            "currency": "HKD",
+            "amounts": [
+              0,
+              8800,
+              18000,
+              30000,
+              55000
+            ]
+          },
+          {
+            "currency": "USD",
+            "amounts": [
+              0,
+              1100,
+              2250,
+              3750,
+              6875
+            ]
+          }
+        ],
+        "levels": [
+          "WARD",
+          "PRIVATE",
+          "SEMI_PRIVATE"
+        ],
+        "supplementaryBenefits": []
+      },
+      "medicalOptionsRequiredField": [
+        "regions",
+        "deductibles",
+        "levels"
+      ],
+      "quotationFieldRequirements": null,
+      "withdrawalable": false,
+      "withdrawalOptions": null,
+      "proposalRPASupported": false,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": [],
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": {
+          "zhHansCN": "",
+          "zhHantHK": "",
+          "enUS": "",
+          "jaJP": null,
+          "koKR": null
+        }
+      },
+      "policyPeriod": null,
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": 1761494429909,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:AVSWR",
+      "categoryCode": "MEDICAL",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "醫療",
+      "productName": "AIA自願醫保睿選計劃(附加計劃)",
+      "companyName": "友邦保險",
+      "type": "RIDER",
+      "rank": 99,
+      "desc": "隨著健康威脅日增及醫療通脹持續上升，且更要面對不熟悉或複雜的醫療流程，長遠獲得可負擔的優質私營醫療服務比以往更加重要。AIA自願醫保睿選計劃讓您以可持續及相宜保費享有醫療保障，若您在香港、澳門或中國內地選擇於「睿選指定醫院」住院並符合指定資格要求，此計劃更可為您提供舒適病房級別。計劃提供廣泛的醫療保障，主要醫療費用不設分項賠償限額。同時提供多項醫護服務，讓您未來安心無憂。",
+      "currencies": [
+        "USD",
+        "HKD"
+      ],
+      "frequencies": [
+        "ANNUALLY",
+        "SEMI_ANNUALLY",
+        "QUARTERLY",
+        "MONTHLY"
+      ],
+      "paymentTerm": [
+        "~100"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": {
+        "regions": [
+          "ASIA",
+          "WORLDWIDE"
+        ],
+        "deductibles": [
+          {
+            "currency": "HKD",
+            "amounts": [
+              0,
+              8800,
+              18000,
+              30000,
+              55000
+            ]
+          },
+          {
+            "currency": "USD",
+            "amounts": [
+              0,
+              1100,
+              2250,
+              3750,
+              6875
+            ]
+          }
+        ],
+        "levels": [
+          "WARD",
+          "PRIVATE",
+          "SEMI_PRIVATE"
+        ],
+        "supplementaryBenefits": []
+      },
+      "medicalOptionsRequiredField": [
+        "regions",
+        "deductibles",
+        "levels"
+      ],
+      "quotationFieldRequirements": null,
+      "withdrawalable": false,
+      "withdrawalOptions": null,
+      "proposalRPASupported": false,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": [],
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": {
+          "zhHansCN": "",
+          "zhHantHK": "",
+          "enUS": "",
+          "jaJP": null,
+          "koKR": null
+        }
+      },
+      "policyPeriod": null,
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:BL",
+      "categoryCode": "ACCIDENT",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "意外",
+      "productName": "行李遺失",
+      "companyName": "友邦保險",
+      "type": "RIDER",
+      "rank": 99,
+      "desc": "「伴您遨遊中國」特別為到中國和澳門外遊之人士提供全面保障，包括意外受傷、生病以至遺失行李或個人物品。只需出示「中國支援卡」，即可在指定醫院即時就醫，避免延誤。AIA為您提供全年無限次旅程支援。",
+      "currencies": [
+        "HKD"
+      ],
+      "frequencies": [
+        "ANNUALLY"
+      ],
+      "paymentTerm": [
+        "~71"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": null,
+      "medicalOptionsRequiredField": null,
+      "quotationFieldRequirements": null,
+      "withdrawalable": false,
+      "withdrawalOptions": null,
+      "proposalRPASupported": false,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": [],
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": "~71",
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:BP2EP",
+      "categoryCode": "SAVINGS",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "儲蓄",
+      "productName": "充裕未來計劃2(特級保障)",
+      "companyName": "友邦保險",
+      "type": "BASIC",
+      "rank": 99,
+      "desc": "要實現夢想，您需要充裕的資本以及周全的保障。因此，AIA特意為您獻上「充裕未來」計劃2(特級保障)，提供豐厚的潛在回報及全面的人壽保障。當您面對突如其來的不幸事故時，此計劃亦提供靈活的賠款方式供您選擇，讓您安心面對挑戰，助您在邁向夢想的道路上，自信從容。",
+      "currencies": [
+        "USD"
+      ],
+      "frequencies": [
+        "ANNUALLY",
+        "MONTHLY"
+      ],
+      "paymentTerm": [
+        "5",
+        "12",
+        "18"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": null,
+      "medicalOptionsRequiredField": null,
+      "quotationFieldRequirements": null,
+      "withdrawalable": true,
+      "withdrawalOptions": null,
+      "proposalRPASupported": true,
+      "proposalRiders": [
+        "AIA:SGHR2",
+        "AIA:PUPMPR",
+        "AIA:HJGR",
+        "AIA:HB",
+        "AIA:CG3SP",
+        "AIA:CG3PP",
+        "AIA:CG3MP",
+        "AIA:CGP3SP",
+        "AIA:CGP3PP",
+        "AIA:CGP3MP",
+        "AIA:CEOP5R",
+        "AIA:CEO5R",
+        "AIA:VHIPUSR",
+        "AIA:AVFR",
+        "AIA:OPCEOPR",
+        "AIA:OPCEOR"
+      ],
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": [],
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": "終身",
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:CAPP",
+      "categoryCode": "ACCIDENT",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "意外",
+      "productName": "伴您遨遊中國",
+      "companyName": "友邦保險",
+      "type": "BASIC",
+      "rank": 99,
+      "desc": "無論到外地公幹或旅遊，我們都希望一切順利。然而，意外總是難以預料。「伴您遨遊中國」特別為到中國和澳門外遊之人士提供全面保障，包 括意外受傷、生病以至遺失行李或個人物品。只需出示「中國支援卡」， 即可在指定醫院即時就醫，避免延誤。AIA為您提供全年無限次旅程支援。",
+      "currencies": [
+        "HKD"
+      ],
+      "frequencies": [
+        "ANNUALLY"
+      ],
+      "paymentTerm": [
+        "~71"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": null,
+      "medicalOptionsRequiredField": null,
+      "quotationFieldRequirements": null,
+      "withdrawalable": false,
+      "withdrawalOptions": null,
+      "proposalRPASupported": false,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": [],
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": "~71",
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:CCE",
+      "categoryCode": "CRITICAL_ILLNESS",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "危疾",
+      "productName": "智護癌症保",
+      "companyName": "友邦保險",
+      "type": "BASIC",
+      "rank": 99,
+      "desc": "「智護癌症保」,每日只需支付低至3港元保費便可獲1,000,000港元保障,並承諾續保至受保人80歲。此計劃為4大常見癌症提供指定癌症保障：肺癌、大腸及直腸癌、乳癌及前列腺癌。萬一不幸確診，我們將提供一筆過的賠償額，助您渡過難關，讓您安心對抗病魔。",
+      "currencies": [
+        "HKD",
+        "MOP"
+      ],
+      "frequencies": [
+        "ANNUALLY",
+        "MONTHLY"
+      ],
+      "paymentTerm": [
+        "~80"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": null,
+      "medicalOptionsRequiredField": null,
+      "quotationFieldRequirements": null,
+      "withdrawalable": false,
+      "withdrawalOptions": null,
+      "proposalRPASupported": false,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": [],
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": "~80",
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:CEO5",
+      "categoryCode": "MEDICAL",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "醫療",
+      "productName": "至尊醫療計劃5",
+      "companyName": "友邦保險",
+      "type": "BASIC",
+      "rank": 99,
+      "desc": "您擁有卓越成就，更要為家庭的未來肩負起責任，可靠的醫療保障計劃絕對不可或缺。AIA「至尊醫療計劃5」/「至尊醫療計劃(環球)5」提供終生優質醫療保障，令您在需要醫療的情況下都能安心。此計劃提供全球醫療保障、保證終身續保，且全數賠償主要保障項目的醫療開支，讓您可安然地全力拼搏、盡享人生。",
+      "currencies": [
+        "USD",
+        "HKD",
+        "MOP"
+      ],
+      "frequencies": [
+        "ANNUALLY",
+        "MONTHLY"
+      ],
+      "paymentTerm": [
+        "~100"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": {
+        "regions": [
+          "WORLDWIDE_EXCEPT_US",
+          "WORLDWIDE"
+        ],
+        "deductibles": [
+          {
+            "currency": "HKD",
+            "amounts": [
+              0,
+              16000,
+              25000,
+              50000
+            ]
+          },
+          {
+            "currency": "USD",
+            "amounts": [
+              0,
+              2000,
+              3125,
+              6250
+            ]
+          },
+          {
+            "currency": "MOP",
+            "amounts": [
+              0,
+              16000,
+              25000,
+              50000
+            ]
+          }
+        ],
+        "levels": [],
+        "supplementaryBenefits": [
+          "OUTPATIENT",
+          "DENTAL"
+        ]
+      },
+      "medicalOptionsRequiredField": [
+        "regions",
+        "deductibles"
+      ],
+      "quotationFieldRequirements": [
+        {
+          "field": "Age",
+          "required": true
+        },
+        {
+          "field": "Gender",
+          "required": false
+        },
+        {
+          "field": "SmokeCondition",
+          "required": false
+        },
+        {
+          "field": "Currency",
+          "required": true
+        },
+        {
+          "field": "PremiumTerm",
+          "required": false
+        },
+        {
+          "field": "MedicalLevel",
+          "required": false
+        },
+        {
+          "field": "MedicalRegion",
+          "required": false
+        },
+        {
+          "field": "MedicalDeductible",
+          "required": true
+        }
+      ],
+      "withdrawalable": false,
+      "withdrawalOptions": null,
+      "proposalRPASupported": false,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": [],
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": "終身",
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:CEO5R",
+      "categoryCode": "MEDICAL",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "醫療",
+      "productName": "至尊醫療計劃5(附加契約)",
+      "companyName": "友邦保險",
+      "type": "RIDER",
+      "rank": 99,
+      "desc": "AIA「至尊醫療計劃5」提供終生優質醫療保障,令您在需要醫療的情況下都能安心。此計劃提供全球醫療保障、保證終身續保,且全數賠償主要保障項目的醫療開支，讓您可安然地全力拼搏、盡享人生。",
+      "currencies": [
+        "USD",
+        "HKD"
+      ],
+      "frequencies": [
+        "ANNUALLY",
+        "MONTHLY"
+      ],
+      "paymentTerm": [
+        "~100"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": {
+        "regions": [
+          "WORLDWIDE",
+          "WORLDWIDE_EXCEPT_US"
+        ],
+        "deductibles": [
+          {
+            "currency": "HKD",
+            "amounts": [
+              0,
+              16000,
+              25000,
+              50000
+            ]
+          },
+          {
+            "currency": "USD",
+            "amounts": [
+              0,
+              2000,
+              3125,
+              6250
+            ]
+          }
+        ],
+        "levels": [],
+        "supplementaryBenefits": [
+          "DENTAL",
+          "OUTPATIENT"
+        ]
+      },
+      "medicalOptionsRequiredField": [
+        "regions",
+        "deductibles"
+      ],
+      "quotationFieldRequirements": null,
+      "withdrawalable": false,
+      "withdrawalOptions": null,
+      "proposalRPASupported": true,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": [],
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": "終身",
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:CEOP5",
+      "categoryCode": "MEDICAL",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "醫療",
+      "productName": "至尊明珠醫療計劃5",
+      "companyName": "友邦保險",
+      "type": "BASIC",
+      "rank": 99,
+      "desc": "您擁有卓越成就，更要為家庭的未來肩負起責任，可靠的醫療保障計劃絕對 不可或缺 。AIA「至尊明珠醫療計劃5」/「至尊明珠醫療計劃(環球)5」提供終生優質醫療保障，令您在需要醫療的情況下都能安心。",
+      "currencies": [
+        "USD",
+        "HKD",
+        "MOP"
+      ],
+      "frequencies": [
+        "ANNUALLY",
+        "MONTHLY"
+      ],
+      "paymentTerm": [
+        "~100"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": {
+        "regions": [
+          "WORLDWIDE",
+          "WORLDWIDE_EXCEPT_US"
+        ],
+        "deductibles": [
+          {
+            "currency": "HKD",
+            "amounts": [
+              0,
+              16000,
+              25000,
+              50000
+            ]
+          },
+          {
+            "currency": "MOP",
+            "amounts": [
+              0,
+              16000,
+              25000,
+              50000
+            ]
+          },
+          {
+            "currency": "USD",
+            "amounts": [
+              0,
+              2000,
+              3125,
+              6250
+            ]
+          }
+        ],
+        "levels": [],
+        "supplementaryBenefits": []
+      },
+      "medicalOptionsRequiredField": [
+        "regions",
+        "deductibles"
+      ],
+      "quotationFieldRequirements": [
+        {
+          "field": "Age",
+          "required": true
+        },
+        {
+          "field": "Gender",
+          "required": false
+        },
+        {
+          "field": "SmokeCondition",
+          "required": false
+        },
+        {
+          "field": "Currency",
+          "required": true
+        },
+        {
+          "field": "PremiumTerm",
+          "required": false
+        },
+        {
+          "field": "MedicalLevel",
+          "required": false
+        },
+        {
+          "field": "MedicalRegion",
+          "required": true
+        },
+        {
+          "field": "MedicalDeductible",
+          "required": true
+        }
+      ],
+      "withdrawalable": false,
+      "withdrawalOptions": null,
+      "proposalRPASupported": false,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": [],
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": "終身",
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:CEOP5R",
+      "categoryCode": "MEDICAL",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "醫療",
+      "productName": "至尊明珠醫療計劃5(附加契約)",
+      "companyName": "友邦保險",
+      "type": "RIDER",
+      "rank": 99,
+      "desc": "AIA「 至尊明珠醫療計劃5」提供終生優質醫療保障，令您在需要醫療的情況下都能安心。此計劃提供全球醫療保障、保證終身續保，且全數賠償保障項目的醫療開支，讓您可安然地全力拼搏、盡享人生。",
+      "currencies": [
+        "USD",
+        "HKD"
+      ],
+      "frequencies": [
+        "ANNUALLY",
+        "MONTHLY"
+      ],
+      "paymentTerm": [
+        "~100"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": {
+        "regions": [
+          "WORLDWIDE",
+          "WORLDWIDE_EXCEPT_US"
+        ],
+        "deductibles": [
+          {
+            "currency": "HKD",
+            "amounts": [
+              0,
+              16000,
+              25000,
+              50000
+            ]
+          },
+          {
+            "currency": "USD",
+            "amounts": [
+              0,
+              2000,
+              3125,
+              6250
+            ]
+          }
+        ],
+        "levels": [],
+        "supplementaryBenefits": []
+      },
+      "medicalOptionsRequiredField": [
+        "regions",
+        "deductibles"
+      ],
+      "quotationFieldRequirements": null,
+      "withdrawalable": false,
+      "withdrawalOptions": null,
+      "proposalRPASupported": true,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": [],
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": "終身",
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:CEOPW5",
+      "categoryCode": "MEDICAL",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "醫療",
+      "productName": "至尊明珠醫療計劃(環球)5",
+      "companyName": "友邦保險",
+      "type": "BASIC",
+      "rank": 99,
+      "desc": "此計劃提供全球醫療保障、保證終身續保，且全數賠償主要保障項目的醫療開支，讓您可安然地全力拼搏、盡享人生。",
+      "currencies": [
+        "USD",
+        "HKD",
+        "MOP"
+      ],
+      "frequencies": [
+        "ANNUALLY",
+        "MONTHLY"
+      ],
+      "paymentTerm": [
+        "~100"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": {
+        "regions": [
+          "WORLDWIDE",
+          "WORLDWIDE_EXCEPT_US"
+        ],
+        "deductibles": [
+          {
+            "currency": "HKD",
+            "amounts": [
+              0,
+              16000,
+              25000,
+              50000
+            ]
+          },
+          {
+            "currency": "MOP",
+            "amounts": [
+              0,
+              16000,
+              25000,
+              50000
+            ]
+          },
+          {
+            "currency": "USD",
+            "amounts": [
+              0,
+              2000,
+              3125,
+              6250
+            ]
+          }
+        ],
+        "levels": [],
+        "supplementaryBenefits": []
+      },
+      "medicalOptionsRequiredField": [
+        "regions",
+        "deductibles"
+      ],
+      "quotationFieldRequirements": [
+        {
+          "field": "Age",
+          "required": true
+        },
+        {
+          "field": "Gender",
+          "required": false
+        },
+        {
+          "field": "SmokeCondition",
+          "required": false
+        },
+        {
+          "field": "Currency",
+          "required": true
+        },
+        {
+          "field": "PremiumTerm",
+          "required": false
+        },
+        {
+          "field": "MedicalLevel",
+          "required": false
+        },
+        {
+          "field": "MedicalRegion",
+          "required": true
+        },
+        {
+          "field": "MedicalDeductible",
+          "required": true
+        }
+      ],
+      "withdrawalable": false,
+      "withdrawalOptions": null,
+      "proposalRPASupported": false,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": [],
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": "終身",
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:CEOPW5R",
+      "categoryCode": "MEDICAL",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "醫療",
+      "productName": "至尊明珠醫療計劃(環球)5(附加契約)",
+      "companyName": "友邦保險",
+      "type": "RIDER",
+      "rank": 99,
+      "desc": "此計劃提供全球醫療保障、保證終身續保，且全數賠償主要保障項目的醫療開支，讓您可安然地全力拼搏、盡享人生。",
+      "currencies": [
+        "USD",
+        "HKD",
+        "MOP"
+      ],
+      "frequencies": [
+        "ANNUALLY",
+        "MONTHLY"
+      ],
+      "paymentTerm": [
+        "~100"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": {
+        "regions": [
+          "WORLDWIDE",
+          "WORLDWIDE_EXCEPT_US"
+        ],
+        "deductibles": [
+          {
+            "currency": "HKD",
+            "amounts": [
+              0,
+              16000,
+              25000,
+              50000
+            ]
+          },
+          {
+            "currency": "USD",
+            "amounts": [
+              0,
+              2000,
+              3125,
+              6250
+            ]
+          }
+        ],
+        "levels": [],
+        "supplementaryBenefits": null
+      },
+      "medicalOptionsRequiredField": [
+        "regions",
+        "deductibles"
+      ],
+      "quotationFieldRequirements": null,
+      "withdrawalable": false,
+      "withdrawalOptions": null,
+      "proposalRPASupported": false,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": [],
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": "終身",
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:CEOW5",
+      "categoryCode": "MEDICAL",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "醫療",
+      "productName": "至尊醫療計劃(環球)5",
+      "companyName": "友邦保險",
+      "type": "BASIC",
+      "rank": 99,
+      "desc": "您擁有卓越成就,更要為家庭的未來肩負起責任,可靠的醫療保障計劃絕對不可或缺。AIA「至尊醫療計劃5」/「至尊醫療計劃(環球)5」提供終生優質醫療保障,令您在需要醫療的情況下都能安心。此計劃提供全球醫療保障、保證終身續保,且全數賠償主要保障項目的醫療開支,讓您可安然地全力拼搏、盡享人生。",
+      "currencies": [
+        "USD",
+        "HKD",
+        "MOP"
+      ],
+      "frequencies": [
+        "ANNUALLY",
+        "MONTHLY"
+      ],
+      "paymentTerm": [
+        "~100"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": {
+        "regions": [
+          "WORLDWIDE",
+          "WORLDWIDE_EXCEPT_US"
+        ],
+        "deductibles": [
+          {
+            "currency": "HKD",
+            "amounts": [
+              0,
+              16000,
+              25000,
+              50000
+            ]
+          },
+          {
+            "currency": "USD",
+            "amounts": [
+              0,
+              2000,
+              3125,
+              6250
+            ]
+          },
+          {
+            "currency": "MOP",
+            "amounts": [
+              0,
+              16000,
+              25000,
+              50000
+            ]
+          }
+        ],
+        "levels": [],
+        "supplementaryBenefits": [
+          "OUTPATIENT",
+          "DENTAL"
+        ]
+      },
+      "medicalOptionsRequiredField": [
+        "regions",
+        "deductibles"
+      ],
+      "quotationFieldRequirements": [
+        {
+          "field": "Age",
+          "required": true
+        },
+        {
+          "field": "Gender",
+          "required": false
+        },
+        {
+          "field": "SmokeCondition",
+          "required": false
+        },
+        {
+          "field": "Currency",
+          "required": true
+        },
+        {
+          "field": "PremiumTerm",
+          "required": false
+        },
+        {
+          "field": "MedicalLevel",
+          "required": false
+        },
+        {
+          "field": "MedicalRegion",
+          "required": false
+        },
+        {
+          "field": "MedicalDeductible",
+          "required": true
+        }
+      ],
+      "withdrawalable": false,
+      "withdrawalOptions": null,
+      "proposalRPASupported": false,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": [],
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": "終身",
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:CEOW5R",
+      "categoryCode": "MEDICAL",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "醫療",
+      "productName": "至尊醫療計劃(環球)5(附加契約)",
+      "companyName": "友邦保險",
+      "type": "RIDER",
+      "rank": 99,
+      "desc": "AIA「至尊醫療計劃(環球)5」提供終生優質醫療保障,令您在需要醫療的情況下都能安心。此計劃提供全球醫療保障、保證終身續保,且全數賠償主要保障項目的醫療開支,讓您可安然地全力拼搏、盡享人生。",
+      "currencies": [
+        "USD",
+        "HKD",
+        "MOP"
+      ],
+      "frequencies": [
+        "ANNUALLY",
+        "MONTHLY"
+      ],
+      "paymentTerm": [
+        "~100"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": {
+        "regions": [
+          "WORLDWIDE_EXCEPT_US",
+          "WORLDWIDE"
+        ],
+        "deductibles": [
+          {
+            "currency": "HKD",
+            "amounts": [
+              0,
+              16000,
+              25000,
+              50000
+            ]
+          },
+          {
+            "currency": "USD",
+            "amounts": [
+              0,
+              2000,
+              3125,
+              6250
+            ]
+          }
+        ],
+        "levels": [],
+        "supplementaryBenefits": [
+          "OUTPATIENT",
+          "DENTAL"
+        ]
+      },
+      "medicalOptionsRequiredField": [
+        "regions",
+        "deductibles"
+      ],
+      "quotationFieldRequirements": null,
+      "withdrawalable": false,
+      "withdrawalOptions": null,
+      "proposalRPASupported": false,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": [],
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": "終身",
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:CG3",
+      "categoryCode": "MEDICAL",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "醫療",
+      "productName": "癌症全方位保障3",
+      "companyName": "友邦保險",
+      "type": "BASIC",
+      "rank": 99,
+      "desc": "「癌症全方位保障3」為實報實銷的癌症醫療計劃，並結合嶄新的保障，包括為癌症篩查和臨床試驗藥物提供經濟支援，及一站式個人化增值服務，且保費相宜。此計劃會於癌症來襲時，為您和摯愛提供周全的支援。",
+      "currencies": [
+        "USD",
+        "HKD"
+      ],
+      "frequencies": [
+        "MONTHLY",
+        "QUARTERLY",
+        "SEMI_ANNUALLY",
+        "ANNUALLY"
+      ],
+      "paymentTerm": [
+        "~100"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": {
+        "regions": [],
+        "deductibles": null,
+        "levels": [],
+        "supplementaryBenefits": []
+      },
+      "medicalOptionsRequiredField": [],
+      "quotationFieldRequirements": null,
+      "withdrawalable": false,
+      "withdrawalOptions": null,
+      "proposalRPASupported": false,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": [],
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": "終身",
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:CG3MP",
+      "categoryCode": "MEDICAL",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "醫療",
+      "productName": "癌症全方位保障3 (特級)附加契約",
+      "companyName": "友邦保險",
+      "type": "RIDER",
+      "rank": 99,
+      "desc": "「癌症全方位保障3」為實報實銷的癌症醫療計劃，並結合嶄新的保障，包括為癌症篩查和臨床試驗藥物提供經濟支援，及一站式個人化增值服務，且保費相宜。此計劃會於癌症來襲時，為您和摯愛提供周全的支援。",
+      "currencies": [
+        "USD",
+        "HKD"
+      ],
+      "frequencies": [
+        "MONTHLY",
+        "QUARTERLY",
+        "SEMI_ANNUALLY",
+        "ANNUALLY"
+      ],
+      "paymentTerm": [
+        "~100"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": null,
+      "medicalOptionsRequiredField": null,
+      "quotationFieldRequirements": null,
+      "withdrawalable": false,
+      "withdrawalOptions": null,
+      "proposalRPASupported": true,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": null,
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": "終身",
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:CG3PP",
+      "categoryCode": "MEDICAL",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "醫療",
+      "productName": "癌症全方位保障3 (升級)附加契約",
+      "companyName": "友邦保險",
+      "type": "RIDER",
+      "rank": 99,
+      "desc": "「癌症全方位保障3」為實報實銷的癌症醫療計劃，並結合嶄新的保障，包括為癌症篩查和臨床試驗藥物提供經濟支援，及一站式個人化增值服務，且保費相宜。此計劃會於癌症來襲時，為您和摯愛提供周全的支援。",
+      "currencies": [
+        "USD",
+        "HKD"
+      ],
+      "frequencies": [
+        "QUARTERLY",
+        "MONTHLY",
+        "SEMI_ANNUALLY",
+        "ANNUALLY"
+      ],
+      "paymentTerm": [
+        "~100"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": null,
+      "medicalOptionsRequiredField": null,
+      "quotationFieldRequirements": null,
+      "withdrawalable": false,
+      "withdrawalOptions": null,
+      "proposalRPASupported": true,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": null,
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": "終身",
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:CG3R",
+      "categoryCode": "MEDICAL",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "醫療",
+      "productName": "癌症全方位保障3(附加契約)",
+      "companyName": "友邦保險",
+      "type": "RIDER",
+      "rank": 99,
+      "desc": "",
+      "currencies": [
+        "USD",
+        "HKD"
+      ],
+      "frequencies": [
+        "MONTHLY",
+        "ANNUALLY"
+      ],
+      "paymentTerm": [
+        "~100"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": {
+        "regions": [],
+        "deductibles": [],
+        "levels": [],
+        "supplementaryBenefits": null
+      },
+      "medicalOptionsRequiredField": [],
+      "quotationFieldRequirements": null,
+      "withdrawalable": false,
+      "withdrawalOptions": null,
+      "proposalRPASupported": false,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": [],
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": "終身",
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:CG3SP",
+      "categoryCode": "MEDICAL",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "醫療",
+      "productName": "癌症全方位保障3 (標準)附加契約",
+      "companyName": "友邦保險",
+      "type": "RIDER",
+      "rank": 99,
+      "desc": "「癌症全方位保障3」為實報實銷的癌症醫療計劃，並結合嶄新的保障，包括為癌症篩查和臨床試驗藥物提供經濟支援，及一站式個人化增值服務，且保費相宜。此計劃會於癌症來襲時，為您和摯愛提供周全的支援。",
+      "currencies": [
+        "USD",
+        "HKD"
+      ],
+      "frequencies": [
+        "MONTHLY",
+        "QUARTERLY",
+        "SEMI_ANNUALLY",
+        "ANNUALLY"
+      ],
+      "paymentTerm": [
+        "~100"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": null,
+      "medicalOptionsRequiredField": null,
+      "quotationFieldRequirements": null,
+      "withdrawalable": false,
+      "withdrawalOptions": null,
+      "proposalRPASupported": true,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": null,
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": "終身",
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:CGP3",
+      "categoryCode": "MEDICAL",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "醫療",
+      "productName": "癌症全方位明珠保障3",
+      "companyName": "友邦保險",
+      "type": "BASIC",
+      "rank": 99,
+      "desc": "位明珠保障3」為一站式的癌症保障方案，結合保障和增值服務，從預防及預測†，以至診斷、治療及康復，沿途助您應付各種受保癌症相關的醫療開支，配合個人化支援服務，為您的健康護航，令您可安心邁向美好未來。",
+      "currencies": [
+        "USD",
+        "HKD"
+      ],
+      "frequencies": [
+        "ANNUALLY",
+        "SEMI_ANNUALLY",
+        "QUARTERLY",
+        "MONTHLY"
+      ],
+      "paymentTerm": [
+        "~100"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": {
+        "regions": [],
+        "deductibles": null,
+        "levels": [],
+        "supplementaryBenefits": []
+      },
+      "medicalOptionsRequiredField": [],
+      "quotationFieldRequirements": null,
+      "withdrawalable": false,
+      "withdrawalOptions": null,
+      "proposalRPASupported": false,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": [],
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": "1",
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:CGP3MP",
+      "categoryCode": "MEDICAL",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "醫療",
+      "productName": "癌症全方位明珠保障3 (特級)附加契約",
+      "companyName": "友邦保險",
+      "type": "RIDER",
+      "rank": 99,
+      "desc": "「癌症全方位明珠保障3」為一站式的癌症保障方案，結合保障和增值服務，從預防及預測†，以至診斷、治療及康復，沿途助您應付各種受保癌症相關的醫療開支，配合個人化支援服務，為您的健康護航，令您可安心邁向美好未來。",
+      "currencies": [
+        "USD",
+        "HKD"
+      ],
+      "frequencies": [
+        "MONTHLY",
+        "QUARTERLY",
+        "SEMI_ANNUALLY",
+        "ANNUALLY"
+      ],
+      "paymentTerm": [
+        "~100"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": null,
+      "medicalOptionsRequiredField": null,
+      "quotationFieldRequirements": null,
+      "withdrawalable": false,
+      "withdrawalOptions": null,
+      "proposalRPASupported": true,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": null,
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": "終身",
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:CGP3PP",
+      "categoryCode": "MEDICAL",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "醫療",
+      "productName": "癌症全方位明珠保障3 (升級)附加契約",
+      "companyName": "友邦保險",
+      "type": "RIDER",
+      "rank": 99,
+      "desc": "「癌症全方位明珠保障3」為一站式的癌症保障方案，結合保障和增值服務，從預防及預測†，以至診斷、治療及康復，沿途助您應付各種受保癌症相關的醫療開支，配合個人化支援服務，為您的健康護航，令您可安心邁向美好未來。",
+      "currencies": [
+        "USD",
+        "HKD"
+      ],
+      "frequencies": [
+        "MONTHLY",
+        "QUARTERLY",
+        "SEMI_ANNUALLY",
+        "ANNUALLY"
+      ],
+      "paymentTerm": [
+        "~100"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": null,
+      "medicalOptionsRequiredField": null,
+      "quotationFieldRequirements": null,
+      "withdrawalable": false,
+      "withdrawalOptions": null,
+      "proposalRPASupported": true,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": null,
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": "終身",
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:CGP3R",
+      "categoryCode": "MEDICAL",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "醫療",
+      "productName": "癌症全方位明珠保障3(附加契約)",
+      "companyName": "友邦保險",
+      "type": "RIDER",
+      "rank": 99,
+      "desc": "",
+      "currencies": [
+        "USD",
+        "HKD"
+      ],
+      "frequencies": [
+        "MONTHLY",
+        "QUARTERLY",
+        "SEMI_ANNUALLY",
+        "ANNUALLY"
+      ],
+      "paymentTerm": [
+        "~100"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": null,
+      "medicalOptionsRequiredField": null,
+      "quotationFieldRequirements": null,
+      "withdrawalable": false,
+      "withdrawalOptions": null,
+      "proposalRPASupported": false,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": null,
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": null,
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:CGP3SP",
+      "categoryCode": "MEDICAL",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "醫療",
+      "productName": "癌症全方位明珠保障3 (標準)附加契約",
+      "companyName": "友邦保險",
+      "type": "RIDER",
+      "rank": 99,
+      "desc": "「癌症全方位明珠保障3」為一站式的癌症保障方案，結合保障和增值服務，從預防及預測†，以至診斷、治療及康復，沿途助您應付各種受保癌症相關的醫療開支，配合個人化支援服務，為您的健康護航，令您可安心邁向美好未來。",
+      "currencies": [
+        "USD",
+        "HKD"
+      ],
+      "frequencies": [
+        "MONTHLY",
+        "QUARTERLY",
+        "SEMI_ANNUALLY",
+        "ANNUALLY"
+      ],
+      "paymentTerm": [
+        "~100"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": null,
+      "medicalOptionsRequiredField": null,
+      "quotationFieldRequirements": null,
+      "withdrawalable": false,
+      "withdrawalOptions": null,
+      "proposalRPASupported": true,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": null,
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": "終身",
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:CIR",
+      "categoryCode": "CRITICAL_ILLNESS",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "危疾",
+      "productName": "危疾保障附加契約",
+      "companyName": "友邦保險",
+      "type": "RIDER",
+      "rank": 99,
+      "desc": "AIA準備了一系列危疾保障保險附加契約讓您選擇，結合您的基本計劃，為您和家人帶來最佳保障。這些附加契約可切合不同人士的不同經濟狀況和保障需要，總有一款適合您。",
+      "currencies": [
+        "USD",
+        "HKD",
+        "MOP"
+      ],
+      "frequencies": [
+        "ANNUALLY"
+      ],
+      "paymentTerm": [
+        "1"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": null,
+      "medicalOptionsRequiredField": null,
+      "quotationFieldRequirements": null,
+      "withdrawalable": false,
+      "withdrawalOptions": null,
+      "proposalRPASupported": false,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": [],
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": "~100",
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:CIWOPRP",
+      "categoryCode": "LIFE",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "人壽",
+      "productName": "特級危疾豁免繳付保費附加契約",
+      "companyName": "友邦保險",
+      "type": "RIDER",
+      "rank": 99,
+      "desc": "",
+      "currencies": [
+        "USD",
+        "HKD"
+      ],
+      "frequencies": [
+        "MONTHLY",
+        "ANNUALLY"
+      ],
+      "paymentTerm": [
+        "~60"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": null,
+      "medicalOptionsRequiredField": null,
+      "quotationFieldRequirements": null,
+      "withdrawalable": false,
+      "withdrawalOptions": null,
+      "proposalRPASupported": true,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": null,
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": null,
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:CP",
+      "categoryCode": "MEDICAL",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "醫療",
+      "productName": "企業至尊醫療計劃",
+      "companyName": "友邦保險",
+      "type": "BASIC",
+      "rank": 99,
+      "desc": "「企業至尊醫療計劃」提供每年高達1,600萬港元的全面醫療保障，終身醫療保障更高至4,000萬港元。計劃更不設墊底費，全數負責多個主要保障項目的醫療開支，讓您的行政要員安枕無憂。除基本的住院、手術及全面的門診保障外，我們更提供附加的分娩、牙科及視力保障，保障更可延伸至僱員的配偶和未婚子女。",
+      "currencies": [
+        "HKD"
+      ],
+      "frequencies": [
+        "SINGLE_PAYMENT",
+        "MONTHLY",
+        "ANNUALLY"
+      ],
+      "paymentTerm": [
+        "1"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": {
+        "regions": [
+          "WORLDWIDE",
+          "WORLDWIDE_EXCEPT_US"
+        ],
+        "deductibles": null,
+        "levels": [],
+        "supplementaryBenefits": [
+          "DENTAL",
+          "MATERNITY"
+        ]
+      },
+      "medicalOptionsRequiredField": [
+        "regions"
+      ],
+      "quotationFieldRequirements": null,
+      "withdrawalable": false,
+      "withdrawalOptions": null,
+      "proposalRPASupported": false,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": [],
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": "~69",
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:CPCP",
+      "categoryCode": "CRITICAL_ILLNESS",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "危疾",
+      "productName": "自悠附加進泰安心保",
+      "companyName": "友邦保險",
+      "type": "BASIC",
+      "rank": 99,
+      "desc": "作為您的人生良伴，AIA明白您於人生不同階段均有其獨特的保障需要，並希望在保險計劃上靈活自主。現在您可根據您不同人生階段需要的轉變，自「悠」附加壽險及危疾於指定投資相連壽險計劃，獲享額外保障。",
+      "currencies": [
+        "USD",
+        "HKD"
+      ],
+      "frequencies": [
+        "MONTHLY",
+        "ANNUALLY"
+      ],
+      "paymentTerm": [
+        "~100"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": null,
+      "medicalOptionsRequiredField": null,
+      "quotationFieldRequirements": null,
+      "withdrawalable": false,
+      "withdrawalOptions": null,
+      "proposalRPASupported": false,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": [],
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": "~100",
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:CT",
+      "categoryCode": "TERM_LIFE",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "定期壽險",
+      "productName": "自悠附加定期壽險",
+      "companyName": "友邦保險",
+      "type": "BASIC",
+      "rank": 99,
+      "desc": "作為您的人生良伴，AIA明白您於人生不同階段均有其獨特的保障需要，並希望在保險計劃上靈活自主。現在您可根據您不同人生階段需要的轉變，自「悠」附加壽險及危疾於指定投資相連壽險計劃，獲享額外保障。",
+      "currencies": [
+        "USD",
+        "HKD"
+      ],
+      "frequencies": [
+        "ANNUALLY",
+        "MONTHLY"
+      ],
+      "paymentTerm": [
+        "~100"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": null,
+      "medicalOptionsRequiredField": null,
+      "quotationFieldRequirements": null,
+      "withdrawalable": false,
+      "withdrawalOptions": null,
+      "proposalRPASupported": false,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": [],
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": "~100",
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:EC2MEDICARE",
+      "categoryCode": "MEDICAL",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "醫療",
+      "productName": "EC2 MediCare 僱員附加額外醫療保障",
+      "companyName": "友邦保險",
+      "type": "BASIC",
+      "rank": 99,
+      "desc": "我們深明一套基本的團體醫療保險計劃未必能滿足僱員在不同人生階段的保障需要，因此我們誠意獻上EC2 MediCare「僱員附加額外醫療保障」，協助僱主提供稱心的保障予每一位僱員，從而有效地吸納及挽留人才。EC2 MediCare 提供六個計劃選項，申請手續簡單，且保費相宜，讓僱員因應個人需要自願參與，在現有團體醫療保險計劃上提升醫療保障。同時，僱主亦可有效控制在僱員福利上的開支，締造雙贏方案。",
+      "currencies": [
+        "HKD"
+      ],
+      "frequencies": [
+        "SINGLE_PAYMENT",
+        "MONTHLY",
+        "ANNUALLY"
+      ],
+      "paymentTerm": [
+        "1"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": null,
+      "medicalOptionsRequiredField": null,
+      "quotationFieldRequirements": null,
+      "withdrawalable": false,
+      "withdrawalOptions": null,
+      "proposalRPASupported": false,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": [],
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": "~69",
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:ECIRP",
+      "categoryCode": "CRITICAL_ILLNESS",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "危疾",
+      "productName": "特選危疾附加契約",
+      "companyName": "友邦保險",
+      "type": "RIDER",
+      "rank": 99,
+      "desc": "AIA準備了一系列危疾保障保險附加契約讓您選擇，結合您的基本計劃，為您和家人帶來最佳保障。這些附加契約可切合不同人士的不同經濟狀況和保障需要，總有一款適合您。",
+      "currencies": [
+        "USD",
+        "HKD",
+        "MOP"
+      ],
+      "frequencies": [
+        "ANNUALLY"
+      ],
+      "paymentTerm": [
+        "1"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": null,
+      "medicalOptionsRequiredField": null,
+      "quotationFieldRequirements": null,
+      "withdrawalable": false,
+      "withdrawalOptions": null,
+      "proposalRPASupported": true,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": [],
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": "~65",
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:ECP2",
+      "categoryCode": "CRITICAL_ILLNESS",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "危疾",
+      "productName": "泰然安心保2",
+      "companyName": "友邦保險",
+      "type": "BASIC",
+      "rank": 99,
+      "desc": "生活總是危患無常。疾病往往來得突然，隨之而來的治療重擔給家庭帶來了巨大壓力。「泰然安心保2」為您更早設想，因應您現時在危疾保障上的所需所缺，提供危疾保障至100歲，讓您和您的摯愛倍感安心。",
+      "currencies": [
+        "USD",
+        "HKD",
+        "MOP"
+      ],
+      "frequencies": [
+        "ANNUALLY",
+        "MONTHLY"
+      ],
+      "paymentTerm": [
+        "5",
+        "10",
+        "15",
+        "18",
+        "25"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": null,
+      "medicalOptionsRequiredField": null,
+      "quotationFieldRequirements": null,
+      "withdrawalable": true,
+      "withdrawalOptions": null,
+      "proposalRPASupported": true,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": [],
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": "~100",
+      "financialPlanSupported": true,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:EGCE",
+      "categoryCode": "CRITICAL_ILLNESS",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "危疾",
+      "productName": "守康易危疾保",
+      "companyName": "友邦保險",
+      "type": "BASIC",
+      "rank": 99,
+      "desc": "「守康易危疾保」提供重點保障切合您的預算，並涵蓋香港其中三大最常見的危疾，這是一項每年續保的計劃，就癌症、心臟病及中風提供保障，保費相宜而且保證續保至受保人85歲。透過此計劃，您可安然面對人生挑戰。",
+      "currencies": [
+        "USD",
+        "HKD",
+        "MOP"
+      ],
+      "frequencies": [
+        "ANNUALLY",
+        "SINGLE_PAYMENT"
+      ],
+      "paymentTerm": [
+        "1",
+        "~85"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": null,
+      "medicalOptionsRequiredField": null,
+      "quotationFieldRequirements": null,
+      "withdrawalable": false,
+      "withdrawalOptions": null,
+      "proposalRPASupported": false,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": [],
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": "~85",
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": 1618208545576,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:EGTL",
+      "categoryCode": "TERM_LIFE",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "定期壽險",
+      "productName": "守康易定期壽險計劃",
+      "companyName": "友邦保險",
+      "type": "BASIC",
+      "rank": 99,
+      "desc": "「守康易定期壽險計劃」提供人壽保障，讓您透過相宜保費，保護自己和家人的未來。計劃更保證可每年續保至受保人85歲，讓您安心享受生活。",
+      "currencies": [
+        "USD",
+        "HKD",
+        "MOP"
+      ],
+      "frequencies": [
+        "ANNUALLY"
+      ],
+      "paymentTerm": [
+        "1"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": null,
+      "medicalOptionsRequiredField": null,
+      "quotationFieldRequirements": null,
+      "withdrawalable": false,
+      "withdrawalOptions": null,
+      "proposalRPASupported": false,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": [],
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": "~85",
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:EOYS",
+      "categoryCode": "CRITICAL_ILLNESS",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "危疾",
+      "productName": "簡緻·愛伴航保險計劃",
+      "companyName": "友邦保險",
+      "type": "BASIC",
+      "rank": 99,
+      "desc": "人生充滿可能，您的健康不應成為絆腳石。「簡緻‧愛伴航」保險計劃提供為您的人生旅途而設的危疾保障。此計劃涵蓋58種危疾的廣泛保障，並提供額外支援應對嚴重健康挑戰包括癌症、心臟病及中風，為人生的不確定建立安全網，讓您無後顧之憂，專注享受人生每一個精彩時刻。",
+      "currencies": [
+        "USD"
+      ],
+      "frequencies": [
+        "ANNUALLY",
+        "SEMI_ANNUALLY",
+        "QUARTERLY",
+        "MONTHLY"
+      ],
+      "paymentTerm": [
+        "10",
+        "18",
+        "25"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": null,
+      "medicalOptionsRequiredField": null,
+      "quotationFieldRequirements": null,
+      "withdrawalable": true,
+      "withdrawalOptions": null,
+      "proposalRPASupported": true,
+      "proposalRiders": [
+        "AIA:ACCIDENTR",
+        "AIA:ADADB",
+        "AIA:PS3ADDB",
+        "AIA:SADDR",
+        "AIA:ECIRP",
+        "AIA:PCRP",
+        "AIA:SCEPR",
+        "AIA:SCER",
+        "AIA:AIAWOPR",
+        "AIA:WPFREE",
+        "AIA:AVFR",
+        "AIA:VHIPUSR",
+        "AIA:CEO5R",
+        "AIA:CEOP5R",
+        "AIA:CGP3SP",
+        "AIA:CGP3PP",
+        "AIA:CGP3MP",
+        "AIA:GBAOP",
+        "AIA:GBAOP2R",
+        "AIA:HB",
+        "AIA:HJGR",
+        "AIA:OPCEOR",
+        "AIA:OPCEOPR",
+        "AIA:PUPMPR",
+        "AIA:SGHR2",
+        "AIA:AMR",
+        "AIA:SPMR",
+        "AIA:AOAPCSR",
+        "AIA:AOACSIDPR",
+        "AIA:ETLPR",
+        "AIA:WTLPR"
+      ],
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": [],
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": {
+          "zhHansCN": "",
+          "zhHantHK": "",
+          "enUS": "",
+          "jaJP": null,
+          "koKR": null
+        }
+      },
+      "policyPeriod": null,
+      "financialPlanSupported": true,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": 1758556857339,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:EPGIP",
+      "categoryCode": "MEDICAL",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "醫療",
+      "productName": "俊愉團體保險計劃",
+      "companyName": "友邦保險",
+      "type": "BASIC",
+      "rank": 99,
+      "desc": "「俊愉團體保險計劃」是一份團體醫療保險，提供高度全面的保障，照顧您的高級行政要員，更可自選附加延伸保障。提供優越的住院及手術保障，主要醫療項目亦不設項目限額，保障地域涵蓋亞洲，包括澳洲及新西蘭。",
+      "currencies": [
+        "HKD"
+      ],
+      "frequencies": [
+        "SINGLE_PAYMENT",
+        "MONTHLY",
+        "ANNUALLY"
+      ],
+      "paymentTerm": [
+        "1"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": {
+        "regions": [
+          "ASIA"
+        ],
+        "deductibles": null,
+        "levels": [
+          "SEMI_PRIVATE",
+          "PRIVATE"
+        ],
+        "supplementaryBenefits": [
+          "OUTPATIENT",
+          "DENTAL",
+          "MATERNITY"
+        ]
+      },
+      "medicalOptionsRequiredField": [
+        "regions",
+        "levels"
+      ],
+      "quotationFieldRequirements": null,
+      "withdrawalable": false,
+      "withdrawalOptions": null,
+      "proposalRPASupported": false,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": [],
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": "~69",
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:ETLP",
+      "categoryCode": "TERM_LIFE",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "定期壽險",
+      "productName": "尊誠定期壽險計劃",
+      "companyName": "友邦保險",
+      "type": "BASIC",
+      "rank": 99,
+      "desc": "推出「尊誠定期壽險計劃」,保額由500,000美元或3,750,000港元/澳門幣起,讓您如願獲享更大保障與投保彈性。",
+      "currencies": [
+        "USD",
+        "HKD",
+        "MOP"
+      ],
+      "frequencies": [
+        "ANNUALLY",
+        "MONTHLY"
+      ],
+      "paymentTerm": [
+        "1",
+        "5",
+        "20"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": null,
+      "medicalOptionsRequiredField": null,
+      "quotationFieldRequirements": null,
+      "withdrawalable": true,
+      "withdrawalOptions": null,
+      "proposalRPASupported": true,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": [],
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": "~85",
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:ETLPR",
+      "categoryCode": "TERM_LIFE",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "定期壽險",
+      "productName": "尊誠定期壽險計劃(附加契約)",
+      "companyName": "友邦保險",
+      "type": "RIDER",
+      "rank": 99,
+      "desc": "AIA明白您一直為事業付出不少努力，我們特此推出「尊誠定期壽險計劃」,保額由500,000美元或3,750,000港元/澳門幣起，讓您如願獲享更大保障與投保彈性。",
+      "currencies": [
+        "USD",
+        "HKD",
+        "MOP"
+      ],
+      "frequencies": [
+        "ANNUALLY",
+        "MONTHLY"
+      ],
+      "paymentTerm": [
+        "1",
+        "5",
+        "20"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": null,
+      "medicalOptionsRequiredField": null,
+      "quotationFieldRequirements": null,
+      "withdrawalable": false,
+      "withdrawalOptions": null,
+      "proposalRPASupported": true,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": [],
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": "~85",
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [
+        {
+          "field": "level",
+          "fieldType": "array",
+          "fieldName": "級別",
+          "value": null,
+          "fieldValue": "標準,尊尚",
+          "remark": null,
+          "required": false
+        }
+      ],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:FCGIP2",
+      "categoryCode": "MEDICAL",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "醫療",
+      "productName": "智悠選團體保險計劃2",
+      "companyName": "友邦保險",
+      "type": "BASIC",
+      "rank": 99,
+      "desc": "AIA「智悠選」團體保險計劃2提供逾100款保障組合，涵蓋不同級別的住院和手術保障，以及一系列附加保障。此外，您更能提供靈活福利安排予僱員，讓他們選擇調低計劃以換取靈活積分，用於實報實銷賠償身體檢查、疫苗接種及視力保障等費用，以滿足他們不同的保健需要。",
+      "currencies": [
+        "HKD"
+      ],
+      "frequencies": [
+        "ANNUALLY",
+        "SINGLE_PAYMENT"
+      ],
+      "paymentTerm": [
+        "~69"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": {
+        "regions": [
+          "WORLDWIDE"
+        ],
+        "deductibles": null,
+        "levels": [
+          "SEMI_PRIVATE",
+          "BASIC_WARD"
+        ],
+        "supplementaryBenefits": [
+          "OUTPATIENT",
+          "DENTAL",
+          "SMM"
+        ]
+      },
+      "medicalOptionsRequiredField": [
+        "regions",
+        "levels"
+      ],
+      "quotationFieldRequirements": null,
+      "withdrawalable": false,
+      "withdrawalOptions": null,
+      "proposalRPASupported": false,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": [],
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": "~69",
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": 1658381735882,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:FLCP5",
+      "categoryCode": "SAVINGS",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "儲蓄",
+      "productName": "愛無憂長享計劃5",
+      "companyName": "友邦保險",
+      "type": "BASIC",
+      "rank": 99,
+      "desc": "「愛無憂長享計劃5」是一份分紅保險計劃，向您提供保證的現金價值、保證現金，及由第10個保單年度終結時開始，每年派發的非保證的現金，稱為「週年紅利」。您可選擇以現金形式收取週年紅利或以該金額扣除任何此保單下的到期保費。否則，週年紅利會累積於保單內，賺取潛在利息收益。",
+      "currencies": [
+        "USD"
+      ],
+      "frequencies": [
+        "ANNUALLY",
+        "MONTHLY"
+      ],
+      "paymentTerm": [
+        "6",
+        "10",
+        "15",
+        "20"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": null,
+      "medicalOptionsRequiredField": null,
+      "quotationFieldRequirements": [
+        {
+          "field": "Age",
+          "required": true
+        },
+        {
+          "field": "Gender",
+          "required": true
+        },
+        {
+          "field": "SmokeCondition",
+          "required": true
+        },
+        {
+          "field": "Currency",
+          "required": true
+        },
+        {
+          "field": "PremiumTerm",
+          "required": true
+        },
+        {
+          "field": "MedicalLevel",
+          "required": false
+        },
+        {
+          "field": "MedicalRegion",
+          "required": false
+        },
+        {
+          "field": "MedicalDeductible",
+          "required": false
+        }
+      ],
+      "withdrawalable": true,
+      "withdrawalOptions": null,
+      "proposalRPASupported": true,
+      "proposalRiders": [
+        "AIA:CEO5R",
+        "AIA:CEOP5R",
+        "AIA:SGHR2",
+        "AIA:HB",
+        "AIA:CG3SP",
+        "AIA:CG3PP",
+        "AIA:CG3MP",
+        "AIA:CGP3SP",
+        "AIA:CGP3PP",
+        "AIA:CGP3MP",
+        "AIA:PUPMPR",
+        "AIA:ACCIDENTR",
+        "AIA:ADADB",
+        "AIA:PS3ADDB",
+        "AIA:ECIRP",
+        "AIA:SCER",
+        "AIA:AVFR",
+        "AIA:VHIPUSR",
+        "AIA:GBAOP",
+        "AIA:GBAOP2R",
+        "AIA:OPCEOPR",
+        "AIA:OPCEOR"
+      ],
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": [],
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": "終身",
+      "financialPlanSupported": true,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": true,
+      "proposalAmountType": "PREMIUM",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:FMA",
+      "categoryCode": "SAVINGS",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "儲蓄",
+      "productName": "靈活錢儲蓄戶口",
+      "companyName": "友邦保險",
+      "type": "BASIC",
+      "rank": 99,
+      "desc": "",
+      "currencies": [
+        "USD",
+        "HKD"
+      ],
+      "frequencies": [
+        "MONTHLY",
+        "ANNUALLY"
+      ],
+      "paymentTerm": [
+        "1"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": null,
+      "medicalOptionsRequiredField": null,
+      "quotationFieldRequirements": null,
+      "withdrawalable": false,
+      "withdrawalOptions": null,
+      "proposalRPASupported": false,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": null,
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": null,
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:FMHIP",
+      "categoryCode": "MEDICAL",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "醫療",
+      "productName": "靈活住院惠益保障計劃",
+      "companyName": "友邦保險",
+      "type": "BASIC",
+      "rank": 99,
+      "desc": "人生充滿各種考驗與起跌，疾病傷患或會在毫無預警的情況下發生在您身上，而高昂的醫療費用更會加重您的經濟負擔。「靈活住院惠益保障計劃」提供應急現金讓您自由使用。此外，本計劃更提供為應付手術費用而設的實報實銷的保障選項。即使不幸遇上突發狀況，您將會得到最適切的保障與照料。",
+      "currencies": [
+        "HKD",
+        "MOP"
+      ],
+      "frequencies": [
+        "ANNUALLY"
+      ],
+      "paymentTerm": [
+        "~75"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": {
+        "regions": [
+          "WORLDWIDE"
+        ],
+        "deductibles": null,
+        "levels": [],
+        "supplementaryBenefits": []
+      },
+      "medicalOptionsRequiredField": [
+        "regions"
+      ],
+      "quotationFieldRequirements": null,
+      "withdrawalable": false,
+      "withdrawalOptions": null,
+      "proposalRPASupported": false,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": [],
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": "~75",
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:FMHIPSR",
+      "categoryCode": "MEDICAL",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "醫療",
+      "productName": "靈活住院惠益保障計劃-手術費用賠償",
+      "companyName": "友邦保險",
+      "type": "RIDER",
+      "rank": 99,
+      "desc": "",
+      "currencies": [
+        "USD",
+        "HKD"
+      ],
+      "frequencies": [
+        "MONTHLY",
+        "ANNUALLY"
+      ],
+      "paymentTerm": [
+        "~75"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": null,
+      "medicalOptionsRequiredField": null,
+      "quotationFieldRequirements": null,
+      "withdrawalable": false,
+      "withdrawalOptions": null,
+      "proposalRPASupported": false,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": [],
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": "終身",
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:FP2",
+      "categoryCode": "SAVINGS",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "儲蓄",
+      "productName": "諾享保障計劃2",
+      "companyName": "友邦保險",
+      "type": "BASIC",
+      "rank": 99,
+      "desc": "提前規劃未來，憧憬退休生活。「諾享」保障計劃2助您為未來做足準備。「諾享」保障計劃2提供長線資本增長，讓您樂享退休人生。本計劃亦提供人壽保障，讓您的摯愛得到 照顧。「諾享」保障計劃2伴您前行，助您投入退休後的安逸生活，昂首展望未來。",
+      "currencies": [
+        "USD"
+      ],
+      "frequencies": [
+        "SINGLE_PAYMENT"
+      ],
+      "paymentTerm": [
+        "1"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": null,
+      "medicalOptionsRequiredField": null,
+      "quotationFieldRequirements": null,
+      "withdrawalable": false,
+      "withdrawalOptions": null,
+      "proposalRPASupported": false,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": [],
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": "終身",
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": 1642409373234,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:FR",
+      "categoryCode": "LIFE",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "人壽",
+      "productName": "靈活選附加契約",
+      "companyName": "友邦保險",
+      "type": "RIDER",
+      "rank": 99,
+      "desc": "AIA明白您渴望為黃金歲月作好準備。因此我們為投保「充裕未來」計劃2的您設計「靈活選」附加契約，當中市場首創毋須健康審查及終身的 長期護理保障，讓您可因應個人未來需要選擇合適的保障，靈活地策劃退休後的生活，擁有周全的終生保障。",
+      "currencies": [
+        "USD"
+      ],
+      "frequencies": [
+        "ANNUALLY",
+        "MONTHLY"
+      ],
+      "paymentTerm": [
+        "5"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": null,
+      "medicalOptionsRequiredField": null,
+      "quotationFieldRequirements": null,
+      "withdrawalable": false,
+      "withdrawalOptions": null,
+      "proposalRPASupported": false,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": [],
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": "終身",
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:GBAOP",
+      "categoryCode": "MEDICAL",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "醫療",
+      "productName": "大灣醫薈通門診計劃(附加計劃1)",
+      "companyName": "友邦保險",
+      "type": "RIDER",
+      "rank": 99,
+      "desc": "「大灣醫薈通」門診計劃為醫療網絡門診保險，覆蓋香港、澳門以至指定內地大灣區城市的普通科門診諮詢，並讓您可靈活選擇面對面診症連即時藥物，或網上診症連藥物送遞。透過優質醫療網絡，無論您身在家中或暢遊大灣區，您都可安心於大灣區城市享有無縫的門診服務。",
+      "currencies": [
+        "USD",
+        "HKD"
+      ],
+      "frequencies": [
+        "ANNUALLY"
+      ],
+      "paymentTerm": [
+        "1",
+        "~80"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": null,
+      "medicalOptionsRequiredField": null,
+      "quotationFieldRequirements": null,
+      "withdrawalable": false,
+      "withdrawalOptions": null,
+      "proposalRPASupported": true,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": null,
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": "~80",
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": 1713753820557,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:GBAOP2R",
+      "categoryCode": "MEDICAL",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "醫療",
+      "productName": "大灣醫薈通門診計劃(附加計劃2)",
+      "companyName": "友邦保險",
+      "type": "RIDER",
+      "rank": 99,
+      "desc": "「大灣醫薈通」門診計劃為醫療網絡門診保險，覆蓋香港、澳門以至指定內地大灣區城市的普通科門診諮詢，並讓您可靈活選擇面對面診症連即時藥物，或網上診症連藥物送遞。透過優質醫療網絡，無論您身在家中或暢遊大灣區，您都可安心於大灣區城市享有無縫的門診服務。\n",
+      "currencies": [
+        "USD",
+        "HKD"
+      ],
+      "frequencies": [
+        "ANNUALLY"
+      ],
+      "paymentTerm": [
+        "1",
+        "~80"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": null,
+      "medicalOptionsRequiredField": null,
+      "quotationFieldRequirements": null,
+      "withdrawalable": false,
+      "withdrawalOptions": null,
+      "proposalRPASupported": true,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": null,
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": "~80",
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:GCP",
+      "categoryCode": "GI",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "一般保險",
+      "productName": "顧員意外保增強版",
+      "companyName": "友邦保險",
+      "type": "BASIC",
+      "rank": 99,
+      "desc": "「顧」員意外保增強版為擁有 3 名或以上全職僱員的中小企提供所需的意外費用保障。若您的僱員或其摯愛不幸因意外而導致傷殘，將可獲得賠償。計劃亦提供意外身故保障和身故恩恤賠償，讓您的僱員無懼突如其來的意外，安心拼搏。",
+      "currencies": [
+        "HKD"
+      ],
+      "frequencies": [
+        "ANNUALLY"
+      ],
+      "paymentTerm": [
+        "1"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": null,
+      "medicalOptionsRequiredField": null,
+      "quotationFieldRequirements": null,
+      "withdrawalable": false,
+      "withdrawalOptions": null,
+      "proposalRPASupported": false,
+      "proposalRiders": null,
+      "features": {
+        "maxWithdrawal": false,
+        "hedgeable": false,
+        "hedgeProducts": [],
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": null
+      },
+      "policyPeriod": "~69",
+      "financialPlanSupported": false,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "BOTH",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    },
+    {
+      "productCode": "AIA:GFSIP",
+      "categoryCode": "SAVINGS",
+      "companyCode": "AIA",
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "categoryName": "儲蓄",
+      "productName": "環宇盈活儲蓄保險計劃",
+      "companyName": "友邦保險",
+      "type": "BASIC",
+      "rank": 99,
+      "desc": "無論是為子女準備教育儲備、夢想退休生活、策劃家族傳承或建立安全網，環宇盈活儲蓄保險計劃提供靈活性和掌控力，助您邁步向前。此計劃具備保證現金價值、非保證紅利及分紅，以及在需要時靈活提取資金的特性，伴您成長增值。您更可通過計劃下提供的多個選項及保障守護財富、摰愛及資產，您不僅是致力於儲蓄，更是您一直憧憬的生活。",
+      "currencies": [
+        "USD",
+        "CNY",
+        "HKD",
+        "AUD",
+        "CAD",
+        "EUR",
+        "GBP",
+        "SGD"
+      ],
+      "frequencies": [
+        "SINGLE_PAYMENT",
+        "ANNUALLY",
+        "SEMI_ANNUALLY",
+        "QUARTERLY",
+        "MONTHLY"
+      ],
+      "paymentTerm": [
+        "1",
+        "5"
+      ],
+      "customPaymentTerm": null,
+      "medicalOptions": null,
+      "medicalOptionsRequiredField": null,
+      "quotationFieldRequirements": null,
+      "withdrawalable": true,
+      "withdrawalOptions": [
+        {
+          "premiumTerm": "5",
+          "from": 6,
+          "ratio": 6,
+          "ratioIncrement": null,
+          "value": "5/6/6",
+          "description": {
+            "zhHansCN": "5年期，从第6年起，每年提领总保费的6%",
+            "zhHantHK": "5年期，由第6年起，每年提取總保費的6%",
+            "enUS": "5-year term, starting from the year of policy 6, withdraw 6% of the total premium annually",
+            "jaJP": null,
+            "koKR": null
+          }
+        },
+        {
+          "premiumTerm": "5",
+          "from": 6,
+          "ratio": 7,
+          "ratioIncrement": null,
+          "value": "5/6/7",
+          "description": {
+            "zhHansCN": "5年期，从第6年起，每年提领总保费的7%",
+            "zhHantHK": "5年期，由第6年起，每年提取總保費的7%",
+            "enUS": "5-year term, starting from the year of policy 6, withdraw 7% of the total premium annually",
+            "jaJP": null,
+            "koKR": null
+          }
+        }
+      ],
+      "proposalRPASupported": true,
+      "proposalRiders": [
+        "AIA:ACCIDENTR",
+        "AIA:ADADB",
+        "AIA:PS3ADDB",
+        "AIA:SADDR",
+        "AIA:CIWOPRP",
+        "AIA:AVFR",
+        "AIA:CEO5R",
+        "AIA:CEOP5R",
+        "AIA:CGP3SP",
+        "AIA:CGP3PP",
+        "AIA:CGP3MP",
+        "AIA:CG3SP",
+        "AIA:CG3PP",
+        "AIA:CG3MP",
+        "AIA:GBAOP",
+        "AIA:GBAOP2R",
+        "AIA:HB",
+        "AIA:HJGR",
+        "AIA:OPCEOR",
+        "AIA:OPCEOPR",
+        "AIA:PUPMPR",
+        "AIA:SGHR2",
+        "AIA:AOAPCSR",
+        "AIA:AOACSIDPR",
+        "AIA:ETLPR",
+        "AIA:WTLPR",
+        "AIA:APOR",
+        "AIA:VHIPUSR",
+        "AIA:AOACS(R)",
+        "AIA:AOAFP(R)"
+      ],
+      "features": {
+        "maxWithdrawal": true,
+        "hedgeable": false,
+        "hedgeProducts": [],
+        "coverageUrl": null,
+        "highlights": null,
+        "proposalAmountType": null,
+        "proposalAmountTip": {
+          "zhHansCN": "计划为终身分红保险，由第3个保单年度完结后起，可酌情于每保单年度公布一次非保证复归红利及非保证终期分红",
+          "zhHantHK": "計劃為終身分紅保險，由第3個保單年度完結後起，可酌情於每保單年度公佈一次非保證復歸紅利及非保證終期分紅",
+          "enUS": "Plan is a participating whole-life insurance plan,starting from the end  of the 3rd policy year,can discretion declare a non-guaranteed Reversionary Bonus and a non-guaranteed Terminal Bonus once per policy year",
+          "jaJP": null,
+          "koKR": null
+        }
+      },
+      "policyPeriod": "終身",
+      "financialPlanSupported": true,
+      "sellStatus": "SELLING",
+      "proposalLanguages": [
+        "HK",
+        "CN",
+        "EN"
+      ],
+      "launchDate": null,
+      "discontinuationDate": null,
+      "premiumFinancingSupported": false,
+      "premiumOffsetSupported": false,
+      "proposalAmountType": "PREMIUM",
+      "custom": false,
+      "proposalFrequencySupported": false,
+      "reduceAmountTips": null,
+      "flexiPremiumSupported": false,
+      "flexiPremiumOptions": null,
+      "dynamicFields": [],
+      "ageRange": {
+        "min": 0,
+        "max": 128
+      },
+      "region": "香港",
+      "proposalPrepaymentSupported": false,
+      "isUpdate": false
+    }
+  ]
+}

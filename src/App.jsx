@@ -18,9 +18,9 @@ import { ArrowBack as ArrowBackIcon } from '@mui/icons-material';
 import CssBaseline from '@mui/material/CssBaseline';
 import { useTranslation } from 'react-i18next';
 import LanguageSwitch from './LanguageSwitch';
-import MultiSelectDropdown from './MultiSelectDropdown';
 import EmailSetting from './EmailSetting';
 import FundTable from './FundTable';
+import ProductTable from './ProductTable';
 
 const theme = createTheme({
   palette: { primary: { main: '#1976d2' }, secondary: { main: '#dc004e' } },
@@ -38,19 +38,13 @@ const App = () => {
   const [outputData1, setOutputData1] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
-  const [selectedFunds, setSelectedFunds] = useState([]);
   const [selectedFundsForMail, setSelectedFundsForMail] = useState([]);
   const [userData, setUserData] = useState(null);
   const [hasUnsavedChanges, setHasUnsavedChanges] = useState(false);
   const [savedWpUserEmail, setSavedWpUserEmail] = useState('');
   const [savedNumberOfDayAhead, setSavedNumberOfDayAhead] = useState(null);
-  const [savedSelectedFunds, setSavedSelectedFunds] = useState([]);
   const [savedSelectedFundsForMail, setSavedSelectedFundsForMail] = useState([]);
   const [expandedFunds, setExpandedFunds] = useState({});
-
-  const handleChange = (event) => {
-    setSelectedFunds(event.target.value);
-  };
 
   const handleCheckboxChange = (fundName, checked) => {
     setSelectedFundsForMail((prev) =>
@@ -65,27 +59,6 @@ const App = () => {
   useEffect(() => {
     localStorage.setItem('email', email);
   }, [email]);
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      const fetchData = async () => {
-        try {
-          setLoading(true);
-          setError(null);
-          const serverURL = IsProduction ? 'https://fundcalendarbackend-production-0aeb.up.railway.app' : 'http://localhost:7003';
-          const response = await axios.post(`${serverURL}/getData`, { selectedFunds });
-          setOutputData1(response.data);
-        } catch (err) {
-          setError(err.response?.data?.detail || 'Failed to fetch data for Plan 1');
-        } finally {
-          setLoading(false);
-        }
-      };
-      fetchData();
-    }, 300);
-
-    return () => clearTimeout(timer);
-  }, [selectedFunds]);
 
   useEffect(() => {
     if (IsWp) {
@@ -122,13 +95,11 @@ const App = () => {
       setUserData(userData);
       console.log('User data:', userData);
       const funds = userData.funds || [];
-      setSelectedFunds(funds.map((fund) => fund.name));
       setSelectedFundsForMail(funds.filter((fund) => fund.email_date.some((ed) => ed.isEnabled)).map((fund) => fund.name));
       setNumberOfDayAhead(userData.numberOfDayAhead);
 
       setSavedWpUserEmail(wpUserEmail);
       setSavedNumberOfDayAhead(userData.numberOfDayAhead);
-      setSavedSelectedFunds(funds.map((fund) => fund.name));
       setSavedSelectedFundsForMail(funds.filter((fund) => fund.email_date.some((ed) => ed.isEnabled)).map((fund) => fund.name));
       setHasUnsavedChanges(false);
     } catch (error) {
@@ -144,10 +115,9 @@ const App = () => {
     const isChanged =
       wpUserEmail !== savedWpUserEmail ||
       numberOfDayAhead !== savedNumberOfDayAhead ||
-      JSON.stringify(selectedFunds) !== JSON.stringify(savedSelectedFunds) ||
       JSON.stringify(selectedFundsForMail) !== JSON.stringify(savedSelectedFundsForMail);
     setHasUnsavedChanges(isChanged);
-  }, [wpUserEmail, numberOfDayAhead, selectedFunds, selectedFundsForMail, savedWpUserEmail, savedNumberOfDayAhead, savedSelectedFunds, savedSelectedFundsForMail]);
+  }, [wpUserEmail, numberOfDayAhead, selectedFundsForMail, savedWpUserEmail, savedNumberOfDayAhead, savedSelectedFundsForMail]);
 
   const handleSave = async () => {
     try {
@@ -155,7 +125,6 @@ const App = () => {
       await axios.post(`${serverURL}/saveUserData`, {
         wpUserEmail,
         numberOfDayAhead,
-        selectedFunds,
         selectedFundsForMail,
       });
       console.log('Settings saved successfully');
@@ -214,7 +183,7 @@ const App = () => {
       <Container sx={{ mt: 2, mb: 4 }}>
         <Grid container spacing={3}>
           <Grid item xs={12} md={8}>
-            <MultiSelectDropdown selectedItems={selectedFunds} onChange={handleChange} />
+            <ProductTable />
             {loading ? (
               <Box sx={{ display: 'flex', justifyContent: 'center', mt: 4 }}>
                 <CircularProgress />
