@@ -43,6 +43,12 @@ const InformationPopup = ({ open, onClose, infoId }) => {
       
       const data = await response.json();
       const information = data.data || data;
+      
+      // Process content to replace image URLs
+      if (information.content) {
+        information.content = processImageUrls(information.content);
+      }
+      
       setInfoData(information);
     } catch (err) {
       console.error('Error loading information details:', err);
@@ -50,6 +56,28 @@ const InformationPopup = ({ open, onClose, infoId }) => {
     } finally {
       setLoading(false);
     }
+  };
+
+  const processImageUrls = (htmlContent) => {
+    // Create a temporary div to parse HTML
+    const tempDiv = document.createElement('div');
+    tempDiv.innerHTML = htmlContent;
+    
+    // Find all img tags
+    const images = tempDiv.querySelectorAll('img');
+    images.forEach(img => {
+      const src = img.getAttribute('src');
+      if (src) {
+        // Extract filename from the original URL
+        const urlParts = src.split('/');
+        const filename = urlParts[urlParts.length - 1];
+        
+        // Replace with AWS S3 URL
+        img.setAttribute('src', `https://my-documents-library.s3.ap-southeast-1.amazonaws.com/info_images/${filename}`);
+      }
+    });
+    
+    return tempDiv.innerHTML;
   };
 
   const handleClose = () => {
