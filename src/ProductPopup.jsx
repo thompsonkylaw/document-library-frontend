@@ -23,12 +23,15 @@ import {
   Download as DownloadIcon,
 } from '@mui/icons-material';
 import { useTranslation } from 'react-i18next';
+import InformationPopup from './InformationPopup';
 
 const ProductPopup = ({ open, onClose, productCode }) => {
   const { t } = useTranslation();
   const [productData, setProductData] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
+  const [selectedInfoId, setSelectedInfoId] = useState(null);
+  const [infoPopupOpen, setInfoPopupOpen] = useState(false);
 
   useEffect(() => {
     if (open && productCode) {
@@ -66,7 +69,18 @@ const ProductPopup = ({ open, onClose, productCode }) => {
     onClose();
   };
 
+  const handleInfoClick = (infoId) => {
+    setSelectedInfoId(infoId);
+    setInfoPopupOpen(true);
+  };
+
+  const handleInfoPopupClose = () => {
+    setInfoPopupOpen(false);
+    setSelectedInfoId(null);
+  };
+
   return (
+    <>
     <Dialog
       open={open}
       onClose={handleClose}
@@ -300,7 +314,24 @@ const ProductPopup = ({ open, onClose, productCode }) => {
                 {[...productData.information]
                   .sort((a, b) => new Date(b.time) - new Date(a.time))
                   .map((info, index) => (
-                  <Box key={index} data-info-id={info.id} sx={{ mb: 2, p: 2, bgcolor: 'grey.50', borderRadius: 1 }}>
+                  <Box 
+                    key={index} 
+                    data-info-id={info.id}
+                    onClick={() => handleInfoClick(info.id)}
+                    sx={{ 
+                      mb: 2, 
+                      p: 2, 
+                      bgcolor: 'grey.50', 
+                      borderRadius: 1,
+                      cursor: 'pointer',
+                      transition: 'all 0.2s',
+                      '&:hover': {
+                        bgcolor: 'grey.100',
+                        transform: 'translateY(-2px)',
+                        boxShadow: 2,
+                      }
+                    }}
+                  >
                     <Chip 
                       label={t(`productPopup.informationTypes.${info.type}`) || info.type.replace('_', ' ')} 
                       size="small" 
@@ -331,6 +362,13 @@ const ProductPopup = ({ open, onClose, productCode }) => {
         </Button>
       </DialogActions>
     </Dialog>
+    
+    <InformationPopup 
+      open={infoPopupOpen}
+      onClose={handleInfoPopupClose}
+      infoId={selectedInfoId}
+    />
+    </>
   );
 };
 
