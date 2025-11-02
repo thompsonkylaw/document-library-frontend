@@ -300,7 +300,7 @@ const ProductPopup = ({ open, onClose, productCode }) => {
                 {[...productData.information]
                   .sort((a, b) => new Date(b.time) - new Date(a.time))
                   .map((info, index) => (
-                  <Box key={index} sx={{ mb: 2, p: 2, bgcolor: 'grey.50', borderRadius: 1 }}>
+                  <Box key={index} data-info-id={info.id} sx={{ mb: 2, p: 2, bgcolor: 'grey.50', borderRadius: 1 }}>
                     <Chip 
                       label={t(`productPopup.informationTypes.${info.type}`) || info.type.replace('_', ' ')} 
                       size="small" 
