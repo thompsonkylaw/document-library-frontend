@@ -27,6 +27,9 @@ const App = () => {
   const { t } = useTranslation();
   const [appBarColor, setAppBarColor] = useState(localStorage.getItem('appBarColor') || 'green');
 
+  // Active tab state (0 for products, 1 for companies)
+  const [activeTab, setActiveTab] = useState(0);
+
   // Product filter states
   const [products, setProducts] = useState([]);
   const [searchText, setSearchText] = useState('');
@@ -91,6 +94,13 @@ const App = () => {
     setFilterStatus('');
   };
 
+  // Handle tab change from ProductTable
+  const handleTabChange = (newTab) => {
+    setActiveTab(newTab);
+    // Clear filters when switching tabs
+    handleClearFilters();
+  };
+
   useEffect(() => {
     localStorage.setItem('appBarColor', appBarColor);
   }, [appBarColor]);
@@ -123,12 +133,14 @@ const App = () => {
               filterCategory={filterCategory}
               filterType={filterType}
               filterStatus={filterStatus}
+              onTabChange={handleTabChange}
             />
           </Grid>
 
           <Grid item xs={12} md={3}>
             <Card elevation={3} sx={{ p: 2 }}>
               <SearchAndFilter
+                activeTab={activeTab}
                 searchText={searchText}
                 setSearchText={setSearchText}
                 filterCompany={filterCompany}
