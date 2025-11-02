@@ -1,0 +1,884 @@
+{
+  "list": [
+    {
+      "code": "FWDLIFE",
+      "name": "富衛人壽",
+      "nameI18n": {
+        "zhHansCN": "富卫人寿",
+        "zhHantHK": "富衛人壽",
+        "enUS": "FWD Life",
+        "jaJP": null,
+        "koKR": null
+      },
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/fwdlife.png",
+      "desc": "富衛業務遍布香港特別行政區、澳門特別行政區、泰國、印尼、菲律賓、新加坡、越南、日本、馬來西亞及柬埔寨。在香港，富衛提供人壽及醫療保險、一般保險、僱員福利、及財務策劃。富衛專注為客戶創造嶄新體驗，利用數碼科技，提供簡單、易明和貼心的產品。富衛秉持以客為先的服務理念及方針，矢志成為汎亞洲區領先的保險公司，創造保險新體驗。",
+      "descI18n": {
+        "zhHansCN": "富卫业务遍布香港特别行政区、澳门特别行政区、泰国、印尼、菲律宾、新加坡、越南、日本、马来西亚及柬埔寨。在香港，富卫提供人寿及医疗保险、一般保险、僱员福利、及财务策划。富卫专注为客户创造崭新体验，利用数码科技，提供简单、易明和贴心的产品。富卫秉持以客为先的服务理念及方针，矢志成为汎亚洲区领先的保险公司，创造保险新体验。",
+        "zhHantHK": "富衛業務遍布香港特別行政區、澳門特別行政區、泰國、印尼、菲律賓、新加坡、越南、日本、馬來西亞及柬埔寨。在香港，富衛提供人壽及醫療保險、一般保險、僱員福利、及財務策劃。富衛專注為客戶創造嶄新體驗，利用數碼科技，提供簡單、易明和貼心的產品。富衛秉持以客為先的服務理念及方針，矢志成為汎亞洲區領先的保險公司，創造保險新體驗。",
+        "enUS": "FWD Life Insurance Company (Bermuda) Limited operate in Hong Kong SAR, Macao SAR, Thailand, Indonesia, Philippines, Singapore, Vietnam, Japan, Malaysia and Cambodia.   In Hong Kong, we provide life and medical insurance, general insurance, employee benefits, and financial planning.   Fuwei focuses on creating new experiences for customers, using digital technology to provide simple, easy to understand and intimate products.   Adhering to the customer-oriented service concept and policy, FWD Life is determined to become a leading insurance company in the pan-Asian region and create new insurance experiences.",
+        "jaJP": null,
+        "koKR": null
+      },
+      "rank": 0,
+      "region": "香港"
+    },
+    {
+      "code": "FTLIFE",
+      "name": "周大福人壽",
+      "nameI18n": {
+        "zhHansCN": "周大福人寿",
+        "zhHantHK": "周大福人壽",
+        "enUS": "Chow Tai Fook Life",
+        "jaJP": null,
+        "koKR": null
+      },
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/ftlife.png",
+      "desc": "周大福人壽保險有限公司（「周大福人壽」）為周大福創建有限公司的全資附屬公司，也是香港最具規模的壽險公司之一。作為周大福企業成員，周大福人壽緊扣鄭氏家族（「周大福集團」或「集團」）多元業務體系的雄厚資源，致力為客戶及其摯愛家人於「生活、成長、健康、傳承」的人生旅程中，提供個人化的匠心規劃、終身保障及優質體驗。憑藉集團財務實力及環球投資佈局，周大福人壽矢志成為亞太區領先的保險公司，持續開創保險新價值。",
+      "descI18n": {
+        "zhHansCN": "周大福人寿保险有限公司（「周大福人寿」）为周大福创建有限公司的全资附属公司，也是香港最具规模的寿险公司之一。作为周大福企业成员，周大福人寿紧扣郑氏家族（「周大福集团」或「集团」）多元业务体系的雄厚资源，致力为客户及其挚爱家人于「生活、成长、健康、传承」的人生旅程中，提供个人化的匠心规划、终身保障及优质体验。凭藉集团财务实力及环球投资佈局，周大福人寿矢志成为亚太区领先的保险公司，持续开创保险新价值。",
+        "zhHantHK": "周大福人壽保險有限公司（「周大福人壽」）為周大福創建有限公司的全資附屬公司，也是香港最具規模的壽險公司之一。作為周大福企業成員，周大福人壽緊扣鄭氏家族（「周大福集團」或「集團」）多元業務體系的雄厚資源，致力為客戶及其摯愛家人於「生活、成長、健康、傳承」的人生旅程中，提供個人化的匠心規劃、終身保障及優質體驗。憑藉集團財務實力及環球投資佈局，周大福人壽矢志成為亞太區領先的保險公司，持續開創保險新價值。",
+        "enUS": "Chow Tai Fook Life Insurance Company Limited (\"Chow Tai Fook Life\") is a wholly-owned subsidiary of Chow Tai Fook Enterprises Limited and one of the largest life insurance companies in Hong Kong. As a member of the Chow Tai Fook Group, Chow Tai Fook Life leverages the extensive resources of the diversified business system of the Cheng family (\"Chow Tai Fook Group\" or \"the Group\") to provide personalized, meticulous planning, lifelong protection and quality experiences for customers and their beloved families throughout their life journey of \"living, growing, staying healthy and passing on\". With the Group's financial strength and global investment layout, Chow Tai Fook Life is committed to becoming a leading insurance company in the Asia-Pacific region and continuously creating new value in insurance.",
+        "jaJP": null,
+        "koKR": null
+      },
+      "rank": 0,
+      "region": "香港"
+    },
+    {
+      "code": "AIA",
+      "name": "友邦保險",
+      "nameI18n": {
+        "zhHansCN": "友邦保险",
+        "zhHantHK": "友邦保險",
+        "enUS": "AIA",
+        "jaJP": null,
+        "koKR": null
+      },
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+      "desc": "作為最大的泛亞地區獨立上市人壽保險集團，友邦保險的業務覆蓋亞太區18個市場。秉持精益求精的宗旨，友邦保險矢志成為世界領先的人壽保險服務機構的翹楚，以達致客戶和股東的期望。本著服務社會的宏願，積極發揮領導本色，促進地區經濟和社會發展。友邦保險秉承為亞洲社區和客戶帶來顯著及正面影響的承諾，以幫助社會大眾實踐健康長久好生活為目標。友邦香港及澳門亦一直竭力擔當著領導角色，積極推動本地以至整個亞洲的經濟及社會發展，並透過推行環境、社會及管治的轉型及長期策略，堅守我們的目標，為大家締造一個更理想及可持續發展的未來。",
+      "descI18n": {
+        "zhHansCN": "作为最大的泛亚地区独立上市人寿保险集团，友邦保险的业务复盖亚太区18个市场。秉持精益求精的宗旨，友邦保险矢志成为世界领先的人寿保险服务机构的翘楚，以达致客户和股东的期望。本着服务社会的宏愿，积极发挥领导本色，促进地区经济和社会发展。友邦保险秉承为亚洲社区和客户带来显着及正面影响的承诺，以帮助社会大众实践健康长久好生活为目标。友邦香港及澳门亦一直竭力担当着领导角色，积极推动本地以至整个亚洲的经济及社会发展，并透过推行环境、社会及管治的转型及长期策略，坚守我们的目标，为大家缔造一个更理想及可持续发展的未来。",
+        "zhHantHK": "作為最大的泛亞地區獨立上市人壽保險集團，友邦保險的業務覆蓋亞太區18個市場。秉持精益求精的宗旨，友邦保險矢志成為世界領先的人壽保險服務機構的翹楚，以達致客戶和股東的期望。本著服務社會的宏願，積極發揮領導本色，促進地區經濟和社會發展。友邦保險秉承為亞洲社區和客戶帶來顯著及正面影響的承諾，以幫助社會大眾實踐健康長久好生活為目標。友邦香港及澳門亦一直竭力擔當著領導角色，積極推動本地以至整個亞洲的經濟及社會發展，並透過推行環境、社會及管治的轉型及長期策略，堅守我們的目標，為大家締造一個更理想及可持續發展的未來。",
+        "enUS": "As the largest independently listed life insurance group in the pan-Asia region, AIA's business covers 18 markets in the Asia-Pacific region. Adhering to the principle of striving for excellence, AIA is committed to becoming a leading life insurance service provider in the world, in order to meet the expectations of its customers and shareholders. With the grand aspiration of serving the society, we actively play the role of a leader and promote the economic and social development of the region. Aia Insurance is committed to bringing significant and positive impacts to the Asian community and customers, with the goal of helping the general public achieve a healthy, long and good life. Aia Hong Kong and Macau have also been striving to take on a leading role, actively promoting economic and social development in Hong Kong and throughout Asia. By implementing environmental, social and governance transformation and long-term strategies, we remain committed to our goal of creating a more ideal and sustainable future for all.",
+        "jaJP": null,
+        "koKR": null
+      },
+      "rank": 0,
+      "region": "香港"
+    },
+    {
+      "code": "MANULIFESINGAPORE",
+      "name": "宏利人壽(新加坡)",
+      "nameI18n": {
+        "zhHansCN": "宏利人寿(新加坡)",
+        "zhHantHK": "宏利人壽(新加坡)",
+        "enUS": "Manulife Singapore",
+        "jaJP": null,
+        "koKR": null
+      },
+      "logo": "https://storage.lifebee.tech/ICON/insurer/manulifesingapore.png",
+      "desc": "Manulife Financial Corporation is a leading international financial services provider that helps people make their decisions easier and lives better. With our global headquarters in Toronto, Canada, we provide financial advice and insurance, operating as Manulife across Canada, Asia, and Europe, and primarily as John Hancock in the United States. Through Manulife Investment Management, the global brand for our global wealth and asset management segment, we serve individuals, institutions and retirement plan members worldwide. At the end of 2022, we had more than 40,000 employees, over 116,000 agents, and thousands of distribution partners, serving over 34 million customers. We trade as 'MFC' on the Toronto, New York, and the Philippine stock exchanges and under '945' in Hong Kong. ",
+      "descI18n": {
+        "zhHansCN": "Manulife Financial Corporation is a leading international financial services provider that helps people make their decisions easier and lives better. With our global headquarters in Toronto, Canada, we provide financial advice and insurance, operating as Manulife across Canada, Asia, and Europe, and primarily as John Hancock in the United States. Through Manulife Investment Management, the global brand for our global wealth and asset management segment, we serve individuals, institutions and retirement plan members worldwide. At the end of 2022, we had more than 40,000 employees, over 116,000 agents, and thousands of distribution partners, serving over 34 million customers. We trade as 'MFC' on the Toronto, New York, and the Philippine stock exchanges and under '945' in Hong Kong. ",
+        "zhHantHK": "Manulife Financial Corporation is a leading international financial services provider that helps people make their decisions easier and lives better. With our global headquarters in Toronto, Canada, we provide financial advice and insurance, operating as Manulife across Canada, Asia, and Europe, and primarily as John Hancock in the United States. Through Manulife Investment Management, the global brand for our global wealth and asset management segment, we serve individuals, institutions and retirement plan members worldwide. At the end of 2022, we had more than 40,000 employees, over 116,000 agents, and thousands of distribution partners, serving over 34 million customers. We trade as 'MFC' on the Toronto, New York, and the Philippine stock exchanges and under '945' in Hong Kong. ",
+        "enUS": "Manulife Financial Corporation is a leading international financial services provider that helps people make their decisions easier and lives better. With our global headquarters in Toronto, Canada, we provide financial advice and insurance, operating as Manulife across Canada, Asia, and Europe, and primarily as John Hancock in the United States. Through Manulife Investment Management, the global brand for our global wealth and asset management segment, we serve individuals, institutions and retirement plan members worldwide. At the end of 2022, we had more than 40,000 employees, over 116,000 agents, and thousands of distribution partners, serving over 34 million customers. We trade as 'MFC' on the Toronto, New York, and the Philippine stock exchanges and under '945' in Hong Kong. ",
+        "jaJP": null,
+        "koKR": null
+      },
+      "rank": 1,
+      "region": "新加坡"
+    },
+    {
+      "code": "YFLIFE",
+      "name": "萬通保險",
+      "nameI18n": {
+        "zhHansCN": "万通保险",
+        "zhHantHK": "萬通保險",
+        "enUS": "YF Life",
+        "jaJP": null,
+        "koKR": null
+      },
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/yflife.png",
+      "desc": "萬通保險國際有限公司為港交所上市公司雲鋒金融集團成員，集團的主要股東包括雲鋒金融控股有限公司以及「全美5大壽險公司」之一的美國萬通人壽保險公司。憑藉雄厚實力及穩健可靠的背景，承諾為客戶提供專業及科技化的一站式風險及財富管理，以及強積金服務，建構非凡未來。萬通保險將卓有遠見的領導能力與嶄新的金融科技融匯一體。憑藉創新科技，為港澳、大灣區以至其他地區的個人及家庭，提供富競爭力，兼具環球視野及保險智慧的服務。萬通保險細心及專業的團隊時刻都將人置於核心位置，為客戶、員工、股東及業務夥伴抓緊每個機遇，創造價值。",
+      "descI18n": {
+        "zhHansCN": "万通保险国际有限公司为港交所上市公司云锋金融集团成员，集团的主要股东包括云锋金融控股有限公司以及「全美5大寿险公司」之一的美国万通人寿保险公司。凭藉雄厚实力及稳健可靠的背景，承诺为客户提供专业及科技化的一站式风险及财富管理，以及强积金服务，建构非凡未来。万通保险将卓有远见的领导能力与崭新的金融科技融汇一体。凭藉创新科技，为港澳、大湾区以至其他地区的个人及家庭，提供富竞争力，兼具环球视野及保险智慧的服务。万通保险细心及专业的团队时刻都将人置于核心位置，为客户、员工、股东及业务伙伴抓紧每个机遇，创造价值。",
+        "zhHantHK": "萬通保險國際有限公司為港交所上市公司雲鋒金融集團成員，集團的主要股東包括雲鋒金融控股有限公司以及「全美5大壽險公司」之一的美國萬通人壽保險公司。憑藉雄厚實力及穩健可靠的背景，承諾為客戶提供專業及科技化的一站式風險及財富管理，以及強積金服務，建構非凡未來。萬通保險將卓有遠見的領導能力與嶄新的金融科技融匯一體。憑藉創新科技，為港澳、大灣區以至其他地區的個人及家庭，提供富競爭力，兼具環球視野及保險智慧的服務。萬通保險細心及專業的團隊時刻都將人置於核心位置，為客戶、員工、股東及業務夥伴抓緊每個機遇，創造價值。",
+        "enUS": "Wan Tong Insurance International Limited is a member of Yunfeng Financial Group, a listed company on the Hong Kong Stock Exchange. The major shareholders of the group include Yunfeng Financial Holdings Limited and Wan Tong Life Insurance Company, one of the \"Top 5 Life Insurance Companies in the United States\". With strong capabilities and a stable and reliable background, we are committed to providing customers with professional and technological one-stop risk and wealth management services, as well as Mandatory Provident Fund services, to build an extraordinary future. Wan Tong Insurance integrates its visionary leadership with cutting-edge financial technology. By leveraging innovative technologies, we provide competitive services with a global perspective and insurance wisdom for individuals and families in Hong Kong, Macao, the Greater Bay Area and other regions. Wan Tong Insurance's meticulous and professional team always places people at the core, seizing every opportunity for customers, employees, shareholders and business partners to create value.",
+        "jaJP": null,
+        "koKR": null
+      },
+      "rank": 1,
+      "region": "香港"
+    },
+    {
+      "code": "PRUDENTIAL",
+      "name": "保誠保險",
+      "nameI18n": {
+        "zhHansCN": "保诚保险",
+        "zhHantHK": "保誠保險",
+        "enUS": "Prudential",
+        "jaJP": null,
+        "koKR": null
+      },
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/prudential.png",
+      "desc": "保誠集團專注在亞洲及非洲提供人壽及健康保險以及資產管理產品，透過讓健康及保障更實惠便捷，以及促進金融普惠，幫助人們活出豐盛人生。提供多元化的理財保障、醫療保障及退休策劃服務。保誠守護財富並為資產增值，推動人們積極儲備以實現目標。在亞洲及非洲擁有超過1,800萬名客戶，公司並於倫敦、香港、新加坡及紐約的證券交易所上市。",
+      "descI18n": {
+        "zhHansCN": "保诚集团专注在亚洲及非洲提供人寿及健康保险以及资产管理产品，透过让健康及保障更实惠便捷，以及促进金融普惠，帮助人们活出丰盛人生。提供多元化的理财保障、医疗保障及退休策划服务。保诚守护财富并为资产增值，推动人们积极储备以实现目标。在亚洲及非洲拥有超过1,800万名客户，公司并于倫敦、香港、新加坡及紐约的证券交易所上市。",
+        "zhHantHK": "保誠集團專注在亞洲及非洲提供人壽及健康保險以及資產管理產品，透過讓健康及保障更實惠便捷，以及促進金融普惠，幫助人們活出豐盛人生。提供多元化的理財保障、醫療保障及退休策劃服務。保誠守護財富並為資產增值，推動人們積極儲備以實現目標。在亞洲及非洲擁有超過1,800萬名客戶，公司並於倫敦、香港、新加坡及紐約的證券交易所上市。",
+        "enUS": "Prudential Group focuses on providing life and health insurance as well as asset management products in Asia and Africa. By making health and protection more affordable and convenient and promoting financial inclusion, it helps people lead fulfilling lives. Provide diversified financial protection, medical protection and retirement planning services. Prudential safeguards wealth and increases asset value, encouraging people to actively stockpile to achieve their goals. With over 18 million customers in Asia and Africa, the company is listed on the stock exchanges in London, Hong Kong, Singapore and New York.",
+        "jaJP": null,
+        "koKR": null
+      },
+      "rank": 1,
+      "region": "香港"
+    },
+    {
+      "code": "MANULIFE",
+      "name": "宏利保險",
+      "nameI18n": {
+        "zhHansCN": "宏利保险",
+        "zhHantHK": "宏利保險",
+        "enUS": "Manulife",
+        "jaJP": null,
+        "koKR": null
+      },
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/manulife.png",
+      "desc": "宏利扎根香港125年，一直深受客戶信賴。宏利香港於1897年開業，至今已發展成為本地主要金融服務機構之一，在保障及財富管理方面為香港及澳門約240萬位客戶提供多元化的產品和服務。宏利為個人及團體客戶提供一系列人壽與醫療保障產品、強積金、職業退休計劃、互惠基金及財富管理方案，宏利致力為客戶提供全面的理財方案，助其輕鬆作出明智抉擇、實現精彩人生。根據《Mercer強積金市場佔有率報告》，按管理資產及現金淨流入計算，宏利是全港最大強積金供應商。此外，宏利也是全港最令客戶滿意及最受客戶推薦的保險品牌。",
+      "descI18n": {
+        "zhHansCN": "宏利扎根香港125年，一直深受客户信赖。宏利香港于1897年开业，至今已发展成为本地主要金融服务机构之一，在保障及财富管理方面为香港及澳门约240万位客户提供多元化的产品和服务。宏利为个人及团体客户提供一系列人寿与医疗保障产品、强积金、职业退休计划、互惠基金及财富管理方案，宏利致力为客户提供全面的理财方案，助其轻鬆作出明智抉择、实现精彩人生。根据《Mercer强积金市场佔有率报告》，按管理资产及现金淨流入计算，宏利是全港最大强积金供应商。此外，宏利也是全港最令客户满意及最受客户推荐的保险品牌。",
+        "zhHantHK": "宏利扎根香港125年，一直深受客戶信賴。宏利香港於1897年開業，至今已發展成為本地主要金融服務機構之一，在保障及財富管理方面為香港及澳門約240萬位客戶提供多元化的產品和服務。宏利為個人及團體客戶提供一系列人壽與醫療保障產品、強積金、職業退休計劃、互惠基金及財富管理方案，宏利致力為客戶提供全面的理財方案，助其輕鬆作出明智抉擇、實現精彩人生。根據《Mercer強積金市場佔有率報告》，按管理資產及現金淨流入計算，宏利是全港最大強積金供應商。此外，宏利也是全港最令客戶滿意及最受客戶推薦的保險品牌。",
+        "enUS": "Manulife has been deeply rooted in Hong Kong for 125 years and has always been trusted by its customers. Manulife Hong Kong was established in 1897 and has since grown into one of the leading financial services institutions in the region, providing a wide range of products and services in protection and wealth management to approximately 2.4 million customers in Hong Kong and Macau. Manulife offers a wide range of life and medical protection products, Mandatory Provident Fund, occupational retirement plans, mutual funds and wealth management solutions to individual and group customers. Manulife is committed to providing customers with comprehensive financial solutions to help them make wise decisions easily and achieve a wonderful life. According to the Mercer MPF Market Share Report, Manulife is the largest MPF provider in Hong Kong in terms of net inflows of assets under management and cash. In addition, Manulife is also the most customer-satisfying and highly recommended insurance brand in Hong Kong.",
+        "jaJP": null,
+        "koKR": null
+      },
+      "rank": 2,
+      "region": "香港"
+    },
+    {
+      "code": "SUNLIFE",
+      "name": "永明金融",
+      "nameI18n": {
+        "zhHansCN": "永明金融",
+        "zhHantHK": "永明金融",
+        "enUS": "Sunlife",
+        "jaJP": null,
+        "koKR": null
+      },
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/sunlife.png",
+      "desc": "香港永明金融自1892年2月22日以來，一直照亮港人，致力令香港更閃耀。迄今，透過旗下個人壽險及康健業務、團體及退休金業務，以及退休金第三者行政管理業務，在港為個人及企業客戶提供專業理財服務，致力滿足客戶在各人生階段的需要。香港永明金融的使命是為客戶提供終生的理財保障及健康生活。永明金融的專才，就是竭盡所能讓客戶在計劃未來時， 作出最合適的理財決定。永明金融不斷創新，贏得信任，專心致志帶來最貼心的理財保障方案，讓客戶跟摯愛一起，活出所想。",
+      "descI18n": {
+        "zhHansCN": "香港永明金融自1892年2月22日以来，一直照亮港人，致力令香港更闪耀。迄今，透过旗下个人寿险及康健业务、团体及退休金业务，以及退休金第三者行政管理业务，在港为个人及企业客户提供专业理财服务，致力满足客户在各人生阶段的需要。香港永明金融的使命是为客户提供终生的理财保障及健康生活。永明金融的专才，就是竭尽所能让客户在计划未来时， 作出最合适的理财决定。永明金融不断创新，赢得信任，专心致志带来最贴心的理财保障方案，让客户跟挚爱一起，活出所想。",
+        "zhHantHK": "香港永明金融自1892年2月22日以來，一直照亮港人，致力令香港更閃耀。迄今，透過旗下個人壽險及康健業務、團體及退休金業務，以及退休金第三者行政管理業務，在港為個人及企業客戶提供專業理財服務，致力滿足客戶在各人生階段的需要。香港永明金融的使命是為客戶提供終生的理財保障及健康生活。永明金融的專才，就是竭盡所能讓客戶在計劃未來時， 作出最合適的理財決定。永明金融不斷創新，贏得信任，專心致志帶來最貼心的理財保障方案，讓客戶跟摯愛一起，活出所想。",
+        "enUS": "Since February 22, 1892, Manulife Hong Kong has been illuminating the people of Hong Kong and is committed to making Hong Kong shine even brighter. To date, through its personal life insurance and health business, group and pension business, as well as pension third-party administrative management business, it provides professional financial services to individual and corporate customers in Hong Kong, and is committed to meeting the needs of customers at all stages of life. The mission of Manulife Hong Kong is to provide customers with lifelong financial protection and a healthy life. The expertise of Wing Ming Financial lies in doing everything possible to help clients make the most appropriate financial decisions when planning for the future. Yongming Financial constantly innovates, earns trust, and is dedicated to providing the most considerate financial protection solutions, allowing customers to live as they wish together with their loved ones.",
+        "jaJP": null,
+        "koKR": null
+      },
+      "rank": 4,
+      "region": "香港"
+    },
+    {
+      "code": "GENERALI",
+      "name": "忠意人壽",
+      "nameI18n": {
+        "zhHansCN": "忠意人寿",
+        "zhHantHK": "忠意人壽",
+        "enUS": "Generali",
+        "jaJP": null,
+        "koKR": null
+      },
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/generali.png",
+      "desc": "忠意是世界最大的保險集團之一，並擁有超過190年曆史。 2015年，集團總保費收入超過740億歐羅，成功並列《財富》世界50強。現有超過7萬6千員工遍布全球超過60多個國家，為7千2百萬客戶提供優質專業服務。集團在西歐市場佔有領先地位，業務更擴展至中東歐及亞洲等地。忠意集團於香港設立亞洲區總部，並透過旗下的公司在香港提供保險服務。忠意保險有限公司 (香港分行) 為大眾、中小企及大企業客戶提供一般保險服務並專注於財產及傷亡、僱員福利，以及高資產業務，亦為團體及私人銀行提供人壽保險服務。",
+      "descI18n": {
+        "zhHansCN": "忠意是世界最大的保险集团之一，并拥有超过190年历史。 2015年，集团总保费收入超过740亿欧罗，成功并列《财富》世界50强。现有超过7万6千员工遍布全球超过60多个国家，为7千2百万客户提供优质专业服务。集团在西欧市场占有领先地位，业务更扩展至中东欧及亚洲等地。忠意集团于香港设立亚洲区总部，并透过旗下的公司在香港提供保险服务。忠意保险有限公司 (香港分行) 为大众、中小企及大企业客户提供一般保险服务并专注于财产及伤亡、雇员福利，以及高资产业务，亦为团体及私人银行提供人寿保险服务。",
+        "zhHantHK": "忠意是世界最大的保險集團之一，並擁有超過190年曆史。 2015年，集團總保費收入超過740億歐羅，成功並列《財富》世界50強。現有超過7萬6千員工遍布全球超過60多個國家，為7千2百萬客戶提供優質專業服務。集團在西歐市場佔有領先地位，業務更擴展至中東歐及亞洲等地。忠意集團於香港設立亞洲區總部，並透過旗下的公司在香港提供保險服務。忠意保險有限公司 (香港分行) 為大眾、中小企及大企業客戶提供一般保險服務並專注於財產及傷亡、僱員福利，以及高資產業務，亦為團體及私人銀行提供人壽保險服務。",
+        "enUS": "Generali is one of the world's largest insurance groups with over 190 years of history. In 2015, the Group's total premium income exceeded €74 billion, successfully ranking among the Fortune Global 50. It currently employs over 76,000 people in more than 60 countries worldwide, providing high-quality professional services to 72 million clients. The Group holds a leading position in the Western European market, and its business has expanded to Central and Eastern Europe and Asia. Generali Group has established its Asia regional headquarters in Hong Kong and provides insurance services in Hong Kong through its subsidiaries. Generali Insurance Company Limited (Hong Kong Branch) provides general insurance services to the general public, SMEs, and large enterprises, focusing on property and casualty, employee benefits, and high-asset businesses, and also provides life insurance services to group and private banks.",
+        "jaJP": null,
+        "koKR": null
+      },
+      "rank": 6,
+      "region": "香港"
+    },
+    {
+      "code": "TPLHK",
+      "name": "太平人壽(香港)",
+      "nameI18n": {
+        "zhHansCN": "太平人寿(香港)",
+        "zhHantHK": "太平人壽(香港)",
+        "enUS": "China Taiping Life",
+        "jaJP": null,
+        "koKR": null
+      },
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/tplhk.png",
+      "desc": "中國太平人壽保險（香港）有限公司是中國太平保險集團有限責任公司旗下的專業壽險公司之一。中國太平於1929年在上海創立，是中國歷史上持續經營最為悠久的民族保險品牌，也是中國唯一一家管理總部在境外的中管金融企業。2022年位居《財富》雜誌世界500強第334位，自2014年起連續八年入圍全球最具價值保險品牌100強。太平人壽(香港)全力參與和服務“一帶一路”，始終秉持以客戶為中心的主旨，積極踐行“誠信、專業、創新、業績”的中國太平核心價值觀，努力發揮保險央企的責任擔當，開心香港民生福祉，服務香港經濟建設，致力成為您身邊最值得信賴的金融保險專家。",
+      "descI18n": {
+        "zhHansCN": "中国太平人寿保险（香港）有限公司是中国太平保险集团有限责任公司旗下的专业寿险公司之一。中国太平于1929年在上海创立，是中国歷史上持续经营最为悠久的民族保险品牌，也是中国唯一一家管理总部在境外的中管金融企业。2022年位居《财富》杂志世界500强第334位，自2014年起连续八年入围全球最具价值保险品牌100强。太平人寿(香港)全力参与和服务“一带一路”，始终秉持以客户为中心的主旨，积极践行“诚信、专业、创新、业绩”的中国太平核心价值观，努力发挥保险央企的责任担当，开心香港民生福祉，服务香港经济建设，致力成为您身边最值得信赖的金融保险专家。",
+        "zhHantHK": "中國太平人壽保險（香港）有限公司是中國太平保險集團有限責任公司旗下的專業壽險公司之一。中國太平於1929年在上海創立，是中國歷史上持續經營最為悠久的民族保險品牌，也是中國唯一一家管理總部在境外的中管金融企業。2022年位居《財富》雜誌世界500強第334位，自2014年起連續八年入圍全球最具價值保險品牌100強。太平人壽(香港)全力參與和服務“一帶一路”，始終秉持以客戶為中心的主旨，積極踐行“誠信、專業、創新、業績”的中國太平核心價值觀，努力發揮保險央企的責任擔當，開心香港民生福祉，服務香港經濟建設，致力成為您身邊最值得信賴的金融保險專家。",
+        "enUS": "China Taiping Life Insurance (Hong Kong) Company Limited is one of the professional life insurance companies under China Taiping Insurance Group Limited. China Taiping, founded in Shanghai in 1929, is the longest-running national insurance brand in China's history and the only Chinese-managed financial enterprise with its management headquarters outside China. In 2022, it ranked 334 in the Fortune Global 500 and has been listed among the world's top 100 most valuable insurance brands for eight consecutive years since 2014. Taiping Life (Hong Kong) fully participates in and serves the \"Belt and Road\", always adheres to the customer-centric theme, actively practices the Chinese Taiping core values of \"integrity, professionalism, innovation and performance\", strives to play the responsibility of the central insurance enterprise, happy the people's well-being of Hong Kong, serves the economic construction of Hong Kong, and strives to become the most trusted financial insurance expert around you.",
+        "jaJP": null,
+        "koKR": null
+      },
+      "rank": 8,
+      "region": "香港"
+    },
+    {
+      "code": "AXA",
+      "name": "安盛保險",
+      "nameI18n": {
+        "zhHansCN": "安盛保险",
+        "zhHantHK": "安盛保險",
+        "enUS": "AXA",
+        "jaJP": null,
+        "koKR": null
+      },
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/axa.png",
+      "desc": "多年來，AXA安盛為客戶提供涵蓋人壽、健康及財產的全面保障，與及財富管理和退休方案，幫助客戶實踐安穩及豐盛的生活。時至今日，AXA安盛為香港及澳門超過170萬名個人及企業客戶提供優質的財富保障及管理服務。AXA安盛屬AXA安盛集團成員之一。秉持著集團的企業核心價值及承諾，我們一直積極拓展業務，讓AXA成為保險、財富管理及退休方面的世界翹楚。AXA安盛集團創立於19世紀初，於50個市場擁有9500萬名客戶，旗下員工154,000人。AXA安盛集團的收益為1103億歐元 (約9258億港元)，其管理資產為9830億歐元 (約82510億港元)。",
+      "descI18n": {
+        "zhHansCN": "多年来，AXA安盛为客户提供涵盖人寿、健康及财产的全面保障，与及财富管理和退休方案，帮助客户实践安稳及丰盛的生活。时至今日，AXA安盛为香港及澳门超过170万名个人及企业客户提供优质的财富保障及管理服务。AXA安盛属AXA安盛集团成员之一。秉持著集团的企业核心价值及承诺，我们一直积极拓展业务，让AXA成为保险、财富管理及退休方面的世界翘楚。AXA安盛集团创立于19世纪初，于50个市场拥有9500万名客户，旗下员工154,000人。AXA安盛集团的收益为1103亿欧元 (约9258亿港元)，其管理资产为9830亿欧元 (约82510亿港元)。",
+        "zhHantHK": "多年來，AXA安盛為客戶提供涵蓋人壽、健康及財產的全面保障，與及財富管理和退休方案，幫助客戶實踐安穩及豐盛的生活。時至今日，AXA安盛為香港及澳門超過170萬名個人及企業客戶提供優質的財富保障及管理服務。AXA安盛屬AXA安盛集團成員之一。秉持著集團的企業核心價值及承諾，我們一直積極拓展業務，讓AXA成為保險、財富管理及退休方面的世界翹楚。AXA安盛集團創立於19世紀初，於50個市場擁有9500萬名客戶，旗下員工154,000人。AXA安盛集團的收益為1103億歐元 (約9258億港元)，其管理資產為9830億歐元 (約82510億港元)。",
+        "enUS": "For many years, AXA has been providing customers with comprehensive protection covering life, health and property, as well as wealth management and retirement solutions, helping customers achieve a stable and fulfilling life. To this day, AXA provides high-quality wealth protection and management services to over 1.7 million individual and corporate clients in Hong Kong and Macau. AXA is one of the members of the AXA Group. Adhering to the core values and commitments of the group, we have been actively expanding our business to make AXA a world leader in insurance, wealth management and retirement. AXA, founded in the early 19th century, has 95 million customers in 50 markets and employs 154,000 people. AXA's revenue was 110.3 billion euros (approximately 925.8 billion Hong Kong dollars), and its assets under management were 983 billion euros (approximately 8,251 billion Hong Kong dollars).",
+        "jaJP": null,
+        "koKR": null
+      },
+      "rank": 8,
+      "region": "香港"
+    },
+    {
+      "code": "CHUBB",
+      "name": "安達人壽(香港)",
+      "nameI18n": {
+        "zhHansCN": "安达人寿(香港)",
+        "zhHantHK": "安達人壽(香港)",
+        "enUS": "Chubb Life Insurance Company",
+        "jaJP": null,
+        "koKR": null
+      },
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/chubb.png",
+      "desc": "安達是全球最大的上市財產及責任保險公司，業務遍及54個國家及地區，為不同行業的客戶提供商業及個人財產和責任保險、個人意外及醫療輔助保險、再保險及人壽保險等。作為一間承保公司，我們以專業見解及嚴格的準則去評估、承擔及管理風險。公司的優越之處在於其多元化的產品及服務範圍、廣大的分銷能力、超卓的財務實力及營運業務遍佈全球各地。在亞太區，安達的業務遍及澳洲，中國，香港，印尼，韓國，澳門，馬來西亞，新西蘭，菲律賓，新加坡，台灣，泰國和越南。 安達人壽自1976年踏足香港，並於2015年在香港開展環球財富管理業務。為滿足廣泛客戶的財務保障及財富管理需求，安達人壽香港（安達人壽保險有限公司）透過保險代理團隊及保險經紀提供一系列的人壽、儲蓄、意外和醫療保險方案。",
+      "descI18n": {
+        "zhHansCN": "安达是全球最大的上市财产及责任保险公司，业务遍及54个国家及地区，为不同行业的客户提供商业及个人财产和责任保险、个人意外及医疗辅助保险、再保险及人寿保险等。作为一间承保公司，我们以专业见解及严格的準则去评估、承担及管理风险。公司的优越之处在于其多元化的产品及服务范围、广大的分销能力、超卓的财务实力及营运业务遍布全球各地。在亚太区，安达的业务遍及澳洲，中国，香港，印尼，韩国，澳门，马来西亚，新西兰，菲律宾，新加坡，台湾，泰国和越南。 安达人寿自1976年踏足香港，并于2015年在香港开展环球财富管理业务。为满足广泛客户的财务保障及财富管理需求，安达人寿香港（安达人寿保险有限公司）透过保险代理团队及保险经纪提供一系列的人寿、储蓄、意外和医疗保险方桉。",
+        "zhHantHK": "安達是全球最大的上市財產及責任保險公司，業務遍及54個國家及地區，為不同行業的客戶提供商業及個人財產和責任保險、個人意外及醫療輔助保險、再保險及人壽保險等。作為一間承保公司，我們以專業見解及嚴格的準則去評估、承擔及管理風險。公司的優越之處在於其多元化的產品及服務範圍、廣大的分銷能力、超卓的財務實力及營運業務遍佈全球各地。在亞太區，安達的業務遍及澳洲，中國，香港，印尼，韓國，澳門，馬來西亞，新西蘭，菲律賓，新加坡，台灣，泰國和越南。 安達人壽自1976年踏足香港，並於2015年在香港開展環球財富管理業務。為滿足廣泛客戶的財務保障及財富管理需求，安達人壽香港（安達人壽保險有限公司）透過保險代理團隊及保險經紀提供一系列的人壽、儲蓄、意外和醫療保險方案。",
+        "enUS": "Chubb is the world's largest listed property and liability insurance company with operations in 54 countries and regions, providing commercial and personal property and liability insurance, personal accident and auxiliary medical insurance, reinsurance and life insurance to customers in various industries.  As an underwriting company, we assess, assume and manage risks with professional insight and strict criteria.  The company's strengths lie in its diverse range of products and services, extensive distribution capabilities, superior financial strength and global presence.  In the Asia Pacific region, Chubb has operations in Australia, China, Hong Kong, Indonesia, Korea, Macau, Malaysia, New Zealand, Philippines, Singapore, Taiwan, Thailand and Vietnam.  Chub Life has been in Hong Kong since 1976 and launched its global wealth management business in Hong Kong in 2015.  To meet the financial protection and wealth management needs of a wide range of customers, Chub Life Hong Kong (Chub Life Insurance Company Limited) offers a range of life, savings, accident and medical insurance solutions through a team of insurance agents and insurance brokers.",
+        "jaJP": null,
+        "koKR": null
+      },
+      "rank": 9,
+      "region": "香港"
+    },
+    {
+      "code": "CHINALIFE",
+      "name": "中國人壽",
+      "nameI18n": {
+        "zhHansCN": "中国人寿",
+        "zhHantHK": "中國人壽",
+        "enUS": "China Life",
+        "jaJP": null,
+        "koKR": null
+      },
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/chinalife.png",
+      "desc": "中國人壽（海外）是中國最大國有金融保險集團中國人壽保險（集團）公司的全資子公司及國際化業務戰略平台。中國人壽堅持現代保險服務業發展方向，努力實現國際一流金融保險集團“國壽夢”。在母公司強力支持下，中國人壽（海外）目前已在香港、澳門、新加坡和印尼市場開展業務。依託“轉型升級、創新驅動、綜合發展”，中國人壽（海外）將持續鞏固現有市場地位，積極擴展全球業務版圖。通過自我積累與兼併擴張並舉、業務發展與投資管理並重，實現盈利提升和價值創造的核心目標，建設成為中國人壽國際化業務的先行基地，國際化人才的成長搖籃。依託專業人才、先進技術、精細管理、穩健發展、優良業績，致力成為在香港、澳門、新加坡及印尼市場上綜合實力領先的專業壽險公司。",
+      "descI18n": {
+        "zhHansCN": "中国人寿（海外）是中国最大国有金融保险集团中国人寿保险（集团）公司的全资子公司及国际化业务战略平台。中国人寿坚持现代保险服务业发展方向，努力实现国际一流金融保险集团“国寿梦”。在母公司强力支持下，中国人寿（海外）目前已在香港、澳门、新加坡和印尼市场开展业务。依託“转型升级、创新驱动、综合发展”，中国人寿（海外）将持续巩固现有市场地位，积极扩展全球业务版图。通过自我积累与兼并扩张并举、业务发展与投资管理并重，实现盈利提升和价值创造的核心目标，建设成为中国人寿国际化业务的先行基地，国际化人才的成长摇篮。依託专业人才、先进技术、精细管理、稳健发展、优良业绩，致力成为在香港、澳门、新加坡及印尼市场上综合实力领先的专业寿险公司。",
+        "zhHantHK": "中國人壽（海外）是中國最大國有金融保險集團中國人壽保險（集團）公司的全資子公司及國際化業務戰略平台。中國人壽堅持現代保險服務業發展方向，努力實現國際一流金融保險集團“國壽夢”。在母公司強力支持下，中國人壽（海外）目前已在香港、澳門、新加坡和印尼市場開展業務。依託“轉型升級、創新驅動、綜合發展”，中國人壽（海外）將持續鞏固現有市場地位，積極擴展全球業務版圖。通過自我積累與兼併擴張並舉、業務發展與投資管理並重，實現盈利提升和價值創造的核心目標，建設成為中國人壽國際化業務的先行基地，國際化人才的成長搖籃。依託專業人才、先進技術、精細管理、穩健發展、優良業績，致力成為在香港、澳門、新加坡及印尼市場上綜合實力領先的專業壽險公司。",
+        "enUS": "China Life (Overseas) is a wholly-owned subsidiary and international business strategic platform of China Life Insurance (Group) Company, the largest state-owned financial and insurance group in China. China Life adheres to the development direction of modern insurance service industry and strives to realize the \"national Life dream\" of a world-class financial and insurance group. With the strong support of its parent company, China Life Overseas now operates in Hong Kong, Macau, Singapore and Indonesia. Relying on \"transformation and upgrading, innovation-driven and comprehensive development\", China Life Overseas will continue to consolidate its existing market position and actively expand its global business territory. Through both self-accumulation and merger and expansion, business development and investment management, we achieve the core goals of profit improvement and value creation, and build ourselves into the leading base for China Life's international business and the cradle for the growth of international talents. Relying on professional talents, advanced technology, fine management, steady development and excellent performance, we strive to become a professional life insurance company with comprehensive strength leading in Hong Kong, Macau, Singapore and Indonesia.",
+        "jaJP": null,
+        "koKR": null
+      },
+      "rank": 10,
+      "region": "香港"
+    },
+    {
+      "code": "CPICLIFE",
+      "name": "中國太平洋人壽保險(香港)",
+      "nameI18n": {
+        "zhHansCN": "中国太平洋人寿保险(香港)",
+        "zhHantHK": "中國太平洋人壽保險(香港)",
+        "enUS": "China Pacific Life Insurance (HK)",
+        "jaJP": null,
+        "koKR": null
+      },
+      "logo": "https://storage.lifebee.tech/ICON/insurer/cpiclife.png",
+      "desc": "中國太平洋人壽保險(香港)有限公司是中國太保壽險全資子公司，以「打造客戶體驗最佳的香港人壽保險公司」為願景，致力為香港市場提供最佳的健康及養老解決方案。堅持以客戶需求為導向，圍繞健康、財富和養老三大核心需求，持續升級「產品＋服務」金三角體系，為客戶提供中國太保「責任、智慧、溫度」的服務與體驗。",
+      "descI18n": {
+        "zhHansCN": "中国太平洋人寿保险(香港)有限公司是中国太保寿险全资子公司，以「打造客户体验最佳的香港人寿保险公司」为愿景，致力为香港市场提供最佳的健康及养老解决方案。坚持以客户需求为导向，围绕健康、财富和养老三大核心需求，持续升级「产品＋服务」金三角体系，为客户提供中国太保「责任、智慧、温度」的服务与体验。",
+        "zhHantHK": "中國太平洋人壽保險(香港)有限公司是中國太保壽險全資子公司，以「打造客戶體驗最佳的香港人壽保險公司」為願景，致力為香港市場提供最佳的健康及養老解決方案。堅持以客戶需求為導向，圍繞健康、財富和養老三大核心需求，持續升級「產品＋服務」金三角體系，為客戶提供中國太保「責任、智慧、溫度」的服務與體驗。",
+        "enUS": "China Pacific Life Insurance (H.K.) Company Limited is a wholly-owned subsidiary of China Pacific Life Insurance. With the vision of \"building the best customer experience among Hong Kong life insurance companies,\" it is committed to providing the best health and retirement solutions for the Hong Kong market. Adhering to a customer-centric approach, it continuously upgrades its \"product + service\" golden triangle system around the three core needs of health, wealth, and retirement, providing customers with China Pacific's \"responsible, intelligent, and warm\" service and experience.",
+        "jaJP": null,
+        "koKR": null
+      },
+      "rank": 12,
+      "region": "香港"
+    },
+    {
+      "code": "BOCLIFE",
+      "name": "中銀人壽",
+      "nameI18n": {
+        "zhHansCN": "中银人寿",
+        "zhHantHK": "中銀人壽",
+        "enUS": "BOC Group Life Assurance Company",
+        "jaJP": null,
+        "koKR": null
+      },
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/boclife.png",
+      "desc": "中銀集團人壽保險有限公司（「中銀人壽」）於1998 年正式開業，發展至今已成為香港最大的保險公司之一，一直「以人為本，以客為先」，糅合專業與關懷，成就無數客戶的理想。中銀視顧客為終身夥伴，提供優質而專業的服務和壽險方案；講求效益，為股東創增價值；重視員工，務求成為員工心目中的首選僱主。此外，中銀人壽財務實力雄厚，榮獲國際評級機構標準普爾授予財政實力評級「A」級，並獲穆迪投資服務確認財務實力評級「A1」級。",
+      "descI18n": {
+        "zhHansCN": "中银集团人寿保险有限公司（「中银人寿」）于1998 年正式开业，发展至今已成为香港最大的保险公司之一，一直「以人为本，以客为先」，糅合专业与关怀，成就无数客户的理想。中银视顾客为终身伙伴，提供优质而专业的服务和寿险方案；讲求效益，为股东创增价值；重视员工，务求成为员工心目中的首选雇主。此外，中银人寿财务实力雄厚，荣获国际评级机构标准普尔授予财政实力评级「A」级，并获穆迪投资服务确认财务实力评级「A1」级。",
+        "zhHantHK": "中銀集團人壽保險有限公司（「中銀人壽」）於1998 年正式開業，發展至今已成為香港最大的保險公司之一，一直「以人為本，以客為先」，糅合專業與關懷，成就無數客戶的理想。中銀視顧客為終身夥伴，提供優質而專業的服務和壽險方案；講求效益，為股東創增價值；重視員工，務求成為員工心目中的首選僱主。此外，中銀人壽財務實力雄厚，榮獲國際評級機構標準普爾授予財政實力評級「A」級，並獲穆迪投資服務確認財務實力評級「A1」級。",
+        "enUS": "BOC Group Life Assurance Company Limited (“BOC Life”) officially opened in 1998 and has since grown into one of the largest insurance companies in Hong Kong. BOC Life consistently prioritizes its customers, combining professionalism and care to fulfill the aspirations of countless clients. BOC views its customers as lifelong partners, providing high-quality and professional services and life insurance solutions; it emphasizes efficiency to create value for shareholders; and it values ​​its employees, striving to be their preferred employer. Furthermore, BOC Life boasts strong financial strength, having been awarded an “A” rating by Standard & Poor’s and an “A1” rating by Moody’s Investors Service.",
+        "jaJP": null,
+        "koKR": null
+      },
+      "rank": 13,
+      "region": "香港"
+    },
+    {
+      "code": "FUBON",
+      "name": "富邦人壽",
+      "nameI18n": {
+        "zhHansCN": "富邦人寿",
+        "zhHantHK": "富邦人壽",
+        "enUS": "Fubon Life",
+        "jaJP": null,
+        "koKR": null
+      },
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/fubon.png",
+      "desc": "富邦人壽保險股份有限公司 (「富邦人壽」) 為富邦金控之全資附屬公司，在台灣保險業具市場領先地位，為客戶提供全面的人壽、保障、儲蓄、年金、意外及健康醫療保險。截至2020年7月止，富邦人壽擁有合併總資產達1,739億美元。在香港，富邦人壽成立的全資附屬公司 ─ 富邦人壽保險（香港）有限公司 (「香港富邦人壽」) 於2016年獲授權在港經營長期保險業務。透過與銀行及中介人機構建立策略性合作夥伴關係，香港富邦人壽務求為客戶提供卓越的儲蓄、保障及理財策劃方案，積極開拓香港市場。富邦人壽秉持保險業初衷，以在地服務結合多元通路策略，持續推出各項新商品及服務，在國內擁有約530多個業務據點，服務全台超過460萬名保戶。以「成為亞洲一流的金融機構」為發展願景，整合富邦金控豐沛資源，不僅經營績效表現亮眼，更持續深化永續經營各面向之作為，運用核心職能善盡企業社會責任，落實推動「正向的力量」品牌精神。",
+      "descI18n": {
+        "zhHansCN": "富邦人寿保险股份有限公司 (「富邦人寿」) 为富邦金控之全资附属公司，在台湾保险业具市场领先地位，为客户提供全面的人寿、保障、储蓄、年金、意外及健康医疗保险。截至2020年7月止，富邦人寿拥有合并总资产达1,739亿美元。在香港，富邦人寿成立的全资附属公司 ─ 富邦人寿保险（香港）有限公司 (「香港富邦人寿」) 于2016年获授权在港经营长期保险业务。透过与银行及中介人机构建立策略性合作伙伴关係，香港富邦人寿务求为客户提供卓越的储蓄、保障及理财策划方桉，积极开拓香港市场。富邦人寿秉持保险业初衷，以在地服务结合多元通路策略，持续推出各项新商品及服务，在国内拥有约530多个业务据点，服务全台超过460万名保户。以「成为亚洲一流的金融机构」为发展愿景，整合富邦金控丰沛资源，不仅经营绩效表现亮眼，更持续深化永续经营各面向之作为，运用核心职能善尽企业社会责任，落实推动「正向的力量」品牌精神",
+        "zhHantHK": "富邦人壽保險股份有限公司 (「富邦人壽」) 為富邦金控之全資附屬公司，在台灣保險業具市場領先地位，為客戶提供全面的人壽、保障、儲蓄、年金、意外及健康醫療保險。截至2020年7月止，富邦人壽擁有合併總資產達1,739億美元。在香港，富邦人壽成立的全資附屬公司 ─ 富邦人壽保險（香港）有限公司 (「香港富邦人壽」) 於2016年獲授權在港經營長期保險業務。透過與銀行及中介人機構建立策略性合作夥伴關係，香港富邦人壽務求為客戶提供卓越的儲蓄、保障及理財策劃方案，積極開拓香港市場。富邦人壽秉持保險業初衷，以在地服務結合多元通路策略，持續推出各項新商品及服務，在國內擁有約530多個業務據點，服務全台超過460萬名保戶。以「成為亞洲一流的金融機構」為發展願景，整合富邦金控豐沛資源，不僅經營績效表現亮眼，更持續深化永續經營各面向之作為，運用核心職能善盡企業社會責任，落實推動「正向的力量」品牌精神。",
+        "enUS": "Fubon Life Insurance Co., LTD. (\" Fubon Life \"), a wholly-owned subsidiary of Fubon Financial Holdings, is a market leader in Taiwan's insurance industry, providing customers with comprehensive life, protection, savings, annuity, accident and health insurance. As of July 2020, Fubon Life had consolidated total assets of US $173.9 billion. In Hong Kong, Fubon Life Insurance (Hong Kong) Limited (\" Fubon Life Hong Kong \"), a wholly-owned subsidiary of Fubon Life, was authorized to carry on long-term insurance business in Hong Kong in 2016. Through strategic partnerships with banks and intermediaries, Fubon Life Hong Kong aims to provide customers with superior savings, protection and financial planning solutions and actively explore the Hong Kong market. Adhering to the original intention of the insurance industry, Fubon Life has continuously launched various new products and services with local services combined with a multi-channel strategy, and has more than 530 business bases in China, serving more than 4.6 million insured customers across Taiwan. With the development vision of \"becoming a first-class financial institution in Asia\", Fubon Financial Holding integrates the abundant resources, not only the business performance is outstanding, but also the continuous deepening of all aspects of sustainable management, the use of core functions to fulfill corporate social responsibility, and the implementation of the \"positive force\" brand spirit.",
+        "jaJP": null,
+        "koKR": null
+      },
+      "rank": 14,
+      "region": "香港"
+    },
+    {
+      "code": "SUNLIFEBERMUDA",
+      "name": "永明金融(百慕大)",
+      "nameI18n": {
+        "zhHansCN": "永明金融(百慕大)",
+        "zhHantHK": "永明金融(百慕大)",
+        "enUS": "Sunlife Bermuda",
+        "jaJP": null,
+        "koKR": null
+      },
+      "logo": "https://storage.lifebee.tech/ICON/insurer/sunlifebermuda.png",
+      "desc": "超過 150 年以來，Sun Life 始終恪守一個使命：致力幫助全球成功家族保障、增長及傳承財富。自 1865 年來，我們始終信守承諾，躋身為全球高淨值壽險市場的業界翹楚，聲譽卓著。",
+      "descI18n": {
+        "zhHansCN": "超过 150 年以来，Sun Life 始终恪守一个使命：致力帮助全球成功家族保障、增长及传承财富。自 1865 年来，我们始终信守承诺，跻身为全球高淨值寿险市场的业界翘楚，声誉卓着。",
+        "zhHantHK": "超過 150 年以來，Sun Life 始終恪守一個使命：致力幫助全球成功家族保障、增長及傳承財富。自 1865 年來，我們始終信守承諾，躋身為全球高淨值壽險市場的業界翹楚，聲譽卓著。",
+        "enUS": "For more than 150 years, Sun Life has been committed to one mission: to help successful families around the world secure, grow and pass on their wealth. Since 1865, we have kept our promise to become the industry leader in the global high net worth life insurance market.",
+        "jaJP": null,
+        "koKR": null
+      },
+      "rank": 15,
+      "region": "百慕大"
+    },
+    {
+      "code": "CTPIHK",
+      "name": "太平保險(香港)",
+      "nameI18n": {
+        "zhHansCN": "太平保險(香港)",
+        "zhHantHK": "太平保險(香港)",
+        "enUS": "China Taiping Insurance",
+        "jaJP": null,
+        "koKR": null
+      },
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/ctpihk.png",
+      "desc": "中國太平保險(香港)有限公司於1949年9月在香港註冊成立，是中國太平保險集團(香港)有限公司的境外旗艦財產險公司，歷史悠久，資本雄厚，致力於為廣大客戶提供全面的一般保險服務。公司根植香港70餘年，始終秉持擔當、務實、協同、奉獻的企業精神，憑藉雄厚的實力、穩健的作風及卓著的信譽，連續多年獲得標準普爾信用 “A”評級和貝氏信用 “A”評級，並先後獲得“最佳效率顧客服務(保險業)獎”、“進出口企業合作夥伴大獎”、香港律政司頒發的“調解為先”承諾書星徽獎勵、入選2020年香港保險業大獎“傑出社區健康危機管理大獎Top3”及在 “大灣區保險業大獎2021-香港站”中獲得“傑出大灣區保險發展貢獻獎（產險）”等，是香港市場上極具影響力的保險公司之一。",
+      "descI18n": {
+        "zhHansCN": "中国太平保险(香港)有限公司于1949年9月在香港注册成立，是中国太平保险集团(香港)有限公司的境外旗舰财产险公司，歷史悠久，资本雄厚，致力于为广大客户提供全面的一般保险服务。公司根植香港70馀年，始终秉持担当、务实、协同、奉献的企业精神，凭借雄厚的实力、稳健的作风及卓着的信誉，连续多年获得标準普尔信用 “A”评级和贝氏信用 “A”评级，并先后获得“最佳效率顾客服务(保险业)奖”、“进出口企业合作伙伴大奖”、香港律政司颁发的“调解为先”承诺书星徽奖励、入选2020年香港保险业大奖“杰出社区健康危机管理大奖Top3”及在 “大湾区保险业大奖2021-香港站”中获得“杰出大湾区保险发展贡献奖（产险）”等，是香港市场上极具影响力的保险公司之一。",
+        "zhHantHK": "中國太平保險(香港)有限公司於1949年9月在香港註冊成立，是中國太平保險集團(香港)有限公司的境外旗艦財產險公司，歷史悠久，資本雄厚，致力於為廣大客戶提供全面的一般保險服務。公司根植香港70餘年，始終秉持擔當、務實、協同、奉獻的企業精神，憑藉雄厚的實力、穩健的作風及卓著的信譽，連續多年獲得標準普爾信用 “A”評級和貝氏信用 “A”評級，並先後獲得“最佳效率顧客服務(保險業)獎”、“進出口企業合作夥伴大獎”、香港律政司頒發的“調解為先”承諾書星徽獎勵、入選2020年香港保險業大獎“傑出社區健康危機管理大獎Top3”及在 “大灣區保險業大獎2021-香港站”中獲得“傑出大灣區保險發展貢獻獎（產險）”等，是香港市場上極具影響力的保險公司之一。",
+        "enUS": "China Taiping Insurance (Hong Kong) Company Limited was incorporated in Hong Kong in September 1949. It is the overseas flagship property insurance company of China Taiping Insurance Group (Hong Kong) Company Limited. With a long history and strong capital, it is committed to providing comprehensive general insurance services for our customers. Rooted in Hong Kong for more than 70 years, the company has always adhered to the corporate spirit of responsibility, pragmatism, collaboration and dedication. With strong strength, steady style and excellent reputation, the company has been awarded the Standard & Poor's credit \"A\" rating and Bayes credit \"A\" rating for many years. It has won the \"Best Efficient Customer Service (Insurance) Award\", the \"Import and Export Enterprise Partner Award\", the \"Mediation First\" Pledge Star Badge Award from the Hong Kong Department of Justice, and the \"Outstanding Community Health Crisis Management Award Top3\" at the Hong Kong Insurance Awards 2020 It is one of the most influential insurance companies in the Hong Kong market, having won the \"Outstanding Contribution Award for Insurance Development in the Greater Bay Area (Property and Casualty)\" at the \"Greater Bay Area Insurance Awards 2021- Hong Kong\".",
+        "jaJP": null,
+        "koKR": null
+      },
+      "rank": 15,
+      "region": "香港"
+    },
+    {
+      "code": "MANULIFEBERMUDA",
+      "name": "宏利人壽(百慕大)",
+      "nameI18n": {
+        "zhHansCN": "宏利人寿(百慕大)",
+        "zhHantHK": "宏利人壽(百慕大)",
+        "enUS": "Manulife Bermuda",
+        "jaJP": null,
+        "koKR": null
+      },
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/manulifebermuda.png",
+      "desc": "宏利是一家領先的加拿大金融服務集團，為全球19個國家和地區的數百萬客戶提供服務。公司通過其廣泛的員工，代理商和分銷合作夥伴網絡為客戶提供各種金融保護產品和財富管理服務。製造商人壽保險公司（百慕大分公司）本身不是獨立於製造商人壽保險公司的法律實體。製造商人壽保險公司仍然有責任遵守該政策，並將根據合同條款使該政策繼續有效。保單合同是在百慕大簽發的，這一事實並沒有改變宏利對其客戶的義務。我們強大的品牌體現了我們作為強大，可靠，可信賴和有遠見的金融合作夥伴的良好聲譽。我們的專業精神的核心價值是為客戶提供真正的價值，以正直的態度行事，表現出財務實力並成為首選雇主，這也激發了客戶的信任。",
+      "descI18n": {
+        "zhHansCN": "宏利是一家领先的加拿大金融服务集团，为全球19个国家和地区的数百万客户提供服务。公司通过其广泛的员工，代理商和分销合作伙伴网络为客户提供各种金融保护产品和财富管理服务。製造商人寿保险公司（百慕大分公司）本身不是独立于製造商人寿保险公司的法律实体。製造商人寿保险公司仍然有责任遵守该政策，并将根据合同条款使该政策继续有效。保单合同是在百慕大签发的，这一事实并没有改变宏利对其客户的义务。我们强大的品牌体现了我们作为强大，可靠，可信赖和有远见的金融合作伙伴的良好声誉。我们的专业精神的核心价值是为客户提供真正的价值，以正直的态度行事，表现出财务实力并成为首选雇主，这也激发了客户的信任。",
+        "zhHantHK": "宏利是一家領先的加拿大金融服務集團，為全球19個國家和地區的數百萬客戶提供服務。公司通過其廣泛的員工，代理商和分銷合作夥伴網絡為客戶提供各種金融保護產品和財富管理服務。製造商人壽保險公司（百慕大分公司）本身不是獨立於製造商人壽保險公司的法律實體。製造商人壽保險公司仍然有責任遵守該政策，並將根據合同條款使該政策繼續有效。保單合同是在百慕大簽發的，這一事實並沒有改變宏利對其客戶的義務。我們強大的品牌體現了我們作為強大，可靠，可信賴和有遠見的金融合作夥伴的良好聲譽。我們的專業精神的核心價值是為客戶提供真正的價值，以正直的態度行事，表現出財務實力並成為首選雇主，這也激發了客戶的信任。",
+        "enUS": "Manulife is a leading Canadian financial services group serving millions of customers in 19 countries and territories worldwide. The company offers a variety of financial protection products and wealth management services to its clients through its extensive network of employees, agents and distribution partners. Manufacturers Life Insurance Company (Bermuda Branch) is not itself a separate legal entity from Manufacturers Life Insurance Company. The Manufacturer Life Insurance Company remains responsible for complying with the policy and will keep the policy in effect under the terms of the contract. The fact that the policy contracts were issued in Bermuda does not change Manulife's obligations to its customers. Our strong brand reflects our strong reputation as a strong, reliable, trustworthy and visionary financial partner. The core value of our professionalism is to provide real value to our clients, acting with integrity, demonstrating financial strength and being an employer of choice, which also inspires trust in our clients.",
+        "jaJP": null,
+        "koKR": null
+      },
+      "rank": 16,
+      "region": "百慕大"
+    },
+    {
+      "code": "TRANSAMERICA",
+      "name": "全美人壽(香港)",
+      "nameI18n": {
+        "zhHansCN": "全美人寿(香港)",
+        "zhHantHK": "全美人壽(香港)",
+        "enUS": "Transamerica HK",
+        "jaJP": null,
+        "koKR": null
+      },
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/transamerica.png",
+      "desc": "全美人壽百慕達為主要的高資產壽險服務供應商，隸屬全球保險集團(external link)。全球保險集團為扎根荷蘭海牙的主要國際金融服務公司，提供人壽保險 、 退休金及資產管理，業務遍及美洲 、 歐洲及亞洲逾20個國家。全球保險集團於阿姆斯特丹及紐約證券交易所上市， 旗下公司在全球雇用22,000名員工，服務3,170萬名客戶。全美人壽公司創立至今逾一個世紀 。憑籍我們對高資產客戶的專注，全美人壽百慕達成為公認的主要高資產壽險服務供應商， 並在高資產財富保障的各方面都積累了豐富的專業知識， 包括處理高保額而複雜的保單，以助客戶規劃遺產及業務安排。同時也在香港設有分行，並獲香港保險業監管局發出執照，也嚴格遵守有關當局對償付能力的要求。",
+      "descI18n": {
+        "zhHansCN": "全美人寿百慕达为主要的高资产寿险服务供应商，隶属全球保险集团(external link)。全球保险集团为扎根荷兰海牙的主要国际金融服务公司，提供人寿保险 、 退休金及资产管理，业务遍及美洲 、 欧洲及亚洲逾20个国家。全球保险集团于阿姆斯特丹及纽约证券交易所上市， 旗下公司在全球雇用22,000名员工，服务3,170万名客户。全美人寿公司创立至今逾一个世纪 。凭籍我们对高资产客户的专注，全美人寿百慕达成为公认的主要高资产寿险服务供应商， 并在高资产财富保障的各方面都积累了丰富的专业知识， 包括处理高保额而复杂的保单，以助客户规划遗产及业务安排。同时也在香港设有分行，并获香港保险业监管局发出执照，也严格遵守有关当局对偿付能力的要求。",
+        "zhHantHK": "全美人壽百慕達為主要的高資產壽險服務供應商，隸屬全球保險集團(external link)。全球保險集團為扎根荷蘭海牙的主要國際金融服務公司，提供人壽保險 、 退休金及資產管理，業務遍及美洲 、 歐洲及亞洲逾20個國家。全球保險集團於阿姆斯特丹及紐約證券交易所上市， 旗下公司在全球雇用22,000名員工，服務3,170萬名客戶。全美人壽公司創立至今逾一個世紀 。憑籍我們對高資產客戶的專注，全美人壽百慕達成為公認的主要高資產壽險服務供應商， 並在高資產財富保障的各方面都積累了豐富的專業知識， 包括處理高保額而複雜的保單，以助客戶規劃遺產及業務安排。同時也在香港設有分行，並獲香港保險業監管局發出執照，也嚴格遵守有關當局對償付能力的要求。",
+        "enUS": "Transamerica Life (Bermuda) Ltd is a leading provider of high-asset life insurance services and is part of the Global Insurance Group (external link). Global Insurance Group is a leading international financial services company based in The Hague, Netherlands, providing life insurance, pensions and asset management with operations in more than 20 countries in the Americas, Europe and Asia. Listed on the Amsterdam and New York Stock exchanges, Global Insurance Group's companies employ 22,000 people worldwide and serve 31.7 million customers. Transamerica Life was founded more than a century ago. With our focus on high-asset clients, TransAmerica Life Bermuda is recognized as a leading provider of high-asset life insurance services and has developed extensive expertise in all aspects of high-asset wealth protection, including handling high-value and complex policies to help clients plan estates and business arrangements. It also has branches in Hong Kong, licensed by the Hong Kong Insurance Authority and in strict compliance with the solvency requirements of the relevant authorities.",
+        "jaJP": null,
+        "koKR": null
+      },
+      "rank": 17,
+      "region": "香港"
+    },
+    {
+      "code": "MSIG",
+      "name": "三井住友海上火災保險(香港)",
+      "nameI18n": {
+        "zhHansCN": "三井住友海上火灾保险(香港)",
+        "zhHantHK": "三井住友海上火災保險(香港)",
+        "enUS": "MSIG Insurance(HK) Limited",
+        "jaJP": null,
+        "koKR": null
+      },
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/msig.png",
+      "desc": "三井住友香港是 MS&AD Insurance Group (簡稱「MS&AD」) 成員之一Mitsui Sumitomo Insurance Company Limited (簡稱「MSI」)的全資附屬公司。早於1855年開展業務網絡，一直為客戶提供一般保險方案及產品，在香港已有超過160年歷史，其源遠流長的歷史及豐富的保險市場經驗令其備受推祟。 多年來，三井住友香港以及我們專業的業務夥伴堅守承諾，致力為客戶提供最優質的產品及服務。提供全面的一般保險產品，涵蓋物業保險、貨運保險、個人意外保險、汽車保險、責任保險、家居保險、醫療保險、個人財物保險、董事及高級職員責任保險、專業責任保險及其他意外保障，以切合客戶的商業及個人需要。",
+      "descI18n": {
+        "zhHansCN": "三井住友香港是 MS&AD Insurance Group (简称「MS&AD」) 成员之一Mitsui Sumitomo Insurance Company Limited (简称「MSI」)的全资附属公司。早于1855年开展业务网络，一直为客户提供一般保险方桉及产品，在香港已有超过160年歷史，其源远流长的歷史及丰富的保险市场经验令其备受推祟。 多年来，叁井住友香港以及我们专业的业务伙伴坚守承诺，致力为客户提供最优质的产品及服务。提供全面的一般保险产品，涵盖物业保险、货运保险、个人意外保险、汽车保险、责任保险、家居保险、医疗保险、个人财物保险、董事及高级职员责任保险、专业责任保险及其他意外保障，以切合客户的商业及个人需要。",
+        "zhHantHK": "三井住友香港是 MS&AD Insurance Group (簡稱「MS&AD」) 成員之一Mitsui Sumitomo Insurance Company Limited (簡稱「MSI」)的全資附屬公司。早於1855年開展業務網絡，一直為客戶提供一般保險方案及產品，在香港已有超過160年歷史，其源遠流長的歷史及豐富的保險市場經驗令其備受推祟。 多年來，三井住友香港以及我們專業的業務夥伴堅守承諾，致力為客戶提供最優質的產品及服務。提供全面的一般保險產品，涵蓋物業保險、貨運保險、個人意外保險、汽車保險、責任保險、家居保險、醫療保險、個人財物保險、董事及高級職員責任保險、專業責任保險及其他意外保障，以切合客戶的商業及個人需要。",
+        "enUS": "Sumitomo Mitsui Hong Kong is a wholly-owned subsidiary of Mitsui Sumitomo Insurance Company Limited (\" MSI \"), a member of MS&AD Insurance Group (\" MS&AD \"). Established as early as 1855, it has been providing customers with general insurance policies and products, and has been in Hong Kong for more than 160 years, its long history and rich experience in the insurance market are highly valued. Over the years, Sumitomo Mitsui Hong Kong and our professional business partners have been committed to providing customers with the highest quality products and services. Provide a comprehensive range of general insurance products covering property insurance, cargo insurance, personal accident insurance, motor insurance, liability insurance, home insurance, medical insurance, personal effects insurance, directors and officers liability insurance, professional liability insurance and other accident protection to meet the business and personal needs of customers.",
+        "jaJP": null,
+        "koKR": null
+      },
+      "rank": 18,
+      "region": "香港"
+    },
+    {
+      "code": "FWDLIFEMACAU",
+      "name": "富衛人壽(澳門)",
+      "nameI18n": {
+        "zhHansCN": "富卫人寿(澳门)",
+        "zhHantHK": "富衛人壽(澳門)",
+        "enUS": "FWD Life Macau",
+        "jaJP": null,
+        "koKR": null
+      },
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/fwdlifemo.png",
+      "desc": "富衛業務遍布香港特別行政區、澳門特別行政區、泰國、印尼、菲律賓、新加坡、越南、日本、馬來西亞及柬埔寨。在香港，富衛提供人壽及醫療保險、一般保險、僱員福利、及財務策劃。富衛專注為客戶創造嶄新體驗，利用數碼科技，提供簡單、易明和貼心的產品。富衛秉持以客為先的服務理念及方針，矢志成為汎亞洲區領先的保險公司，創造保險新體驗。",
+      "descI18n": {
+        "zhHansCN": "富卫业务遍布香港特别行政区、澳门特别行政区、泰国、印尼、菲律宾、新加坡、越南、日本、马来西亚及柬埔寨。在香港，富卫提供人寿及医疗保险、一般保险、僱员福利、及财务策划。富卫专注为客户创造崭新体验，利用数码科技，提供简单、易明和贴心的产品。富卫秉持以客为先的服务理念及方针，矢志成为汎亚洲区领先的保险公司，创造保险新体验。",
+        "zhHantHK": "富衛業務遍布香港特別行政區、澳門特別行政區、泰國、印尼、菲律賓、新加坡、越南、日本、馬來西亞及柬埔寨。在香港，富衛提供人壽及醫療保險、一般保險、僱員福利、及財務策劃。富衛專注為客戶創造嶄新體驗，利用數碼科技，提供簡單、易明和貼心的產品。富衛秉持以客為先的服務理念及方針，矢志成為汎亞洲區領先的保險公司，創造保險新體驗。",
+        "enUS": "We operate in Hong Kong SAR, Macao SAR, Thailand, Indonesia, Philippines, Singapore, Vietnam, Japan, Malaysia and Cambodia. In Hong Kong, we provide life and medical insurance, general insurance, employee benefits, and financial planning. Fuwei focuses on creating new experiences for customers, using digital technology to provide simple, easy to understand and intimate products. Adhering to the customer-oriented service concept and policy, Fuwei is determined to become a leading insurance company in the pan-Asian region and create new insurance experiences.",
+        "jaJP": null,
+        "koKR": null
+      },
+      "rank": 19,
+      "region": "澳門"
+    },
+    {
+      "code": "YFLIFEMACAU",
+      "name": "萬通保險(澳門)",
+      "nameI18n": {
+        "zhHansCN": "万通保险(澳门)",
+        "zhHantHK": "萬通保險(澳門)",
+        "enUS": "YF Life Macau",
+        "jaJP": null,
+        "koKR": null
+      },
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/yflifemo.png",
+      "desc": "萬通保險將卓有遠見的領導能力與嶄新的金融科技融匯一體。憑藉創新科技，為港澳、大灣區以至其他地區的個人及家庭，提供富競爭力，兼具環球視野及保險智慧的服務。不斷求變以迎接保險的未來，但仍然不忘初心。萬通保險國際有限公司為港交所上市公司雲鋒金融集團成員，集團的主要股東包括雲鋒金融控股有限公司以及「全美5大壽險公司」之一的美國萬通人壽保險公司。憑藉雄厚實力及穩健可靠的背景，萬通承諾為客戶提供專業及科技化的一站式風險及財富管理，以及強積金服務，一起建構非凡未來。",
+      "descI18n": {
+        "zhHansCN": "万通保险将卓有远见的领导能力与崭新的金融科技融汇一体。凭借创新科技，为港澳、大湾区以至其他地区的个人及家庭，提供富竞争力，兼具环球视野及保险智慧的服务。不断求变以迎接保险的未来，但仍然不忘初心。万通保险国际有限公司为港交所上市公司云锋金融集团成员，集团的主要股东包括云锋金融控股有限公司以及「全美5大寿险公司」之一的美国万通人寿保险公司。凭借雄厚实力及稳健可靠的背景，万通承诺为客户提供专业及科技化的一站式风险及财富管理，以及强积金服务，一起建构非凡未来。",
+        "zhHantHK": "萬通保險將卓有遠見的領導能力與嶄新的金融科技融匯一體。憑藉創新科技，為港澳、大灣區以至其他地區的個人及家庭，提供富競爭力，兼具環球視野及保險智慧的服務。不斷求變以迎接保險的未來，但仍然不忘初心。萬通保險國際有限公司為港交所上市公司雲鋒金融集團成員，集團的主要股東包括雲鋒金融控股有限公司以及「全美5大壽險公司」之一的美國萬通人壽保險公司。憑藉雄厚實力及穩健可靠的背景，萬通承諾為客戶提供專業及科技化的一站式風險及財富管理，以及強積金服務，一起建構非凡未來。",
+        "enUS": "Vantone combines visionary leadership with new fintech. With innovative technologies, we provide competitive, global vision and insurance savvy services to individuals and families in Hong Kong, Macao, the Greater Bay Area and beyond. Constantly change to meet the future of insurance, but still do not forget the original heart. Vantone Insurance International Limited is a member of the Hong Kong Stock Exchange listed company Yunfeng Financial Group, whose major shareholders include Yunfeng Financial Holdings Limited and Vantone Life Insurance Company of the United States, one of the \"Top five life insurance companies in the United States\". With a strong and reliable background, Vantone is committed to providing customers with professional and technological one-stop risk and wealth management, as well as MPF services to build an extraordinary future.",
+        "jaJP": null,
+        "koKR": null
+      },
+      "rank": 20,
+      "region": "澳門"
+    },
+    {
+      "code": "MANULIFEMACAU",
+      "name": "宏利人壽(澳門)",
+      "nameI18n": {
+        "zhHansCN": "宏利人寿(澳门)",
+        "zhHantHK": "宏利人壽(澳門)",
+        "enUS": "Manulife Macau",
+        "jaJP": null,
+        "koKR": null
+      },
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/manulifemo.png",
+      "desc": "宏利扎根香港超過120年，一直深受客戶信賴。宏利香港於1897年開業，至今已發展成為本地主要金融服務機構之一，在保障及財富管理方面為香港及澳門約220萬位客戶提供多元化的產品和服務。宏利致力為客戶提供全面的理財方案，助其輕鬆作出明智抉擇、實現精彩人生。為個人及團體客戶提供一系列人壽與醫療保障產品、強積金、職業退休計劃、互惠基金及財富管理方案。",
+      "descI18n": {
+        "zhHansCN": "宏利扎根香港超过120年，一直深受客户信赖。宏利香港于1897年开业，至今已发展成为本地主要金融服务机构之一，在保障及财富管理方面为香港及澳门约220万位客户提供多元化的产品和服务。宏利致力为客户提供全面的理财方桉，助其轻松作出明智抉择、实现精彩人生。为个人及团体客户提供一系列人寿与医疗保障产品、强积金、职业退休计划、互惠基金及财富管理方桉。",
+        "zhHantHK": "宏利扎根香港超過120年，一直深受客戶信賴。宏利香港於1897年開業，至今已發展成為本地主要金融服務機構之一，在保障及財富管理方面為香港及澳門約220萬位客戶提供多元化的產品和服務。宏利致力為客戶提供全面的理財方案，助其輕鬆作出明智抉擇、實現精彩人生。為個人及團體客戶提供一系列人壽與醫療保障產品、強積金、職業退休計劃、互惠基金及財富管理方案。",
+        "enUS": "Manulife has been based in Hong Kong for more than 120 years and has been trusted by customers. Established in 1897, Manulife Hong Kong has grown to become one of the major financial services institutions in Hong Kong, offering a wide range of products and services in protection and wealth management to some 2.2 million customers in Hong Kong and Macau. Manulife is committed to providing customers with comprehensive financial solutions that make it easy for them to make informed choices and live a wonderful life. We offer a range of life and healthcare products, MPF, occupational retirement schemes, mutual funds and wealth management options to individual and corporate clients.",
+        "jaJP": null,
+        "koKR": null
+      },
+      "rank": 21,
+      "region": "澳門"
+    },
+    {
+      "code": "TPLMACAU",
+      "name": "太平人壽(澳門)",
+      "nameI18n": {
+        "zhHansCN": "太平人寿(澳门)",
+        "zhHantHK": "太平人壽(澳門)",
+        "enUS": "China Taiping  Life Macau",
+        "jaJP": null,
+        "koKR": null
+      },
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/tplmo.png",
+      "desc": "中國太平人壽保險（澳門）股份有限公司（「太平人壽(澳門)」）是中國太平保險集團有限責任公司（「中國太平」）旗下的專業壽險公司之一。2019年，太平人壽（澳門）設立，使中國太平在澳門實現綜合化金融服務邁出重要一步，是中國太平國際化戰略的重要佈局，也是中國太平參與粵港澳大灣區建設的重要舉措。太平人壽（澳門）負責經營中國太平在澳門的人壽保險業務，首年實現新單保費收入约1.5億澳門元。太平人壽(澳門)自成立以來，始終秉持誠信、專業、創新、業績 的核心價值觀和“擔當、務實、協同、奉獻”的企業精神，致力於成為您身邊最值得信賴的金融保險專家，與您共創安全、健康、富裕的美好生活，實現“共享太平”的美好願景。",
+      "descI18n": {
+        "zhHansCN": "中国太平人寿保险（澳门）股份有限公司（「太平人寿(澳门)」）是中国太平保险集团有限责任公司（「中国太平」）旗下的专业寿险公司之一。2019年，太平人寿（澳门）设立，使中国太平在澳门实现综合化金融服务迈出重要一步，是中国太平国际化战略的重要布局，也是中国太平参与粤港澳大湾区建设的重要举措。太平人寿（澳门）负责经营中国太平在澳门的人寿保险业务，首年实现新单保费收入约1.5亿澳门元。太平人寿(澳门)自成立以来，始终秉持诚信、专业、创新、业绩 的核心价值观和“担当、务实、协同、奉献”的企业精神，致力于成为您身边最值得信赖的金融保险专家，与您共创安全、健康、富裕的美好生活，实现“共享太平”的美好愿景。",
+        "zhHantHK": "中國太平人壽保險（澳門）股份有限公司（「太平人壽(澳門)」）是中國太平保險集團有限責任公司（「中國太平」）旗下的專業壽險公司之一。2019年，太平人壽（澳門）設立，使中國太平在澳門實現綜合化金融服務邁出重要一步，是中國太平國際化戰略的重要佈局，也是中國太平參與粵港澳大灣區建設的重要舉措。太平人壽（澳門）負責經營中國太平在澳門的人壽保險業務，首年實現新單保費收入约1.5億澳門元。太平人壽(澳門)自成立以來，始終秉持誠信、專業、創新、業績 的核心價值觀和“擔當、務實、協同、奉獻”的企業精神，致力於成為您身邊最值得信賴的金融保險專家，與您共創安全、健康、富裕的美好生活，實現“共享太平”的美好願景。",
+        "enUS": "China Taiping Life Insurance (Macau) Company Limited (\" Taiping Life (Macau) \") is one of the specialized life insurance companies under China Taiping Insurance Group Company Limited (\" China Taiping \"). In 2019, Taiping Life (Macau) was established, making an important step for China Taiping to realize integrated financial services in Macau, an important layout of China Taiping's internationalization strategy, and an important measure for China Taiping to participate in the construction of the Guangdong-Hong Kong-Macao Greater Bay Area. Taiping Life (Macau) is responsible for operating China Taiping's life insurance business in Macau, and achieved new premium income of approximately 150 million patacas in the first year. Since its establishment, Taiping Life (Macau) has always adhered to the core values of integrity, professionalism, innovation and performance and the enterprise spirit of \"responsibility, pragmatism, collaboration and dedication\", and is committed to becoming the most trusted financial insurance expert around you, creating a safe, healthy and prosperous life with you, and realizing the beautiful vision of \"sharing peace\".",
+        "jaJP": null,
+        "koKR": null
+      },
+      "rank": 22,
+      "region": "澳門"
+    },
+    {
+      "code": "AXABERMUDA",
+      "name": "安盛保險(百慕大)",
+      "nameI18n": {
+        "zhHansCN": "安盛保险(百慕大)",
+        "zhHantHK": "安盛保險(百慕大)",
+        "enUS": "AXA Bermuda",
+        "jaJP": null,
+        "koKR": null
+      },
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/axabermuda.png",
+      "desc": "作為最大的泛亞地區獨立上市人壽保險集團，我們的業務覆蓋區內18個市場。秉持精益求精的宗旨，我們矢志成為世界領先的人壽保險服務機構的翹楚，以達致客戶和股東的期望。本著服務社會的宏願，我們積極發揮領導本色，促進地區經濟和社會發展。",
+      "descI18n": {
+        "zhHansCN": "作为最大的泛亚地区独立上市人寿保险集团，我们的业务覆盖区内18个市场。秉持精益求精的宗旨，我们矢志成为世界领先的人寿保险服务机构的翘楚，以达致客户和股东的期望。本着服务社会的宏愿，我们积极发挥领导本色，促进地区经济和社会发展。",
+        "zhHantHK": "作為最大的泛亞地區獨立上市人壽保險集團，我們的業務覆蓋區內18個市場。秉持精益求精的宗旨，我們矢志成為世界領先的人壽保險服務機構的翹楚，以達致客戶和股東的期望。本著服務社會的宏願，我們積極發揮領導本色，促進地區經濟和社會發展。",
+        "enUS": "As the largest independent listed Pan-Asian life insurance group, we operate in 18 markets across the region. With a commitment to excellence, we strive to be the world's leading life insurance service provider to meet the expectations of our customers and shareholders. With the ambition of serving the community, we actively exert our leadership to promote the economic and social development of the region.",
+        "jaJP": null,
+        "koKR": null
+      },
+      "rank": 23,
+      "region": "百慕大"
+    },
+    {
+      "code": "CHINALIFEMACAU",
+      "name": "中國人壽(澳門)",
+      "nameI18n": {
+        "zhHansCN": "中国人寿(澳门)",
+        "zhHantHK": "中國人壽(澳門)",
+        "enUS": "China Life Macau",
+        "jaJP": null,
+        "koKR": null
+      },
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/chinalifemacau.png",
+      "desc": "中國人壽保險（海外）股份有限公司（「中國人壽（海外）」）是中國最大國有金融保險集團中國人壽的全資子公司。母公司中國人壽連續18年入選《財富》世界500強，2020年排名耀升至第45位，品牌價值高達4,158.61億元人民幣。 中國人壽（海外）現時立足香港、澳門、新加坡及印尼，1984年在香港成立分公司，1989年設立澳門分公司，1995年則成立中國人壽信託有限公司，近年更成功將業務版圖拓展至東南亞地區，分別於2015年和2018年成立新加坡子公司及印尼子公司。中國人壽（海外）2019年總保費收入660億港元，總資產 4,160 億港元2，業務涵蓋壽險、投資及信托三大範疇，為客戶提供專業優質的產品及服務。1989年4月成立，主要經營業務涵蓋了壽險、團體醫療險、公積金業務等，現擁有13家代理銀行139個網點（佔市場網點數41.3%）。2019年總資產678億澳門元，壽險保費收入120.8億澳門元，市場佔有率47.2%。公司由2014年起，連續6年毛保費總量保持澳門壽險市場第一。2018年，公司成為首批央基金管理實體，退休金主要客戶包括大型中資集團、大型社團、銀行、大專院校等。",
+      "descI18n": {
+        "zhHansCN": "中国人寿保险（海外）股份有限公司（「中国人寿（海外）」）是中国最大国有金融保险集团中国人寿的全资子公司。母公司中国人寿连续18年入选《财富》世界500强，2020年排名耀升至第45位，品牌价值高达4,158.61亿元人民币。 中国人寿（海外）现时立足香港、澳门、新加坡及印尼，1984年在香港成立分公司，1989年设立澳门分公司，1995年则成立中国人寿信託有限公司，近年更成功将业务版图拓展至东南亚地区，分别于2015年和2018年成立新加坡子公司及印尼子公司。中国人寿（海外）2019年总保费收入660亿港元，总资产 4,160 亿港元2，业务涵盖寿险、投资及信托叁大范畴，为客户提供专业优质的产品及服务。1989年4月成立，主要经营业务涵盖了寿险、团体医疗险、公积金业务等，现拥有13家代理银行139个网点（占市场网点数41.3%）。2019年总资产678亿澳门元，寿险保费收入120.8亿澳门元，市场占有率47.2%。公司由2014年起，连续6年毛保费总量保持澳门寿险市场第一。2018年，公司成为首批央基金管理实体，退休金主要客户包括大型中资集团、大型社团、银行、大专院校等。",
+        "zhHantHK": "中國人壽保險（海外）股份有限公司（「中國人壽（海外）」）是中國最大國有金融保險集團中國人壽的全資子公司。母公司中國人壽連續18年入選《財富》世界500強，2020年排名耀升至第45位，品牌價值高達4,158.61億元人民幣。 中國人壽（海外）現時立足香港、澳門、新加坡及印尼，1984年在香港成立分公司，1989年設立澳門分公司，1995年則成立中國人壽信託有限公司，近年更成功將業務版圖拓展至東南亞地區，分別於2015年和2018年成立新加坡子公司及印尼子公司。中國人壽（海外）2019年總保費收入660億港元，總資產 4,160 億港元2，業務涵蓋壽險、投資及信托三大範疇，為客戶提供專業優質的產品及服務。1989年4月成立，主要經營業務涵蓋了壽險、團體醫療險、公積金業務等，現擁有13家代理銀行139個網點（佔市場網點數41.3%）。2019年總資產678億澳門元，壽險保費收入120.8億澳門元，市場佔有率47.2%。公司由2014年起，連續6年毛保費總量保持澳門壽險市場第一。2018年，公司成為首批央基金管理實體，退休金主要客戶包括大型中資集團、大型社團、銀行、大專院校等。",
+        "enUS": "China Life Insurance (Overseas) Company Limited (\" China Life (Overseas) \") is a wholly owned subsidiary of China Life, the largest state-owned financial and insurance group in China. Parent company China Life has been included in the Fortune Global 500 for 18 consecutive years, rising to the 45th place in 2020, with a brand value of 415.861 billion yuan. China Life (Overseas) is currently based in Hong Kong, Macau, Singapore and Indonesia. It established a branch in Hong Kong in 1984, a branch in Macau in 1989, and China Life Trust Company Limited in 1995. In recent years, it has successfully expanded its business to Southeast Asia, establishing a subsidiary in Singapore and an Indonesian subsidiary in 2015 and 2018 respectively. China Life (Overseas) has a total premium income of HK $66 billion and total assets of HK $416 billion in 2019. Its business covers the three major areas of life insurance, investment and trust, providing customers with professional and high-quality products and services. Established in April 1989, the main business covers life insurance, group medical insurance, provident fund business, etc., and now has 13 agent banks with 139 outlets (accounting for 41.3% of the total number of market outlets). In 2019, the total assets were 67.8 billion patacas, and the life insurance premium income was 12.08 billion patacas, with a market share of 47.2%. Since 2014, the company has maintained the first place in the Macau life insurance market in total gross premiums for six consecutive years. In 2018, the company became the first central fund management entity, and the main customers of pension include large Chinese groups, large associations, banks, universities and so on.",
+        "jaJP": null,
+        "koKR": null
+      },
+      "rank": 24,
+      "region": "澳門"
+    },
+    {
+      "code": "AIAMACAU",
+      "name": "友邦保險(澳門)",
+      "nameI18n": {
+        "zhHansCN": "友邦保险(澳门)",
+        "zhHantHK": "友邦保險(澳門)",
+        "enUS": "AIA Macau",
+        "jaJP": null,
+        "koKR": null
+      },
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aiamo.png",
+      "desc": "友邦保險秉承為亞洲社區和客戶帶來顯著及正面影響的承諾，以幫助社會大眾實踐「健康長久好生活」為目標。友邦香港及澳門亦一直竭力擔當著領導角色，積極推動本地以至整個亞洲的經濟及社會發展，並透過推行環境、社會及管治的轉型及長期策略，堅守目標，為大家締造一個更理想及可持續發展的未來。",
+      "descI18n": {
+        "zhHansCN": "友邦保险秉承为亚洲社区和客户带来显着及正面影响的承诺，以帮助社会大众实践「健康长久好生活」为目标。友邦香港及澳门亦一直竭力担当着领导角色，积极推动本地以至整个亚洲的经济及社会发展，并透过推行环境、社会及管治的转型及长期策略，坚守目标，为大家缔造一个更理想及可持续发展的未来。",
+        "zhHantHK": "友邦保險秉承為亞洲社區和客戶帶來顯著及正面影響的承諾，以幫助社會大眾實踐「健康長久好生活」為目標。友邦香港及澳門亦一直竭力擔當著領導角色，積極推動本地以至整個亞洲的經濟及社會發展，並透過推行環境、社會及管治的轉型及長期策略，堅守目標，為大家締造一個更理想及可持續發展的未來。",
+        "enUS": "AIA is committed to making a significant and positive impact on communities and customers in Asia, with the goal of helping the community live a healthy, long and good life. AIA Hong Kong and Macau have also been striving to play a leading role in promoting economic and social development locally and throughout Asia, and to achieve a better and more sustainable future for all through the implementation of environmental, social and governance transformation and long-term strategies.",
+        "jaJP": null,
+        "koKR": null
+      },
+      "rank": 24,
+      "region": "澳門"
+    },
+    {
+      "code": "AVIVA",
+      "name": "英傑華人壽",
+      "nameI18n": {
+        "zhHansCN": "英杰华人寿",
+        "zhHantHK": "英傑華人壽",
+        "enUS": "Aviva Life Insurance",
+        "jaJP": null,
+        "koKR": null
+      },
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aviva.png",
+      "desc": "英傑華集團（Aviva）是一家英國跨國保險公司，總部位於倫敦聖海倫塔，主席為阿德裏安·蒙塔古爵士，首席執行官為馬克威爾遜。2014年，集團收入為434.97億英鎊，營業收入為21.73億英鎊，凈收入為17.38億英鎊。2015年共有28000名員工。。它在全球16個國家擁有大約3400萬用戶。它是英國最大的一般保險公司，也是領先的生活和養老金提供商。英傑華集團在歐洲擁有五個市場，在亞洲專註於中國和東南亞增長市場。它也是加拿大第二大通用保險公司。該集團在倫敦證券交易所第一上市，是富時100指數成分股。之後，它在紐約證交所第二上市。",
+      "descI18n": {
+        "zhHansCN": "英杰华集团（Aviva）是一家英国跨国保险公司，总部位于伦敦圣海伦塔，主席为阿德里安·蒙塔古爵士，首席执行官为马克威尔逊。2014年，集团收入为434.97亿英镑，营业收入为21.73亿英镑，净收入为17.38亿英镑。2015年共有28000名员工。。它在全球16个国家拥有大约3400万用户。它是英国最大的一般保险公司，也是领先的生活和养老金提供商。英杰华集团在欧洲拥有五个市场，在亚洲专注于中国和东南亚增长市场。它也是加拿大第二大通用保险公司。该集团在伦敦证券交易所第一上市，是富时100指数成分股。之后，它在纽约证交所第二上市。",
+        "zhHantHK": "英傑華集團（Aviva）是一家英國跨國保險公司，總部位於倫敦聖海倫塔，主席為阿德裏安·蒙塔古爵士，首席執行官為馬克威爾遜。2014年，集團收入為434.97億英鎊，營業收入為21.73億英鎊，凈收入為17.38億英鎊。2015年共有28000名員工。。它在全球16個國家擁有大約3400萬用戶。它是英國最大的一般保險公司，也是領先的生活和養老金提供商。英傑華集團在歐洲擁有五個市場，在亞洲專註於中國和東南亞增長市場。它也是加拿大第二大通用保險公司。該集團在倫敦證券交易所第一上市，是富時100指數成分股。之後，它在紐約證交所第二上市。",
+        "enUS": "Aviva is a British multinational insurance company headquartered in St Helens Tower, London, chaired by Sir Adrian Montague and Chief Executive Officer Mark Wilson. In 2014, Group revenue was £43,497 million, operating income was £2,173 million and net income was £1,738 million. In 2015, there were 28,000 employees. It has about 34 million users in 16 countries around the world. It is the UK's largest general insurer and a leading lifestyle and pensions provider. The Aviva Group operates in five markets in Europe and in Asia focuses on the growth markets of China and Southeast Asia. It is also the second largest general insurance company in Canada. The Group is first listed on the London Stock Exchange and is a member of the FTSE 100 index. It was subsequently listed on the New York Stock Exchange.",
+        "jaJP": null,
+        "koKR": null
+      },
+      "rank": 25,
+      "region": "香港"
+    },
+    {
+      "code": "STANDARDLIFE",
+      "name": "恒安標準人壽",
+      "nameI18n": {
+        "zhHansCN": "恒安标准人寿",
+        "zhHantHK": "恒安標準人壽",
+        "enUS": "Heng An Standard Life (Asia) ",
+        "jaJP": null,
+        "koKR": null
+      },
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/standardlife.png",
+      "desc": "恒安標準人壽(亞洲)有限公司（「恒安標準人壽亞洲」，前稱「標準人壽保險（亞洲）有限公司」），是恒安標準人壽保險有限公司的全資附屬公司。恒安標準人壽亞洲早於 1999年已經在香港營運，當時名為「標準人壽保險（亞洲）有限公司」，是安本集團（前稱標準人壽安本集團 ） 全資附屬公司在香港註冊成立為獲授權的保險公司。為配合安本集團在香港及中國內地保險發展策略，標準人壽保險（亞洲）有限公司已於 2020年 6月出售予恒安標準人壽，以創造一個更堅實的基石配合日後業務發展。秉持品牌信念「讓生活得更多」，恒安標準人壽亞洲憑藉在投資相連保險及傳統人壽保險兩方面的綜合專業知識，致力為客戶提供更多不同類型的「財富與健康」保險產品。恒安標準人壽亞洲立足香港，放眼大灣區與區域性市場，推出更創新和更全面的產品，滿足客戶多元化和不斷變化的需求。",
+      "descI18n": {
+        "zhHansCN": "恒安标準人寿(亚洲)有限公司（「恒安标準人寿亚洲」，前称「标準人寿保险（亚洲）有限公司」），是恒安标準人寿保险有限公司的全资附属公司。恒安标準人寿亚洲早于 1999年已经在香港营运，当时名为「标準人寿保险（亚洲）有限公司」，是安本集团（前称标準人寿安本集团 ） 全资附属公司在香港注册成立为获授权的保险公司。为配合安本集团在香港及中国内地保险发展策略，标準人寿保险（亚洲）有限公司已于 2020年 6月出售予恒安标準人寿，以创造一个更坚实的基石配合日后业务发展。秉持品牌信念「让生活得更多」，恒安标準人寿亚洲凭借在投资相连保险及传统人寿保险两方面的综合专业知识，致力为客户提供更多不同类型的「财富与健康」保险产品。恒安标準人寿亚洲立足香港，放眼大湾区与区域性市场，推出更创新和更全面的产品，满足客户多元化和不断变化的需求。",
+        "zhHantHK": "恒安標準人壽(亞洲)有限公司（「恒安標準人壽亞洲」，前稱「標準人壽保險（亞洲）有限公司」），是恒安標準人壽保險有限公司的全資附屬公司。恒安標準人壽亞洲早於 1999年已經在香港營運，當時名為「標準人壽保險（亞洲）有限公司」，是安本集團（前稱標準人壽安本集團 ） 全資附屬公司在香港註冊成立為獲授權的保險公司。為配合安本集團在香港及中國內地保險發展策略，標準人壽保險（亞洲）有限公司已於 2020年 6月出售予恒安標準人壽，以創造一個更堅實的基石配合日後業務發展。秉持品牌信念「讓生活得更多」，恒安標準人壽亞洲憑藉在投資相連保險及傳統人壽保險兩方面的綜合專業知識，致力為客戶提供更多不同類型的「財富與健康」保險產品。恒安標準人壽亞洲立足香港，放眼大灣區與區域性市場，推出更創新和更全面的產品，滿足客戶多元化和不斷變化的需求。",
+        "enUS": "Hengan Standard Life (Asia) Limited (\" Hengan Standard Life Asia \", formerly known as \"Standard Life (Asia) Limited\") is a wholly-owned subsidiary of Hengan Standard Life Insurance Company Limited. Hengan Standard Life Asia has been operating in Hong Kong since 1999 under the name \"Standard Life Insurance (Asia) Limited\", a wholly-owned subsidiary of Aberdeen Group (formerly known as Standard Life Aberdeen Group) incorporated as an authorized insurance company in Hong Kong.  With the brand belief of \"Live more\", Hengan Standard Life Asia is committed to providing customers with a wide range of wealth and health insurance products with its combined expertise in both investment-linked insurance and traditional life insurance. Hengan Standard Life Asia is based in Hong Kong, with an eye to the Greater Bay Area and regional markets, introducing more innovative and comprehensive products to meet the diverse and changing needs of customers.",
+        "jaJP": null,
+        "koKR": null
+      },
+      "rank": 26,
+      "region": "香港"
+    },
+    {
+      "code": "AXAMACAU",
+      "name": "安盛保險(澳門)",
+      "nameI18n": {
+        "zhHansCN": "安盛保险(澳门)",
+        "zhHantHK": "安盛保險(澳門)",
+        "enUS": "AXA Macau",
+        "jaJP": null,
+        "koKR": null
+      },
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/axamo.png",
+      "desc": "AXA安盛為客戶提供涵蓋人壽、健康及財產的全面保障，與及財富管理和退休方案，幫助客戶實踐安穩及豐盛的生活。時至今日，AXA安盛為香港及澳門超過100萬名個人及企業客戶提供優質的財富保障及管理服務。AXA安盛屬AXA安盛集團成員之一。秉持著集團的企業核心價值及承諾，一直積極拓展業務，讓AXA成為保險、投資及退休方面的世界翹楚。",
+      "descI18n": {
+        "zhHansCN": "AXA安盛为客户提供涵盖人寿、健康及财产的全面保障，与及财富管理和退休方案，帮助客户实践安稳及丰盛的生活。时至今日，AXA安盛为香港及澳门超过100万名个人及企业客户提供优质的财富保障及管理服务。AXA安盛属AXA安盛集团成员之一。秉持着集团的企业核心价值及承诺，一直积极拓展业务，让AXA成为保险、投资及退休方面的世界翘楚。",
+        "zhHantHK": "AXA安盛為客戶提供涵蓋人壽、健康及財產的全面保障，與及財富管理和退休方案，幫助客戶實踐安穩及豐盛的生活。時至今日，AXA安盛為香港及澳門超過100萬名個人及企業客戶提供優質的財富保障及管理服務。AXA安盛屬AXA安盛集團成員之一。秉持著集團的企業核心價值及承諾，一直積極拓展業務，讓AXA成為保險、投資及退休方面的世界翹楚。",
+        "enUS": "AXA provides clients with comprehensive life, health and property protection, as well as wealth management and retirement solutions to help them live a secure and prosperous life. Today, AXA provides quality wealth protection and management services to more than 1 million individual and corporate clients in Hong Kong and Macau. AXA is a member of the AXA Group. Adhering to the Group's core corporate values and commitments, AXA has been actively expanding its business to become a world leader in insurance, investment and retirement.",
+        "jaJP": null,
+        "koKR": null
+      },
+      "rank": 27,
+      "region": "澳門"
+    },
+    {
+      "code": "METLIFE",
+      "name": "富衛壽險(原MetLife大都會)",
+      "nameI18n": {
+        "zhHansCN": "富卫寿险(原MetLife大都会)",
+        "zhHantHK": "富衛壽險(原MetLife大都會)",
+        "enUS": "FWD Assurance(MetLife)",
+        "jaJP": null,
+        "koKR": null
+      },
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/metlife.png",
+      "desc": "大都會人壽保險有限公司（「香港大都會人壽」）為全球最大人壽保險公司之一的MetLife, Inc.旗下全資附屬公司。香港大都會人壽獲得標普全球評級「A+」信用評級及穩定評級展望，此評級充分證明香港大都會人壽之雄厚和穩健的財務實力和多元化的環球投資及風險管理策略。香港大都會人壽憑藉美國總部150年曆史所建立的龐大規模，以及擅於環球風險管理和豐富投資經驗的優勢，不但可投資更廣泛的資產類別，更發揮美元資產交易、美國證券篩選、信貸研究及私人配售的能力，這些皆為小型機構及零售投資者難以獲得的投資機會。",
+      "descI18n": {
+        "zhHansCN": "大都会人寿保险有限公司（「香港大都会人寿」）为全球最大人寿保险公司之一的MetLife, Inc.旗下全资附属公司。香港大都会人寿获得标普全球评级「A+」信用评级及稳定评级展望，此评级充分证明香港大都会人寿之雄厚和稳健的财务实力和多元化的环球投资及风险管理策略。香港大都会人寿凭借美国总部150年曆史所建立的庞大规模，以及擅于环球风险管理和丰富投资经验的优势，不但可投资更广泛的资产类别，更发挥美元资产交易、美国证券筛选、信贷研究及私人配售的能力，这些皆为小型机构及零售投资者难以获得的投资机会。",
+        "zhHantHK": "大都會人壽保險有限公司（「香港大都會人壽」）為全球最大人壽保險公司之一的MetLife, Inc.旗下全資附屬公司。香港大都會人壽獲得標普全球評級「A+」信用評級及穩定評級展望，此評級充分證明香港大都會人壽之雄厚和穩健的財務實力和多元化的環球投資及風險管理策略。香港大都會人壽憑藉美國總部150年曆史所建立的龐大規模，以及擅於環球風險管理和豐富投資經驗的優勢，不但可投資更廣泛的資產類別，更發揮美元資產交易、美國證券篩選、信貸研究及私人配售的能力，這些皆為小型機構及零售投資者難以獲得的投資機會。",
+        "enUS": "MetLife Insurance Company Limited (\" MetLife Hong Kong \") is MetLife, Inc., one of the world's largest life insurance companies. Its wholly-owned subsidiary. Metlife Hong Kong received an \"A+\" credit rating and a stable rating outlook from Standard & Poor's Global Ratings, which fully demonstrates MetLife Hong Kong's strong and sound financial strength and diversified global investment and risk management strategies. The scale of MetLife Hong Kong's 150-year US headquarters, combined with its expertise in global risk management and extensive investment experience, enables MetLife Hong Kong to invest in a wider range of asset classes, as well as its capabilities in US dollar asset trading, US securities screening, credit research and private placements, all of which are not readily available to small institutional and retail investors.",
+        "jaJP": null,
+        "koKR": null
+      },
+      "rank": 29,
+      "region": "香港"
+    },
+    {
+      "code": "TAHOELIFE",
+      "name": "泰禾人壽",
+      "nameI18n": {
+        "zhHansCN": "泰禾人寿",
+        "zhHantHK": "泰禾人壽",
+        "enUS": "Tahoe Life",
+        "jaJP": null,
+        "koKR": null
+      },
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/tahoe.png",
+      "desc": "泰禾投資集團有限公司（下稱「集團」）於 1993 年由黃其森先生創建，總資產達2,801億元人民幣。集團發展始於一份社會責任心，冀願從客戶、社會、以至國際層面，實踐全面佈局，回饋社會，逐步邁向成就百年基業的目標。泰禾人壽以「背靠中國、立足香港、面向國際」的發展策略，實現集團的「國際化大金融」全產業鏈。憑藉集團雄厚實力，包括醫療網絡、金融投資能力、龐大客戶資源，以及過往服務香港近30年的專業保險營運及管理基礎，泰禾人壽在保險市場上佔盡優勢，務求透過全面佈局周全服務客戶一生。",
+      "descI18n": {
+        "zhHansCN": "泰禾投资集团有限公司（下称「集团」）于 1993 年由黄其森先生创建，总资产达2,801亿元人民币。集团发展始于一份社会责任心，冀愿从客户、社会、以至国际层面，实践全面布局，回馈社会，逐步迈向成就百年基业的目标。泰禾人寿以「背靠中国、立足香港、面向国际」的发展策略，实现集团的「国际化大金融」全产业链。凭借集团雄厚实力，包括医疗网络、金融投资能力、庞大客户资源，以及过往服务香港近30年的专业保险营运及管理基础，泰禾人寿在保险市场上占尽优势，务求透过全面布局周全服务客户一生。",
+        "zhHantHK": "泰禾投資集團有限公司（下稱「集團」）於 1993 年由黃其森先生創建，總資產達2,801億元人民幣。集團發展始於一份社會責任心，冀願從客戶、社會、以至國際層面，實踐全面佈局，回饋社會，逐步邁向成就百年基業的目標。泰禾人壽以「背靠中國、立足香港、面向國際」的發展策略，實現集團的「國際化大金融」全產業鏈。憑藉集團雄厚實力，包括醫療網絡、金融投資能力、龐大客戶資源，以及過往服務香港近30年的專業保險營運及管理基礎，泰禾人壽在保險市場上佔盡優勢，務求透過全面佈局周全服務客戶一生。",
+        "enUS": "Tahoe Life Insurance Company Limited was founded by Mr. Huang Qisen in 1993 with total assets of RMB280.1 billion.   The development of the group begins with a sense of social responsibility, hoping to practice a comprehensive layout from the customer, the society, and even the international level, to contribute to the society, and gradually move towards the goal of achieving a century-old foundation.   With the development strategy of \"relying on China, based on Hong Kong and facing the world\", Tahoe Life Insurance has realized the whole industrial chain of \"international big finance\" of the group.   With the strong strength of the Group, including the medical network, financial investment capability, huge customer resources, and the professional insurance operation and management foundation that has served Hong Kong for nearly 30 years, Tahoe Life has the advantage in the insurance market, aiming to provide comprehensive services to customers through a comprehensive layout.",
+        "jaJP": null,
+        "koKR": null
+      },
+      "rank": 30,
+      "region": "香港"
+    },
+    {
+      "code": "PACIFICLIFE",
+      "name": "太平洋人壽",
+      "nameI18n": {
+        "zhHansCN": "太平洋人寿",
+        "zhHantHK": "太平洋人壽",
+        "enUS": "Pacific Life",
+        "jaJP": null,
+        "koKR": null
+      },
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/pacificlife.png",
+      "desc": "太平洋人壽保險有限公司（以下簡稱「太平洋人壽」）於1960年在香港成立，紮根香港，與香港共同成長。太平洋人壽為太平洋保險有限公司之全資附屬機構。母公司太平洋保險經營一般保險業務，多年來建立良好信譽，作風穩健，實力雄厚。太平洋人壽一向致力提供優質之人壽保險服務，備有全線系列之周全人壽保險計劃，透過保險中介人為廣大市民及機構提供全面服務。",
+      "descI18n": {
+        "zhHansCN": "太平洋人寿保险有限公司（以下简称「太平洋人寿」）于1960年在香港成立，扎根香港，与香港共同成长。太平洋人寿为太平洋保险有限公司之全资附属机构。母公司太平洋保险经营一般保险业务，多年来建立良好信誉，作风稳健，实力雄厚。太平洋人寿一向致力提供优质之人寿保险服务，备有全线系列之周全人寿保险计划，透过保险中介人为广大市民及机构提供全面服务。",
+        "zhHantHK": "太平洋人壽保險有限公司（以下簡稱「太平洋人壽」）於1960年在香港成立，紮根香港，與香港共同成長。太平洋人壽為太平洋保險有限公司之全資附屬機構。母公司太平洋保險經營一般保險業務，多年來建立良好信譽，作風穩健，實力雄厚。太平洋人壽一向致力提供優質之人壽保險服務，備有全線系列之周全人壽保險計劃，透過保險中介人為廣大市民及機構提供全面服務。",
+        "enUS": "Pacific Life Insurance Company Limited (hereinafter referred to as \"Pacific Life\") was established in Hong Kong in 1960, taking root in Hong Kong and growing together with Hong Kong. Pacific Life is a wholly owned subsidiary of Pacific Insurance Company Limited. The parent company, Pacific Insurance, operates general insurance business and has established a good reputation over the years with a steady style and strong strength. Pacific Life has always been committed to providing quality life insurance services, with a full range of comprehensive life insurance plans to provide comprehensive services to the general public and organizations through insurance intermediaries.",
+        "jaJP": null,
+        "koKR": null
+      },
+      "rank": 31,
+      "region": "香港"
+    },
+    {
+      "code": "ING",
+      "name": "ING Life Insurance",
+      "nameI18n": {
+        "zhHansCN": "ING Life Insurance",
+        "zhHantHK": "ING Life Insurance",
+        "enUS": "ING Life Insurance",
+        "jaJP": null,
+        "koKR": null
+      },
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/ing.png",
+      "desc": "ING是一家具有強大歐洲基礎的跨國銀行。我們的56,000名員工為40多個國家/地區的3880萬客戶，企業客戶和金融機構提供服務。我們的目的是使人們能夠在生活和業務上保持領先地位。產品包括大多數零售市場中的儲蓄，付款，投資，貸款和抵押。我們為批發銀行客戶提供專業貸款，量身定制的公司融資，債務和股票市場解決方案，支付和現金管理以及貿易和資金管理服務。",
+      "descI18n": {
+        "zhHansCN": "ING是一家具有强大欧洲基础的跨国银行。我们的56,000名员工为40多个国家/地区的3880万客户，企业客户和金融机构提供服务。我们的目的是使人们能够在生活和业务上保持领先地位。产品包括大多数零售市场中的储蓄，付款，投资，贷款和抵押。我们为批发银行客户提供专业贷款，量身定制的公司融资，债务和股票市场解决方桉，支付和现金管理以及贸易和资金管理服务。",
+        "zhHantHK": "ING是一家具有強大歐洲基礎的跨國銀行。我們的56,000名員工為40多個國家/地區的3880萬客戶，企業客戶和金融機構提供服務。我們的目的是使人們能夠在生活和業務上保持領先地位。產品包括大多數零售市場中的儲蓄，付款，投資，貸款和抵押。我們為批發銀行客戶提供專業貸款，量身定制的公司融資，債務和股票市場解決方案，支付和現金管理以及貿易和資金管理服務。",
+        "enUS": "ING is a multinational bank with a strong European base. Our 56,000 employees serve 38.8 million customers, corporate clients and financial institutions in more than 40 countries. Our purpose is to empower people to stay ahead in life and business. Products include savings, payments, investments, loans and mortgages in most retail markets. We provide wholesale banking clients with specialist lending, tailor-made corporate finance, debt and equity market solutions, payments and cash management, and trading and funds management services.",
+        "jaJP": null,
+        "koKR": null
+      },
+      "rank": 32,
+      "region": "香港"
+    },
+    {
+      "code": "AIASINGAPORE",
+      "name": "友邦保險(新加坡)",
+      "nameI18n": {
+        "zhHansCN": "友邦保险(新加坡)",
+        "zhHantHK": "友邦保險(新加坡)",
+        "enUS": "AIA Singapore",
+        "jaJP": null,
+        "koKR": null
+      },
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aiasingapore.png",
+      "desc": "友邦新加坡（AIA Singapore）是友邦保險集團的全資子公司，友邦保險是亞洲領先的人壽保險集團之壹。在新加坡，友邦提供壹系列人壽保險、健康保險和儲蓄計劃，致力於幫助客戶規劃健康和財富的未來。公司以其全面的保險解決方案、卓越的客戶服務和強大的財務實力而聞名。友邦新加坡不斷創新，通過數字化服務和個性化產品，滿足客戶多變的需求。作為新加坡保險市場的領導者，友邦通過其廣泛的代理網絡和服務中心，為客戶提供便捷和專業的服務體驗。",
+      "descI18n": {
+        "zhHansCN": "友邦新加坡（AIA Singapore）是友邦保险集团的全资子公司，友邦保险是亚洲领先的人寿保险集团之一。在新加坡，友邦提供一系列人寿保险、健康保险和储蓄计划，致力于帮助客户规划健康和财富的未来。公司以其全面的保险解决方案、卓越的客户服务和强大的财务实力而闻名。友邦新加坡不断创新，通过数字化服务和个性化产品，满足客户多变的需求。作为新加坡保险市场的领导者，友邦通过其广泛的代理网络和服务中心，为客户提供便捷和专业的服务体验。",
+        "zhHantHK": "友邦新加坡（AIA Singapore）是友邦保險集團的全資子公司，友邦保險是亞洲領先的人壽保險集團之壹。在新加坡，友邦提供壹系列人壽保險、健康保險和儲蓄計劃，致力於幫助客戶規劃健康和財富的未來。公司以其全面的保險解決方案、卓越的客戶服務和強大的財務實力而聞名。友邦新加坡不斷創新，通過數字化服務和個性化產品，滿足客戶多變的需求。作為新加坡保險市場的領導者，友邦通過其廣泛的代理網絡和服務中心，為客戶提供便捷和專業的服務體驗。",
+        "enUS": "AIA Singapore is a wholly-owned subsidiary of AIA Group, one of Asia's leading life insurance companies. In Singapore, AIA offers a range of life and health insurance, as well as savings plans, committed to helping customers plan for a healthy and wealthy future. Known for its comprehensive insurance solutions, excellent customer service, and strong financial strength, AIA Singapore continues to innovate by offering digital services and personalized products to meet the changing needs of its clients. As a leader in Singapore's insurance market, AIA provides a convenient and professional service experience through its extensive network of agents and service centers.",
+        "jaJP": null,
+        "koKR": null
+      },
+      "rank": 33,
+      "region": "新加坡"
+    },
+    {
+      "code": "BUPA",
+      "name": "保柏(亞洲)",
+      "nameI18n": {
+        "zhHansCN": "保柏(亚洲)",
+        "zhHantHK": "保柏(亞洲)",
+        "enUS": "Bupa (Asia) Limited",
+        "jaJP": null,
+        "koKR": null
+      },
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/bupa.png",
+      "desc": "We have been driven by a passion to improve health and healthcare since our founding in 1947. It is articulated in our purpose: helping people live longer, healthier, happier lives and making a better world. Our impact on the lives of customers and communities can be seen through the dedication of our 84,000 employees who are integral to Bupa’s success.\nWe rely on the skills, energy and commitment of our people to do a great job for our customers and each other. We know that a healthy business needs a healthy and inclusive culture. We listen, learn and act on feedback from our teams, and empower them to ensure that Bupa is a great place to work.",
+      "descI18n": {
+        "zhHansCN": "We have been driven by a passion to improve health and healthcare since our founding in 1947. It is articulated in our purpose: helping people live longer, healthier, happier lives and making a better world. Our impact on the lives of customers and communities can be seen through the dedication of our 84,000 employees who are integral to Bupa’s success.\nWe rely on the skills, energy and commitment of our people to do a great job for our customers and each other. We know that a healthy business needs a healthy and inclusive culture. We listen, learn and act on feedback from our teams, and empower them to ensure that Bupa is a great place to work.",
+        "zhHantHK": "We have been driven by a passion to improve health and healthcare since our founding in 1947. It is articulated in our purpose: helping people live longer, healthier, happier lives and making a better world. Our impact on the lives of customers and communities can be seen through the dedication of our 84,000 employees who are integral to Bupa’s success.\nWe rely on the skills, energy and commitment of our people to do a great job for our customers and each other. We know that a healthy business needs a healthy and inclusive culture. We listen, learn and act on feedback from our teams, and empower them to ensure that Bupa is a great place to work.",
+        "enUS": "We have been driven by a passion to improve health and healthcare since our founding in 1947. It is articulated in our purpose: helping people live longer, healthier, happier lives and making a better world. Our impact on the lives of customers and communities can be seen through the dedication of our 84,000 employees who are integral to Bupa’s success. We rely on the skills, energy and commitment of our people to do a great job for our customers and each other. We know that a healthy business needs a healthy and inclusive culture. We listen, learn and act on feedback from our teams, and empower them to ensure that Bupa is a great place to work.",
+        "jaJP": null,
+        "koKR": null
+      },
+      "rank": 34,
+      "region": "香港"
+    },
+    {
+      "code": "WELLLINK",
+      "name": "立橋人壽",
+      "nameI18n": {
+        "zhHansCN": "立桥人寿",
+        "zhHantHK": "立橋人壽",
+        "enUS": "Well Link Life Insurance",
+        "jaJP": null,
+        "koKR": null
+      },
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/welllink.png",
+      "desc": "立橋人壽保險有限公司（「立橋人壽」）於 2019 年 4 月獲得香港保險業監管局批准，於香港經營人壽保險業務。作為植根香港的人壽保險公司，立橋人壽致力為香港的經濟和社會福祉作出貢獻，熟悉本地社會狀況，並且了解港人的需要及關注的問題，專注香港市場，以香港市民為主要服務對象。敢於創新，積極開發適切的人壽保障及儲蓄產品，以滿足市民時刻在變的需要。結合優質服務及數碼科技，以優化銷售流程及售後服務，務求為客戶帶來更美好及豐盛的人生。",
+      "descI18n": {
+        "zhHansCN": "立桥人寿保险有限公司（「立桥人寿」）于 2019 年 4 月获得香港保险业监管局批准，于香港经营人寿保险业务。作为植根香港的人寿保险公司，立桥人寿致力为香港的经济和社会福祉作出贡献，熟悉本地社会状况，并且了解港人的需要及关注的问题，专注香港市场，以香港市民为主要服务对象。敢于创新，积极开发适切的人寿保障及储蓄产品，以满足市民时刻在变的需要。结合优质服务及数码科技，以优化销售流程及售后服务，务求为客户带来更美好及丰盛的人生。",
+        "zhHantHK": "立橋人壽保險有限公司（「立橋人壽」）於 2019 年 4 月獲得香港保險業監管局批准，於香港經營人壽保險業務。作為植根香港的人壽保險公司，立橋人壽致力為香港的經濟和社會福祉作出貢獻，熟悉本地社會狀況，並且了解港人的需要及關注的問題，專注香港市場，以香港市民為主要服務對象。敢於創新，積極開發適切的人壽保障及儲蓄產品，以滿足市民時刻在變的需要。結合優質服務及數碼科技，以優化銷售流程及售後服務，務求為客戶帶來更美好及豐盛的人生。",
+        "enUS": "Well Link Life Insurance received approval from the Insurance Authority of Hong Kong in April 2019 to carry on life insurance business in Hong Kong.   As a life insurance company with roots in Hong Kong, Well Link Life Insurance is committed to contributing to the economic and social well-being of Hong Kong, is familiar with the local social situation, understands the needs and concerns of Hong Kong people, focuses on the Hong Kong market, and serves the Hong Kong people as the main target. We have the courage to innovate and actively develop suitable life protection and savings products to meet the changing needs of the public. Combine quality service and digital technology to optimize sales process and after-sales service, so as to bring customers a better and richer life.",
+        "jaJP": null,
+        "koKR": null
+      },
+      "rank": 35,
+      "region": "香港"
+    },
+    {
+      "code": "LINCOLNLIFE",
+      "name": "林肯人壽",
+      "nameI18n": {
+        "zhHansCN": "林肯人寿",
+        "zhHantHK": "林肯人壽",
+        "enUS": "Lincoln Life",
+        "jaJP": null,
+        "koKR": null
+      },
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/lincolnlife.png",
+      "desc": "林肯金融集團提供建議和解決方案，使人們能夠充滿信心和樂觀地掌控自己的財務生活。我們的核心業務領域-人壽保險，年金，退休計劃服務和團體保護-專注於支持，維護和改善人們的生活方式和退休結果。 我們致力於服務領導，認可和慶祝良好的企業公民意識，促進可持續的商業行為並改善社區的生活質量。",
+      "descI18n": {
+        "zhHansCN": "林肯金融集团提供建议和解决方桉，使人们能够充满信心和乐观地掌控自己的财务生活。我们的核心业务领域-人寿保险，年金，退休计划服务和团体保护-专注于支持，维护和改善人们的生活方式和退休结果。 我们致力于服务领导，认可和庆祝良好的企业公民意识，促进可持续的商业行为并改善社区的生活质量。",
+        "zhHantHK": "林肯金融集團提供建議和解決方案，使人們能夠充滿信心和樂觀地掌控自己的財務生活。我們的核心業務領域-人壽保險，年金，退休計劃服務和團體保護-專注於支持，維護和改善人們的生活方式和退休結果。 我們致力於服務領導，認可和慶祝良好的企業公民意識，促進可持續的商業行為並改善社區的生活質量。",
+        "enUS": "Lincoln Financial Group provides advice and solutions that empower people to take control of their financial lives with confidence and optimism. Our core business areas - life insurance, annuities, retirement plan services and group protection - focus on supporting, maintaining and improving people's lifestyles and retirement outcomes. We are committed to serving leadership, recognizing and celebrating good corporate citizenship, promoting sustainable business practices and improving the quality of life in our communities.",
+        "jaJP": null,
+        "koKR": null
+      },
+      "rank": 36,
+      "region": "美國"
+    },
+    {
+      "code": "BERMUDA",
+      "name": "百慕大",
+      "nameI18n": {
+        "zhHansCN": "百慕大",
+        "zhHantHK": "百慕大",
+        "enUS": "Bermuda International Long Term Insurers and Reinsurers (BILTIR)",
+        "jaJP": null,
+        "koKR": null
+      },
+      "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/bermuda.png",
+      "desc": "Bermuda International Long Term Insurers and Reinsurers (BILTIR) was created to serve as a formal association representing the long-term insurers and reinsurers in Bermuda.The primary focus of BILTIR is to act as an advocate for Bermuda’s life and annuity industry for public policy that supports the industry marketplace, including regulatory requirements, other Bermuda Monetary Authority or Bermuda government issues, and tax matters with various jurisdictions.",
+      "descI18n": {
+        "zhHansCN": "Bermuda International Long Term Insurers and Reinsurers (BILTIR) was created to serve as a formal association representing the long-term insurers and reinsurers in Bermuda.The primary focus of BILTIR is to act as an advocate for Bermuda’s life and annuity industry for public policy that supports the industry marketplace, including regulatory requirements, other Bermuda Monetary Authority or Bermuda government issues, and tax matters with various jurisdictions.",
+        "zhHantHK": "Bermuda International Long Term Insurers and Reinsurers (BILTIR) was created to serve as a formal association representing the long-term insurers and reinsurers in Bermuda.The primary focus of BILTIR is to act as an advocate for Bermuda’s life and annuity industry for public policy that supports the industry marketplace, including regulatory requirements, other Bermuda Monetary Authority or Bermuda government issues, and tax matters with various jurisdictions.",
+        "enUS": "Bermuda International Long Term Insurers and Reinsurers (BILTIR) was created to serve as a formal association representing the long-term insurers and reinsurers in Bermuda.The primary focus of BILTIR is to act as an advocate for Bermuda’s life and annuity industry for public policy that supports the industry marketplace, including regulatory requirements, other Bermuda Monetary Authority or Bermuda government issues, and tax matters with various jurisdictions.",
+        "jaJP": null,
+        "koKR": null
+      },
+      "rank": 38,
+      "region": "百慕大"
+    }
+  ]
+}
