@@ -25,6 +25,8 @@ import {
 import { useTranslation } from 'react-i18next';
 import InformationPopup from './InformationPopup';
 
+const productModules = import.meta.glob('../json_data/products/*_detail.json');
+
 // Configuration option to show/hide product information section
 const SHOW_PRODUCT_INFO = false;
 
@@ -47,17 +49,16 @@ const ProductPopup = ({ open, onClose, productCode }) => {
       setLoading(true);
       setError(null);
       
-      // Convert productCode format from "AIA:2I1OLP" to "AIA_2I1OLP"
       const fileName = productCode.replace(':', '_');
-      const response = await fetch(`/products/${fileName}_detail.json`);
-      
-      if (!response.ok) {
+      const path = `../json_data/products/${fileName}_detail.json`;
+
+      if (productModules[path]) {
+        const module = await productModules[path]();
+        const productInfo = module.data || module.default || module;
+        setProductData(productInfo);
+      } else {
         throw new Error(t('productPopup.productDetailsNotFound'));
       }
-      
-      const data = await response.json();
-      const productInfo = data.data || data;
-      setProductData(productInfo);
     } catch (err) {
       console.error('Error loading product details:', err);
       setError(err.message || t('productPopup.failedToLoad'));

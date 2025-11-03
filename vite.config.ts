@@ -6,23 +6,18 @@
 //   plugins: [react()],
 // })
 
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+import path from 'path';
 
 // https://vitejs.dev/config/
-// export default defineConfig({
-//   plugins: [react()],
-// })
-
-//not initial error , but error when hit undo
-// export default {
-//   build: {
-//     minify: false,
-//   },
-// };
-
-export default {
+export default defineConfig({
+  plugins: [react()],
+  resolve: {
+    alias: {
+      '@json_data': path.resolve(__dirname, './json_data'),
+    },
+  },
   build: {
     rollupOptions: {
       output: {
@@ -31,4 +26,4 @@ export default {
       },
     },
   },
-};
+});

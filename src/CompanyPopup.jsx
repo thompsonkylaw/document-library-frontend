@@ -25,6 +25,8 @@ import {
 import { useTranslation } from 'react-i18next';
 import InformationPopup from './InformationPopup';
 
+const companyModules = import.meta.glob('../json_data/company/*.json');
+
 const CompanyPopup = ({ open, onClose, companyCode }) => {
   const { t, i18n } = useTranslation();
   const [companyData, setCompanyData] = useState(null);
@@ -44,15 +46,15 @@ const CompanyPopup = ({ open, onClose, companyCode }) => {
       setLoading(true);
       setError(null);
       
-      const response = await fetch(`/company/${companyCode}.json`);
-      
-      if (!response.ok) {
+      const path = `../json_data/company/${companyCode}.json`;
+
+      if (companyModules[path]) {
+        const module = await companyModules[path]();
+        const companyInfo = module.data || module.default || module;
+        setCompanyData(companyInfo);
+      } else {
         throw new Error(t('companyPopup.companyDetailsNotFound') || 'Company details not found');
       }
-      
-      const data = await response.json();
-      const companyInfo = data.data || data;
-      setCompanyData(companyInfo);
     } catch (err) {
       console.error('Error loading company details:', err);
       setError(err.message || t('companyPopup.failedToLoad') || 'Failed to load company details');

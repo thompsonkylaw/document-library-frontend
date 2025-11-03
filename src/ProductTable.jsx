@@ -40,8 +40,7 @@ const ProductTable = ({
 
   // Load product data
   useEffect(() => {
-    fetch('/pages/all_product_table_data.json')
-      .then(response => response.json())
+    import('@json_data/pages/all_product_table_data.json')
       .then(data => {
         setProducts(data.list || []);
       })
@@ -52,8 +51,7 @@ const ProductTable = ({
 
   // Load company data
   useEffect(() => {
-    fetch('/company_pages/all_company_table_data.json')
-      .then(response => response.json())
+    import('@json_data/company_pages/all_company_table_data.json')
       .then(data => {
         setCompanies(data.list || []);
       })

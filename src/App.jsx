@@ -84,8 +84,7 @@ const App = () => {
 
   // Load products
   useEffect(() => {
-    fetch('/pages/all_product_table_data.json')
-      .then(response => response.json())
+    import('@json_data/pages/all_product_table_data.json')
       .then(data => {
         setProducts(data.list || []);
       })
