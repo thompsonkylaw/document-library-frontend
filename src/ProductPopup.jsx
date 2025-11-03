@@ -25,6 +25,9 @@ import {
 import { useTranslation } from 'react-i18next';
 import InformationPopup from './InformationPopup';
 
+// Configuration option to show/hide product information section
+const SHOW_PRODUCT_INFO = false;
+
 const ProductPopup = ({ open, onClose, productCode }) => {
   const { t } = useTranslation();
   const [productData, setProductData] = useState(null);
@@ -306,7 +309,7 @@ const ProductPopup = ({ open, onClose, productCode }) => {
             )}
 
             {/* Product News/Information */}
-            {productData.information && productData.information.length > 0 && (
+            {SHOW_PRODUCT_INFO && productData.information && productData.information.length > 0 && (
               <Box sx={{ mb: 3 }}>
                 <Typography variant="subtitle1" sx={{ fontWeight: 600, mb: 1 }}>
                   {t('productPopup.latestNews')}

@@ -134,6 +134,7 @@ const App = () => {
               filterType={filterType}
               filterStatus={filterStatus}
               onTabChange={handleTabChange}
+              appBarColor={appBarColor}
             />
           </Grid>
 

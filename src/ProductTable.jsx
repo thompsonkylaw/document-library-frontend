@@ -24,7 +24,8 @@ const ProductTable = ({
   filterCategory = '',
   filterType = '',
   filterStatus = '',
-  onTabChange
+  onTabChange,
+  appBarColor
 }) => {
   const { t } = useTranslation();
   const [activeTab, setActiveTab] = useState(0); // 0 for products, 1 for companies
@@ -100,7 +101,7 @@ const ProductTable = ({
 
   // Filter products based on search and filters
   const filteredProducts = useMemo(() => {
-    return products.filter(product => {
+    const filtered = products.filter(product => {
       // Search filter
       const matchesSearch = searchText === '' || 
         product.productName?.toLowerCase().includes(searchText.toLowerCase()) ||
@@ -120,11 +121,78 @@ const ProductTable = ({
       
       return matchesSearch && matchesCompany && matchesCategory && matchesType && matchesStatus;
     });
-  }, [products, searchText, filterCompany, filterCategory, filterType, filterStatus]);
+
+    if (appBarColor === '#009739') {
+      const manulifeOrder = [
+        '宏利保險', 
+        '宏利人壽(澳門)', 
+        '宏利公積金信託', 
+        '宏利人壽(新加坡)', 
+        '宏利人壽(百慕大)'
+      ];
+      return filtered.sort((a, b) => {
+        const aIndex = manulifeOrder.indexOf(a.companyName);
+        const bIndex = manulifeOrder.indexOf(b.companyName);
+
+        const aIsManulife = aIndex !== -1;
+        const bIsManulife = bIndex !== -1;
+
+        if (aIsManulife && bIsManulife) {
+          return aIndex - bIndex;
+        }
+        if (aIsManulife) return -1;
+        if (bIsManulife) return 1;
+        return 0;
+      });
+    }
+    else
+      if (appBarColor === '#ed1b2e') {
+      return filtered.sort((a, b) => {
+        const aIsManulife = a.companyName === '保誠保險';
+        const bIsManulife = b.companyName === '保誠保險';
+        if (aIsManulife && !bIsManulife) return -1;
+        if (!aIsManulife && bIsManulife) return 1;
+        return 0;
+      });
+    }
+      else
+      if (appBarColor === '#FFCD00') {
+      return filtered.sort((a, b) => {
+        const aIsManulife = a.companyName === '永明金融';
+        const bIsManulife = b.companyName === '永明金融';
+        if (aIsManulife && !bIsManulife) return -1;
+        if (!aIsManulife && bIsManulife) return 1;
+        return 0;
+      });
+    } else if (appBarColor === '#E4002B') {
+      const aiaOrder = [
+        '友邦保險',
+        '友邦保險(澳門)',
+        '友邦信託',
+        '友邦保險(新加坡)'
+      ];
+      return filtered.sort((a, b) => {
+        const aIndex = aiaOrder.indexOf(a.companyName);
+        const bIndex = aiaOrder.indexOf(b.companyName);
+
+        const aIsAia = aIndex !== -1;
+        const bIsAia = bIndex !== -1;
+
+        if (aIsAia && bIsAia) {
+          return aIndex - bIndex;
+        }
+        if (aIsAia) return -1;
+        if (bIsAia) return 1;
+        return 0;
+      });
+    }
+
+    return filtered;
+  }, [products, searchText, filterCompany, filterCategory, filterType, filterStatus, appBarColor]);
 
   // Filter companies based on search
   const filteredCompanies = useMemo(() => {
-    return companies.filter(company => {
+    const filtered = companies.filter(company => {
       const matchesSearch = searchText === '' || 
         company.name?.toLowerCase().includes(searchText.toLowerCase()) ||
         company.code?.toLowerCase().includes(searchText.toLowerCase()) ||
@@ -132,7 +200,94 @@ const ProductTable = ({
       
       return matchesSearch;
     });
-  }, [companies, searchText]);
+
+    if (appBarColor === '#009739') {
+      const manulifeOrder = [
+        '宏利保險', 
+        '宏利人壽(澳門)', 
+        '宏利公積金信託', 
+        '宏利人壽(新加坡)', 
+        '宏利人壽(百慕大)'
+      ];
+      return filtered.sort((a, b) => {
+        const aIndex = manulifeOrder.indexOf(a.name);
+        const bIndex = manulifeOrder.indexOf(b.name);
+
+        const aIsManulife = aIndex !== -1;
+        const bIsManulife = bIndex !== -1;
+
+        if (aIsManulife && bIsManulife) {
+          return aIndex - bIndex;
+        }
+        if (aIsManulife) return -1;
+        if (bIsManulife) return 1;
+        return 0;
+      });
+    } else if (appBarColor === '#ed1b2e') {
+      const prudentialOrder = [
+        '保誠保險',
+        '保誠財險',
+        '保誠保險(新加坡)'
+      ];
+      return filtered.sort((a, b) => {
+        const aIndex = prudentialOrder.indexOf(a.name);
+        const bIndex = prudentialOrder.indexOf(b.name);
+
+        const aIsPrudential = aIndex !== -1;
+        const bIsPrudential = bIndex !== -1;
+
+        if (aIsPrudential && bIsPrudential) {
+          return aIndex - bIndex;
+        }
+        if (aIsPrudential) return -1;
+        if (bIsPrudential) return 1;
+        return 0;
+      });
+    } else if (appBarColor === '#FFCD00') {
+      const sunlifeOrder = [
+        '永明金融',
+        '永明信託',
+        '永明金融(百慕大)'
+      ];
+      return filtered.sort((a, b) => {
+        const aIndex = sunlifeOrder.indexOf(a.name);
+        const bIndex = sunlifeOrder.indexOf(b.name);
+
+        const aIsSunlife = aIndex !== -1;
+        const bIsSunlife = bIndex !== -1;
+
+        if (aIsSunlife && bIsSunlife) {
+          return aIndex - bIndex;
+        }
+        if (aIsSunlife) return -1;
+        if (bIsSunlife) return 1;
+        return 0;
+      });
+    } else if (appBarColor === '#E4002B') {
+      const aiaOrder = [
+        '友邦保險',
+        '友邦保險(澳門)',
+        '友邦信託',
+        '友邦保險(新加坡)'
+      ];
+      return filtered.sort((a, b) => {
+        const aIndex = aiaOrder.indexOf(a.name);
+        const bIndex = aiaOrder.indexOf(b.name);
+
+        const aIsAia = aIndex !== -1;
+        const bIsAia = bIndex !== -1;
+
+        if (aIsAia && bIsAia) {
+          return aIndex - bIndex;
+        }
+        if (aIsAia) return -1;
+        if (bIsAia) return 1;
+        return 0;
+      });
+    }
+
+    return filtered;
+  }, [companies, searchText, appBarColor]);
 
   // Reset page when filters change
   useEffect(() => {
