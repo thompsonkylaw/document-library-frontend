@@ -22,8 +22,52 @@ const theme = createTheme({
   palette: { primary: { main: '#1976d2' }, secondary: { main: '#dc004e' } },
   typography: { fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif' },
 });
-
+const companyToColor = {
+    "Manulife": '#009739', "AIA": '#E4002B', "Sunlife": '#FFCD00',
+    "AXA": '#00008F', "Chubb": '#004A9F', "Prudential": '#ed1b2e', "FWD": '#e67e22',
+};
 const App = () => {
+  const domain = window.root12appSettings?.domain || false;
+  const savedCompany = localStorage.getItem('company');
+    const savedColor = localStorage.getItem('appBarColor');
+   let initialCompany;
+    let initialColor;
+
+    if (domain) {
+        const lowerCaseDomain = domain.toLowerCase();
+        if (lowerCaseDomain === "portal.aimarketings.io" || lowerCaseDomain === "manu.aimarketings.io") {
+            initialCompany = "Manulife";
+            initialColor = companyToColor["Manulife"];
+        } else if (lowerCaseDomain === "pru.aimarketings.io") {
+            initialCompany = "Prudential";
+            initialColor = companyToColor["Prudential"];
+        } else if (lowerCaseDomain === "sunlife.aimarketings.io") {
+            initialCompany = "Sunlife";
+            initialColor = companyToColor["Sunlife"];
+        } else if (lowerCaseDomain === "aia.aimarketings.io") {
+            initialCompany = "AIA";
+            initialColor = companyToColor["AIA"];
+        } else if (lowerCaseDomain === "axa.aimarketings.io") {
+            initialCompany = "AXA";
+            initialColor = companyToColor["AXA"];
+        } else if (lowerCaseDomain === "chubb.aimarketings.io") {
+            initialCompany = "Chubb";
+            initialColor = companyToColor["Chubb"];
+        } else if (lowerCaseDomain === "fwd.aimarketings.io") {
+            initialCompany = "FWD";
+            initialColor = companyToColor["FWD"];
+        } else {
+            initialCompany = savedCompany || "Manulife";
+            initialColor = savedColor || companyToColor[initialCompany];
+        }
+    } else if (savedCompany) {
+        initialCompany = savedCompany;
+        initialColor = savedColor || companyToColor[savedCompany];
+    } else {
+        initialCompany = "Manulife";
+        initialColor = companyToColor["Manulife"];
+    }
+  const [company, setCompany] = useState(initialCompany);
   const { t } = useTranslation();
   const [appBarColor, setAppBarColor] = useState(localStorage.getItem('appBarColor') || 'green');
 
@@ -109,20 +153,32 @@ const App = () => {
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <AppBar position="static" sx={{ width: '100%', backgroundColor: appBarColor }}>
-        <Toolbar>
-          <IconButton
-            edge="start"
-            color="inherit"
-            aria-label="back"
-            onClick={() => (window.location.href = 'https://portal.aimarketings.io/tool-list/')}
-          >
-            <ArrowBackIcon />
-          </IconButton>
-          <Typography variant="h6" sx={{ flexGrow: 1, color: 'white' }}>
-            {t('Medical Financial Calculator')}
-          </Typography>
-        </Toolbar>
-      </AppBar>
+                <Toolbar>
+                    <IconButton edge="start" color="inherit" aria-label="back" 
+                        onClick={() => {
+                            if (company === "Manulife") {
+                                window.location.href = "https://portal.aimarketings.io/tool-list";
+                            } else if (company === "Prudential") {
+                                window.location.href = "https://pru.aimarketings.io/tool-list";
+                            } else if (company === "Sunlife") {
+                                window.location.href = "https://sunlife.aimarketings.io/tool-list";
+                            } else if (company === "AIA") {
+                                window.location.href = "https://aia.aimarketings.io/tool-list";
+                            } else if (company === "AXA") {
+                                window.location.href = "https://axa.aimarketings.io/tool-list";
+                            } else if (company === "Chubb") {
+                                window.location.href = "https://chubb.aimarketings.io/tool-list";
+                            } else if (company === "FWD") {
+                                window.location.href = "https://fwd.aimarketings.io/tool-list";
+                            }
+                        }}
+                        sx={{ color: company === 'Sunlife' ? '#003946' : 'inherit' }}
+                    >
+                        <ArrowBackIcon />
+                    </IconButton>
+                    <Typography variant="h6" sx={{ flexGrow: 1, color: company === 'Sunlife' ? '#003946' : 'white' }}>{t('Medical Financial Calculator')}</Typography>
+                </Toolbar>
+            </AppBar>
 
       <Container sx={{  mb: 4 }}>
         <Grid container spacing={3}>
@@ -159,6 +215,7 @@ const App = () => {
                 onClearFilters={handleClearFilters}
                 filteredCount={filteredProducts.length}
                 totalCount={products.length}
+                appBarColor={appBarColor}
               />
             </Card>
             <Box sx={{ mt: 2 }}>

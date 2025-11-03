@@ -10,10 +10,10 @@ const Setting = ({ setAppBarColor, onClose, onTestEmail }) => {
     setAppBarColor(color);
     onClose();
   };
-
+ //v1.0.0
   return (
     <>
-      <DialogTitle>{t('settings')}</DialogTitle>
+      <DialogTitle>v1.0.0 {t('settings')}</DialogTitle>
       <DialogContent>
         <Box>
           {colors.map((color) => (
@@ -31,11 +31,11 @@ const Setting = ({ setAppBarColor, onClose, onTestEmail }) => {
             </Button>
           ))}
         </Box>
-        <Box sx={{ display: 'flex', justifyContent: 'center' }}>
+        {/* <Box sx={{ display: 'flex', justifyContent: 'center' }}>
           <Button variant="outlined" color="secondary" onClick={onTestEmail}>
             {t('testEmailButton')}
           </Button>
-        </Box>
+        </Box> */}
       </DialogContent>
       <DialogActions>
         <Button onClick={onClose}>{t('close')}</Button>

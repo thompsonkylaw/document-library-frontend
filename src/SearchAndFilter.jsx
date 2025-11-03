@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
 import { 
   Box, 
@@ -35,11 +35,37 @@ const SearchAndFilter = ({
   onClearFilters,
   filteredCount,
   totalCount,
+  appBarColor,
 }) => {
   const { t } = useTranslation();
 
   // Determine if we're in company mode
   const isCompanyMode = activeTab === 1;
+
+  const sortedCompanies = useMemo(() => {
+    if (!companies) return [];
+    
+    let topCompany = '';
+    if (appBarColor === '#009739') {
+      topCompany = '宏利保險';
+    } else if (appBarColor === '#E4002B') {
+      topCompany = '友邦保險';
+    } else if (appBarColor === '#FFCD00') {
+      topCompany = '永明金融';
+    } else if (appBarColor === '#ed1b2e') {
+      topCompany = '保誠保險';
+    }
+
+    if (topCompany) {
+      return [...companies].sort((a, b) => {
+        if (a === topCompany) return -1;
+        if (b === topCompany) return 1;
+        return 0;
+      });
+    }
+
+    return companies;
+  }, [companies, appBarColor]);
 
   return (
     <Box sx={{ mb: 2 }}>
@@ -87,7 +113,7 @@ const SearchAndFilter = ({
                     <MenuItem value="">
                       <em>{t('productTable.all') || 'All'}</em>
                     </MenuItem>
-                    {companies?.map(company => (
+                    {sortedCompanies?.map(company => (
                       <MenuItem key={company} value={company}>{company}</MenuItem>
                     ))}
                   </Select>
