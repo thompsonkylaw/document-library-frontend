@@ -75,9 +75,6 @@ const App = () => {
   // Active tab state (0 for products, 1 for companies)
   const [activeTab, setActiveTab] = useState(0);
 
-  // API base URL - can be configured via environment variable
-  const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8001';
-
   // Product filter states
   const [products, setProducts] = useState([]);
   const [searchText, setSearchText] = useState('');
@@ -87,31 +84,17 @@ const App = () => {
   const [filterStatus, setFilterStatus] = useState('');
   const [filterRegion, setFilterRegion] = useState('');
   const [filterHot, setFilterHot] = useState('');
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState(null);
 
-  // Load products from API
+  // Load products
   useEffect(() => {
-    const fetchProducts = async () => {
-      setLoading(true);
-      setError(null);
-      try {
-        const response = await fetch(`${API_BASE_URL}/api/products/all`);
-        if (!response.ok) {
-          throw new Error(`HTTP error! status: ${response.status}`);
-        }
-        const data = await response.json();
+    import('@json_data/pages/all_product_table_data.json')
+      .then(data => {
         setProducts(data.list || []);
-      } catch (error) {
+      })
+      .catch(error => {
         console.error('Error loading product data:', error);
-        setError(error.message);
-      } finally {
-        setLoading(false);
-      }
-    };
-    
-    fetchProducts();
-  }, [API_BASE_URL]);
+      });
+  }, []);
 
   // Get unique values for filter dropdowns
   const companies = useMemo(() => {
