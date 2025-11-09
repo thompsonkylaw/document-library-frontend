@@ -28,6 +28,7 @@ const companyToColor = {
 };
 const App = () => {
   const domain = window.root12appSettings?.domain || false;
+  console.log("domain:", domain);
   const savedCompany = localStorage.getItem('company');
     const savedColor = localStorage.getItem('appBarColor');
    let initialCompany;
@@ -69,7 +70,7 @@ const App = () => {
     }
   const [company, setCompany] = useState(initialCompany);
   const { t } = useTranslation();
-  const [appBarColor, setAppBarColor] = useState(localStorage.getItem('appBarColor') || 'green');
+   const [appBarColor, setAppBarColor] = useState(initialColor);
 
   // Active tab state (0 for products, 1 for companies)
   const [activeTab, setActiveTab] = useState(0);
@@ -81,6 +82,8 @@ const App = () => {
   const [filterCategory, setFilterCategory] = useState('');
   const [filterType, setFilterType] = useState('');
   const [filterStatus, setFilterStatus] = useState('');
+  const [filterRegion, setFilterRegion] = useState('');
+  const [filterHot, setFilterHot] = useState('');
 
   // Load products
   useEffect(() => {
@@ -114,6 +117,15 @@ const App = () => {
     return uniqueStatuses.sort();
   }, [products]);
 
+  const regions = useMemo(() => {
+    const uniqueRegions = [...new Set(products.map(p => p.region).filter(Boolean))];
+    return uniqueRegions.sort();
+  }, [products]);
+
+  const hotOptions = useMemo(() => {
+    return ['true', 'false'];
+  }, []);
+
   // Filter products
   const filteredProducts = useMemo(() => {
     return products.filter(product => {
@@ -124,9 +136,11 @@ const App = () => {
       const matchesCategory = filterCategory === '' || product.categoryName === filterCategory;
       const matchesType = filterType === '' || product.type === filterType;
       const matchesStatus = filterStatus === '' || product.sellStatus === filterStatus;
-      return matchesSearch && matchesCompany && matchesCategory && matchesType && matchesStatus;
+      const matchesRegion = filterRegion === '' || product.region === filterRegion;
+      const matchesHot = filterHot === '' || String(product.hot) === filterHot;
+      return matchesSearch && matchesCompany && matchesCategory && matchesType && matchesStatus && matchesRegion && matchesHot;
     });
-  }, [products, searchText, filterCompany, filterCategory, filterType, filterStatus]);
+  }, [products, searchText, filterCompany, filterCategory, filterType, filterStatus, filterRegion, filterHot]);
 
   // Clear all filters
   const handleClearFilters = () => {
@@ -135,6 +149,8 @@ const App = () => {
     setFilterCategory('');
     setFilterType('');
     setFilterStatus('');
+    setFilterRegion('');
+    setFilterHot('');
   };
 
   // Handle tab change from ProductTable
@@ -148,6 +164,8 @@ const App = () => {
     localStorage.setItem('appBarColor', appBarColor);
   }, [appBarColor]);
 
+  console.log("appBarColor:",   appBarColor);
+  console.log("company:",   company);
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
@@ -188,6 +206,8 @@ const App = () => {
               filterCategory={filterCategory}
               filterType={filterType}
               filterStatus={filterStatus}
+              filterRegion={filterRegion}
+              filterHot={filterHot}
               onTabChange={handleTabChange}
               appBarColor={appBarColor}
             />
@@ -207,10 +227,16 @@ const App = () => {
                 setFilterType={setFilterType}
                 filterStatus={filterStatus}
                 setFilterStatus={setFilterStatus}
+                filterRegion={filterRegion}
+                setFilterRegion={setFilterRegion}
+                filterHot={filterHot}
+                setFilterHot={setFilterHot}
                 companies={companies}
                 categories={categories}
                 types={types}
                 statuses={statuses}
+                regions={regions}
+                hotOptions={hotOptions}
                 onClearFilters={handleClearFilters}
                 filteredCount={filteredProducts.length}
                 totalCount={products.length}

@@ -266,7 +266,33 @@ const ProductPopup = ({ open, onClose, productCode }) => {
                                   whiteSpace: 'pre-line'
                                 }}
                               >
-                                {attr.value || '-'}
+                                {attr.name === '產品特色' && attr.value ? (
+                                  <Box component="ul" sx={{ margin: 0, padding: 0, listStyle: 'none' }}>
+                                    {attr.value.split('\n').map((item, i) => {
+                                      const trimmedItem = item.trim();
+                                      if (!trimmedItem) return null;
+                                      const match = trimmedItem.match(/^(\d+\.)\s*(.*)/s);
+
+                                      if (match) {
+                                        const number = match[1];
+                                        const text = match[2];
+                                        return (
+                                          <Box component="li" key={i} sx={{ display: 'flex', textAlign: 'left' }}>
+                                            <Box sx={{ width: '2.5em', flexShrink: 0, textAlign: 'right', pr: 1 }}>{number}</Box>
+                                            <Box>{text}</Box>
+                                          </Box>
+                                        );
+                                      }
+                                      return (
+                                        <Box component="li" key={i} sx={{ textAlign: 'left', pl: '2.5em' }}>
+                                          {trimmedItem}
+                                        </Box>
+                                      );
+                                    })}
+                                  </Box>
+                                ) : (
+                                  attr.value || '-'
+                                )}
                               </Typography>
                             </Box>
                             <Divider />

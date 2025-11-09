@@ -278,6 +278,81 @@ const CompanyPopup = ({ open, onClose, companyCode }) => {
 
               <Divider sx={{ my: 2 }} />
 
+              {/* Credit Ratings */}
+              {companyData.creditRatings && companyData.creditRatings.length > 0 && (
+                <Box sx={{ mb: 3 }}>
+                  <Typography variant="subtitle1" sx={{ fontWeight: 600, mb: 1 }}>
+                    {t('companyPopup.creditRatings') || 'Credit Ratings'}
+                  </Typography>
+                  <Grid container spacing={2}>
+                    {companyData.creditRatings.map((rating, index) => (
+                      <Grid item xs={12} sm={6} key={index}>
+                        <Box sx={{ p: 2, bgcolor: 'grey.50', borderRadius: 1 }}>
+                          <Typography variant="h6" color="primary" sx={{ fontWeight: 700 }}>
+                            {rating.rating}
+                          </Typography>
+                          <Typography variant="body2" sx={{ fontWeight: 500 }}>
+                            {rating.project}
+                          </Typography>
+                          <Typography variant="caption" color="textSecondary">
+                            {rating.ratingAgency}
+                          </Typography>
+                          {rating.time && (
+                            <Typography variant="caption" color="textSecondary" display="block">
+                              {new Date(rating.time).toLocaleDateString()}
+                            </Typography>
+                          )}
+                        </Box>
+                      </Grid>
+                    ))}
+                  </Grid>
+                </Box>
+              )}
+
+              <Divider sx={{ my: 2 }} />
+
+              {/* Useful Links */}
+              {companyData.links && companyData.links.length > 0 && (
+                <Box sx={{ mb: 3 }}>
+                  <Typography variant="subtitle1" sx={{ fontWeight: 600, mb: 1 }}>
+                    {t('companyPopup.usefulLinks') || 'Useful Links'}
+                  </Typography>
+                  <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1 }}>
+                    {companyData.links.map((linkItem, index) => (
+                      <Link
+                        key={index}
+                        href={linkItem.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        sx={{ 
+                          display: 'flex', 
+                          flexDirection: 'column',
+                          gap: 0.5, 
+                          textDecoration: 'none',
+                          p: 1.5,
+                          bgcolor: 'grey.50',
+                          borderRadius: 1,
+                          transition: 'all 0.2s',
+                          '&:hover': {
+                            bgcolor: 'grey.100',
+                            transform: 'translateX(4px)',
+                          }
+                        }}
+                      >
+                        <Typography variant="body2" sx={{ fontWeight: 500, color: 'primary.main' }}>
+                          {getLocalizedDesc(linkItem.descriptionI18n, linkItem.description)}
+                        </Typography>
+                        <Typography variant="caption" sx={{ color: 'text.secondary', wordBreak: 'break-all' }}>
+                          {linkItem.link}
+                        </Typography>
+                      </Link>
+                    ))}
+                  </Box>
+                </Box>
+              )}
+
+              <Divider sx={{ my: 2 }} />
+
               {/* Company Details */}
               {companyData.details && companyData.details.length > 0 && (
                 <Box sx={{ mb: 3 }}>

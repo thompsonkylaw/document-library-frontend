@@ -5,14 +5,17 @@ import Setting from './Setting';
 
 function LanguageSwitch({ setAppBarColor, appBarColor,onTestEmail }) {
   const { t, i18n } = useTranslation();
-  const [selectedLanguage, setSelectedLanguage] = useState(i18n.language || 'zh-HK');
+  const [selectedLanguage, setSelectedLanguage] = useState('zh-HK');
   const [settingsOpen, setSettingsOpen] = useState(false);
 
   // Set default language to Traditional Chinese on first load
   useEffect(() => {
-    if (!localStorage.getItem('i18nextLng')) {
+    const savedLanguage = localStorage.getItem('i18nextLng');
+    if (!savedLanguage || savedLanguage !== 'zh-HK' && savedLanguage !== 'zh-CN') {
       i18n.changeLanguage('zh-HK');
       setSelectedLanguage('zh-HK');
+    } else {
+      setSelectedLanguage(savedLanguage);
     }
   }, [i18n]);
 

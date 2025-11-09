@@ -24,6 +24,8 @@ const ProductTable = ({
   filterCategory = '',
   filterType = '',
   filterStatus = '',
+  filterRegion = '',
+  filterHot = '',
   onTabChange,
   appBarColor
 }) => {
@@ -38,16 +40,20 @@ const ProductTable = ({
   const [popupOpen, setPopupOpen] = useState(false);
   const [companyPopupOpen, setCompanyPopupOpen] = useState(false);
 
-  // Load product data
+  // Load product data - conditionally load hot.json if filterHot is 'true'
   useEffect(() => {
-    import('@json_data/pages/all_product_table_data.json')
+    const dataSource = filterHot === 'true' 
+      ? import('@json_data/pages/hot.json')
+      : import('@json_data/pages/all_product_table_data.json');
+    
+    dataSource
       .then(data => {
-        setProducts(data.list || []);
+        setProducts(data.data?.list || data.list || []);
       })
       .catch(error => {
         console.error('Error loading product data:', error);
       });
-  }, []);
+  }, [filterHot]);
 
   // Load company data
   useEffect(() => {
@@ -117,7 +123,13 @@ const ProductTable = ({
       // Status filter
       const matchesStatus = filterStatus === '' || product.sellStatus === filterStatus;
       
-      return matchesSearch && matchesCompany && matchesCategory && matchesType && matchesStatus;
+      // Region filter
+      const matchesRegion = filterRegion === '' || product.region === filterRegion;
+      
+      // Note: Hot filter is now handled by loading different data source (hot.json vs all_product_table_data.json)
+      // So we don't need to filter by hot property here anymore
+      
+      return matchesSearch && matchesCompany && matchesCategory && matchesType && matchesStatus && matchesRegion;
     });
 
     if (appBarColor === '#009739') {
@@ -186,7 +198,7 @@ const ProductTable = ({
     }
 
     return filtered;
-  }, [products, searchText, filterCompany, filterCategory, filterType, filterStatus, appBarColor]);
+  }, [products, searchText, filterCompany, filterCategory, filterType, filterStatus, filterRegion, appBarColor]);
 
   // Filter companies based on search
   const filteredCompanies = useMemo(() => {
@@ -290,7 +302,7 @@ const ProductTable = ({
   // Reset page when filters change
   useEffect(() => {
     setPage(0);
-  }, [searchText, filterCompany, filterCategory, filterType, filterStatus]);
+  }, [searchText, filterCompany, filterCategory, filterType, filterStatus, filterRegion, filterHot]);
 
   // Get current data based on active tab
   const currentData = activeTab === 0 ? filteredProducts : filteredCompanies;

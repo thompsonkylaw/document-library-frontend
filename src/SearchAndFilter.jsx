@@ -28,10 +28,16 @@ const SearchAndFilter = ({
   setFilterType,
   filterStatus,
   setFilterStatus,
+  filterRegion,
+  setFilterRegion,
+  filterHot,
+  setFilterHot,
   companies,
   categories,
   types,
   statuses,
+  regions,
+  hotOptions,
   onClearFilters,
   filteredCount,
   totalCount,
@@ -180,13 +186,67 @@ const SearchAndFilter = ({
                   </Select>
                 </FormControl>
               </Grid>
+
+              {/* Region Filter */}
+              <Grid item xs={12}>
+                <FormControl fullWidth size="small">
+                  <InputLabel>{t('productTable.region') || 'Region'}</InputLabel>
+                  <Select
+                    value={filterRegion}
+                    label={t('productTable.region') || 'Region'}
+                    onChange={(e) => setFilterRegion(e.target.value)}
+                  >
+                    <MenuItem value="">
+                      <em>{t('productTable.all') || 'All'}</em>
+                    </MenuItem>
+                    {regions?.map(region => (
+                      <MenuItem key={region} value={region}>{region}</MenuItem>
+                    ))}
+                  </Select>
+                </FormControl>
+              </Grid>
+
+              {/* Hot Filter */}
+              <Grid item xs={12}>
+                <Box>
+                  <Typography variant="body2" sx={{ mb: 1, fontWeight: 500 }}>
+                    {t('productTable.hot') || 'Hot'}
+                  </Typography>
+                  <Box sx={{ display: 'flex', gap: 1 }}>
+                    <Button
+                      variant={filterHot === 'true' ? 'contained' : 'outlined'}
+                      size="small"
+                      onClick={() => setFilterHot('true')}
+                      fullWidth
+                      sx={{
+                        textTransform: 'none',
+                        fontWeight: filterHot === 'true' ? 600 : 400,
+                      }}
+                    >
+                      {t('yes') || 'Yes'}
+                    </Button>
+                    <Button
+                      variant={filterHot === 'false' ? 'contained' : 'outlined'}
+                      size="small"
+                      onClick={() => setFilterHot('false')}
+                      fullWidth
+                      sx={{
+                        textTransform: 'none',
+                        fontWeight: filterHot === 'false' ? 600 : 400,
+                      }}
+                    >
+                      {t('no') || 'No'}
+                    </Button>
+                  </Box>
+                </Box>
+              </Grid>
             </>
           )}
 
-          {/* Clear Filters Button */}
+          {/* Product Count and Clear Filters Button */}
           <Grid item xs={12}>
-            <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-              <Typography variant="caption" color="textSecondary">
+            <Box>
+              <Typography variant="caption" color="textSecondary" sx={{ display: 'block', mb: 1 }}>
                 {t('productTable.showing') || 'Showing'} {filteredCount} {t('productTable.of') || 'of'} {totalCount} {
                   isCompanyMode 
                     ? (t('productTable.companies') || 'companies')
@@ -196,12 +256,13 @@ const SearchAndFilter = ({
               <Button
                 variant="outlined"
                 size="small"
+                fullWidth
                 startIcon={<ClearIcon />}
                 onClick={onClearFilters}
                 disabled={
                   isCompanyMode 
                     ? !searchText 
-                    : (!searchText && !filterCompany && !filterCategory && !filterType && !filterStatus)
+                    : (!searchText && !filterCompany && !filterCategory && !filterType && !filterStatus && !filterRegion && !filterHot)
                 }
               >
                 {t('productTable.clearFilters') || 'Clear Filters'}

@@ -1,0 +1,1977 @@
+{
+
+    "data": {
+        "total": 13,
+        "list": [
+            {
+                "productCode": "MANULIFE:MPRC",
+                "categoryCode": "CRITICAL_ILLNESS",
+                "companyCode": "MANULIFE",
+                "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/manulife.png",
+                "categoryName": "危疾",
+                "productName": "守護無間危疾保",
+                "companyName": "宏利保險",
+                "type": "BASIC",
+                "rank": 4,
+                "desc": "涵蓋多達121種危疾及疾病，為受保人提供保障至100歲，而且保費更保證不變。而因未知的疾病而入住深切治療部，亦可同獲保障。即使您已作出嚴重危疾索償，本計劃仍會繼續就癌症、心臟病、中風、認知障礙、柏金遜病、甚至傷殘提供額外的保障。額外的癌症保障更提供3種賠償方案，包括市場首創的末期癌症靈活選，讓您可以在癌症診斷後因應需要靈活選擇最合適的方案。總賠償額可高達名義金額的1,000%，助您同時獲得治療及財政援助，全力專注康復。",
+                "currencies": [
+                    "USD",
+                    "HKD"
+                ],
+                "frequencies": [
+                    "MONTHLY",
+                    "QUARTERLY",
+                    "SEMI_ANNUALLY",
+                    "ANNUALLY"
+                ],
+                "paymentTerm": [
+                    "10",
+                    "20",
+                    "25"
+                ],
+                "customPaymentTerm": null,
+                "medicalOptions": null,
+                "medicalOptionsRequiredField": null,
+                "quotationFieldRequirements": [
+                    {
+                        "field": "Age",
+                        "required": true
+                    },
+                    {
+                        "field": "Gender",
+                        "required": true
+                    },
+                    {
+                        "field": "SmokeCondition",
+                        "required": true
+                    },
+                    {
+                        "field": "Currency",
+                        "required": true
+                    },
+                    {
+                        "field": "PremiumTerm",
+                        "required": true
+                    },
+                    {
+                        "field": "MedicalLevel",
+                        "required": false
+                    },
+                    {
+                        "field": "MedicalRegion",
+                        "required": false
+                    },
+                    {
+                        "field": "MedicalDeductible",
+                        "required": false
+                    }
+                ],
+                "withdrawalable": false,
+                "withdrawalOptions": null,
+                "proposalRPASupported": true,
+                "proposalRiders": [
+                    "MANULIFE:MGMPR",
+                    "MANULIFE:PWB",
+                    "MANULIFE:ADB"
+                ],
+                "features": {
+                    "maxWithdrawal": false,
+                    "hedgeable": false,
+                    "hedgeProducts": [],
+                    "coverageUrl": null,
+                    "highlights": null,
+                    "proposalAmountType": null,
+                    "proposalAmountTip": null
+                },
+                "policyPeriod": "~100",
+                "financialPlanSupported": true,
+                "sellStatus": "SELLING",
+                "proposalLanguages": [
+                    "HK",
+                    "CN",
+                    "EN"
+                ],
+                "launchDate": null,
+                "discontinuationDate": null,
+                "premiumFinancingSupported": false,
+                "premiumOffsetSupported": false,
+                "proposalAmountType": "BOTH",
+                "custom": false,
+                "proposalFrequencySupported": true,
+                "reduceAmountTips": null,
+                "flexiPremiumSupported": false,
+                "flexiPremiumOptions": null,
+                "dynamicFields": [
+                    {
+                        "field": "inflationEndorsement",
+                        "fieldType": "array",
+                        "fieldName": "通脹加保權益",
+                        "value": null,
+                        "fieldValue": "是,否",
+                        "remark": null,
+                        "required": false
+                    }
+                ],
+                "ageRange": {
+                    "min": 0,
+                    "max": 128
+                },
+                "region": "香港",
+                "proposalPrepaymentSupported": false,
+                "isUpdate": false
+            },
+            {
+                "productCode": "MANULIFE:MEP",
+                "categoryCode": "LIFE",
+                "companyCode": "MANULIFE",
+                "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/manulife.png",
+                "categoryName": "人壽",
+                "productName": "卓越終身保",
+                "companyName": "宏利保險",
+                "type": "BASIC",
+                "rank": 99,
+                "desc": "唯有掌握理財策劃先機，才能看見未來的無限可能。盡早展開財務規劃，您可能快人一步到達理想目的地。卓越終身保為您的未來作好準備，不僅為您提供終身保障，更提供長線累積財富的機會。比擁抱未知未來更令人興奮的，就是已知未來早已為您展開臂膀。",
+                "currencies": [
+                    "USD"
+                ],
+                "frequencies": [
+                    "ANNUALLY",
+                    "SEMI_ANNUALLY",
+                    "QUARTERLY",
+                    "MONTHLY",
+                    "SINGLE_PAYMENT"
+                ],
+                "paymentTerm": [
+                    "1",
+                    "5",
+                    "10",
+                    "20",
+                    "25"
+                ],
+                "customPaymentTerm": null,
+                "medicalOptions": null,
+                "medicalOptionsRequiredField": null,
+                "quotationFieldRequirements": [
+                    {
+                        "field": "Age",
+                        "required": true
+                    },
+                    {
+                        "field": "Gender",
+                        "required": true
+                    },
+                    {
+                        "field": "SmokeCondition",
+                        "required": true
+                    },
+                    {
+                        "field": "Currency",
+                        "required": true
+                    },
+                    {
+                        "field": "PremiumTerm",
+                        "required": true
+                    },
+                    {
+                        "field": "MedicalLevel",
+                        "required": false
+                    },
+                    {
+                        "field": "MedicalRegion",
+                        "required": false
+                    },
+                    {
+                        "field": "MedicalDeductible",
+                        "required": false
+                    }
+                ],
+                "withdrawalable": false,
+                "withdrawalOptions": null,
+                "proposalRPASupported": true,
+                "proposalRiders": null,
+                "features": {
+                    "maxWithdrawal": true,
+                    "hedgeable": false,
+                    "hedgeProducts": [],
+                    "coverageUrl": null,
+                    "highlights": null,
+                    "proposalAmountType": null,
+                    "proposalAmountTip": {
+                        "zhHansCN": "",
+                        "zhHantHK": "",
+                        "enUS": "",
+                        "jaJP": null,
+                        "koKR": null
+                    }
+                },
+                "policyPeriod": "終身",
+                "financialPlanSupported": false,
+                "sellStatus": "SELLING",
+                "proposalLanguages": [
+                    "HK",
+                    "CN",
+                    "EN"
+                ],
+                "launchDate": 1627283122842,
+                "discontinuationDate": null,
+                "premiumFinancingSupported": false,
+                "premiumOffsetSupported": false,
+                "proposalAmountType": "BOTH",
+                "custom": false,
+                "proposalFrequencySupported": true,
+                "reduceAmountTips": null,
+                "flexiPremiumSupported": false,
+                "flexiPremiumOptions": null,
+                "dynamicFields": [],
+                "ageRange": {
+                    "min": 0,
+                    "max": 128
+                },
+                "region": "香港",
+                "proposalPrepaymentSupported": false,
+                "isUpdate": false
+            },
+            {
+                "productCode": "AXA:MWIP",
+                "categoryCode": "SAVINGS",
+                "companyCode": "AXA",
+                "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/axa.png",
+                "categoryName": "儲蓄",
+                "productName": "盈家壽險計劃",
+                "companyName": "安盛保險",
+                "type": "BASIC",
+                "rank": 5,
+                "desc": "「盈家」壽險計劃乃分紅壽險計劃，除提供保費繳付年期短至2年，兼可選擇一筆過繳款安排，加上快速達至回本期，助您更輕鬆地累積資金，無論安排子女教育、實現退休夢想或規劃財富傳承，都游刃有餘；就讓我們與您往更好的財富境界邁進，實現美好人生願景。\n",
+                "currencies": [
+                    "USD"
+                ],
+                "frequencies": [
+                    "ANNUALLY",
+                    "SINGLE_PAYMENT"
+                ],
+                "paymentTerm": [
+                    "2"
+                ],
+                "customPaymentTerm": null,
+                "medicalOptions": null,
+                "medicalOptionsRequiredField": null,
+                "quotationFieldRequirements": null,
+                "withdrawalable": true,
+                "withdrawalOptions": null,
+                "proposalRPASupported": true,
+                "proposalRiders": null,
+                "features": {
+                    "maxWithdrawal": false,
+                    "hedgeable": false,
+                    "hedgeProducts": [],
+                    "coverageUrl": null,
+                    "highlights": null,
+                    "proposalAmountType": null,
+                    "proposalAmountTip": null
+                },
+                "policyPeriod": "~138",
+                "financialPlanSupported": false,
+                "sellStatus": "SELLING",
+                "proposalLanguages": [
+                    "HK",
+                    "EN"
+                ],
+                "launchDate": null,
+                "discontinuationDate": null,
+                "premiumFinancingSupported": false,
+                "premiumOffsetSupported": false,
+                "proposalAmountType": "BOTH",
+                "custom": false,
+                "proposalFrequencySupported": true,
+                "reduceAmountTips": [
+                    "週期性提取：允許減少基本金額；部分提取：不允許減少基本金額 & 支持最大提取"
+                ],
+                "flexiPremiumSupported": false,
+                "flexiPremiumOptions": null,
+                "dynamicFields": [],
+                "ageRange": {
+                    "min": 0,
+                    "max": 128
+                },
+                "region": "香港",
+                "proposalPrepaymentSupported": false,
+                "isUpdate": false
+            },
+            {
+                "productCode": "AIA:GPMCP3",
+                "categoryCode": "SAVINGS",
+                "companyCode": "AIA",
+                "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+                "categoryName": "儲蓄",
+                "productName": "盈御多元貨幣計劃3",
+                "companyName": "友邦保險",
+                "type": "BASIC",
+                "rank": 1,
+                "desc": "「盈御多元貨幣計劃3」更新美元及港元保單之預期總回報，及優化貨幣轉換選項可由第 2 個保單年度終結後起予以行使，加上新產品特點之精神上無行為能力選項，讓客戶面對未知時更添安心。",
+                "currencies": [
+                    "USD",
+                    "CNY",
+                    "HKD",
+                    "AUD",
+                    "CAD",
+                    "EUR",
+                    "GBP",
+                    "SGD"
+                ],
+                "frequencies": [
+                    "SINGLE_PAYMENT",
+                    "MONTHLY",
+                    "QUARTERLY",
+                    "SEMI_ANNUALLY",
+                    "ANNUALLY"
+                ],
+                "paymentTerm": [
+                    "1",
+                    "3",
+                    "5",
+                    "10"
+                ],
+                "customPaymentTerm": null,
+                "medicalOptions": null,
+                "medicalOptionsRequiredField": null,
+                "quotationFieldRequirements": [
+                    {
+                        "field": "Age",
+                        "required": true
+                    },
+                    {
+                        "field": "Gender",
+                        "required": true
+                    },
+                    {
+                        "field": "SmokeCondition",
+                        "required": true
+                    },
+                    {
+                        "field": "Currency",
+                        "required": true
+                    },
+                    {
+                        "field": "PremiumTerm",
+                        "required": true
+                    },
+                    {
+                        "field": "MedicalLevel",
+                        "required": false
+                    },
+                    {
+                        "field": "MedicalRegion",
+                        "required": false
+                    },
+                    {
+                        "field": "MedicalDeductible",
+                        "required": false
+                    }
+                ],
+                "withdrawalable": true,
+                "withdrawalOptions": [
+                    {
+                        "premiumTerm": "1",
+                        "from": 1,
+                        "ratio": 4,
+                        "ratioIncrement": null,
+                        "value": "1/1/4",
+                        "description": {
+                            "zhHansCN": "1年期，从第1年起，每年提领总保费的4%",
+                            "zhHantHK": "1年期，由第1年起，每年提取總保費的4%",
+                            "enUS": "1-year term, starting from the year of policy 1, withdraw 4% of the total premium annually",
+                            "jaJP": null,
+                            "koKR": null
+                        }
+                    },
+                    {
+                        "premiumTerm": "1",
+                        "from": 3,
+                        "ratio": 5,
+                        "ratioIncrement": null,
+                        "value": "1/3/5",
+                        "description": {
+                            "zhHansCN": "1年期，从第3年起，每年提领总保费的5%",
+                            "zhHantHK": "1年期，由第3年起，每年提取總保費的5%",
+                            "enUS": "1-year term, starting from the year of policy 3, withdraw 5% of the total premium annually",
+                            "jaJP": null,
+                            "koKR": null
+                        }
+                    },
+                    {
+                        "premiumTerm": "1",
+                        "from": 5,
+                        "ratio": 6,
+                        "ratioIncrement": null,
+                        "value": "1/5/6",
+                        "description": {
+                            "zhHansCN": "1年期，从第5年起，每年提领总保费的6%",
+                            "zhHantHK": "1年期，由第5年起，每年提取總保費的6%",
+                            "enUS": "1-year term, starting from the year of policy 5, withdraw 6% of the total premium annually",
+                            "jaJP": null,
+                            "koKR": null
+                        }
+                    },
+                    {
+                        "premiumTerm": "1",
+                        "from": 6,
+                        "ratio": 7,
+                        "ratioIncrement": null,
+                        "value": "1/6/7",
+                        "description": {
+                            "zhHansCN": "1年期，从第6年起，每年提领总保费的7%",
+                            "zhHantHK": "1年期，由第6年起，每年提取總保費的7%",
+                            "enUS": "1-year term, starting from the year of policy 6, withdraw 7% of the total premium annually",
+                            "jaJP": null,
+                            "koKR": null
+                        }
+                    },
+                    {
+                        "premiumTerm": "1",
+                        "from": 8,
+                        "ratio": 8,
+                        "ratioIncrement": null,
+                        "value": "1/8/8",
+                        "description": {
+                            "zhHansCN": "1年期，从第8年起，每年提领总保费的8%",
+                            "zhHantHK": "1年期，由第8年起，每年提取總保費的8%",
+                            "enUS": "1-year term, starting from the year of policy 8, withdraw 8% of the total premium annually",
+                            "jaJP": null,
+                            "koKR": null
+                        }
+                    },
+                    {
+                        "premiumTerm": "1",
+                        "from": 10,
+                        "ratio": 9,
+                        "ratioIncrement": null,
+                        "value": "1/10/9",
+                        "description": {
+                            "zhHansCN": "1年期，从第10年起，每年提领总保费的9%",
+                            "zhHantHK": "1年期，由第10年起，每年提取總保費的9%",
+                            "enUS": "1-year term, starting from the year of policy 10, withdraw 9% of the total premium annually",
+                            "jaJP": null,
+                            "koKR": null
+                        }
+                    },
+                    {
+                        "premiumTerm": "1",
+                        "from": 11,
+                        "ratio": 10,
+                        "ratioIncrement": null,
+                        "value": "1/11/10",
+                        "description": {
+                            "zhHansCN": "1年期，从第11年起，每年提领总保费的10%",
+                            "zhHantHK": "1年期，由第11年起，每年提取總保費的10%",
+                            "enUS": "1-year term, starting from the year of policy 11, withdraw 10% of the total premium annually",
+                            "jaJP": null,
+                            "koKR": null
+                        }
+                    },
+                    {
+                        "premiumTerm": "3",
+                        "from": 3,
+                        "ratio": 5,
+                        "ratioIncrement": null,
+                        "value": "3/3/5",
+                        "description": {
+                            "zhHansCN": "3年期，从第3年起，每年提领总保费的5%",
+                            "zhHantHK": "3年期，由第3年起，每年提取總保費的5%",
+                            "enUS": "3-year term, starting from the year of policy 3, withdraw 5% of the total premium annually",
+                            "jaJP": null,
+                            "koKR": null
+                        }
+                    },
+                    {
+                        "premiumTerm": "3",
+                        "from": 5,
+                        "ratio": 6,
+                        "ratioIncrement": null,
+                        "value": "3/5/6",
+                        "description": {
+                            "zhHansCN": "3年期，从第5年起，每年提领总保费的6%",
+                            "zhHantHK": "3年期，由第5年起，每年提取總保費的6%",
+                            "enUS": "3-year term, starting from the year of policy 5, withdraw 6% of the total premium annually",
+                            "jaJP": null,
+                            "koKR": null
+                        }
+                    },
+                    {
+                        "premiumTerm": "3",
+                        "from": 7,
+                        "ratio": 7,
+                        "ratioIncrement": null,
+                        "value": "3/7/7",
+                        "description": {
+                            "zhHansCN": "3年期，从第7年起，每年提领总保费的7%",
+                            "zhHantHK": "3年期，由第7年起，每年提取總保費的7%",
+                            "enUS": "3-year term, starting from the year of policy 7, withdraw 7% of the total premium annually",
+                            "jaJP": null,
+                            "koKR": null
+                        }
+                    },
+                    {
+                        "premiumTerm": "3",
+                        "from": 9,
+                        "ratio": 8,
+                        "ratioIncrement": null,
+                        "value": "3/9/8",
+                        "description": {
+                            "zhHansCN": "3年期，从第9年起，每年提领总保费的8%",
+                            "zhHantHK": "3年期，由第9年起，每年提取總保費的8%",
+                            "enUS": "3-year term, starting from the year of policy 9, withdraw 8% of the total premium annually",
+                            "jaJP": null,
+                            "koKR": null
+                        }
+                    },
+                    {
+                        "premiumTerm": "3",
+                        "from": 10,
+                        "ratio": 9,
+                        "ratioIncrement": null,
+                        "value": "3/10/9",
+                        "description": {
+                            "zhHansCN": "3年期，从第10年起，每年提领总保费的9%",
+                            "zhHantHK": "3年期，由第10年起，每年提取總保費的9%",
+                            "enUS": "3-year term, starting from the year of policy 10, withdraw 9% of the total premium annually",
+                            "jaJP": null,
+                            "koKR": null
+                        }
+                    },
+                    {
+                        "premiumTerm": "3",
+                        "from": 12,
+                        "ratio": 10,
+                        "ratioIncrement": null,
+                        "value": "3/12/10",
+                        "description": {
+                            "zhHansCN": "3年期，从第12年起，每年提领总保费的10%",
+                            "zhHantHK": "3年期，由第12年起，每年提取總保費的10%",
+                            "enUS": "3-year term, starting from the year of policy 12, withdraw 10% of the total premium annually",
+                            "jaJP": null,
+                            "koKR": null
+                        }
+                    },
+                    {
+                        "premiumTerm": "3",
+                        "from": 13,
+                        "ratio": 11,
+                        "ratioIncrement": null,
+                        "value": "3/13/11",
+                        "description": {
+                            "zhHansCN": "3年期，从第13年起，每年提领总保费的11%",
+                            "zhHantHK": "3年期，由第13年起，每年提取總保費的11%",
+                            "enUS": "3-year term, starting from the year of policy 13, withdraw 11% of the total premium annually",
+                            "jaJP": null,
+                            "koKR": null
+                        }
+                    },
+                    {
+                        "premiumTerm": "3",
+                        "from": 14,
+                        "ratio": 12,
+                        "ratioIncrement": null,
+                        "value": "3/14/12",
+                        "description": {
+                            "zhHansCN": "3年期，从第14年起，每年提领总保费的12%",
+                            "zhHantHK": "3年期，由第14年起，每年提取總保費的12%",
+                            "enUS": "3-year term, starting from the year of policy 14, withdraw 12% of the total premium annually",
+                            "jaJP": null,
+                            "koKR": null
+                        }
+                    },
+                    {
+                        "premiumTerm": "5",
+                        "from": 5,
+                        "ratio": 5,
+                        "ratioIncrement": null,
+                        "value": "5/5/5",
+                        "description": {
+                            "zhHansCN": "5年期，从第5年起，每年提领总保费的5%",
+                            "zhHantHK": "5年期，由第5年起，每年提取總保費的5%",
+                            "enUS": "5-year term, starting from the year of policy 5, withdraw 5% of the total premium annually",
+                            "jaJP": null,
+                            "koKR": null
+                        }
+                    },
+                    {
+                        "premiumTerm": "5",
+                        "from": 6,
+                        "ratio": 6,
+                        "ratioIncrement": null,
+                        "value": "5/6/6",
+                        "description": {
+                            "zhHansCN": "5年期，从第6年起，每年提领总保费的6%",
+                            "zhHantHK": "5年期，由第6年起，每年提取總保費的6%",
+                            "enUS": "5-year term, starting from the year of policy 6, withdraw 6% of the total premium annually",
+                            "jaJP": null,
+                            "koKR": null
+                        }
+                    },
+                    {
+                        "premiumTerm": "5",
+                        "from": 8,
+                        "ratio": 7,
+                        "ratioIncrement": null,
+                        "value": "5/8/7",
+                        "description": {
+                            "zhHansCN": "5年期，从第8年起，每年提领总保费的7%",
+                            "zhHantHK": "5年期，由第8年起，每年提取總保費的7%",
+                            "enUS": "5-year term, starting from the year of policy 8, withdraw 7% of the total premium annually",
+                            "jaJP": null,
+                            "koKR": null
+                        }
+                    },
+                    {
+                        "premiumTerm": "5",
+                        "from": 9,
+                        "ratio": 8,
+                        "ratioIncrement": null,
+                        "value": "5/9/8",
+                        "description": {
+                            "zhHansCN": "5年期，从第9年起，每年提领总保费的8%",
+                            "zhHantHK": "5年期，由第9年起，每年提取總保費的8%",
+                            "enUS": "5-year term, starting from the year of policy 9, withdraw 8% of the total premium annually",
+                            "jaJP": null,
+                            "koKR": null
+                        }
+                    },
+                    {
+                        "premiumTerm": "5",
+                        "from": 11,
+                        "ratio": 9,
+                        "ratioIncrement": null,
+                        "value": "5/11/9",
+                        "description": {
+                            "zhHansCN": "5年期，从第11年起，每年提领总保费的9%",
+                            "zhHantHK": "5年期，由第11年起，每年提取總保費的9%",
+                            "enUS": "5-year term, starting from the year of policy 11, withdraw 9% of the total premium annually",
+                            "jaJP": null,
+                            "koKR": null
+                        }
+                    },
+                    {
+                        "premiumTerm": "5",
+                        "from": 12,
+                        "ratio": 10,
+                        "ratioIncrement": null,
+                        "value": "5/12/10",
+                        "description": {
+                            "zhHansCN": "5年期，从第12年起，每年提领总保费的10%",
+                            "zhHantHK": "5年期，由第12年起，每年提取總保費的10%",
+                            "enUS": "5-year term, starting from the year of policy 12, withdraw 10% of the total premium annually",
+                            "jaJP": null,
+                            "koKR": null
+                        }
+                    },
+                    {
+                        "premiumTerm": "5",
+                        "from": 14,
+                        "ratio": 11,
+                        "ratioIncrement": null,
+                        "value": "5/14/11",
+                        "description": {
+                            "zhHansCN": "5年期，从第14年起，每年提领总保费的11%",
+                            "zhHantHK": "5年期，由第14年起，每年提取總保費的11%",
+                            "enUS": "5-year term, starting from the year of policy 14, withdraw 11% of the total premium annually",
+                            "jaJP": null,
+                            "koKR": null
+                        }
+                    },
+                    {
+                        "premiumTerm": "5",
+                        "from": 15,
+                        "ratio": 12,
+                        "ratioIncrement": null,
+                        "value": "5/15/12",
+                        "description": {
+                            "zhHansCN": "5年期，从第15年起，每年提领总保费的12%",
+                            "zhHantHK": "5年期，由第15年起，每年提取總保費的12%",
+                            "enUS": "5-year term, starting from the year of policy 15, withdraw 12% of the total premium annually",
+                            "jaJP": null,
+                            "koKR": null
+                        }
+                    },
+                    {
+                        "premiumTerm": "10",
+                        "from": 10,
+                        "ratio": 7,
+                        "ratioIncrement": null,
+                        "value": "10/10/7",
+                        "description": {
+                            "zhHansCN": "10年期，从第10年起，每年提领总保费的7%",
+                            "zhHantHK": "10年期，由第10年起，每年提取總保費的7%",
+                            "enUS": "10-year term, starting from the year of policy 10, withdraw 7% of the total premium annually",
+                            "jaJP": null,
+                            "koKR": null
+                        }
+                    },
+                    {
+                        "premiumTerm": "10",
+                        "from": 12,
+                        "ratio": 8,
+                        "ratioIncrement": null,
+                        "value": "10/12/8",
+                        "description": {
+                            "zhHansCN": "10年期，从第12年起，每年提领总保费的8%",
+                            "zhHantHK": "10年期，由第12年起，每年提取總保費的8%",
+                            "enUS": "10-year term, starting from the year of policy 12, withdraw 8% of the total premium annually",
+                            "jaJP": null,
+                            "koKR": null
+                        }
+                    },
+                    {
+                        "premiumTerm": "10",
+                        "from": 13,
+                        "ratio": 9,
+                        "ratioIncrement": null,
+                        "value": "10/13/9",
+                        "description": {
+                            "zhHansCN": "10年期，从第13年起，每年提领总保费的9%",
+                            "zhHantHK": "10年期，由第13年起，每年提取總保費的9%",
+                            "enUS": "10-year term, starting from the year of policy 13, withdraw 9% of the total premium annually",
+                            "jaJP": null,
+                            "koKR": null
+                        }
+                    },
+                    {
+                        "premiumTerm": "10",
+                        "from": 16,
+                        "ratio": 11,
+                        "ratioIncrement": null,
+                        "value": "10/16/11",
+                        "description": {
+                            "zhHansCN": "10年期，从第16年起，每年提领总保费的11%",
+                            "zhHantHK": "10年期，由第16年起，每年提取總保費的11%",
+                            "enUS": "10-year term, starting from the year of policy 16, withdraw 11% of the total premium annually",
+                            "jaJP": null,
+                            "koKR": null
+                        }
+                    },
+                    {
+                        "premiumTerm": "10",
+                        "from": 17,
+                        "ratio": 12,
+                        "ratioIncrement": null,
+                        "value": "10/17/12",
+                        "description": {
+                            "zhHansCN": "10年期，从第17年起，每年提领总保费的12%",
+                            "zhHantHK": "10年期，由第17年起，每年提取總保費的12%",
+                            "enUS": "10-year term, starting from the year of policy 17, withdraw 12% of the total premium annually",
+                            "jaJP": null,
+                            "koKR": null
+                        }
+                    },
+                    {
+                        "premiumTerm": "10",
+                        "from": 19,
+                        "ratio": 13,
+                        "ratioIncrement": null,
+                        "value": "10/19/13",
+                        "description": {
+                            "zhHansCN": "10年期，从第19年起，每年提领总保费的13%",
+                            "zhHantHK": "10年期，由第19年起，每年提取總保費的13%",
+                            "enUS": "10-year term, starting from the year of policy 19, withdraw 13% of the total premium annually",
+                            "jaJP": null,
+                            "koKR": null
+                        }
+                    }
+                ],
+                "proposalRPASupported": true,
+                "proposalRiders": [
+                    "AIA:CEO5R",
+                    "AIA:CEOP5R",
+                    "AIA:SGHR2",
+                    "AIA:HB",
+                    "AIA:CG3SP",
+                    "AIA:CG3PP",
+                    "AIA:CG3MP",
+                    "AIA:CGP3SP",
+                    "AIA:CGP3PP",
+                    "AIA:CGP3MP",
+                    "AIA:PUPMPR",
+                    "AIA:ACCIDENTR",
+                    "AIA:ADADB",
+                    "AIA:PS3ADDB",
+                    "AIA:AVFR",
+                    "AIA:VHIPUSR",
+                    "AIA:GBAOP",
+                    "AIA:GBAOP2R",
+                    "AIA:OPCEOPR",
+                    "AIA:OPCEOR"
+                ],
+                "features": {
+                    "maxWithdrawal": false,
+                    "hedgeable": false,
+                    "hedgeProducts": [],
+                    "coverageUrl": null,
+                    "highlights": null,
+                    "proposalAmountType": null,
+                    "proposalAmountTip": {
+                        "zhHansCN": "",
+                        "zhHantHK": "",
+                        "enUS": "",
+                        "jaJP": null,
+                        "koKR": null
+                    }
+                },
+                "policyPeriod": "終身",
+                "financialPlanSupported": true,
+                "sellStatus": "SELLING",
+                "proposalLanguages": [
+                    "HK",
+                    "CN",
+                    "EN"
+                ],
+                "launchDate": null,
+                "discontinuationDate": null,
+                "premiumFinancingSupported": false,
+                "premiumOffsetSupported": false,
+                "proposalAmountType": "PREMIUM",
+                "custom": false,
+                "proposalFrequencySupported": false,
+                "reduceAmountTips": null,
+                "flexiPremiumSupported": false,
+                "flexiPremiumOptions": null,
+                "dynamicFields": [],
+                "ageRange": {
+                    "min": 0,
+                    "max": 128
+                },
+                "region": "香港",
+                "proposalPrepaymentSupported": false,
+                "isUpdate": false
+            },
+            {
+                "productCode": "AIA:SL",
+                "categoryCode": "LIFE",
+                "companyCode": "AIA",
+                "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/aia.png",
+                "categoryName": "人壽",
+                "productName": "樂怡人生保障計劃",
+                "companyName": "友邦保險",
+                "type": "BASIC",
+                "rank": 1,
+                "desc": "為了助您應對無法預料的人生挑戰，「樂怡人生」保障計劃系列提供終身人壽保障，即使遭遇不幸，您的摯愛亦能安然面對。本計劃備有3種保費繳付期，您可根據個人情況選擇所需，讓您安心策劃財務。兩個計劃版本迎合不同需求，您可根據個人需要選擇，享受靈活的財務規劃。",
+                "currencies": [
+                    "USD"
+                ],
+                "frequencies": [
+                    "MONTHLY",
+                    "SEMI_ANNUALLY",
+                    "ANNUALLY",
+                    "QUARTERLY"
+                ],
+                "paymentTerm": [
+                    "5",
+                    "10",
+                    "25"
+                ],
+                "customPaymentTerm": null,
+                "medicalOptions": null,
+                "medicalOptionsRequiredField": null,
+                "quotationFieldRequirements": null,
+                "withdrawalable": true,
+                "withdrawalOptions": null,
+                "proposalRPASupported": true,
+                "proposalRiders": [
+                    "AIA:ACCIDENTR",
+                    "AIA:ADADB",
+                    "AIA:PS3ADDB",
+                    "AIA:PS3DHIB",
+                    "AIA:ECIRP",
+                    "AIA:SCER",
+                    "AIA:AVFR",
+                    "AIA:VHIPUSR",
+                    "AIA:CEOP5R",
+                    "AIA:CGP3SP",
+                    "AIA:CGP3PP",
+                    "AIA:CGP3MP",
+                    "AIA:CG3SP",
+                    "AIA:CG3PP",
+                    "AIA:CG3MP",
+                    "AIA:GBAOP",
+                    "AIA:GBAOP2R",
+                    "AIA:HB",
+                    "AIA:HJGR",
+                    "AIA:OPCEOR",
+                    "AIA:OPCEOPR",
+                    "AIA:SGHR2",
+                    "AIA:AOAFP(R)",
+                    "AIA:AOACS(R)",
+                    "AIA:WTLPR",
+                    "AIA:CEO5R"
+                ],
+                "features": {
+                    "maxWithdrawal": false,
+                    "hedgeable": true,
+                    "hedgeProducts": [
+                        "AIA:AVHIPS",
+                        "AIA:AVFR",
+                        "AIA:CEOE2",
+                        "AIA:SGHP2"
+                    ],
+                    "coverageUrl": null,
+                    "highlights": null,
+                    "proposalAmountType": null,
+                    "proposalAmountTip": null
+                },
+                "policyPeriod": "終身",
+                "financialPlanSupported": false,
+                "sellStatus": "SELLING",
+                "proposalLanguages": [
+                    "HK",
+                    "CN",
+                    "EN"
+                ],
+                "launchDate": null,
+                "discontinuationDate": null,
+                "premiumFinancingSupported": false,
+                "premiumOffsetSupported": false,
+                "proposalAmountType": "BOTH",
+                "custom": false,
+                "proposalFrequencySupported": false,
+                "reduceAmountTips": null,
+                "flexiPremiumSupported": false,
+                "flexiPremiumOptions": null,
+                "dynamicFields": [],
+                "ageRange": {
+                    "min": 0,
+                    "max": 128
+                },
+                "region": "香港",
+                "proposalPrepaymentSupported": false,
+                "isUpdate": false
+            },
+            {
+                "productCode": "FTLIFE:CCMIP",
+                "categoryCode": "MEDICAL",
+                "companyCode": "FTLIFE",
+                "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/ftlife.png",
+                "categoryName": "醫療",
+                "productName": "逸康保醫療保障計劃",
+                "companyName": "周大福人壽",
+                "type": "BASIC",
+                "rank": 90,
+                "desc": "周大福人壽特意推出「逸康保」醫療保障計劃，為您提供高達3千萬港元每年保障限額及1億2千萬港元終身保障限額，並就主要基本保障項目之合資格的醫療費用作出全數受保，讓您無懼團體醫療不足或個人現金流因素影響治療。本計劃提供多項貼心的額外保障，全面照顧您的身心健康。計劃更別於一般自願醫療計劃，設有不同自付費及保障分擔額選項，靈活配合您的預算及所需要，全面支援您的醫療開支。",
+                "currencies": [
+                    "HKD"
+                ],
+                "frequencies": [
+                    "MONTHLY",
+                    "SEMI_ANNUALLY",
+                    "ANNUALLY"
+                ],
+                "paymentTerm": [
+                    "1",
+                    "~128"
+                ],
+                "customPaymentTerm": null,
+                "medicalOptions": {
+                    "regions": [
+                        "WORLDWIDE",
+                        "WORLDWIDE_EXCEPT_US",
+                        "ASIA"
+                    ],
+                    "deductibles": [
+                        {
+                            "currency": "HKD",
+                            "amounts": [
+                                0,
+                                18000,
+                                36000
+                            ]
+                        }
+                    ],
+                    "levels": [
+                        "SEMI_PRIVATE",
+                        "PRIVATE"
+                    ],
+                    "supplementaryBenefits": []
+                },
+                "medicalOptionsRequiredField": [
+                    "regions",
+                    "deductibles",
+                    "levels"
+                ],
+                "quotationFieldRequirements": [
+                    {
+                        "field": "Age",
+                        "required": true
+                    },
+                    {
+                        "field": "Gender",
+                        "required": false
+                    },
+                    {
+                        "field": "SmokeCondition",
+                        "required": false
+                    },
+                    {
+                        "field": "Currency",
+                        "required": true
+                    },
+                    {
+                        "field": "PremiumTerm",
+                        "required": false
+                    },
+                    {
+                        "field": "MedicalLevel",
+                        "required": false
+                    },
+                    {
+                        "field": "MedicalRegion",
+                        "required": true
+                    },
+                    {
+                        "field": "MedicalDeductible",
+                        "required": true
+                    }
+                ],
+                "withdrawalable": false,
+                "withdrawalOptions": null,
+                "proposalRPASupported": false,
+                "proposalRiders": null,
+                "features": {
+                    "maxWithdrawal": false,
+                    "hedgeable": false,
+                    "hedgeProducts": [],
+                    "coverageUrl": null,
+                    "highlights": null,
+                    "proposalAmountType": null,
+                    "proposalAmountTip": {
+                        "zhHansCN": "",
+                        "zhHantHK": "",
+                        "enUS": "",
+                        "jaJP": null,
+                        "koKR": null
+                    }
+                },
+                "policyPeriod": "~128",
+                "financialPlanSupported": false,
+                "sellStatus": "SELLING",
+                "proposalLanguages": [
+                    "HK",
+                    "CN",
+                    "EN"
+                ],
+                "launchDate": 1736487712621,
+                "discontinuationDate": null,
+                "premiumFinancingSupported": false,
+                "premiumOffsetSupported": false,
+                "proposalAmountType": "BOTH",
+                "custom": false,
+                "proposalFrequencySupported": false,
+                "reduceAmountTips": null,
+                "flexiPremiumSupported": false,
+                "flexiPremiumOptions": null,
+                "dynamicFields": [],
+                "ageRange": {
+                    "min": 0,
+                    "max": 128
+                },
+                "region": "香港",
+                "proposalPrepaymentSupported": false,
+                "isUpdate": false
+            },
+            {
+                "productCode": "FWDLIFE:MFLIP",
+                "categoryCode": "SAVINGS",
+                "companyCode": "FWDLIFE",
+                "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/fwdlife.png",
+                "categoryName": "儲蓄",
+                "productName": "盈聚·天下壽險計劃",
+                "companyName": "富衛人壽",
+                "type": "BASIC",
+                "rank": 0,
+                "desc": "富衛明白，財務資產雖然能彰顯您的成就，但摯愛才可豐富您的人生。您知道一個縝密的遺產計劃能為家人帶來長遠的正面影響，但進行規劃時卻不知從何入手。因此，FWD設計了盈聚．天下壽險計劃，助您實現目標。本計劃不僅為您增加財富，更為您建立可持久承傳的財富，富傳三代。",
+                "currencies": [
+                    "USD",
+                    "HKD",
+                    "AUD",
+                    "CAD",
+                    "EUR",
+                    "GBP",
+                    "SGD"
+                ],
+                "frequencies": [
+                    "MONTHLY",
+                    "ANNUALLY"
+                ],
+                "paymentTerm": [
+                    "1",
+                    "2",
+                    "3",
+                    "5",
+                    "10",
+                    "18"
+                ],
+                "customPaymentTerm": null,
+                "medicalOptions": null,
+                "medicalOptionsRequiredField": null,
+                "quotationFieldRequirements": null,
+                "withdrawalable": true,
+                "withdrawalOptions": [
+                    {
+                        "premiumTerm": "3",
+                        "from": 6,
+                        "ratio": 8,
+                        "ratioIncrement": null,
+                        "value": "3/6/8",
+                        "description": {
+                            "zhHansCN": "3年期，从第6年起，每年提领总保费的8%",
+                            "zhHantHK": "3年期，由第6年起，每年提取總保費的8%",
+                            "enUS": "3-year term, starting from the year of policy 6, withdraw 8% of the total premium annually",
+                            "jaJP": null,
+                            "koKR": null
+                        }
+                    },
+                    {
+                        "premiumTerm": "5",
+                        "from": 6,
+                        "ratio": 7,
+                        "ratioIncrement": null,
+                        "value": "5/6/7",
+                        "description": {
+                            "zhHansCN": "5年期，从第6年起，每年提领总保费的7%",
+                            "zhHantHK": "5年期，由第6年起，每年提取總保費的7%",
+                            "enUS": "5-year term, starting from the year of policy 6, withdraw 7% of the total premium annually",
+                            "jaJP": null,
+                            "koKR": null
+                        }
+                    }
+                ],
+                "proposalRPASupported": true,
+                "proposalRiders": [
+                    "FWDLIFE:VTOMPPREMIER",
+                    "FWDLIFE:VTOMPSUP",
+                    "FWDLIFE:VTOMPSP",
+                    "FWDLIFE:VTOMPS",
+                    "FWDLIFE:BWUBR",
+                    "FWDLIFE:WPS",
+                    "FWDLIFE:ECAP(R)",
+                    "FWDLIFE:WPP"
+                ],
+                "features": {
+                    "maxWithdrawal": true,
+                    "hedgeable": false,
+                    "hedgeProducts": [],
+                    "coverageUrl": null,
+                    "highlights": null,
+                    "proposalAmountType": null,
+                    "proposalAmountTip": {
+                        "zhHansCN": "",
+                        "zhHantHK": "",
+                        "enUS": "",
+                        "jaJP": null,
+                        "koKR": null
+                    }
+                },
+                "policyPeriod": "~138",
+                "financialPlanSupported": true,
+                "sellStatus": "SELLING",
+                "proposalLanguages": [
+                    "HK",
+                    "EN"
+                ],
+                "launchDate": null,
+                "discontinuationDate": null,
+                "premiumFinancingSupported": false,
+                "premiumOffsetSupported": true,
+                "proposalAmountType": "BOTH",
+                "custom": false,
+                "proposalFrequencySupported": true,
+                "reduceAmountTips": null,
+                "flexiPremiumSupported": false,
+                "flexiPremiumOptions": null,
+                "dynamicFields": [
+                    {
+                        "field": "ProvinceCity",
+                        "fieldType": "array",
+                        "fieldName": "省份城市",
+                        "value": null,
+                        "fieldValue": "上海-上海,北京-北京,廣東-廣州,廣東-深圳,天津-天津,湖北-武漢,湖南-長沙,安徽-合肥,河南-鄭州,重慶-重慶,遼寧-沈陽,遼寧-大連,山東-青島,江蘇-南京,江蘇-常州,陝西-西安,浙江-紹興,浙江-杭州,四川-成都,福建-泉州,河北-石家莊,其他-其他",
+                        "remark": null,
+                        "required": false
+                    },
+                    {
+                        "field": "GrowthRate",
+                        "fieldType": "array",
+                        "fieldName": "增長率",
+                        "value": null,
+                        "fieldValue": "5%,其他醫療通脹率",
+                        "remark": null,
+                        "required": false
+                    }
+                ],
+                "ageRange": {
+                    "min": 0,
+                    "max": 128
+                },
+                "region": "香港",
+                "proposalPrepaymentSupported": true,
+                "isUpdate": false
+            },
+            {
+                "productCode": "MANULIFESINGAPORE:SIIIIS",
+                "categoryCode": "SAVINGS",
+                "companyCode": "MANULIFESINGAPORE",
+                "logo": "https://storage.lifebee.tech/ICON/insurer/manulifesingapore.png",
+                "categoryName": "儲蓄",
+                "productName": "Signature Income (III)",
+                "companyName": "宏利人壽(新加坡)",
+                "type": "BASIC",
+                "rank": 1,
+                "desc": "",
+                "currencies": [
+                    "USD",
+                    "SGD"
+                ],
+                "frequencies": [
+                    "SINGLE_PAYMENT"
+                ],
+                "paymentTerm": [
+                    "1"
+                ],
+                "customPaymentTerm": null,
+                "medicalOptions": null,
+                "medicalOptionsRequiredField": null,
+                "quotationFieldRequirements": null,
+                "withdrawalable": false,
+                "withdrawalOptions": null,
+                "proposalRPASupported": false,
+                "proposalRiders": null,
+                "features": {
+                    "maxWithdrawal": false,
+                    "hedgeable": false,
+                    "hedgeProducts": [],
+                    "coverageUrl": null,
+                    "highlights": null,
+                    "proposalAmountType": null,
+                    "proposalAmountTip": null
+                },
+                "policyPeriod": "~120",
+                "financialPlanSupported": false,
+                "sellStatus": "SELLING",
+                "proposalLanguages": [
+                    "EN",
+                    "CN"
+                ],
+                "launchDate": null,
+                "discontinuationDate": null,
+                "premiumFinancingSupported": false,
+                "premiumOffsetSupported": false,
+                "proposalAmountType": "PREMIUM",
+                "custom": false,
+                "proposalFrequencySupported": false,
+                "reduceAmountTips": null,
+                "flexiPremiumSupported": false,
+                "flexiPremiumOptions": null,
+                "dynamicFields": [],
+                "ageRange": {
+                    "min": 0,
+                    "max": 128
+                },
+                "region": "新加坡",
+                "proposalPrepaymentSupported": false,
+                "isUpdate": false
+            },
+            {
+                "productCode": "PRU:CIM3",
+                "categoryCode": "CRITICAL_ILLNESS",
+                "companyCode": "PRUDENTIAL",
+                "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/prudential.png",
+                "categoryName": "危疾",
+                "productName": "誠保一生危疾保",
+                "companyName": "保誠保險",
+                "type": "BASIC",
+                "rank": 1,
+                "desc": "本計劃為127種病況提供保障，包括兒童、早期及56種嚴重病況，高達1100%保障。另為深切治療住院提供保障，受保人投保年齡必須為1至18歲，提供市场独有老年疾病年金-严重脑退化症或柏金逊病终身年金，並提供安心醫、智安排等增值服務，以照顧家庭客戶每個人生階段的保障需要。",
+                "currencies": [
+                    "USD",
+                    "HKD"
+                ],
+                "frequencies": [
+                    "ANNUALLY",
+                    "SEMI_ANNUALLY",
+                    "QUARTERLY",
+                    "MONTHLY"
+                ],
+                "paymentTerm": [
+                    "5",
+                    "10",
+                    "15",
+                    "20",
+                    "25"
+                ],
+                "customPaymentTerm": null,
+                "medicalOptions": null,
+                "medicalOptionsRequiredField": null,
+                "quotationFieldRequirements": [
+                    {
+                        "field": "Age",
+                        "required": true
+                    },
+                    {
+                        "field": "Gender",
+                        "required": true
+                    },
+                    {
+                        "field": "SmokeCondition",
+                        "required": true
+                    },
+                    {
+                        "field": "Currency",
+                        "required": true
+                    },
+                    {
+                        "field": "PremiumTerm",
+                        "required": true
+                    },
+                    {
+                        "field": "MedicalLevel",
+                        "required": false
+                    },
+                    {
+                        "field": "MedicalRegion",
+                        "required": false
+                    },
+                    {
+                        "field": "MedicalDeductible",
+                        "required": false
+                    }
+                ],
+                "withdrawalable": false,
+                "withdrawalOptions": null,
+                "proposalRPASupported": true,
+                "proposalRiders": [
+                    "PRU:HCP",
+                    "PRU:HSTPR",
+                    "PRU:PFMPR",
+                    "PRU:PFMPR2",
+                    "PRU:PFMPR3",
+                    "PRU:PFMPR4",
+                    "PRU:MLP",
+                    "PRU:PMPR",
+                    "PRU:PMPR2",
+                    "PRU:VFPR",
+                    "PRU:HVVPR",
+                    "PRU:RB",
+                    "PRU:WP",
+                    "PRU:PAA",
+                    "PRU:PAE",
+                    "PRU:PAP"
+                ],
+                "features": {
+                    "maxWithdrawal": false,
+                    "hedgeable": false,
+                    "hedgeProducts": [],
+                    "coverageUrl": null,
+                    "highlights": null,
+                    "proposalAmountType": null,
+                    "proposalAmountTip": {
+                        "zhHansCN": "",
+                        "zhHantHK": "",
+                        "enUS": "",
+                        "jaJP": null,
+                        "koKR": null
+                    }
+                },
+                "policyPeriod": "終身",
+                "financialPlanSupported": true,
+                "sellStatus": "SELLING",
+                "proposalLanguages": [
+                    "HK",
+                    "EN"
+                ],
+                "launchDate": 1684466253188,
+                "discontinuationDate": null,
+                "premiumFinancingSupported": false,
+                "premiumOffsetSupported": false,
+                "proposalAmountType": "BOTH",
+                "custom": false,
+                "proposalFrequencySupported": true,
+                "reduceAmountTips": null,
+                "flexiPremiumSupported": false,
+                "flexiPremiumOptions": null,
+                "dynamicFields": [],
+                "ageRange": {
+                    "min": 0,
+                    "max": 128
+                },
+                "region": "香港",
+                "proposalPrepaymentSupported": false,
+                "isUpdate": false
+            },
+            {
+                "productCode": "PRU:EGSP2",
+                "categoryCode": "SAVINGS",
+                "companyCode": "PRUDENTIAL",
+                "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/prudential.png",
+                "categoryName": "儲蓄",
+                "productName": "特級雋陞儲蓄保障計劃II",
+                "companyName": "保誠保險",
+                "type": "BASIC",
+                "rank": 1,
+                "desc": "特級「雋陞」儲蓄保障計劃II是一份終身壽險計劃,專為長線儲蓄而設,配合您不同的財務目標。計劃亦同時提供保證及非保證權益,助您累積財富或將財富傳承後代。為進一步保障您的摯愛,計劃更額外提供身故及意外身故保障。",
+                "currencies": [
+                    "USD",
+                    "HKD"
+                ],
+                "frequencies": [
+                    "ANNUALLY",
+                    "SINGLE_PAYMENT",
+                    "MONTHLY"
+                ],
+                "paymentTerm": [
+                    "1",
+                    "3",
+                    "5",
+                    "8",
+                    "12"
+                ],
+                "customPaymentTerm": null,
+                "medicalOptions": null,
+                "medicalOptionsRequiredField": null,
+                "quotationFieldRequirements": [
+                    {
+                        "field": "Age",
+                        "required": true
+                    },
+                    {
+                        "field": "Gender",
+                        "required": true
+                    },
+                    {
+                        "field": "SmokeCondition",
+                        "required": true
+                    },
+                    {
+                        "field": "Currency",
+                        "required": true
+                    },
+                    {
+                        "field": "PremiumTerm",
+                        "required": true
+                    },
+                    {
+                        "field": "MedicalLevel",
+                        "required": false
+                    },
+                    {
+                        "field": "MedicalRegion",
+                        "required": false
+                    },
+                    {
+                        "field": "MedicalDeductible",
+                        "required": false
+                    }
+                ],
+                "withdrawalable": true,
+                "withdrawalOptions": null,
+                "proposalRPASupported": true,
+                "proposalRiders": [
+                    "PRU:PFMPR",
+                    "PRU:PFMPR2",
+                    "PRU:PFMPR3",
+                    "PRU:PFMPR4",
+                    "PRU:CIT2R",
+                    "PRU:CP",
+                    "PRU:CP2",
+                    "PRU:CP3",
+                    "PRU:CPER",
+                    "PRU:CPER2",
+                    "PRU:CPER3",
+                    "PRU:CPER4",
+                    "PRU:HCP",
+                    "PRU:HSTPR",
+                    "PRU:MLP",
+                    "PRU:RB",
+                    "PRU:PAE",
+                    "PRU:PMPR",
+                    "PRU:PMPR2",
+                    "PRU:VFPR",
+                    "PRU:HVVPR",
+                    "PRU:OB",
+                    "PRU:PAA",
+                    "PRU:PAP",
+                    "PRU:PLTR",
+                    "PRU:PPM(R)",
+                    "PRU:WP",
+                    "PRU:DIB2R"
+                ],
+                "features": {
+                    "maxWithdrawal": true,
+                    "hedgeable": false,
+                    "hedgeProducts": null,
+                    "coverageUrl": null,
+                    "highlights": null,
+                    "proposalAmountType": null,
+                    "proposalAmountTip": null
+                },
+                "policyPeriod": "終身",
+                "financialPlanSupported": true,
+                "sellStatus": "SELLING",
+                "proposalLanguages": [
+                    "HK",
+                    "EN"
+                ],
+                "launchDate": null,
+                "discontinuationDate": null,
+                "premiumFinancingSupported": false,
+                "premiumOffsetSupported": true,
+                "proposalAmountType": "BOTH",
+                "custom": false,
+                "proposalFrequencySupported": true,
+                "reduceAmountTips": null,
+                "flexiPremiumSupported": false,
+                "flexiPremiumOptions": null,
+                "dynamicFields": [],
+                "ageRange": {
+                    "min": 0,
+                    "max": 128
+                },
+                "region": "香港",
+                "proposalPrepaymentSupported": false,
+                "isUpdate": false
+            },
+            {
+                "productCode": "YFLIFE:PIS",
+                "categoryCode": "SAVINGS",
+                "companyCode": "YFLIFE",
+                "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/yflife.png",
+                "categoryName": "儲蓄",
+                "productName": "富饒千秋儲蓄計劃",
+                "companyName": "萬通保險",
+                "type": "BASIC",
+                "rank": 1,
+                "desc": "富饒千秋儲蓄計劃提供多達10種保單貨幣選擇、紅利鎖定及解鎖功能，以及將現金價值轉化為「終身年金」等選項。以攻守兼備的理財方案及傳承策劃為核心，此計劃更設有分拆保單、保單分拆預設指示、更改受保人或保單持有人、11種身故賠償支付方案等多項傳承工具，助您規劃出個人化的傳承藍圖，把財富延續世代，歷久彌新。",
+                "currencies": [
+                    "USD",
+                    "CNY",
+                    "HKD",
+                    "AUD",
+                    "CAD",
+                    "CHF",
+                    "EUR",
+                    "GBP",
+                    "SGD"
+                ],
+                "frequencies": [
+                    "MONTHLY",
+                    "QUARTERLY",
+                    "SEMI_ANNUALLY",
+                    "ANNUALLY"
+                ],
+                "paymentTerm": [
+                    "2",
+                    "5",
+                    "10"
+                ],
+                "customPaymentTerm": null,
+                "medicalOptions": null,
+                "medicalOptionsRequiredField": null,
+                "quotationFieldRequirements": null,
+                "withdrawalable": true,
+                "withdrawalOptions": [
+                    {
+                        "premiumTerm": "2",
+                        "from": 2,
+                        "ratio": 5,
+                        "ratioIncrement": null,
+                        "value": "2/2/5",
+                        "description": {
+                            "zhHansCN": "2年期，从第2年起，每年提领总保费的5%",
+                            "zhHantHK": "2年期，由第2年起，每年提取總保費的5%",
+                            "enUS": "2-year term, starting from the year of policy 2, withdraw 5% of the total premium annually",
+                            "jaJP": null,
+                            "koKR": null
+                        }
+                    },
+                    {
+                        "premiumTerm": "2",
+                        "from": 6,
+                        "ratio": 8,
+                        "ratioIncrement": null,
+                        "value": "2/6/8",
+                        "description": {
+                            "zhHansCN": "2年期，从第6年起，每年提领总保费的8%",
+                            "zhHantHK": "2年期，由第6年起，每年提取總保費的8%",
+                            "enUS": "2-year term, starting from the year of policy 6, withdraw 8% of the total premium annually",
+                            "jaJP": null,
+                            "koKR": null
+                        }
+                    },
+                    {
+                        "premiumTerm": "3",
+                        "from": 6,
+                        "ratio": 9,
+                        "ratioIncrement": null,
+                        "value": "3/6/9",
+                        "description": {
+                            "zhHansCN": "3年期，从第6年起，每年提领总保费的9%",
+                            "zhHantHK": "3年期，由第6年起，每年提取總保費的9%",
+                            "enUS": "3-year term, starting from the year of policy 6, withdraw 9% of the total premium annually",
+                            "jaJP": null,
+                            "koKR": null
+                        }
+                    },
+                    {
+                        "premiumTerm": "5",
+                        "from": 6,
+                        "ratio": 6,
+                        "ratioIncrement": null,
+                        "value": "5/6/6",
+                        "description": {
+                            "zhHansCN": "5年期，从第6年起，每年提领总保费的6%",
+                            "zhHantHK": "5年期，由第6年起，每年提取總保費的6%",
+                            "enUS": "5-year term, starting from the year of policy 6, withdraw 6% of the total premium annually",
+                            "jaJP": null,
+                            "koKR": null
+                        }
+                    },
+                    {
+                        "premiumTerm": "5",
+                        "from": 6,
+                        "ratio": 7,
+                        "ratioIncrement": null,
+                        "value": "5/6/7",
+                        "description": {
+                            "zhHansCN": "5年期，从第6年起，每年提领总保费的7%",
+                            "zhHantHK": "5年期，由第6年起，每年提取總保費的7%",
+                            "enUS": "5-year term, starting from the year of policy 6, withdraw 7% of the total premium annually",
+                            "jaJP": null,
+                            "koKR": null
+                        }
+                    }
+                ],
+                "proposalRPASupported": true,
+                "proposalRiders": null,
+                "features": {
+                    "maxWithdrawal": false,
+                    "hedgeable": false,
+                    "hedgeProducts": [],
+                    "coverageUrl": null,
+                    "highlights": null,
+                    "proposalAmountType": null,
+                    "proposalAmountTip": {
+                        "zhHansCN": "提供保证现金价值、复归红利、终期红利",
+                        "zhHantHK": "提供保證現金價值、複歸紅利、終期紅利",
+                        "enUS": "Provide guaranteed cash value, return dividend, final dividend",
+                        "jaJP": null,
+                        "koKR": null
+                    }
+                },
+                "policyPeriod": "終身",
+                "financialPlanSupported": true,
+                "sellStatus": "SELLING",
+                "proposalLanguages": [
+                    "HK",
+                    "CN",
+                    "EN"
+                ],
+                "launchDate": null,
+                "discontinuationDate": null,
+                "premiumFinancingSupported": false,
+                "premiumOffsetSupported": false,
+                "proposalAmountType": "PREMIUM",
+                "custom": false,
+                "proposalFrequencySupported": false,
+                "reduceAmountTips": null,
+                "flexiPremiumSupported": false,
+                "flexiPremiumOptions": null,
+                "dynamicFields": [
+                    {
+                        "field": "annAge",
+                        "fieldType": "array",
+                        "fieldName": "領取年齡",
+                        "value": null,
+                        "fieldValue": "55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85",
+                        "remark": null,
+                        "required": false
+                    },
+                    {
+                        "field": "annOption",
+                        "fieldType": "array",
+                        "fieldName": "年金權益選擇",
+                        "value": null,
+                        "fieldValue": "終身,終身十年,終身十五年,終身二十年,聯合,遞增,終身回奉,終身125%回奉,遞增回奉,聯合回奉,終身 - 危疾及回奉",
+                        "remark": null,
+                        "required": false
+                    },
+                    {
+                        "field": "amountForAnnuitization",
+                        "fieldType": "number",
+                        "fieldName": "行使年金權益的數額",
+                        "value": null,
+                        "fieldValue": null,
+                        "remark": null,
+                        "required": false
+                    }
+                ],
+                "ageRange": {
+                    "min": 0,
+                    "max": 128
+                },
+                "region": "香港",
+                "proposalPrepaymentSupported": true,
+                "isUpdate": false
+            },
+            {
+                "productCode": "MANULIFE:GENESIS",
+                "categoryCode": "SAVINGS",
+                "companyCode": "MANULIFE",
+                "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/manulife.png",
+                "categoryName": "儲蓄",
+                "productName": "宏摯傳承保障計劃",
+                "companyName": "宏利保險",
+                "type": "BASIC",
+                "rank": 1,
+                "desc": " 「宏摯傳承保障計劃」不單提供長期潛在回報，更配備靈活的提取選項以滿足您的資金需要。計劃亦為指定危疾及精神疾病提供預支保障，及備有貨幣轉換權益以迎合您未來發展。同時可助您靈活策劃將財富世代相傳。",
+                "currencies": [
+                    "USD",
+                    "CNY",
+                    "HKD",
+                    "AUD",
+                    "CAD",
+                    "GBP",
+                    "SGD"
+                ],
+                "frequencies": [
+                    "ANNUALLY",
+                    "SEMI_ANNUALLY",
+                    "QUARTERLY",
+                    "MONTHLY"
+                ],
+                "paymentTerm": [
+                    "1",
+                    "2",
+                    "3",
+                    "5",
+                    "10",
+                    "15"
+                ],
+                "customPaymentTerm": null,
+                "medicalOptions": null,
+                "medicalOptionsRequiredField": null,
+                "quotationFieldRequirements": null,
+                "withdrawalable": true,
+                "withdrawalOptions": [
+                    {
+                        "premiumTerm": "5",
+                        "from": 6,
+                        "ratio": 6,
+                        "ratioIncrement": null,
+                        "value": "5/6/6",
+                        "description": {
+                            "zhHansCN": "5年期，从第6年起，每年提领总保费的6%",
+                            "zhHantHK": "5年期，由第6年起，每年提取總保費的6%",
+                            "enUS": "5-year term, starting from the year of policy 6, withdraw 6% of the total premium annually",
+                            "jaJP": null,
+                            "koKR": null
+                        }
+                    },
+                    {
+                        "premiumTerm": "5",
+                        "from": 6,
+                        "ratio": 7,
+                        "ratioIncrement": null,
+                        "value": "5/6/7",
+                        "description": {
+                            "zhHansCN": "5年期，从第6年起，每年提领总保费的7%",
+                            "zhHantHK": "5年期，由第6年起，每年提取總保費的7%",
+                            "enUS": "5-year term, starting from the year of policy 6, withdraw 7% of the total premium annually",
+                            "jaJP": null,
+                            "koKR": null
+                        }
+                    }
+                ],
+                "proposalRPASupported": true,
+                "proposalRiders": [
+                    "MANULIFE:MGMPR",
+                    "MANULIFE:CGCIBC",
+                    "MANULIFE:CGCIBE",
+                    "MANULIFE:MTR",
+                    "MANULIFE:MMHBR",
+                    "MANULIFE:MSLVSBAP",
+                    "MANULIFE:MSLVSB",
+                    "MANULIFE:MSHB"
+                ],
+                "features": {
+                    "maxWithdrawal": true,
+                    "hedgeable": false,
+                    "hedgeProducts": [],
+                    "coverageUrl": null,
+                    "highlights": null,
+                    "proposalAmountType": null,
+                    "proposalAmountTip": {
+                        "zhHansCN": "",
+                        "zhHantHK": "",
+                        "enUS": "",
+                        "jaJP": null,
+                        "koKR": null
+                    }
+                },
+                "policyPeriod": "終身",
+                "financialPlanSupported": true,
+                "sellStatus": "SELLING",
+                "proposalLanguages": [
+                    "HK",
+                    "CN",
+                    "EN"
+                ],
+                "launchDate": null,
+                "discontinuationDate": null,
+                "premiumFinancingSupported": false,
+                "premiumOffsetSupported": false,
+                "proposalAmountType": "BOTH",
+                "custom": false,
+                "proposalFrequencySupported": true,
+                "reduceAmountTips": null,
+                "flexiPremiumSupported": false,
+                "flexiPremiumOptions": null,
+                "dynamicFields": [
+                    {
+                        "field": "worryFreeSelection",
+                        "fieldType": "array",
+                        "fieldName": "無憂選",
+                        "value": null,
+                        "fieldValue": "是,否",
+                        "remark": null,
+                        "required": true
+                    },
+                    {
+                        "field": "incomePaymentMethod",
+                        "fieldType": "array",
+                        "fieldName": "入息支付方式",
+                        "value": null,
+                        "fieldValue": "每年,每月",
+                        "remark": null,
+                        "required": false
+                    },
+                    {
+                        "field": "incomePaymentOptions",
+                        "fieldType": "array",
+                        "fieldName": "入息支付選項",
+                        "value": null,
+                        "fieldValue": "積存生息,提取",
+                        "remark": null,
+                        "required": false
+                    },
+                    {
+                        "field": "annualIncomeStart",
+                        "fieldType": "number",
+                        "fieldName": "入息開始周年日",
+                        "value": null,
+                        "fieldValue": null,
+                        "remark": null,
+                        "required": false
+                    }
+                ],
+                "ageRange": {
+                    "min": 0,
+                    "max": 128
+                },
+                "region": "香港",
+                "proposalPrepaymentSupported": true,
+                "isUpdate": false
+            },
+            {
+                "productCode": "MANULIFE:MGSA",
+                "categoryCode": "SAVINGS",
+                "companyCode": "MANULIFE",
+                "logo": "https://lifebee.oss-accelerate.aliyuncs.com/ICON/insurer/manulife.png",
+                "categoryName": "儲蓄",
+                "productName": "宏利環球貨幣保障計劃",
+                "companyName": "宏利保險",
+                "type": "BASIC",
+                "rank": 3,
+                "desc": "宏利環球貨幣保障計劃可助您財富增值外，更讓您抓緊不同貨幣潛力，盡享靈活彈性。您可選擇七種貨幣中的任何一種作為保單貨幣以建立及累積財富，未來亦可靈活地將其轉換至另一種貨幣以滿足您隨時間轉變的需求。我們亦提供多種財富傳承工具，助您將資產世代相傳。",
+                "currencies": [
+                    "USD",
+                    "CNY",
+                    "HKD",
+                    "AUD",
+                    "CAD",
+                    "GBP",
+                    "SGD"
+                ],
+                "frequencies": [
+                    "SINGLE_PAYMENT",
+                    "ANNUALLY",
+                    "MONTHLY",
+                    "QUARTERLY",
+                    "SEMI_ANNUALLY"
+                ],
+                "paymentTerm": [
+                    "1",
+                    "3",
+                    "5",
+                    "10"
+                ],
+                "customPaymentTerm": null,
+                "medicalOptions": null,
+                "medicalOptionsRequiredField": null,
+                "quotationFieldRequirements": null,
+                "withdrawalable": true,
+                "withdrawalOptions": null,
+                "proposalRPASupported": true,
+                "proposalRiders": null,
+                "features": {
+                    "maxWithdrawal": true,
+                    "hedgeable": false,
+                    "hedgeProducts": [],
+                    "coverageUrl": null,
+                    "highlights": null,
+                    "proposalAmountType": null,
+                    "proposalAmountTip": null
+                },
+                "policyPeriod": "終身",
+                "financialPlanSupported": true,
+                "sellStatus": "SELLING",
+                "proposalLanguages": [
+                    "HK",
+                    "CN",
+                    "EN"
+                ],
+                "launchDate": null,
+                "discontinuationDate": null,
+                "premiumFinancingSupported": true,
+                "premiumOffsetSupported": false,
+                "proposalAmountType": "BOTH",
+                "custom": false,
+                "proposalFrequencySupported": true,
+                "reduceAmountTips": null,
+                "flexiPremiumSupported": false,
+                "flexiPremiumOptions": null,
+                "dynamicFields": [],
+                "ageRange": {
+                    "min": 0,
+                    "max": 128
+                },
+                "region": "香港",
+                "proposalPrepaymentSupported": false,
+                "isUpdate": false
+            }
+        ],
+        "pageNum": 1,
+        "pageSize": 10,
+        "size": 10,
+        "startRow": 1,
+        "endRow": 10,
+        "pages": 2,
+        "prePage": 0,
+        "nextPage": 2,
+        "isFirstPage": true,
+        "isLastPage": false,
+        "hasPreviousPage": false,
+        "hasNextPage": true,
+        "navigatePages": 8,
+        "navigatepageNums": [
+            1,
+            2
+        ],
+        "navigateFirstPage": 1,
+        "navigateLastPage": 2
+    }
+}
